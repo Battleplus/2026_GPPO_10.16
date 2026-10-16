@@ -1,0 +1,41 @@
+{
+  "alternate_repair2_final_live_ledger": {
+    "cpu_seconds_including_prior_b": 50.131255709,
+    "included_in_non_overlapping_sum": false,
+    "reason": "Overlaps the repair-2 systemd unit and prior B diagnostic; adding it would double-count both.",
+    "wall_seconds_including_prior_b": 62.9224891900192
+  },
+  "components": [
+    {
+      "category": "failed preflight diagnostics",
+      "cpu_seconds": 0.360391,
+      "unit_count": 3,
+      "wall_seconds": 0.835462
+    },
+    {
+      "category": "successful prior B diagnostic",
+      "cpu_seconds": 0.821315,
+      "unit_count": 1,
+      "wall_seconds": 2.391625
+    },
+    {
+      "category": "failed first formal attempt",
+      "cpu_seconds": 65.432701,
+      "unit_count": 1,
+      "wall_seconds": 76.486798
+    },
+    {
+      "category": "repair-2 formal attempt",
+      "cpu_seconds": 50.098576,
+      "unit_count": 1,
+      "wall_seconds": 60.920859
+    }
+  ],
+  "interpretation": "Sum across six distinct invocations, not calendar elapsed time or one homogeneous timer boundary. The prior B unit is included exactly once.",
+  "non_overlapping_recorded_wall_seconds": 140.634744,
+  "non_overlapping_systemd_cpu_seconds": 116.712983,
+  "schema": "n02-public-cumulative-resource-settlement/1",
+  "source_sha256": "a66da021141be2b736e7ea83cf1109a2060c496384c36ba11a3f633e9f4f0836",
+  "status": "SETTLED_WITH_EXPLICIT_MEASUREMENT_BOUNDARIES",
+  "unit_count": 6
+}

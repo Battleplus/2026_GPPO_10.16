@@ -1,0 +1,72 @@
+{
+  "cumulative_distinct_systemd_units": {
+    "alternate_final_live_ledger_is_additive": false,
+    "cpu_seconds": 116.712983,
+    "includes_prior_b_once": true,
+    "source_sha256": "a66da021141be2b736e7ea83cf1109a2060c496384c36ba11a3f633e9f4f0836",
+    "unit_count": 6,
+    "wall_seconds": 140.634744
+  },
+  "final_review_sha256": "a9c03df92dcdef3a99d51f11ee8649957adfcdea218d8a45c548199224f55c87",
+  "first_formal_attempt": {
+    "cause": "The work-call SQLite ledger was closed before the final work snapshot was read.",
+    "failure": "ProgrammingError: Cannot operate on a closed database.",
+    "guardian_cpu_seconds": 64.953626825,
+    "guardian_wall_seconds": 75.971252549,
+    "status": "FAILED_SETTLEMENT_EXPORT",
+    "systemd_cpu_seconds": 65.432701,
+    "systemd_wall_seconds": 76.486798
+  },
+  "limitations": [
+    "Scenario-derived data are synthetic simulator output.",
+    "Development evaluation is diagnostic; no efficacy superiority claim is supported.",
+    "Full paper experiments are outside this engineering closure.",
+    "Formal server execution requires private runtime evidence; the public cost file is a no-measurement placeholder."
+  ],
+  "repair2": {
+    "authoritative_final_live_ledger_including_prior_b": {
+      "cpu_seconds": 50.131255709,
+      "measured_stage_cpu_seconds": 49.309940709,
+      "measured_stage_wall_seconds": 60.5308641900192,
+      "wall_seconds": 62.9224891900192
+    },
+    "completed_stages": 7,
+    "guardian_cpu_seconds": 49.768777419,
+    "guardian_wall_seconds": 60.5308641900192,
+    "status": "COMPLETED_AND_INDEPENDENTLY_PASSED",
+    "systemd_cpu_seconds": 50.098576,
+    "systemd_wall_seconds": 60.920859
+  },
+  "research_evidence": {
+    "collection": {
+      "candidate_branches": 44,
+      "development_windows": 4,
+      "distinct_valid_consequences": 16,
+      "independent_oracle_branches": 32,
+      "training_windows": 8
+    },
+    "development_evaluation": {
+      "all_three_paired_differences": 0,
+      "development_parent_scenarios": 1,
+      "episodes": 2,
+      "episodes_per_variant": 1,
+      "interpretation": "Diagnostic only; no efficacy superiority claim.",
+      "policy_decisions_per_variant": 60
+    },
+    "paired_policy_training": {
+      "G_WM_updates": 8,
+      "G_updates": 8,
+      "frozen_world_model_verified": true,
+      "positive_finite_adapter_gradients": true,
+      "same_initial_actor_and_minibatch_indices": true
+    },
+    "world_model": {
+      "checkpoint_sha256": "499151e808e94bdc2c1031e32da173d5b035ed18eddc733efb33c22a33cdad08",
+      "strict_fresh_process_restore": true,
+      "updates": 2
+    }
+  },
+  "schema": "n02-public-run-summary/1",
+  "source_report_sha256": "493d45ad220f225d84d29446b6a88f91bab0bdd9706b04bf86f4d426fd3cfa83",
+  "status": "ENGINEERING_PASS_FIVE_CORE_PUBLIC_ARCHIVE_PENDING"
+}

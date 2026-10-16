@@ -1,0 +1,17 @@
+README.md
+STATUS.md
+ROADMAP.md
+ACCEPTANCE_MATRIX.md
+ARCHIVE_RULES.md
+PRIVACY_REPORT.md
+RUN_SUMMARY.md
+PUBLIC_ALLOWLIST.txt
+PUBLIC_ARCHIVE_INVENTORY.json
+PUBLIC_ARCHIVE_INVENTORY.sha256
+core/civilian/**
+core/tests/**
+data/repair2/**
+provenance/original_release02/**
+provenance/review/**
+provenance/cumulative-resource-settlement.json
+tools/verify_public_snapshot.py

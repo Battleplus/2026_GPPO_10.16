@@ -1,21 +1,7 @@
-# Public Archive Rules
+# 当前归档范围
 
-Target repository: `Battleplus/2026_GPPO_10.16`.
+当前公开成果位于 [releases/n02-minimal-closure-v1-100x100](releases/n02-minimal-closure-v1-100x100/README.md)，包含独立审核后的脱敏源码、仿真数据、模型及报告。其精确字节由 release 内的清单和校验工具验证。
 
-## Current publication boundary
+私有凭据、授权原文、个人路径、私有 SQLite 和原始运行日志不公开。原始身份摘要与公开副本摘要分别记录；首次失败历史保留。
 
-The current preparation snapshot may contain only the exact files in `PUBLIC_ALLOWLIST.txt`. It is a de-identified record of local Gate A evidence, bounded diagnostics, their limits, and pending work. Candidate source and raw operational evidence remain excluded pending independent publication review.
-
-Sol passed the local synthetic Gate A review. The completed server unit was a bounded unauthorized diagnostic, and its prior-cost receipt replay was accepted. The independent final B gate review and independent publication review are pending. Do not present this snapshot as a formal run, completed minimum closure, research result, or source approval.
-
-## Content and privacy checks
-
-Before proposing any public snapshot, run `tools/public_archive_check.py` against the explicit allowlist. Reject private keys, credentials, authorization contents, personal absolute paths, private host/IP/user values, raw operational logs, SQLite files, bytecode, model artifacts, and unreviewed source. Do not copy candidate source into this archive unless source and configuration have passed separate review and privacy checks.
-
-Keep original evidence hashes, canonical identities, public summary-file hashes, and the public inventory hash in separate fields. A hash of a redacted summary does not replace the original evidence hash. The inventory hash covers the exact allowlisted file bytes and is recorded outside the snapshot to avoid self-reference.
-
-## Branches and tags
-
-No branch name, commit, or tag is authorized by this preparation document. A proposed preparation commit must contain only the allowlisted snapshot and must receive independent publication review before publication. Do not create a success tag while the final B review and C4 real-run evidence are pending. Any later public node must be reviewed and frozen as its own snapshot; never rewrite a prior snapshot to imply evidence that was not present then.
-
-Full paper experiments, additional scales, multiple seeds, and confirmation studies are outside the current five-check minimal-closure scope. They are future work and are not authorized by this archive preparation.
+仓库根目录旧 `PUBLIC_ALLOWLIST.txt`、`PUBLIC_CHECK_RESULT.md`、`HASH_PROVENANCE.md` 和 `tools/public_archive_check.py` 仅描述早期文档快照，不能用于验证本次 release。本次规范见 release 内的 `ARCHIVE_RULES.md` 和 `PRIVACY_REPORT.md`。

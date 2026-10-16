@@ -1,0 +1,44 @@
+{
+  "schema": "n02-runtime-spec/1",
+  "package_release": "ch2_disaster_relief_n02_minimal_closure_v1_100x100_repair1",
+  "protocol_id": "n02-minimal-closure-v1-100x100-repair1",
+  "stage_protocol": "n02-minimal-closure-v1-100x100-repair1/seven-stage",
+  "stage_order": [
+    "input_admission",
+    "paired_consequence_collection",
+    "world_model_training",
+    "checkpoint_restore",
+    "graph_policy_training",
+    "development_evaluation",
+    "settlement_and_export"
+  ],
+  "status": "expected_contract_only",
+  "expected": {
+    "interpreter_path": "/opt/n02-runtime/bin/python",
+    "interpreter_flag": "-B",
+    "python": "3.11.16",
+    "torch": "2.7.0+cu128",
+    "numpy": "1.26.0",
+    "device": "cpu",
+    "affinity": [0],
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "environment": {
+      "CUDA_VISIBLE_DEVICES": "",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    }
+  },
+  "measurement": {
+    "status": "not_measured",
+    "actual": null
+  },
+  "evidence": {
+    "target_runtime_inventory": null,
+    "target_runtime_preflight": null
+  },
+  "integrity_note": "This file records the frozen target contract only. Installed versions, CPU affinity, thread configuration, accelerator state, and environment have not been measured in the target runtime."
+}

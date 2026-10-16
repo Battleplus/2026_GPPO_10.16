@@ -1,0 +1,579 @@
+{
+  "file_count": 73,
+  "files": [
+    {
+      "action": "generated_public_artifact",
+      "path": "ACCEPTANCE_MATRIX.md",
+      "public_sha256": "e6aa5df78ce05b9cb3a2c1a80e4c0642c7b085d2c5de156065aec7bdb22eea99",
+      "size_bytes": 1112
+    },
+    {
+      "action": "generated_public_artifact",
+      "path": "ARCHIVE_RULES.md",
+      "public_sha256": "510aac27bc39a6fda70b02a6e98244e8a5b3b38b2d91d04a7bc08074e6c3f937",
+      "size_bytes": 1379
+    },
+    {
+      "action": "generated_public_artifact",
+      "path": "PRIVACY_REPORT.md",
+      "public_sha256": "90a4fc2e90975ea7294f5eb428ce0f9a3a8525723a8612e72cc39ce135978d64",
+      "size_bytes": 1555
+    },
+    {
+      "action": "generated_public_artifact",
+      "path": "PUBLIC_ALLOWLIST.txt",
+      "public_sha256": "05a3dd58cc430dd42112b03a4560c46eacee47a51727dba7de1a2674bba827e2",
+      "size_bytes": 365
+    },
+    {
+      "action": "generated_public_artifact",
+      "path": "README.md",
+      "public_sha256": "b5bc950d7d5c4573a025e3508cb24e242bb07ee359794ec5eaadbbb8a18d38bc",
+      "size_bytes": 1359
+    },
+    {
+      "action": "generated_public_artifact",
+      "path": "ROADMAP.md",
+      "public_sha256": "831cea4bb5557cf9ab13a72f2441d4ef687deceb498033f06222000ae0d6c86e",
+      "size_bytes": 510
+    },
+    {
+      "action": "sanitized_report_derivative",
+      "path": "RUN_SUMMARY.json",
+      "public_sha256": "0bbd04be3ae3555dd6d060f48f11ae8662488b7508d243ee41fb235deb32cbdc",
+      "related_source_sha256": "a66da021141be2b736e7ea83cf1109a2060c496384c36ba11a3f633e9f4f0836",
+      "size_bytes": 2889,
+      "source_path": "final_core_report/FINAL_CORE_REPORT.json",
+      "source_sha256": "493d45ad220f225d84d29446b6a88f91bab0bdd9706b04bf86f4d426fd3cfa83"
+    },
+    {
+      "action": "generated_public_artifact",
+      "path": "RUN_SUMMARY.md",
+      "public_sha256": "e6e9af2e96204b8a165579ae466912efda67a8382bbc61f17775251bc313cc6f",
+      "size_bytes": 2201
+    },
+    {
+      "action": "generated_public_artifact",
+      "path": "STATUS.md",
+      "public_sha256": "d5888b4b5d027e8badd63f22947d7e2c5cae6d72368a839f4bc9430966c42e48",
+      "size_bytes": 894
+    },
+    {
+      "action": "sanitized_derivative",
+      "path": "core/civilian/PRIOR_RESOURCE_COST.json",
+      "public_sha256": "c3822c6ec2d6a55dd87a05941af679668310e89a012fc08ed1da52d4bc4d1685",
+      "reason": "Replaced operational receipt with the release-1 public no-measurement placeholder.",
+      "size_bytes": 770,
+      "source_path": "candidate-repair2/package/civilian/PRIOR_RESOURCE_COST.json",
+      "source_sha256": "ff2fbcbef7fc3d04acfb087018121d1a07a34156e668f1ba58669c15d562ab30"
+    },
+    {
+      "action": "sanitized_derivative",
+      "path": "core/civilian/acceptance_harness.py",
+      "public_sha256": "7bc54625386514a3ccb0b645fc38d63d2393d650b3bc6e056c0e0ab52aa19c1d",
+      "size_bytes": 45973,
+      "source_path": "candidate-repair2/package/civilian/acceptance_harness.py",
+      "source_sha256": "e65583ef1f703adf4a08a065a928209ac7b30d3210401a1d0abfb937b789ff83"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/baselines.py",
+      "public_sha256": "13b2a84662022b7ed6a56a19629ad3abe2ad954c46926eb1a72caa326039115a",
+      "size_bytes": 5740,
+      "source_path": "candidate-repair2/package/civilian/baselines.py",
+      "source_sha256": "13b2a84662022b7ed6a56a19629ad3abe2ad954c46926eb1a72caa326039115a"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/branching.py",
+      "public_sha256": "77fa42f76bc3238d0962b4603097920070821e1802c0f0862720c3c858375e58",
+      "size_bytes": 21373,
+      "source_path": "candidate-repair2/package/civilian/branching.py",
+      "source_sha256": "77fa42f76bc3238d0962b4603097920070821e1802c0f0862720c3c858375e58"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/budget_ledger.py",
+      "public_sha256": "108b420e30c16771d3eab6fadbf17a6e9e023f8cdb0f6606e6d39e8c8038cb46",
+      "size_bytes": 18098,
+      "source_path": "candidate-repair2/package/civilian/budget_ledger.py",
+      "source_sha256": "108b420e30c16771d3eab6fadbf17a6e9e023f8cdb0f6606e6d39e8c8038cb46"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/chapter1_adapter.py",
+      "public_sha256": "160d9b59571fcfef043af22005a0527327574f3829256ba37eeda5a93f1674b4",
+      "size_bytes": 8036,
+      "source_path": "candidate-repair2/package/civilian/chapter1_adapter.py",
+      "source_sha256": "160d9b59571fcfef043af22005a0527327574f3829256ba37eeda5a93f1674b4"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/dataset_protocol.py",
+      "public_sha256": "b16a32f5bb1b95cddd094ef66604861026b1b5a117a76a730d9d18026eda1573",
+      "size_bytes": 12737,
+      "source_path": "candidate-repair2/package/civilian/dataset_protocol.py",
+      "source_sha256": "b16a32f5bb1b95cddd094ef66604861026b1b5a117a76a730d9d18026eda1573"
+    },
+    {
+      "action": "sanitized_derivative",
+      "path": "core/civilian/driver.py",
+      "public_sha256": "1e8ef06c910284785d3427efbf1e0f2578ec4bbd9597037e08b5f7cd704e3c32",
+      "size_bytes": 88322,
+      "source_path": "candidate-repair2/package/civilian/driver.py",
+      "source_sha256": "ad2bbc019b353df0bb58242fef05a484c5269d108f49691f275462ac31c5eeb2"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/evaluator.py",
+      "public_sha256": "7bdf8a83be7b7d2028528bdfec189b725c15bbaac710cb7c4517ecff9dc24bd6",
+      "size_bytes": 22513,
+      "source_path": "candidate-repair2/package/civilian/evaluator.py",
+      "source_sha256": "7bdf8a83be7b7d2028528bdfec189b725c15bbaac710cb7c4517ecff9dc24bd6"
+    },
+    {
+      "action": "sanitized_derivative",
+      "path": "core/civilian/execution_gate.py",
+      "public_sha256": "d09513e1156ab8c7f01313a8daa79f7ad58f64b96eda8ba27cf9ab952b023d6a",
+      "size_bytes": 27914,
+      "source_path": "candidate-repair2/package/civilian/execution_gate.py",
+      "source_sha256": "7ab61849177dcaa989d407ca55fa1f7ca8cee35b90714c421fe6f2b71a321e19"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/fixtures/combined.json",
+      "public_sha256": "ad507f15039998cc80a608cc097f58b88e2ccfdcc100518e252a5c4f26b4d4c6",
+      "size_bytes": 5300,
+      "source_path": "candidate-repair2/package/civilian/fixtures/combined.json",
+      "source_sha256": "ad507f15039998cc80a608cc097f58b88e2ccfdcc100518e252a5c4f26b4d4c6"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/fixtures/control.json",
+      "public_sha256": "4bcbc5c4bbd7ffbfb3e850aaf23a06e95bd68817ceb36b21b2345ddc2957370a",
+      "size_bytes": 4849,
+      "source_path": "candidate-repair2/package/civilian/fixtures/control.json",
+      "source_sha256": "4bcbc5c4bbd7ffbfb3e850aaf23a06e95bd68817ceb36b21b2345ddc2957370a"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/fixtures/energy_change.json",
+      "public_sha256": "17b473f8cb6f006b5d89f182b4c6f4ba617286c1d60517e1738bb173c54b6df5",
+      "size_bytes": 5002,
+      "source_path": "candidate-repair2/package/civilian/fixtures/energy_change.json",
+      "source_sha256": "17b473f8cb6f006b5d89f182b4c6f4ba617286c1d60517e1738bb173c54b6df5"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/fixtures/external_commitment.json",
+      "public_sha256": "f2d5e830695fa0fd84e876ed66807e3102a559c7f361dffc2886a768e2673ae9",
+      "size_bytes": 5323,
+      "source_path": "candidate-repair2/package/civilian/fixtures/external_commitment.json",
+      "source_sha256": "f2d5e830695fa0fd84e876ed66807e3102a559c7f361dffc2886a768e2673ae9"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/fixtures/failure.json",
+      "public_sha256": "e8775eced309e04d8f454315fd6e76c2661967adf1c583ce223f10b1aa9a35af",
+      "size_bytes": 4971,
+      "source_path": "candidate-repair2/package/civilian/fixtures/failure.json",
+      "source_sha256": "e8775eced309e04d8f454315fd6e76c2661967adf1c583ce223f10b1aa9a35af"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/fixtures/report_delay.json",
+      "public_sha256": "d384e89dbb6c81fec0569aa63dc37cea1280f966d60eee84bc03e8dd33fdb0a7",
+      "size_bytes": 4854,
+      "source_path": "candidate-repair2/package/civilian/fixtures/report_delay.json",
+      "source_sha256": "d384e89dbb6c81fec0569aa63dc37cea1280f966d60eee84bc03e8dd33fdb0a7"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/fixtures/stock_loss.json",
+      "public_sha256": "0ad22b5f9eba894daefdc0726b4b5a9563987ae3186514243d08bdf754e941a8",
+      "size_bytes": 5030,
+      "source_path": "candidate-repair2/package/civilian/fixtures/stock_loss.json",
+      "source_sha256": "0ad22b5f9eba894daefdc0726b4b5a9563987ae3186514243d08bdf754e941a8"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/graph_policy.py",
+      "public_sha256": "ccbbc895858b9c1963b39a52b3201f90b18dcb6dca942a856b2576aad06f397d",
+      "size_bytes": 35235,
+      "source_path": "candidate-repair2/package/civilian/graph_policy.py",
+      "source_sha256": "ccbbc895858b9c1963b39a52b3201f90b18dcb6dca942a856b2576aad06f397d"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/independent_consequence_oracle.py",
+      "public_sha256": "d72fc8cb405236b19f70c17f964bc920c25a6087a7678dd5b3caa0bbb82408ba",
+      "size_bytes": 29136,
+      "source_path": "candidate-repair2/package/civilian/independent_consequence_oracle.py",
+      "source_sha256": "d72fc8cb405236b19f70c17f964bc920c25a6087a7678dd5b3caa0bbb82408ba"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/infra_io.py",
+      "public_sha256": "fbd6533833f8845d49ce6ad28b793245e58f22467acbe83e7c45a14704db7ace",
+      "size_bytes": 15517,
+      "source_path": "candidate-repair2/package/civilian/infra_io.py",
+      "source_sha256": "fbd6533833f8845d49ce6ad28b793245e58f22467acbe83e7c45a14704db7ace"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/literal_graph_ops.py",
+      "public_sha256": "8a7e9e225c9efe758087c09260bb7af67281d5e30ec88f05650f87984ee2ed4e",
+      "size_bytes": 9265,
+      "source_path": "candidate-repair2/package/civilian/literal_graph_ops.py",
+      "source_sha256": "8a7e9e225c9efe758087c09260bb7af67281d5e30ec88f05650f87984ee2ed4e"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/n2_stage_pipeline.py",
+      "public_sha256": "3e5ba3fa5799b341d41c0298eb3d28d48b14754fec5f0c876a931ea7be11d964",
+      "size_bytes": 96844,
+      "source_path": "candidate-repair2/package/civilian/n2_stage_pipeline.py",
+      "source_sha256": "3e5ba3fa5799b341d41c0298eb3d28d48b14754fec5f0c876a931ea7be11d964"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/package_layout.py",
+      "public_sha256": "0e003f50f1ead48c9afbf6b08f1dca7b1a14f74ca9bfeff1899004b10e24b500",
+      "size_bytes": 3896,
+      "source_path": "candidate-repair2/package/civilian/package_layout.py",
+      "source_sha256": "0e003f50f1ead48c9afbf6b08f1dca7b1a14f74ca9bfeff1899004b10e24b500"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/phase_handshake.py",
+      "public_sha256": "018e1b1da978ad229d75282d853f72aafb8d6762b70762bc5c983dc1979d96e5",
+      "size_bytes": 33935,
+      "source_path": "candidate-repair2/package/civilian/phase_handshake.py",
+      "source_sha256": "018e1b1da978ad229d75282d853f72aafb8d6762b70762bc5c983dc1979d96e5"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/ppo_trainer.py",
+      "public_sha256": "d16c466ba42dc261723e7bc8b345980ea53464e23f6489979b997f64596ee37a",
+      "size_bytes": 27948,
+      "source_path": "candidate-repair2/package/civilian/ppo_trainer.py",
+      "source_sha256": "d16c466ba42dc261723e7bc8b345980ea53464e23f6489979b997f64596ee37a"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/process_guardian.py",
+      "public_sha256": "83c6f0e8947c6ee83394eb9c96376434e58e843693701bffdfbd7c7082945a6e",
+      "size_bytes": 65604,
+      "source_path": "candidate-repair2/package/civilian/process_guardian.py",
+      "source_sha256": "83c6f0e8947c6ee83394eb9c96376434e58e843693701bffdfbd7c7082945a6e"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/protocol_contract.py",
+      "public_sha256": "2199963b828c101bb8ce82903d5106040f435419063bf9cfe3b7f95da1e9ce3b",
+      "size_bytes": 946,
+      "source_path": "candidate-repair2/package/civilian/protocol_contract.py",
+      "source_sha256": "2199963b828c101bb8ce82903d5106040f435419063bf9cfe3b7f95da1e9ce3b"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/registered_data/data/development/n02-development-carrier_competition-00-e73e3aa2e7c48b9b.json",
+      "public_sha256": "7fa112d167370b8fdfbe77e388d61b28355dda5251cdac21b67742ae08924f76",
+      "size_bytes": 9610,
+      "source_path": "candidate-repair2/package/civilian/registered_data/data/development/n02-development-carrier_competition-00-e73e3aa2e7c48b9b.json",
+      "source_sha256": "7fa112d167370b8fdfbe77e388d61b28355dda5251cdac21b67742ae08924f76"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/registered_data/data/train/n02-train-base-00-c85321165ea17af3.json",
+      "public_sha256": "9c8189a22fbc0ded031f400406cce83251030eee0a29fa9763268e5a90052919",
+      "size_bytes": 9598,
+      "source_path": "candidate-repair2/package/civilian/registered_data/data/train/n02-train-base-00-c85321165ea17af3.json",
+      "source_sha256": "9c8189a22fbc0ded031f400406cce83251030eee0a29fa9763268e5a90052919"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/registered_data/data/train/n02-train-carrier_competition-01-c602805a4f19d6ed.json",
+      "public_sha256": "29b212d80d03d91825f4de3497461d991b144779d9d80b2d2e9d2227bb668a6c",
+      "size_bytes": 9605,
+      "source_path": "candidate-repair2/package/civilian/registered_data/data/train/n02-train-carrier_competition-01-c602805a4f19d6ed.json",
+      "source_sha256": "29b212d80d03d91825f4de3497461d991b144779d9d80b2d2e9d2227bb668a6c"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/registered_data/fixtures/causal_allocation_case.json",
+      "public_sha256": "51d1435a44ebcc55dc781c9d6e4bc978ea00807a39e006a34b6996ecb98a2bda",
+      "size_bytes": 4254,
+      "source_path": "candidate-repair2/package/civilian/registered_data/fixtures/causal_allocation_case.json",
+      "source_sha256": "51d1435a44ebcc55dc781c9d6e4bc978ea00807a39e006a34b6996ecb98a2bda"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/registered_data/input_registry.json",
+      "public_sha256": "6547ff78911ed7ccf10d66c9fb012c210e58ff7e25842cd4de258821aa8fe308",
+      "size_bytes": 3355,
+      "source_path": "candidate-repair2/package/civilian/registered_data/input_registry.json",
+      "source_sha256": "6547ff78911ed7ccf10d66c9fb012c210e58ff7e25842cd4de258821aa8fe308"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/relief_env.py",
+      "public_sha256": "d070e36c27b236c6a1d142681a37a1cded910f01e069ac0ef0b040c30f4ba1c3",
+      "size_bytes": 55729,
+      "source_path": "candidate-repair2/package/civilian/relief_env.py",
+      "source_sha256": "d070e36c27b236c6a1d142681a37a1cded910f01e069ac0ef0b040c30f4ba1c3"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/resource_supervisor.py",
+      "public_sha256": "d84fc78b18543e4a8ceceb40a8ccaa6c73c4953c9591497e9feaf101ab9a34e3",
+      "size_bytes": 46286,
+      "source_path": "candidate-repair2/package/civilian/resource_supervisor.py",
+      "source_sha256": "d84fc78b18543e4a8ceceb40a8ccaa6c73c4953c9591497e9feaf101ab9a34e3"
+    },
+    {
+      "action": "sanitized_derivative",
+      "path": "core/civilian/runtime-spec.json",
+      "public_sha256": "1de2151bb9a85b73be90946c591b8274aa8d2739767274a5285e5d31353ca644",
+      "size_bytes": 1403,
+      "source_path": "candidate-repair2/package/civilian/runtime-spec.json",
+      "source_sha256": "bb96fa6d91b75849d573ec4d9259bed2682ac92dc40510ca23d11f2e61e6c887"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/scenario_matrix.py",
+      "public_sha256": "29fe6f2f7965c7d5da3430bd32a177daca38cfe37bdb36377d7d63baa8327a34",
+      "size_bytes": 17843,
+      "source_path": "candidate-repair2/package/civilian/scenario_matrix.py",
+      "source_sha256": "29fe6f2f7965c7d5da3430bd32a177daca38cfe37bdb36377d7d63baa8327a34"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/scenario_schema.py",
+      "public_sha256": "71ed40d666174e1144af1fec97fd8d9f6e6d9227bd8563c24d822ef78ccb04a2",
+      "size_bytes": 20455,
+      "source_path": "candidate-repair2/package/civilian/scenario_schema.py",
+      "source_sha256": "71ed40d666174e1144af1fec97fd8d9f6e6d9227bd8563c24d822ef78ccb04a2"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/snapshot_contract.py",
+      "public_sha256": "1e309550b7cc72a498d2d2773d6ff941c87f42ef7ec36df6153a96a5f1a9c90e",
+      "size_bytes": 7216,
+      "source_path": "candidate-repair2/package/civilian/snapshot_contract.py",
+      "source_sha256": "1e309550b7cc72a498d2d2773d6ff941c87f42ef7ec36df6153a96a5f1a9c90e"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/stable_identity.py",
+      "public_sha256": "812944f9f7cb4f16c9907c4d6cf6c552f5b0dc3f7ec8fa2e5ccbe859b04757ef",
+      "size_bytes": 1429,
+      "source_path": "candidate-repair2/package/civilian/stable_identity.py",
+      "source_sha256": "812944f9f7cb4f16c9907c4d6cf6c552f5b0dc3f7ec8fa2e5ccbe859b04757ef"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/test_synthetic_critic_interface.py",
+      "public_sha256": "d4e6c5f4a1cf9cd4fbbd05d120932596fecbbf25ae9806939238307424ec8008",
+      "size_bytes": 7230,
+      "source_path": "candidate-repair2/package/civilian/test_synthetic_critic_interface.py",
+      "source_sha256": "d4e6c5f4a1cf9cd4fbbd05d120932596fecbbf25ae9806939238307424ec8008"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/wm_prediction_cache.py",
+      "public_sha256": "6fa16499a7e743c7b5150a65144adad232d7335defc447b0cb7d5c39a785d62e",
+      "size_bytes": 8678,
+      "source_path": "candidate-repair2/package/civilian/wm_prediction_cache.py",
+      "source_sha256": "6fa16499a7e743c7b5150a65144adad232d7335defc447b0cb7d5c39a785d62e"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/civilian/world_model.py",
+      "public_sha256": "3adeaa6960c0494c59ddc34bce5e230491a62e7f76800dd13eedb473b3fdf4c5",
+      "size_bytes": 56827,
+      "source_path": "candidate-repair2/package/civilian/world_model.py",
+      "source_sha256": "3adeaa6960c0494c59ddc34bce5e230491a62e7f76800dd13eedb473b3fdf4c5"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/tests/test_100x100_contract.py",
+      "public_sha256": "54acd5998ae311f77f1888a0f52c85599fc61b81249f5243874c1d4f5917abd7",
+      "size_bytes": 19922,
+      "source_path": "candidate-repair2/package/tests/test_100x100_contract.py",
+      "source_sha256": "54acd5998ae311f77f1888a0f52c85599fc61b81249f5243874c1d4f5917abd7"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/tests/test_driver_close_snapshot.py",
+      "public_sha256": "db5bad004e586d5e5301df5b6073e4daa530c44d3a2ae0e3f91c75d9a16e6eac",
+      "size_bytes": 2878,
+      "source_path": "candidate-repair2/package/tests/test_driver_close_snapshot.py",
+      "source_sha256": "db5bad004e586d5e5301df5b6073e4daa530c44d3a2ae0e3f91c75d9a16e6eac"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/tests/test_formal_auth_binding.py",
+      "public_sha256": "3caef3290c29e67a2537d6fe8417112200a844fed3ea7efce48ab3d976a5ef1c",
+      "size_bytes": 4977,
+      "source_path": "candidate-repair2/package/tests/test_formal_auth_binding.py",
+      "source_sha256": "3caef3290c29e67a2537d6fe8417112200a844fed3ea7efce48ab3d976a5ef1c"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "core/tests/test_release_protocol_contract.py",
+      "public_sha256": "15a5ad6568394285223bf7583bb2f02802ff7988ebd57a0beb623cd66e57c629",
+      "size_bytes": 2250,
+      "source_path": "candidate-repair2/package/tests/test_release_protocol_contract.py",
+      "source_sha256": "15a5ad6568394285223bf7583bb2f02802ff7988ebd57a0beb623cd66e57c629"
+    },
+    {
+      "action": "generated_public_artifact",
+      "path": "data/repair2/STRUCTURED_DATA_HASHES.json",
+      "public_sha256": "161c4aae30ef7b1c4de36aa090d4cb18933ae935d8b1ba8ff7586ef5fe4c5443",
+      "size_bytes": 2702
+    },
+    {
+      "action": "deterministic_gzip_derivative",
+      "path": "data/repair2/development_windows.json.gz",
+      "public_sha256": "f306b912869cf2f95e1e952d44fde113f1fe22b86628fd32d36afd3918e6f6c2",
+      "size_bytes": 265470,
+      "source_path": "approved_export/development_windows.json",
+      "source_sha256": "999477c1e42ffe32c8508408a7a38d827bb6bce3afa8ce7d188e805573a2854f"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "data/repair2/models/policies/G/round_01.pt",
+      "public_sha256": "e27bfebc31d0c3bbcebb5c1b92d2114612af5a05d54501bee0ac02fc0fb218c7",
+      "size_bytes": 1215497,
+      "source_path": "approved_export/checkpoints/G/round_01.pt",
+      "source_sha256": "e27bfebc31d0c3bbcebb5c1b92d2114612af5a05d54501bee0ac02fc0fb218c7"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "data/repair2/models/policies/G_WM/round_01.pt",
+      "public_sha256": "785b525cb90d553ec67cad7123cac2988a35a2d547ddcd5b960ad50d9a0b88a7",
+      "size_bytes": 1220477,
+      "source_path": "approved_export/checkpoints/G_WM/round_01.pt",
+      "source_sha256": "785b525cb90d553ec67cad7123cac2988a35a2d547ddcd5b960ad50d9a0b88a7"
+    },
+    {
+      "action": "copied_byte_identical",
+      "path": "data/repair2/models/world_model.pt",
+      "public_sha256": "499151e808e94bdc2c1031e32da173d5b035ed18eddc733efb33c22a33cdad08",
+      "size_bytes": 186689,
+      "source_path": "approved_export/world_model.pt",
+      "source_sha256": "499151e808e94bdc2c1031e32da173d5b035ed18eddc733efb33c22a33cdad08"
+    },
+    {
+      "action": "deterministic_gzip_derivative",
+      "path": "data/repair2/parents.json.gz",
+      "public_sha256": "19f138f582f767c1a3d4aa82548f32e03ee309f949553d185efd188c55cbb484",
+      "size_bytes": 2248,
+      "source_path": "approved_export/parents.json",
+      "source_sha256": "bbbe70491c242d8beec2c6be9d66f455a307eb8df99552e6bdded24be058b3c5"
+    },
+    {
+      "action": "deterministic_gzip_derivative",
+      "path": "data/repair2/rollouts/G/round_01.jsonl.gz",
+      "public_sha256": "b6987b42307e5548756b42ffaef0f0c6e1ede17afcdd2fad3c00fc096b5a485b",
+      "size_bytes": 47837,
+      "source_path": "approved_export/rollouts/G/round_01.jsonl",
+      "source_sha256": "193816be04a1d6d28a25166bfa145bf8ee3ecb10a6b439f90045e0e8521b67e3"
+    },
+    {
+      "action": "deterministic_gzip_derivative",
+      "path": "data/repair2/rollouts/G_WM/round_01.jsonl.gz",
+      "public_sha256": "dfd213aa788be265312d834b90ac08fc229dbd7c29aaadaf6609235d5a46272b",
+      "size_bytes": 53425,
+      "source_path": "approved_export/rollouts/G_WM/round_01.jsonl",
+      "source_sha256": "230eea19cd51523fed5b0ee4fa807fd22e41cbc4fac2a6626d5b1c9e968fc99e"
+    },
+    {
+      "action": "deterministic_gzip_derivative",
+      "path": "data/repair2/training_branches.jsonl.gz",
+      "public_sha256": "ad15ef27b97d6ccd148c651a80984babfa4bd9fdb6918f4a3f8d311b014f907c",
+      "size_bytes": 217580,
+      "source_path": "approved_export/training_branches.jsonl",
+      "source_sha256": "f67d7f6282d594b10bf1f02a9adcadf808126c8dec4f7225c51a2f074a4077af"
+    },
+    {
+      "action": "deterministic_gzip_derivative",
+      "path": "data/repair2/training_windows.json.gz",
+      "public_sha256": "7082692932b7d0dae038123ff7173a9c18840cb525e77af1a4057cc1618fb17e",
+      "size_bytes": 655159,
+      "source_path": "approved_export/training_windows.json",
+      "source_sha256": "3819089980e6520b51c8df278175e573c868e7efe8460394e4b8a7d70d5c2f05"
+    },
+    {
+      "action": "sanitized_settlement_derivative",
+      "path": "provenance/cumulative-resource-settlement.json",
+      "public_sha256": "73ea17d7e1c9df48b74e33bd03afe8d700a5dbdd8fdc817e4fbd3e2993227e11",
+      "size_bytes": 1465,
+      "source_path": "cumulative_resource_settlement.json",
+      "source_sha256": "a66da021141be2b736e7ea83cf1109a2060c496384c36ba11a3f633e9f4f0836"
+    },
+    {
+      "action": "copied_original_provenance",
+      "path": "provenance/original_release02/ATTEMPT_CANDIDATE.json",
+      "public_sha256": "df2bd1403e80f11cebac9cf455da2661c2f4af93a191c22c30bd6e7aa3a59f23",
+      "size_bytes": 840,
+      "source_path": "candidate-repair2/ATTEMPT_CANDIDATE.json",
+      "source_sha256": "df2bd1403e80f11cebac9cf455da2661c2f4af93a191c22c30bd6e7aa3a59f23"
+    },
+    {
+      "action": "copied_original_provenance",
+      "path": "provenance/original_release02/HASH_BUNDLE.json",
+      "public_sha256": "350ed0339c965630ea7b00ab6eb3dbc69f6a7c67fee254a01714793ef0863c2f",
+      "size_bytes": 13848,
+      "source_path": "candidate-repair2/HASH_BUNDLE.json",
+      "source_sha256": "350ed0339c965630ea7b00ab6eb3dbc69f6a7c67fee254a01714793ef0863c2f"
+    },
+    {
+      "action": "copied_original_provenance",
+      "path": "provenance/original_release02/REQUEST_CANDIDATE.json",
+      "public_sha256": "f84502c8129a887499e58d1f806cd6830c32d48b174044a7d75e6dd95bec0784",
+      "size_bytes": 1309,
+      "source_path": "candidate-repair2/REQUEST_CANDIDATE.json",
+      "source_sha256": "f84502c8129a887499e58d1f806cd6830c32d48b174044a7d75e6dd95bec0784"
+    },
+    {
+      "action": "copied_original_provenance",
+      "path": "provenance/original_release02/SOURCE_MANIFEST.json",
+      "public_sha256": "ce7f42c88b5e9982d684f75f8d49eb7a0fe2c418bbf832ee980257e4cb7f3fc7",
+      "size_bytes": 19606,
+      "source_path": "candidate-repair2/SOURCE_MANIFEST.json",
+      "source_sha256": "ce7f42c88b5e9982d684f75f8d49eb7a0fe2c418bbf832ee980257e4cb7f3fc7"
+    },
+    {
+      "action": "sanitized_review_derivative",
+      "path": "provenance/review/final-review.json",
+      "public_sha256": "621f26700f04e4de5557f50cb4128d0b1e4ea6a2b8beaf0ab03850e48240dc38",
+      "size_bytes": 10352,
+      "source_path": "independent_review/final-actual-five-core-review.json",
+      "source_sha256": "a9c03df92dcdef3a99d51f11ee8649957adfcdea218d8a45c548199224f55c87"
+    },
+    {
+      "action": "sanitized_review_derivative",
+      "path": "provenance/review/final-review.md",
+      "public_sha256": "f34abad40bbc05723b4cb2062eca77567c5f24966bf1a10710219b175bc3c5a9",
+      "size_bytes": 667,
+      "source_path": "independent_review/final-actual-five-core-review.json",
+      "source_sha256": "a9c03df92dcdef3a99d51f11ee8649957adfcdea218d8a45c548199224f55c87"
+    },
+    {
+      "action": "generated_public_artifact",
+      "path": "tools/verify_public_snapshot.py",
+      "public_sha256": "46583df72e540eb3a22aefea73598869523eba3c3a331a706acb1e362a3dec16",
+      "size_bytes": 2349
+    }
+  ],
+  "schema": "n02-public-archive-inventory/2",
+  "self_excluded_files": [
+    "PUBLIC_ARCHIVE_INVENTORY.json",
+    "PUBLIC_ARCHIVE_INVENTORY.sha256"
+  ],
+  "snapshot_id": "n02-public-archive-repair2-20261016",
+  "source_candidate": "candidate-repair2",
+  "status": "FROZEN_PENDING_READ_ONLY_PUBLICATION_AUDIT"
+}

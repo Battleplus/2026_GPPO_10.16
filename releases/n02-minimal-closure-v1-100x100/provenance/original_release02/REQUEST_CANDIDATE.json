@@ -1,0 +1,30 @@
+{
+  "authorized": false,
+  "candidate_request_identity_sha256": "6383ec9db93e1463b4ed74f804a245f603d03a1e0a50f068b8c411d220a61c26",
+  "checkpoint_written": false,
+  "execution_started": false,
+  "hash_bundle_sha256": "93af87c6ada70ebe58c1fafa48df0e60c9fd549cd21124ce92ebb0ae5e2bde78",
+  "identity_state": "candidate_not_authorized_not_frozen",
+  "independent_review": "pending",
+  "map_contract": "relief-grid-100x100-v1",
+  "outer_release_id": "n02-minimal-closure-formal-execution-20261016-02",
+  "package_release": "ch2_disaster_relief_n02_minimal_closure_v1_100x100_repair1",
+  "protocol_id": "n02-minimal-closure-v1-100x100-repair1",
+  "request_frozen": false,
+  "request_scope": "candidate_target_runtime_preflight_only",
+  "schema": "n02-request-identity/1",
+  "server_submission": "not_performed",
+  "source_manifest_sha256": "1f86a79ed12f084646cd6dc97d36185c5e614b4a7d4386b47c243a89691cd6b6",
+  "stage_order": [
+    "input_admission",
+    "paired_consequence_collection",
+    "world_model_training",
+    "checkpoint_restore",
+    "graph_policy_training",
+    "development_evaluation",
+    "settlement_and_export"
+  ],
+  "stage_protocol": "n02-minimal-closure-v1-100x100-repair1/seven-stage",
+  "target_runtime_preflight": "not_run",
+  "training_or_rollout": "not_run"
+}

@@ -1,0 +1,349 @@
+{
+  "check_count": 66,
+  "checks": [
+    {
+      "check": "actual parent C1 assignment recomputes: n02-train-base-00-c85321165ea17af3",
+      "core": 1,
+      "passed": true
+    },
+    {
+      "check": "actual parent has 3 UAV +1 heli and frozen 2x2 local block: n02-train-base-00-c85321165ea17af3",
+      "core": 2,
+      "passed": true
+    },
+    {
+      "check": "actual spatial truth changes before delayed public report: n02-train-base-00-c85321165ea17af3",
+      "core": 2,
+      "passed": true
+    },
+    {
+      "check": "actual delivery arrives at changed truth position: n02-train-base-00-c85321165ea17af3",
+      "core": 2,
+      "passed": true
+    },
+    {
+      "check": "truth displacement changes delivery travel time and energy: n02-train-base-00-c85321165ea17af3",
+      "core": 2,
+      "passed": true
+    },
+    {
+      "check": "actual parent C1 assignment recomputes: n02-train-carrier_competition-01-c602805a4f19d6ed",
+      "core": 1,
+      "passed": true
+    },
+    {
+      "check": "actual parent has 3 UAV +1 heli and frozen 2x2 local block: n02-train-carrier_competition-01-c602805a4f19d6ed",
+      "core": 2,
+      "passed": true
+    },
+    {
+      "check": "actual spatial truth changes before delayed public report: n02-train-carrier_competition-01-c602805a4f19d6ed",
+      "core": 2,
+      "passed": true
+    },
+    {
+      "check": "actual delivery arrives at changed truth position: n02-train-carrier_competition-01-c602805a4f19d6ed",
+      "core": 2,
+      "passed": true
+    },
+    {
+      "check": "truth displacement changes delivery travel time and energy: n02-train-carrier_competition-01-c602805a4f19d6ed",
+      "core": 2,
+      "passed": true
+    },
+    {
+      "check": "actual parent C1 assignment recomputes: n02-development-carrier_competition-00-e73e3aa2e7c48b9b",
+      "core": 1,
+      "passed": true
+    },
+    {
+      "check": "actual parent has 3 UAV +1 heli and frozen 2x2 local block: n02-development-carrier_competition-00-e73e3aa2e7c48b9b",
+      "core": 2,
+      "passed": true
+    },
+    {
+      "check": "actual spatial truth changes before delayed public report: n02-development-carrier_competition-00-e73e3aa2e7c48b9b",
+      "core": 2,
+      "passed": true
+    },
+    {
+      "check": "actual delivery arrives at changed truth position: n02-development-carrier_competition-00-e73e3aa2e7c48b9b",
+      "core": 2,
+      "passed": true
+    },
+    {
+      "check": "truth displacement changes delivery travel time and energy: n02-development-carrier_competition-00-e73e3aa2e7c48b9b",
+      "core": 2,
+      "passed": true
+    },
+    {
+      "check": "independent oracle replays all actual train actions/events/labels exactly",
+      "core": 3,
+      "passed": true
+    },
+    {
+      "check": "independent oracle replays actual development actions/events/labels",
+      "core": 3,
+      "passed": true
+    },
+    {
+      "check": "all8 training windows have shared-valid global differences including nonNOOP candidates",
+      "core": 3,
+      "passed": true
+    },
+    {
+      "check": "WM consumes exact flattened training windows and branches",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual WM update and checkpoint bytes bound",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual fresh process strict restore checkpoint/model/predictions recorded",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual actor optimizer update/checkpoint/frozen WM: G",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual paired rollout/masks independently hashed: G",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G:1",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G:2",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G:3",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G:4",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G:5",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G:6",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G:7",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G:8",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual actor optimizer update/checkpoint/frozen WM: G-WM",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual paired rollout/masks independently hashed: G-WM",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G-WM:1",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G-WM:2",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G-WM:3",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G-WM:4",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G-WM:5",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G-WM:6",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G-WM:7",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual minibatch binding G-WM:8",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "G/G-WM identical initial actor, minibatch seeds and indices",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "all8 actual G-WM adapter updates have finite positive gradients and changed chained states",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "real checkpoint ZIP contains optimizer state: n2_pipeline/world_model.pt",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "real checkpoint ZIP contains optimizer state: n2_pipeline/checkpoints/G/round_01.pt",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "real checkpoint ZIP contains optimizer state: n2_pipeline/checkpoints/G_WM/round_01.pt",
+      "core": 4,
+      "passed": true
+    },
+    {
+      "check": "actual SQLite counted work complete with exact reservations and totals",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "actual environment work decomposes source+branches+oracle+policy+development",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "actual WM work matches receipts and cache accounting",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "final worker complete and all7stages successfully settled",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "actual guardian worker exits0 and no monitoring or budget failure",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "final work snapshot succeeds before closed ledger and exactly matches readonlySQLite",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "handoffcontext and one-time authorization consumption bind same actualInvocationPID",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "native startup and final resourcejournal bind sameInvocation service release02",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "formal runtime identity binds actual runroots and same reviewed source map",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "stage receipt binds actual run identity input_admission",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "stage receipt binds actual run identity paired_consequence_collection",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "stage receipt binds actual run identity world_model_training",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "stage receipt binds actual run identity checkpoint_restore",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "stage receipt binds actual run identity graph_policy_training",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "stage receipt binds actual run identity development_evaluation",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "stage receipt binds actual run identity settlement_and_export",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "actual resource totals within authorized limits and original prior is included",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "all57downloaded original files match native remoteSHAinventory",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "authoritative final outer-guardian-adjusted live ledger has7successful entries, exact finalreceipt and invocationwall reconciliation",
+      "core": 5,
+      "passed": true
+    },
+    {
+      "check": "all15export payload files and cutoff resourceledger snapshot match manifest and final receipt hash",
+      "core": 5,
+      "passed": true
+    }
+  ],
+  "checks_failed": 0,
+  "checks_passed": 66,
+  "decision": "PASS",
+  "full_run_pass": true,
+  "limitations": [
+    "This bounded engineering closure demonstrates working collection/training/restore/optimizer/accounting; development evaluation is diagnostic, not final scientific efficacy evidence.",
+    "No nonzero other-order lateness claimed; shared-valid differences observed in energy, utility and unmet demand.",
+    "Local3.14 replay uses explicit target3.11 left-to-right sum for exact targetfloat labels; candidate unmodified.",
+    "No remote action, training or new checkpoint restore run was performed by reviewer."
+  ],
+  "mustfix_count": 0,
+  "review_scope": "Original five core scientific evidence checks plus actual final ledger/terminal binding. No additional research gates.",
+  "schema": "n02-public-final-review/1",
+  "source_review_sha256": "a9c03df92dcdef3a99d51f11ee8649957adfcdea218d8a45c548199224f55c87"
+}

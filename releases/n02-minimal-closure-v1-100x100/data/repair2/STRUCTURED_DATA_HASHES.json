@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "compression": "gzip level 9, mtime 0, empty filename",
+      "public_path": "data/repair2/training_windows.json.gz",
+      "public_sha256": "7082692932b7d0dae038123ff7173a9c18840cb525e77af1a4057cc1618fb17e",
+      "public_size_bytes": 655159,
+      "raw_sha256": "3819089980e6520b51c8df278175e573c868e7efe8460394e4b8a7d70d5c2f05",
+      "raw_size_bytes": 19342091,
+      "source_path": "training_windows.json"
+    },
+    {
+      "compression": "gzip level 9, mtime 0, empty filename",
+      "public_path": "data/repair2/training_branches.jsonl.gz",
+      "public_sha256": "ad15ef27b97d6ccd148c651a80984babfa4bd9fdb6918f4a3f8d311b014f907c",
+      "public_size_bytes": 217580,
+      "raw_sha256": "f67d7f6282d594b10bf1f02a9adcadf808126c8dec4f7225c51a2f074a4077af",
+      "raw_size_bytes": 2824651,
+      "source_path": "training_branches.jsonl"
+    },
+    {
+      "compression": "gzip level 9, mtime 0, empty filename",
+      "public_path": "data/repair2/development_windows.json.gz",
+      "public_sha256": "f306b912869cf2f95e1e952d44fde113f1fe22b86628fd32d36afd3918e6f6c2",
+      "public_size_bytes": 265470,
+      "raw_sha256": "999477c1e42ffe32c8508408a7a38d827bb6bce3afa8ce7d188e805573a2854f",
+      "raw_size_bytes": 7904601,
+      "source_path": "development_windows.json"
+    },
+    {
+      "compression": "gzip level 9, mtime 0, empty filename",
+      "public_path": "data/repair2/parents.json.gz",
+      "public_sha256": "19f138f582f767c1a3d4aa82548f32e03ee309f949553d185efd188c55cbb484",
+      "public_size_bytes": 2248,
+      "raw_sha256": "bbbe70491c242d8beec2c6be9d66f455a307eb8df99552e6bdded24be058b3c5",
+      "raw_size_bytes": 28841,
+      "source_path": "parents.json"
+    },
+    {
+      "compression": "gzip level 9, mtime 0, empty filename",
+      "public_path": "data/repair2/rollouts/G/round_01.jsonl.gz",
+      "public_sha256": "b6987b42307e5548756b42ffaef0f0c6e1ede17afcdd2fad3c00fc096b5a485b",
+      "public_size_bytes": 47837,
+      "raw_sha256": "193816be04a1d6d28a25166bfa145bf8ee3ecb10a6b439f90045e0e8521b67e3",
+      "raw_size_bytes": 1551031,
+      "source_path": "rollouts/G/round_01.jsonl"
+    },
+    {
+      "compression": "gzip level 9, mtime 0, empty filename",
+      "public_path": "data/repair2/rollouts/G_WM/round_01.jsonl.gz",
+      "public_sha256": "dfd213aa788be265312d834b90ac08fc229dbd7c29aaadaf6609235d5a46272b",
+      "public_size_bytes": 53425,
+      "raw_sha256": "230eea19cd51523fed5b0ee4fa807fd22e41cbc4fac2a6626d5b1c9e968fc99e",
+      "raw_size_bytes": 1558231,
+      "source_path": "rollouts/G_WM/round_01.jsonl"
+    }
+  ],
+  "schema": "n02-public-data-hashes/1"
+}

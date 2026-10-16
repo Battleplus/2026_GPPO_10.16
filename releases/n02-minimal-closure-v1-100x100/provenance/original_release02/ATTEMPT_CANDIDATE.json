@@ -1,0 +1,16 @@
+{
+  "attempt_started": false,
+  "attempt_state": "candidate_identity_only_no_attempt_created",
+  "candidate_attempt_identity_sha256": "a574c7749967f37b25d32c93060039470b6adf3a0c8b820bf4c5a875ea371ddf",
+  "candidate_request_identity_sha256": "6383ec9db93e1463b4ed74f804a245f603d03a1e0a50f068b8c411d220a61c26",
+  "checkpoint_written": false,
+  "independent_review": "pending",
+  "map_contract": "relief-grid-100x100-v1",
+  "outer_release_id": "n02-minimal-closure-formal-execution-20261016-02",
+  "package_release": "ch2_disaster_relief_n02_minimal_closure_v1_100x100_repair1",
+  "protocol_id": "n02-minimal-closure-v1-100x100-repair1",
+  "schema": "n02-attempt-identity/1",
+  "server_submission": "not_performed",
+  "stage_protocol": "n02-minimal-closure-v1-100x100-repair1/seven-stage",
+  "training_or_rollout": "not_run"
+}
