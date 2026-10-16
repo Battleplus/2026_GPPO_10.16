@@ -1,0 +1,16 @@
+# Exact relative paths approved for the current archive-preparation snapshot.
+# Source and runtime evidence packages remain excluded pending independent review.
+README.md
+ROADMAP.md
+STATUS.md
+ACCEPTANCE_MATRIX.md
+ARCHIVE_RULES.md
+HASH_PROVENANCE.md
+PUBLIC_ALLOWLIST.txt
+PUBLIC_CHECK_RESULT.md
+history/prior-v5-failure/FAILURE_SUMMARY.md
+history/gate-a-review/SOL_GATE_A_SUMMARY.md
+protocols/FROZEN_CPU_RUNTIME_SPEC.json
+protocols/CPU_KERNEL_WITNESS.md
+tools/public_archive_check.py
+tools/cpu_runtime_witness.py

@@ -1,0 +1,26 @@
+{
+  "schema": "n02-public-cpu-runtime-expectation/1",
+  "state": "UNMEASURED",
+  "scope": "target-runtime expectation for independent preflight; not a measurement receipt",
+  "requirements": {
+    "python": "3.11.16",
+    "pytorch": "2.7.0+cu128",
+    "numpy": "1.26.0",
+    "device": "cpu",
+    "cpu_affinity": [
+      0
+    ],
+    "torch_threads": 1,
+    "CUDA_VISIBLE_DEVICES": "",
+    "gpu_initialized": false,
+    "seed": 8201
+  },
+  "evidence_required": [
+    "independent seeded CPU kernel witness output",
+    "measured runtime identity receipt",
+    "validated resource ledger",
+    "matching package SHA-256 verification"
+  ],
+  "readiness_rule": "Do not declare the target environment ready until an independent agent executes the witness and validates all required receipts. Import success alone is insufficient.",
+  "contract_boundary": "This public expectation schema is separate from the package runtime contract and does not replace or rewrite it."
+}
