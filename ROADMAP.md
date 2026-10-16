@@ -2,7 +2,7 @@
 
 ## Objective
 
-Complete and independently audit the N02 disaster-relief reallocation loop:
+Complete and independently audit the five user-selected N02 minimal-closure checks:
 
 ```text
 100x100 scenario
@@ -17,7 +17,11 @@ Complete and independently audit the N02 disaster-relief reallocation loop:
 -> public GitHub archive
 ```
 
-After the minimum engineering closure passes, run the full event-triggered reconstruction study, baselines, multiple scales, three seeds, and an independent confirmation set.
+Full paper experiments, additional scales, multiple seeds, and a confirmation set are future work. They are outside this archive's current scope and are not to be started as part of the current minimal-closure work.
+
+## Current execution boundary
+
+The frozen candidate is `ch2_disaster_relief_n02_minimal_closure_v1_100x100_bhook_20261016`. Sol passed the local synthetic Gate A review with 19 local tests. The bounded target diagnostic unit completed expected success, normal-failure, and guardian-kill cases, and the measured same-unit prior-cost receipt replay was accepted. Sol independently passed bounded Node B diagnostics and the measured receipt. No formal authorization, real consequence collection, WM training/restore, or PPO update has occurred. See `STATUS.md` and the de-identified review summaries for exact limits. The only active objective is to complete and independently review the five core checks in `ACCEPTANCE_MATRIX.md`.
 
 ## Roles and identity rules
 
@@ -30,25 +34,25 @@ After the minimum engineering closure passes, run the full event-triggered recon
 
 ## Stage 0: inventory and freeze
 
-Use the v5 package only as the authorization-entry baseline and the v4 100x100 package as the algorithm baseline. Record reuse and non-reuse decisions, source manifests, and SHA-256 values. Exclude bytecode, unrelated historical datasets and checkpoints, old identities, credentials, and private server material. Sol confirms the baseline boundary before the candidate advances.
+Historical v4/v5 packages served only as local development baselines. The current candidate identity and local source manifest are recorded separately in `HASH_PROVENANCE.md`. Candidate source remains outside this public preparation directory pending independent publication review.
 
-Expected evidence: `REUSE_INVENTORY.md`, `NON_REUSABLE_ASSETS.md`, `BASELINE_SOURCE_MANIFEST.json`, and `BASELINE_HASHES.json`.
+Historical inventory artifacts remain part of the private development record. This public preparation archive exposes only de-identified identities and summaries.
 
 ## Stage A: local 100x100 repair and acceptance
 
-Audit Python, JSON, fixtures, and registered data. Enforce `rows=100`, `cols=100`, `grid_cells=10000`, and `grid_contract=relief-grid-100x100-v1`. Check coordinates, distances, summaries, platforms, tasks, public prefixes, graph nodes, world-model inputs, and checkpoint metadata. The user approved adapting the existing public-information C1 allocator as a civilian initial-assignment generator. Record its algorithm source, inputs, seed, version, output, and hashes; verify valid allocations, input sensitivity, and hidden-future invariance. Do not call this the original Chapter 1 MILP. Validate real local 2x2 spatial state change, legal candidate/full-action/key binding, recomputable labels, and the G-WM interface.
+Gate A is complete for the local synthetic boundary. Sol independently passed C1-derived public initial allocation, causal 2x2 perturbation, NOOP/non-target independent recomputation, and the local L1/WM/G-WM interface checks. The core suite recorded 19 passing tests. See `history/gate-a-review/SOL_GATE_A_REPAIR1_SUMMARY.md` for the de-identified evidence and provenance. This does not establish any real data collection, WM training/restore, or PPO update.
 
-Run the local suite with `python -B -m pytest -q package/tests`, plus AST, JSON, registry, dimension, bytecode, manifest, and hash checks. Acceptance requires the map contract to be exercised in calculations; invalid dimensions to be rejected; the C1-derived initial allocation to run; spatial perturbations and at least two legal, consequentially different candidates to be replayable; and labels to be recomputable against an independent state/event oracle. Include a NOOP reference and a synthetic case with a consequence for a non-target third order. Ensure training, recovery, and evaluation construct the actual L1 graph policy and prove its message-passing path runs. Validate the auxiliary critic and frozen world-model gradient contracts synthetically. A passing local test count alone is insufficient.
+The local acceptance record includes the required map, allocation, spatial, candidate, independent-oracle, L1, and synthetic gradient checks. The exact reviewed outcome is summarized in `history/gate-a-review/SOL_GATE_A_REPAIR1_SUMMARY.md`; do not treat a future re-run or test count by itself as a replacement for independent review.
 
-Expected evidence: static report, synthetic acceptance, map-contract report, C1 provenance and allocation output, spatial perturbation and consequence probes, L1 path probe, local test output, source manifest, SHA256 list, and candidate request/attempt identities. Sol independently decides whether Stage A passes. Pending prior-cost measurement, real PPO updates, and real world-model training/recovery belong to later gates and are not prerequisites for local Stage A.
+The original local package has static, synthetic, map-contract, C1, spatial, oracle, L1, manifest, and hash evidence. Sol's Gate A decision is `PASS`. Real PPO updates and real world-model training/recovery remain pending in C4, not local Gate A requirements.
 
 ## Stage B: server deployment and unauthenticated preflight
 
-Only after Stage A passes, deploy to a new staging location and verify package hashes and the target runtime. The expected runtime is Python 3.11.16, PyTorch 2.7.0+cu128, NumPy 1.26.0, CPU affinity `[0]`, one Torch thread, empty `CUDA_VISIBLE_DEVICES`, and an uninitialized GPU. Execute the separate CPU kernel witness in `protocols/CPU_KERNEL_WITNESS.md` and capture a measured runtime receipt.
+After Gate A passed, one bounded unauthorized diagnostic unit completed. It exercised expected success, controlled normal failure, and guardian kill. A measured same-unit prior-cost receipt replay was accepted by the package parser. Sol independently passed bounded Node B diagnostics and the measured receipt. This does not complete the full runtime witness or authorize formal execution.
 
-Run unauthenticated preflight, engineering smoke, controlled failure, and guardian-kill checks. Confirm StageServer, BudgetLedger, systemd, memory, disk, thread limits, timeout, and exit state. Unauthenticated preflight must not create a formal token, attempt, training run, formal SQLite database, checkpoint, or model output. Engineering smoke may create explicitly diagnostic-only SQLite data or test artifacts; each must have separate diagnostic identity, be charged to the resource ledger, and never be presented as formal research data. Produce and validate a measured `PRIOR_RESOURCE_COST.json` before any formal run. An import-only check is not a runtime pass. No compute-ledger evidence is currently available; an independent agent must perform and record these measurements before declaring the environment ready.
+The completed cases returned the expected success and failure statuses and the guardian killed the controlled case. Systemd recorded success, exit 0, and zero restarts. The prior-cost parser replay recorded 2.391625 seconds wall and 0.821315 seconds CPU for the same successful diagnostic unit; this excludes earlier failed units and transport/probe costs. No formal token, attempt, training run, checkpoint, or research output was created. See `history/server-diagnostics/SOL_B_DIAGNOSTIC_SUMMARY.md`.
 
-Expected evidence: preflight report, runtime identity, smoke report, resource ledger, prior-cost receipt, deployment receipt, and service receipts. Sol reviews server identity and resource gates. The current runtime witness state is `UNMEASURED`.
+Node B bounded diagnostics and receipt review passed. The next formal release must capture the full runtime in the actual worker and receive its own identity review before research starts.
 
 ## Stage C: fresh formal release and authorization binding
 
@@ -72,7 +76,7 @@ Acceptance requires measured optimizer updates that match the ledger, a complete
 
 Run one training round per group, two real training episodes per group, at most eight PPO updates per group, and the same development parent. Initialize actor parameters in pairs and keep episodes, rewards, and PPO settings matched. G uses the graph critic. G-WM uses a frozen world model with an auxiliary critic.
 
-Record logits, log probabilities, values, GAE, losses, auxiliary gradient norm, parameter changes, and checkpoint hashes. Both groups must complete real PPO updates; the auxiliary critic must have finite nonzero gradients and change its parameters; world-model parameters must not change; and the actor must not be directly modified by the world model. The actual G/G-WM L0MLP path is currently a repair item and must pass this gate before any result is claimed.
+When this future minimum-closure stage is authorized, record logits, log probabilities, values, GAE, losses, auxiliary gradient norm, parameter changes, and checkpoint hashes. Both groups must complete real PPO updates; the auxiliary critic must have finite nonzero gradients and change its parameters; world-model parameters must not change; and the actor must not be directly modified by the world model. Local Gate A verified the synthetic L1/WM/G-GWM interface only; this does not establish a real update.
 
 ## Stage G: final independent review
 
@@ -80,7 +84,7 @@ Sol checks the 100x100 calculation path, Chapter 1 allocation, dynamic 2x2 pertu
 
 ## Stage H: public archive
 
-Freeze each accepted node, run the allowlist privacy checker, generate public-sanitized hashes, obtain Sol review, and then let the main coordinator authorize the matching archive branch and tag. Never overwrite an earlier result. A failed node may be preserved in a reviewed failure archive without a success tag. See `ARCHIVE_RULES.md`.
+Freeze each accepted node, run the allowlist privacy checker, generate public-sanitized hashes, obtain Sol publication review, and then require explicit main-coordinator authorization before any repository mutation. Branches or tags are not implied by this roadmap. Never overwrite an earlier result. See `ARCHIVE_RULES.md`.
 
 Proposed public layout after the relevant review gates pass:
 
@@ -92,9 +96,9 @@ evidence/node-d-world-model/  node-e-g-gwm/  node-f-independent-review/
 reports/  history/prior-v5-failure/  history/gate-a-review/
 ```
 
-## Stage I: full paper experiment
+## Future work only: full paper experiment (out of current scope)
 
-Begin only after `ENGINEERING_PASS`. Implement and compare event-triggered local/global reconstruction, minimum trigger interval, strong-event triggers, affected-task/platform identification, constraint repair, communication disturbance, periodic reallocation, auction, greedy, graph GPPO, and G-WM. Evaluate 2x2, 4x4, and 8x8 scales with three seeds and an independent confirmation set; produce statistical analysis, paper tables/figures, and method audit.
+Do not start this work under the current five-check authorization. It requires a separate future scope decision after the complete minimum engineering closure and independent review.
 
 ## Final deliverables
 

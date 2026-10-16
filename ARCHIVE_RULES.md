@@ -1,39 +1,21 @@
-# GitHub Archive Rules
+# Public Archive Rules
 
 Target repository: `Battleplus/2026_GPPO_10.16`.
 
-## Branches
+## Current publication boundary
 
-| Branch | Creation condition |
-| --- | --- |
-| `main` | Main coordinator accepts the repository-wide state after independent review; it must not imply a success beyond the reviewed nodes |
-| `archive/n02-gate-a-repair-20261016` | Sol reviews the de-identified Gate A `REPAIR` summary and archive-preparation documents; this branch contains no candidate source and receives no success tag |
-| `archive/n02-local-100x100-20261016` | Stage 0/A passes Sol review after A1/A2/A3/A5/A7 repairs; source and reports are privacy-scanned and their public hashes are generated |
-| `archive/n02-server-preflight-20261016` | Stage B receipts pass Sol review, including measured CPU witness and prior resource-cost receipt |
-| `archive/n02-consequence-data-20261016` | Stage D collection, replay, label recomputation, split, and settlement pass Sol review |
-| `archive/n02-world-model-20261016` | Stage E training, checkpoint, recovery, and metrics pass Sol review |
-| `archive/n02-g-gwm-20261016` | Stage F actual G/G-WM PPO, L1 graph-policy wiring, gradient/parameter, fairness, and checkpoint audits pass Sol review |
-| `archive/n02-minimal-closure-20261016` | Stage G returns `ENGINEERING_PASS` for the complete minimum closure |
-| `archive/n02-full-event-trigger` | Stage I full experiment and independent confirmation review pass |
+The current preparation snapshot may contain only the exact files in `PUBLIC_ALLOWLIST.txt`. It is a de-identified record of local Gate A evidence, bounded diagnostics, their limits, and pending work. Candidate source and raw operational evidence remain excluded pending independent publication review.
 
-If a node receives `REPAIR` or `STOP`, preserve reviewed sanitized failure evidence on a clearly named failure/repair branch, for example `archive/n02-gate-a-repair-20261016`. Do not add the node's success tag. Never rewrite an earlier branch to make it appear that a later repair was present in the old snapshot.
+Sol passed the local synthetic Gate A review. The completed server unit was a bounded unauthorized diagnostic, and its prior-cost receipt replay was accepted. The independent final B gate review and independent publication review are pending. Do not present this snapshot as a formal run, completed minimum closure, research result, or source approval.
 
-## Tags
+## Content and privacy checks
 
-Create a tag only after the corresponding node has passed independent review and the main coordinator has authorized publication:
+Before proposing any public snapshot, run `tools/public_archive_check.py` against the explicit allowlist. Reject private keys, credentials, authorization contents, personal absolute paths, private host/IP/user values, raw operational logs, SQLite files, bytecode, model artifacts, and unreviewed source. Do not copy candidate source into this archive unless source and configuration have passed separate review and privacy checks.
 
-- `n02-local-v1`: Stage 0/A accepted.
-- `n02-preflight-v1`: Stage B accepted.
-- `n02-consequence-v1`: Stage D accepted.
-- `n02-world-model-v1`: Stage E accepted.
-- `n02-g-gwm-v1`: Stage F accepted.
-- `n02-minimal-closure-v1`: Stage G returns `ENGINEERING_PASS`.
-- `n02-paper-experiment-v1`: Stage I and its confirmation review pass.
+Keep original evidence hashes, canonical identities, public summary-file hashes, and the public inventory hash in separate fields. A hash of a redacted summary does not replace the original evidence hash. The inventory hash covers the exact allowlisted file bytes and is recorded outside the snapshot to avoid self-reference.
 
-No branch or tag is authorized by this preparation directory. Current Gate A is `REPAIR`, so no success branch or tag is eligible yet. A failure/repair branch may preserve only reviewed, sanitized evidence.
+## Branches and tags
 
-## Public content and identity
+No branch name, commit, or tag is authorized by this preparation document. A proposed preparation commit must contain only the allowlisted snapshot and must receive independent publication review before publication. Do not create a success tag while the final B review and C4 real-run evidence are pending. Any later public node must be reviewed and frozen as its own snapshot; never rewrite a prior snapshot to imply evidence that was not present then.
 
-Use an explicit file allowlist and run `tools/public_archive_check.py` before every proposed archive snapshot. Reject private keys, actual high-entropy credentials, credential paths/configuration, personal absolute paths, private host/IP/user values, SQLite files, bytecode, large raw logs, and unreviewed or incompatible weights. Generic prose that says `token` is not itself a secret. Reviewed SHA-256 values, unauthorized request candidates, and literal placeholders may be published when each file is explicitly allowlisted. The checker skips only root `.git` metadata; nested Git metadata remains disallowed.
-
-Keep the original local artifact hash and each public-sanitized artifact hash in distinct fields. A redacted report hash never replaces the original source hash, and a local source hash is not evidence that the source is cleared for publication. Recompute public manifests after redaction. Do not copy source into this archive until the independent source review and privacy review pass. If runnable configuration contains private paths, separate that configuration from public source or publish a reviewed template as a distinct artifact with its own public hash. Never describe a path-redacted source copy as the source that produced the original run; preserve the original byte hash and the public sanitized/template hash as separate identities.
+Full paper experiments, additional scales, multiple seeds, and confirmation studies are outside the current five-check minimal-closure scope. They are future work and are not authorized by this archive preparation.

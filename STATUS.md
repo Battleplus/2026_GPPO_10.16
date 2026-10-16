@@ -1,37 +1,31 @@
-# N02 Current Status
+# N02 Minimal Closure Status
 
 Last updated: 2026-10-16
 
-## 中文状态摘要
+## Current candidate
 
-Sol 冻结版本 Gate A 初审为 `REPAIR`，不得进入 B。Repair 1 正在完成用户批准的 C1 民用初始分配器及 2x2 空间扰动、L1 图策略、单一 protocol 与 NOOP/非目标订单全局后果补证。L1 和统一 protocol 修复第一步的 6 项定向测试已通过，但尚未由 Sol 复审，不等于 Gate A 通过；冻结候选原有 10 项本地测试通过也不等于 A 通过。
+The active frozen development candidate is `ch2_disaster_relief_n02_minimal_closure_v1_100x100_bhook_20261016`. Sol's independent Gate A review returned `PASS`; the scoped local suite recorded 19 passing tests. This establishes local synthetic Gate A evidence only.
 
-GitHub 目标仓库已确认是 public、empty、admin；本地仅有归档准备文档和工具，未复制源码、未 push、未建分支或打标签。服务器网络已恢复，但加密 SSH 私钥仍待用户解锁；目标 CPU runtime witness 为 `UNMEASURED`。
+## Five core checks
 
-## Current gate
+| Check | State | Evidence boundary |
+| --- | --- | --- |
+| C1-derived public-information initial assignment | PASS | Civilian C1-derived generator, provenance, public-input responsiveness, and hidden-future invariance were independently checked locally. It is not described as the original Chapter 1 MILP. |
+| Causal 2x2 spatial perturbation | PASS | Synthetic truth-state perturbation, delayed public report, and local-boundary checks passed; this is not collected server data. |
+| NOOP and non-target consequence oracle | PASS | Independent synthetic recomputation found a non-zero effect on a non-target order and global utility. |
+| Actual consequences, WM restore, and G/G-WM PPO | PENDING | No formal consequence collection, real WM training or new-process restore, or real PPO update has run. |
+| Independent review | PARTIAL | Sol passed Gate A. Sol also passed bounded Node B; publication review remains pending. |
 
-The frozen Stage 0/A candidate received Sol's initial Gate A verdict `REPAIR`; Stage B is not authorized. Repair 1 is in progress. The user approved adapting the existing public-information C1 allocator as a civilian initial-assignment generator and documenting its provenance. This is not the original Chapter 1 MILP. The local archive-preparation directory contains documents and privacy/runtime tools only; no candidate source was copied here.
+## Bounded server diagnostics
 
-The frozen local report records 46 package files, a 100x100 contract (`10,000` cells), 11 registered maps checked, 4 synthetic candidates, 0 bytecode candidates, and 10 local tests passing in 2.95 seconds. The candidate also records a synthetic auxiliary-gradient probe of `14.2723015`, actor-head gradient maximum `0`, and world-model gradient maximum `0` with the world model frozen. These are local synthetic/static observations, not server or training evidence.
+The actual diagnostic unit `70b6495fa8b74135872bbf6b961ae9c2` completed on the target. Its success case returned 0, its controlled normal-failure case returned 1, and its guardian-kill case recorded the expected child termination. The systemd unit reported success, exit 0, and no restarts. Sol's diagnostic evidence review recorded these as bounded unauthorized diagnostics, not a formal research run.
 
-The initial review identifies local Stage A repair items A1, A2, A3, A5, and A7: generate the initial assignment from the approved C1-derived civilian allocator; implement an actual 2x2 spatial state perturbation; use and exercise the L1 graph policy in training/recovery/evaluation construction; align the stage protocol across identity and runtime components; and add NOOP-referenced, independently recomputed global consequences including a non-target third order. The scope addendum assigns prior-cost runtime measurement to B, real PPO updates to F, and world-model training/recovery to E. These later-stage artifacts are not Stage A prerequisites.
+The measured prior-cost receipt for this same diagnostic unit replayed successfully in the package parser: 2.391625 seconds wall time and 0.821315 seconds CPU time. The totals do not include the separately indexed earlier failed units, transport, or unrelated probes. Sol independently passed bounded Node B diagnostics and the measured receipt.
 
-Explicit evidence limits in the frozen candidate remain:
+No formal authorization was created. No real consequence data was collected, no world-model checkpoint was trained or restored, and no PPO update was run. A passing diagnostic does not imply research execution or efficacy.
 
-- The frozen candidate has only a synthetic initial-assignment handoff; its optimizer was not run. The approved C1 adaptation is still in repair and must be named as C1-derived, not as the original Chapter 1 MILP.
-- The 2x2 block is contract-checked only; dynamic spatial perturbation causality was not simulated.
-- The local test result does not prove Stage A. Sol's review returned `REPAIR`; A1/A2/A3/A5/A7 remain open while repair 1 is underway.
-- The actual G/G-WM L0MLP integration needs repair. The synthetic critic gradient probe does not close that issue.
-- No collected consequence data, world-model training, checkpoint recovery, or real PPO update has been completed for this candidate.
+## Publication boundary
 
-## Server and prior attempt
+This preparation directory contains only allowlisted documents and review summaries. Candidate source and raw operational evidence remain outside it. Their original and canonical identities are distinguished in [HASH_PROVENANCE.md](HASH_PROVENANCE.md); public summary-file hashes are generated separately by the allowlist checker. The public repository is `Battleplus/2026_GPPO_10.16`, but independent publication review remains pending. No success tag is supported by the current state.
 
-Server network access has recovered, but the local SSH private key is encrypted and awaits user unlock. No server connection or preflight has been made from this archive-preparation task. No `.aris/compute` ledger evidence exists yet. The public CPU runtime protocol is `UNMEASURED`; a separate agent must execute it, capture a witness and resource ledger, and have those receipts reviewed before declaring the environment ready. Successful imports alone do not pass this gate. The protocol schema is separate from, and does not replace, the package's existing runtime contract.
-
-The prior v5 formal-run attempt was rejected by the running process guardian at the prior-cost gate before the research worker started, because measured prior resource cost was missing. No world-model or PPO updates occurred. Its request, attempt, authorization, and run identity are historical and cannot be reused. A de-identified summary is in `history/prior-v5-failure/FAILURE_SUMMARY.md`.
-
-## Identity and publication boundary
-
-The frozen local candidate `SOURCE_MANIFEST.json` raw-byte SHA-256 is `a88b75ff4b9b5b21d18267c9eeda8b726c559ca93ddf2ca398f2b08ba91d6f2a`. Its embedded canonical manifest SHA-256 is `32c526ce2e626bbc4f88a172a2ac09adf1a508acffbbe17cf31a16e0f6f30f6d`. These are different hash forms for different representations. Neither is a public-sanitized source hash or release approval. The public-sanitized inventory hash produced by `tools/public_archive_check.py` covers only the files in `PUBLIC_ALLOWLIST.txt`; it is a separate artifact identity and must never be substituted for the local source hash.
-
-No formal token or authorization has been created for the new candidate. No GitHub push, branch, or tag has been made from this directory. The GitHub repository remains an empty/admin destination. A success branch or tag is not eligible while Gate A is `REPAIR`; after correction, Sol must pass the gate and the main coordinator must authorize publication.
+Full paper experiments, extra scales, multiple seeds, and confirmation studies are future work and are outside this five-check minimal-closure scope.

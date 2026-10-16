@@ -10,6 +10,8 @@ PUBLIC_ALLOWLIST.txt
 PUBLIC_CHECK_RESULT.md
 history/prior-v5-failure/FAILURE_SUMMARY.md
 history/gate-a-review/SOL_GATE_A_SUMMARY.md
+history/gate-a-review/SOL_GATE_A_REPAIR1_SUMMARY.md
+history/server-diagnostics/SOL_B_DIAGNOSTIC_SUMMARY.md
 protocols/FROZEN_CPU_RUNTIME_SPEC.json
 protocols/CPU_KERNEL_WITNESS.md
 tools/public_archive_check.py

@@ -1,25 +1,28 @@
-# N02 Disaster Relief Reallocation Archive
+# N02 Minimal Closure Archive Preparation
 
-This directory prepares a public archive for `Battleplus/2026_GPPO_10.16`. It records the N02 execution plan, current evidence boundaries, public archive rules, and privacy checks.
+This directory prepares a de-identified public archive for `Battleplus/2026_GPPO_10.16`. It records the five core checks, reviewed local Gate A evidence, bounded server diagnostics, remaining work, and archive privacy rules. Candidate source and raw operational evidence remain outside this directory pending independent publication review.
 
-## 中文状态摘要
+## Current state
 
-Sol 对冻结候选的 Gate A 初审结论为 `REPAIR`，当前不得进入 Stage B。Repair 1 正在进行：用户已批准将公开信息 C1 分配器改造成民用初始分配生成器，需明确算法来源且不能称为原 Chapter 1 MILP；同时修复 2x2 空间扰动、L1 图策略和 protocol 一致性，并补充 NOOP 与非目标订单的全局后果证据。Repair 1 的 L1/统一 protocol 首步已有 6 项定向测试通过，但尚未由 Sol 复审，不代表 Gate A 通过。冻结候选原有 10 项本地测试通过也不等于 A 通过。
+The frozen development candidate is `ch2_disaster_relief_n02_minimal_closure_v1_100x100_bhook_20261016`. Sol independently passed Gate A with 19 local tests and verified the first three synthetic core checks. A bounded server diagnostic completed successfully for its expected success, normal-failure, and guardian-kill cases. Sol's independent review passed bounded Node B diagnostics and the measured receipt. The measured prior-cost receipt replay was accepted by the package parser; it records 2.391625 seconds wall and 0.821315 seconds CPU for that same diagnostic unit only.
 
-目标 GitHub 仓库已确认为 public、empty、admin；本地目录只准备文档和工具，尚无源码，也未执行 push、建分支或打标签。B 的网络已恢复，但加密 SSH 私钥仍待用户解锁；目标运行时规格保持 `UNMEASURED`。
+Formal real-data consequence collection, world-model training and new-process recovery, and real PPO updates have not run. No formal authorization has been created. These are the remaining minimum-closure gates; this preparation does not claim research efficacy or a complete engineering closure.
 
-**Current state:** Sol's initial Gate A verdict is `REPAIR`; Stage B is not authorized. Repair 1 is underway. The public archive contains preparation documents and tools only; it does not contain the candidate source package. No GitHub branch, tag, or push has been created from this directory.
+## Five core checks
 
-The 10 passing local tests are evidence for a local synthetic engineering candidate. They do not establish Stage A acceptance, dynamic 2x2 perturbation causality, a measured server runtime, world-model training, or real PPO updates. The user approved adapting the existing public-information C1 allocator as a civilian initial-assignment generator with explicit provenance; this must not be described as the original Chapter 1 MILP. The actual G/G-WM L0MLP integration also needs repair.
+1. C1-derived public-information civilian initial assignment with recorded algorithm provenance; this is not a claim to have run the original Chapter 1 MILP.
+2. Synthetic causal 2x2 spatial perturbation with delayed public reporting and boundary checks.
+3. NOOP-referenced, independently recomputed consequences including a non-target order.
+4. Actual consequences, world-model training and strict restore, and paired G/G-WM PPO updates, all still pending as real runs.
+5. Sol independent review of the evidence and proposed archive; local Gate A passed, while bounded Node B passed; publication review remains pending.
 
-Start with:
+## Review records
 
-- [ROADMAP.md](ROADMAP.md): full execution sequence and gates.
-- [STATUS.md](STATUS.md): current evidence and blockers.
-- [ACCEPTANCE_MATRIX.md](ACCEPTANCE_MATRIX.md): evidence required at each gate.
-- [ARCHIVE_RULES.md](ARCHIVE_RULES.md): public branch and tag conditions.
-- [history/gate-a-review/SOL_GATE_A_SUMMARY.md](history/gate-a-review/SOL_GATE_A_SUMMARY.md): de-identified review and phase-scope addendum.
-- [protocols/CPU_KERNEL_WITNESS.md](protocols/CPU_KERNEL_WITNESS.md): target CPU runtime witness protocol.
-- [history/prior-v5-failure/FAILURE_SUMMARY.md](history/prior-v5-failure/FAILURE_SUMMARY.md): de-identified failed-attempt record.
+- [STATUS.md](STATUS.md): evidence and remaining boundaries.
+- [ACCEPTANCE_MATRIX.md](ACCEPTANCE_MATRIX.md): five checks and their current states.
+- [history/gate-a-review/SOL_GATE_A_REPAIR1_SUMMARY.md](history/gate-a-review/SOL_GATE_A_REPAIR1_SUMMARY.md): de-identified Gate A result and provenance.
+- [history/server-diagnostics/SOL_B_DIAGNOSTIC_SUMMARY.md](history/server-diagnostics/SOL_B_DIAGNOSTIC_SUMMARY.md): de-identified bounded diagnostic and accounting result.
+- [ROADMAP.md](ROADMAP.md): minimum-closure route; later full-study work is explicitly future work.
+- [ARCHIVE_RULES.md](ARCHIVE_RULES.md): public branch, tag, and content conditions.
 
-The allowlist checker audits only files explicitly listed in [PUBLIC_ALLOWLIST.txt](PUBLIC_ALLOWLIST.txt). A clean scan means the staged files passed that policy scan; it does not replace Sol review or the scientific acceptance gates.
+The allowlist checker audits only files listed in [PUBLIC_ALLOWLIST.txt](PUBLIC_ALLOWLIST.txt). A clean scan is a privacy-policy result for the staged snapshot; it does not replace scientific review, complete Gate B, or authorize publication.

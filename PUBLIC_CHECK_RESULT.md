@@ -1,9 +1,5 @@
-# Public Preparation Scan Result
+# Public Preparation Scan Record
 
-Scope: files explicitly listed in `PUBLIC_ALLOWLIST.txt` in this local archive-preparation directory. Candidate source and operational evidence are not included in this scan.
+The archive checker evaluates only the exact files listed in `PUBLIC_ALLOWLIST.txt`. Record each scan result with its per-file hashes and inventory hash in a receipt outside this directory. This file is itself allowlisted, so it intentionally does not embed a hash or a result for its own bytes.
 
-Frozen pre-review scan facts for 2026-10-16: the synthetic scanner self-check returned `PASS`; the archive policy scan returned `PASS_POLICY_SCAN` for 14 allowlisted files with zero findings. These are scan results for the preparation snapshot before it was frozen. They do not mean Sol approved Stage 0/A, the candidate source is ready for publication, the target runtime is measured, or a research gate passed.
-
-The final scan receipt, including the per-file hashes and public-sanitized inventory hash, is recorded outside this directory in the review handoff. This file is part of the 14-file inventory, so the inventory hash is kept only in that external receipt rather than embedded here; embedding it would change the scanned bytes and invalidate the receipt.
-
-This result excludes the candidate source and all operational server evidence. The public-sanitized inventory hash is distinct from local source and original artifact hashes.
+A passing policy scan means the staged preparation files satisfy the scanner rules and allowlist. It does not mean the independent final B review or publication review passed, candidate source was approved, formal research ran, or the minimum closure completed. Candidate source and raw operational evidence are excluded from this archive.
