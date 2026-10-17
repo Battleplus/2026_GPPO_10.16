@@ -1,0 +1,441 @@
+{
+  "schema": "n02-event-local-download-verification/1",
+  "created_utc": "2026-10-17T05:11:19.821618+00:00",
+  "attempt": "n02-event-v1-d0e59d2f21264863990169fe0874e764",
+  "source_manifest_sha256": "fc769fb36295501018afe43d7732684a5f3a843c13f591c786ac99e8f2f6ba09",
+  "expected_files": 143,
+  "hash_errors": [],
+  "policy_streams": [
+    {
+      "path": "POLICY/Event-G/seed_8201/development_n02-event-development-05-environment_perturbation.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Event-G/seed_8201/development_n02-event-development-06-mixed_events.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Event-G/seed_8201/ppo_updates.jsonl",
+      "rows": 112
+    },
+    {
+      "path": "POLICY/Event-G/seed_8201/rollout_rounds/round_01.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G/seed_8201/rollout_rounds/round_02.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G/seed_8201/rollout_rounds/round_03.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G/seed_8201/rollout_rounds/round_04.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G/seed_8201/rollouts.jsonl",
+      "rows": 960
+    },
+    {
+      "path": "POLICY/Event-G/seed_8202/development_n02-event-development-05-environment_perturbation.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Event-G/seed_8202/development_n02-event-development-06-mixed_events.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Event-G/seed_8202/ppo_updates.jsonl",
+      "rows": 112
+    },
+    {
+      "path": "POLICY/Event-G/seed_8202/rollout_rounds/round_01.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G/seed_8202/rollout_rounds/round_02.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G/seed_8202/rollout_rounds/round_03.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G/seed_8202/rollout_rounds/round_04.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G/seed_8202/rollouts.jsonl",
+      "rows": 960
+    },
+    {
+      "path": "POLICY/Event-G/seed_8203/development_n02-event-development-05-environment_perturbation.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Event-G/seed_8203/development_n02-event-development-06-mixed_events.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Event-G/seed_8203/ppo_updates.jsonl",
+      "rows": 112
+    },
+    {
+      "path": "POLICY/Event-G/seed_8203/rollout_rounds/round_01.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G/seed_8203/rollout_rounds/round_02.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G/seed_8203/rollout_rounds/round_03.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G/seed_8203/rollout_rounds/round_04.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G/seed_8203/rollouts.jsonl",
+      "rows": 960
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8201/development_n02-event-development-05-environment_perturbation.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8201/development_n02-event-development-06-mixed_events.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8201/ppo_updates.jsonl",
+      "rows": 112
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8201/rollout_rounds/round_01.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8201/rollout_rounds/round_02.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8201/rollout_rounds/round_03.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8201/rollout_rounds/round_04.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8201/rollouts.jsonl",
+      "rows": 960
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8202/development_n02-event-development-05-environment_perturbation.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8202/development_n02-event-development-06-mixed_events.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8202/ppo_updates.jsonl",
+      "rows": 112
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8202/rollout_rounds/round_01.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8202/rollout_rounds/round_02.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8202/rollout_rounds/round_03.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8202/rollout_rounds/round_04.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8202/rollouts.jsonl",
+      "rows": 960
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8203/development_n02-event-development-05-environment_perturbation.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8203/development_n02-event-development-06-mixed_events.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8203/ppo_updates.jsonl",
+      "rows": 112
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8203/rollout_rounds/round_01.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8203/rollout_rounds/round_02.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8203/rollout_rounds/round_03.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8203/rollout_rounds/round_04.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Event-G-WM/seed_8203/rollouts.jsonl",
+      "rows": 960
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8201/development_n02-event-development-05-environment_perturbation.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8201/development_n02-event-development-06-mixed_events.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8201/ppo_updates.jsonl",
+      "rows": 112
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8201/rollout_rounds/round_01.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8201/rollout_rounds/round_02.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8201/rollout_rounds/round_03.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8201/rollout_rounds/round_04.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8201/rollouts.jsonl",
+      "rows": 960
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8202/development_n02-event-development-05-environment_perturbation.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8202/development_n02-event-development-06-mixed_events.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8202/ppo_updates.jsonl",
+      "rows": 112
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8202/rollout_rounds/round_01.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8202/rollout_rounds/round_02.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8202/rollout_rounds/round_03.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8202/rollout_rounds/round_04.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8202/rollouts.jsonl",
+      "rows": 960
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8203/development_n02-event-development-05-environment_perturbation.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8203/development_n02-event-development-06-mixed_events.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8203/ppo_updates.jsonl",
+      "rows": 112
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8203/rollout_rounds/round_01.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8203/rollout_rounds/round_02.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8203/rollout_rounds/round_03.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8203/rollout_rounds/round_04.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G/seed_8203/rollouts.jsonl",
+      "rows": 960
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8201/development_n02-event-development-05-environment_perturbation.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8201/development_n02-event-development-06-mixed_events.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8201/ppo_updates.jsonl",
+      "rows": 112
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8201/rollout_rounds/round_01.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8201/rollout_rounds/round_02.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8201/rollout_rounds/round_03.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8201/rollout_rounds/round_04.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8201/rollouts.jsonl",
+      "rows": 960
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8202/development_n02-event-development-05-environment_perturbation.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8202/development_n02-event-development-06-mixed_events.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8202/ppo_updates.jsonl",
+      "rows": 112
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8202/rollout_rounds/round_01.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8202/rollout_rounds/round_02.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8202/rollout_rounds/round_03.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8202/rollout_rounds/round_04.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8202/rollouts.jsonl",
+      "rows": 960
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8203/development_n02-event-development-05-environment_perturbation.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8203/development_n02-event-development-06-mixed_events.jsonl",
+      "rows": 60
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8203/ppo_updates.jsonl",
+      "rows": 112
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8203/rollout_rounds/round_01.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8203/rollout_rounds/round_02.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8203/rollout_rounds/round_03.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8203/rollout_rounds/round_04.jsonl",
+      "rows": 240
+    },
+    {
+      "path": "POLICY/Periodic-G-WM/seed_8203/rollouts.jsonl",
+      "rows": 960
+    }
+  ],
+  "m1": {
+    "event": {
+      "rows": 360,
+      "triggered": 42,
+      "triggered_scope_counts": {
+        "GLOBAL_REPLAN": 42
+      },
+      "selected_action_scope_counts": {
+        "NOOP": 335,
+        "GLOBAL_REPLAN": 25
+      },
+      "effective_change_scope_counts": {
+        "GLOBAL_REPLAN": 25
+      }
+    },
+    "periodic": {
+      "rows": 360,
+      "triggered": 90,
+      "triggered_scope_counts": {
+        "GLOBAL_REPLAN": 77,
+        "LOCAL_REPAIR": 13
+      },
+      "selected_action_scope_counts": {
+        "GLOBAL_REPLAN": 21,
+        "NOOP": 326,
+        "LOCAL_REPAIR": 13
+      },
+      "effective_change_scope_counts": {
+        "GLOBAL_REPLAN": 17,
+        "LOCAL_REPAIR": 13
+      }
+    }
+  },
+  "severity_values": [
+    "light",
+    "moderate",
+    "strong"
+  ],
+  "m2_train_diversity": [
+    16,
+    16
+  ],
+  "m2_all_window_diversity": [
+    24,
+    24
+  ],
+  "scope": "Download integrity and structured-file parsing only; independent scientific/engineering verdict remains reviewer-owned."
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "n02-public-sol-review-summary/1",
+  "review_receipt_sha256": "bc69da8bc6fc7879c1282ce768156c0eee3d550003e2eabe33953132412de4ad",
+  "reviewed_utc": "2026-10-17T05:10:45Z",
+  "reviewer": "GPT-6.1 Sol High",
+  "result": "PASS",
+  "engineering": "ENGINEERING_PASS",
+  "scientific_claims": "UNVERIFIED",
+  "source": {
+    "release": "n02-event-trigger-v1-18f0ed76de7f433380d231b1dd28bb61",
+    "manifest_sha256": "fc769fb36295501018afe43d7732684a5f3a843c13f591c786ac99e8f2f6ba09",
+    "manifest_files": 73,
+    "manifest_mismatches": 0,
+    "runtime_manifest_match": true
+  },
+  "evidence_integrity": {
+    "expected_hashes": 143,
+    "matching_hashes": 143,
+    "mismatches": 0
+  },
+  "map_contract": {
+    "rows": 100,
+    "cols": 100,
+    "grid_cells": 10000,
+    "grid_contract": "relief-grid-100x100-v1",
+    "perturbation_shape": [2, 2]
+  },
+  "m1": {
+    "rows": 720,
+    "severity_counts": {
+      "light": 611,
+      "moderate": 103,
+      "strong": 6
+    },
+    "event_mode": {
+      "triggered": 42,
+      "triggered_scope_counts": {"GLOBAL_REPLAN": 42},
+      "effective_non_noop_global_actions": 25
+    },
+    "periodic_mode": {
+      "triggered": 90,
+      "triggered_scope_counts": {"LOCAL_REPAIR": 13, "GLOBAL_REPLAN": 77},
+      "effective_changes": {"LOCAL_REPAIR": 13, "GLOBAL_REPLAN": 17}
+    },
+    "local_repair_demonstrated_in": "periodic diagnostics only"
+  },
+  "m2": {
+    "planned_windows": 24,
+    "training_windows_with_two_distinct_legal_outcomes": 16,
+    "planned_windows_with_two_distinct_legal_outcomes": 24,
+    "oracle_recomputed_windows": 24,
+    "oracle_branches": 253,
+    "explicit_noop_in_every_window": true,
+    "producer_labels_read": false,
+    "out_of_tolerance_differences": 0
+  },
+  "m3": {
+    "world_model_members": 3,
+    "seeds": [8201, 8202, 8203],
+    "optimizer_updates_per_member": 80,
+    "fresh_process_restore": true
+  },
+  "m4": {
+    "policy_variants": ["Event-G", "Event-G-WM", "Periodic-G", "Periodic-G-WM"],
+    "seeds": [8201, 8202, 8203],
+    "optimizer_updates_per_variant_seed": 112,
+    "total_policy_updates": 1344,
+    "fresh_process_policy_restores": 12,
+    "all_gwm_auxiliary_gradient_updates_nonzero": true,
+    "world_model_frozen": true
+  },
+  "resource_settlement": {
+    "first_error": null,
+    "authorization_reused": false,
+    "run_reused": false,
+    "environment_steps": 21602,
+    "optimizer_updates_total": 1584,
+    "branches": 253,
+    "cpu_seconds": 3641.8501415,
+    "wall_seconds": 3648.8944513
+  },
+  "limitations": [
+    "Two held-out development parents and three seeds; comparisons are descriptive.",
+    "Event-G-WM changes both model-assisted trigger behavior and critic inputs; the critic effect is not isolated.",
+    "Engineering audit does not establish broad scientific efficacy or superiority."
+  ]
+}

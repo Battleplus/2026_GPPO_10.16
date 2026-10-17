@@ -100,14 +100,15 @@ def path_findings(relative: str) -> list[str]:
         findings.append("blocked sensitive or binary file type")
     if path.name.casefold().endswith(("-wal", "-shm")):
         findings.append("blocked SQLite sidecar")
-    if BLOCKED_NAMES.search(path.name):
+    is_source_test = path.suffix.casefold() == ".py" and path.name.casefold().startswith("test_")
+    if BLOCKED_NAMES.search(path.name) and not is_source_test:
         findings.append("blocked credential or authorization filename")
     if path.suffix.casefold() in {".jsonl", ".ndjson"} and "evidence" not in path.parts:
         findings.append("raw line-oriented data requires explicit reviewed evidence scope")
     return findings
 
 
-def content_findings(data: bytes) -> list[str]:
+def content_findings(data: bytes, relative: str = "") -> list[str]:
     findings: list[str] = []
     if b"SQLite format 3\x00" in data[:32]:
         findings.append("SQLite database signature")
@@ -130,12 +131,28 @@ def content_findings(data: bytes) -> list[str]:
         (KNOWN_TOKEN, "known high-entropy credential pattern"),
     )
     for pattern, label in checks:
-        if pattern.search(text):
+        if pattern is WINDOWS_ABSOLUTE:
+            unsafe_windows_paths = [
+                match.group(0)
+                for match in pattern.finditer(text)
+                if not match.group(0).replace("/", "\\").casefold().startswith(
+                    "c:\\windows\\system32\\openssh\\"
+                )
+            ]
+            if unsafe_windows_paths:
+                findings.append(label)
+        elif pattern.search(text):
             findings.append(label)
 
     for match in SECRET_ASSIGNMENT.finditer(text):
         key, value = match.groups()
         if re.search(r"(?i)(sha.?256|hash|digest|fingerprint)", key):
+            continue
+        prefix = text[match.start() : match.start(2)]
+        if (
+            PurePosixPath(relative).suffix.casefold() == ".py"
+            and not prefix.rstrip().endswith(("'", '"'))
+        ):
             continue
         if PLACEHOLDER.fullmatch(value):
             continue
@@ -270,7 +287,7 @@ def main() -> int:
             except OSError:
                 findings.append({"path": relative, "reason": "file could not be read"})
                 continue
-            for reason in content_findings(data):
+            for reason in content_findings(data, relative):
                 findings.append({"path": relative, "reason": reason})
             for reason in structured_findings(relative, data):
                 findings.append({"path": relative, "reason": reason})

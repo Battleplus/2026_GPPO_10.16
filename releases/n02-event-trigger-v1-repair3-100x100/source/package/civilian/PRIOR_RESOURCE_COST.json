@@ -1,0 +1,19 @@
+{
+  "schema": "n02-public-operational-evidence-withheld/1",
+  "package_release": "ch2_disaster_relief_n02_minimal_closure_v1_100x100_repair1",
+  "protocol_id": "n02-minimal-closure-v1-100x100-repair1",
+  "stage_protocol": "n02-minimal-closure-v1-100x100-repair1/seven-stage",
+  "stage_order": [
+    "input_admission",
+    "paired_consequence_collection",
+    "world_model_training",
+    "checkpoint_restore",
+    "graph_policy_training",
+    "development_evaluation",
+    "settlement_and_export"
+  ],
+  "measurement_status": "withheld",
+  "evidence_status": "not_included",
+  "portable_placeholder": true,
+  "note": "No measurements, evidence paths, or private diagnostics are included. This placeholder is not a resource-cost receipt and cannot authorize execution."
+}
