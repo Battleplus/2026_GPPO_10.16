@@ -1,0 +1,18 @@
+{
+  "constraints": [
+    "CPU PASS does not certify GPU behavior.",
+    "Actor and world-model effects include indirect influence through shared state, policy actions, and downstream transitions.",
+    "M1 Event has zero event-triggered LOCAL events; its event-triggered replans are GLOBAL.",
+    "M4 currently has two effective Event-G-WM LOCAL_REPAIR observations for seed 8201, round 1; interim only, pending complete integrity and final review.",
+    "Do not state final M4 counts or generalize the interim witnesses beyond this slice."
+  ],
+  "decision": "PASS_GPU_ENGINEERING_PRELAUNCH_ONLY",
+  "engineering_smoke": "PASS_SYNTHETIC_ENGINEERING_ONLY",
+  "formal_attempt": "n02-event-gpu-v1-c3cd21185f184855af2a8300bc3d572b",
+  "formal_results_review": "PENDING",
+  "formal_run": "ACTIVE_OR_PENDING_COMPLETION",
+  "m4_event_g_wm_effective_local_observations": 2,
+  "m4_interpretation": "Interim observation only; the complete run, final result summary, and independent Sol review are pending.",
+  "schema": "n02-public-gpu-prelaunch-summary/1",
+  "scientific_acceptance": "PENDING"
+}

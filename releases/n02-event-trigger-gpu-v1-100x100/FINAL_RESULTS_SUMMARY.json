@@ -1,0 +1,106 @@
+{
+  "schema": "n02-public-gpu-final-results-summary/1",
+  "attempt": "n02-event-gpu-v1-c3cd21185f184855af2a8300bc3d572b",
+  "run_status": "COMPLETE_INTEGRITY_VERIFIED",
+  "independent_final_review": "PENDING",
+  "integrity": {
+    "evidence_files_verified": 144,
+    "source_files_verified": 77,
+    "hash_mismatches": 0,
+    "unexpected_files": 0,
+    "source_manifest_sha256": "7907ee2acd32dd2271a40c816bb7616fbe4427e5e84096c5ee2ffb193219235d",
+    "evidence_manifest_sha256": "d1ec7285d2dbb4e222cfff9583ab0465561a75ba0662b34320de0e37b28649f0",
+    "evidence_archive_sha256": "d00f8ec237660608604432ffdbb5042f11a30e34a38c8d07a648ff084eefcc63",
+    "remote_evidence_hashes_sha256": "d1ec7285d2dbb4e222cfff9583ab0465561a75ba0662b34320de0e37b28649f0",
+    "gpu_execution_receipt_sha256": "d6801fde19bdc623a01dd45c7266ec6e00ff93ca29968bde781cd40e96d3ddc8"
+  },
+  "training": {
+    "world_model_checkpoints": 3,
+    "world_model_updates_per_checkpoint": 80,
+    "world_model_cuda_updates_total": 240,
+    "policy_checkpoints": 12,
+    "policy_updates_per_checkpoint": 112,
+    "policy_cuda_updates_total": 1344,
+    "development_episodes": 24,
+    "branches": 253,
+    "elapsed_minutes_rounded": 71,
+    "all_policy_updates_applied": true,
+    "all_policy_updates_cuda": true,
+    "event_g_wm_auxiliary_gradient_updates_per_seed": 112,
+    "periodic_g_wm_auxiliary_gradient_updates_per_seed": 112,
+    "plain_policy_auxiliary_gradient_updates": 0
+  },
+  "development_summary": {
+    "design": "descriptive; 3 seeds x 2 development parents = 6 cells per method",
+    "cells_present": 24,
+    "methods": {
+      "Periodic-G": {
+        "trigger_count_mean": 15.0,
+        "independently_verified_effective_count_mean": 2.1666666667,
+        "independently_verified_effective_count_valid_cells": 6,
+        "completion_mean": 0.8472222222,
+        "on_time_mean": 0.8472222222,
+        "delay_mean_minutes_per_original_task": 0.6944444444,
+        "unmet_mean_source_units": 7.5,
+        "critical_fail_mean": 0.0,
+        "utility_mean": 7.6583597188
+      },
+      "Event-G": {
+        "trigger_count_mean": 12.3333333333,
+        "independently_verified_effective_count_mean": 4.0,
+        "independently_verified_effective_count_valid_cells": 6,
+        "completion_mean": 0.8472222222,
+        "on_time_mean": 0.8333333333,
+        "delay_mean_minutes_per_original_task": 0.75,
+        "unmet_mean_source_units": 5.0,
+        "critical_fail_mean": 0.0,
+        "utility_mean": 6.8609714258
+      },
+      "Periodic-G-WM": {
+        "trigger_count_mean": 15.0,
+        "reported_effective_reconstruction_count_mean": 2.8333333333,
+        "independently_verified_effective_count_mean": 3.5,
+        "independently_verified_effective_count_valid_cells": 2,
+        "independently_verified_effective_count_missing_cells": 4,
+        "independently_verified_effective_count_lower_bound_mean": 2.8333333333,
+        "independently_verified_effective_count_upper_bound_mean": 3.5,
+        "completion_mean": 0.9583333333,
+        "on_time_mean": 0.9583333333,
+        "delay_mean_minutes_per_original_task": 0.2083333333,
+        "unmet_mean_source_units": 2.5,
+        "critical_fail_mean": 0.0,
+        "utility_mean": 9.9904167158
+      },
+      "Event-G-WM": {
+        "trigger_count_mean": 12.5,
+        "reported_effective_reconstruction_count_mean": 2.5,
+        "independently_verified_effective_count_mean": 2.0,
+        "independently_verified_effective_count_valid_cells": 3,
+        "independently_verified_effective_count_missing_cells": 3,
+        "independently_verified_effective_count_lower_bound_mean": 2.5,
+        "independently_verified_effective_count_upper_bound_mean": 3.0,
+        "completion_mean": 0.9583333333,
+        "on_time_mean": 0.9583333333,
+        "delay_mean_minutes_per_original_task": 0.2083333333,
+        "unmet_mean_source_units": 2.5,
+        "critical_fail_mean": 0.0,
+        "utility_mean": 9.9630905035
+      }
+    },
+    "receipt_gaps": 7,
+    "missing_effective_counts_remain_missing": true,
+    "risk_metric": "MISSING"
+  },
+  "interpretation_limits": [
+    "Descriptive evidence for three seeds and two development parents; no significance or broad superiority claim.",
+    "Event-G-WM changes trigger and critic together; the critic effect is not isolated.",
+    "A reduction in triggers does not establish fewer effective reconstructions.",
+    "Concrete non-NOOP actions without valid allocation receipts are not counted as verified effective changes.",
+    "Final scientific acceptance remains pending the independent final review receipt."
+  ],
+  "research_gate": {
+    "event_g_vs_periodic_g_effective_count_difference": 1.8333333333,
+    "event_g_criterion": "FAILS_ON_THIS_DESCRIPTIVE_SET",
+    "basis": "Event-G independently verified effective count mean 4.0 versus Periodic-G 2.1666666667 across six valid cells; this is descriptive and not a significance test."
+  }
+}

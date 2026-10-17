@@ -1,0 +1,23 @@
+{
+  "excluded_manifest_files": [
+    {
+      "reason": "Operational procedure references private runtime context and deployment steps; a public reproduction guide can be written after review.",
+      "source_path": "protocols/RUNTIME_INVOCATION.md",
+      "source_sha256": "8b02e04ee917fd5be3b2ad6e4d0671237097019baff965878e6ff7e5c5804396"
+    }
+  ],
+  "excluded_nonmanifest_paths": {
+    "CURRENT_GPU_RUN.md": "Contains private operational state and local command paths.",
+    "GPU_COMMANDS_ZH.md": "Contains operational commands and local paths.",
+    "LOCAL_STATIC_REPORT.json": "Local engineering report is retained as private evidence pending review.",
+    "REQUEST.json": "Execution request and identity binding are operational authorization material.",
+    "RUN_GPU_USER.cmd": "Local orchestration entrypoint may expose host-specific invocation details.",
+    "RUN_GPU_USER.ps1": "Local orchestration entrypoint may expose host-specific invocation details.",
+    "SHA256SUMS.txt": "Local source-side hash bundle is not part of the reviewed public snapshot.",
+    "SOURCE_MANIFEST.json": "Private source-side manifest is represented by the public identity and per-file source hash map.",
+    "evidence/**": "Private runtime evidence, raw state, and deployment artifacts are excluded.",
+    "reviews/**": "Original review records are retained privately; only a reviewed sanitized summary is staged."
+  },
+  "manifest_verified_file_count": 77,
+  "schema": "n02-public-gpu-source-exclusions/1"
+}

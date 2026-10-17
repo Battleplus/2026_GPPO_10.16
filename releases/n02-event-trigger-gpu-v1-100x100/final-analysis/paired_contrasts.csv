@@ -1,0 +1,49 @@
+contrast,method_a,method_b,metric,unit,mean_paired_difference_a_minus_b,mean_difference_lower_bound,mean_difference_upper_bound,valid_pairs,missing_pairs,total_matched_pairs,missing_pair_cells_json,interpretation
+Event-G minus Periodic-G,Event-G,Periodic-G,trigger_count,count,-2.6666666666666665,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G minus Periodic-G,Event-G,Periodic-G,reported_effective_reconstruction_count,count,1.8333333333333333,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G minus Periodic-G,Event-G,Periodic-G,independently_verified_effective_count,count,1.8333333333333333,1.8333333333333333,1.8333333333333333,6,0,6,[],descriptive paired difference only; no significance test
+Event-G minus Periodic-G,Event-G,Periodic-G,independently_verified_effective_count_lower_bound,count,1.8333333333333333,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G minus Periodic-G,Event-G,Periodic-G,independently_verified_effective_count_upper_bound,count,1.8333333333333333,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G minus Periodic-G,Event-G,Periodic-G,communication,count,2.0,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G minus Periodic-G,Event-G,Periodic-G,completion,fraction,-1.850371707708594e-17,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G minus Periodic-G,Event-G,Periodic-G,on_time,fraction,-0.013888888888888914,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G minus Periodic-G,Event-G,Periodic-G,delay,minutes per original task (source mean_delay),0.05555555555555555,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G minus Periodic-G,Event-G,Periodic-G,unmet,source units,-2.5,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G minus Periodic-G,Event-G,Periodic-G,critical_fail,fraction,0.0,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G minus Periodic-G,Event-G,Periodic-G,utility,reward units,-0.7973882929965564,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Event-G,Event-G-WM,Event-G,trigger_count,count,0.16666666666666666,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Event-G,Event-G-WM,Event-G,reported_effective_reconstruction_count,count,-1.5,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Event-G,Event-G-WM,Event-G,independently_verified_effective_count,count,-1.6666666666666667,-1.5,-1.0,3,3,6,"[""seed=8201|parent=n02-event-development-06-mixed_events"", ""seed=8202|parent=n02-event-development-06-mixed_events"", ""seed=8203|parent=n02-event-development-06-mixed_events""]",descriptive paired difference only; no significance test
+Event-G-WM minus Event-G,Event-G-WM,Event-G,independently_verified_effective_count_lower_bound,count,-1.5,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Event-G,Event-G-WM,Event-G,independently_verified_effective_count_upper_bound,count,-1.0,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Event-G,Event-G-WM,Event-G,communication,count,-1.6666666666666667,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Event-G,Event-G-WM,Event-G,completion,fraction,0.11111111111111109,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Event-G,Event-G-WM,Event-G,on_time,fraction,0.12499999999999999,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Event-G,Event-G-WM,Event-G,delay,minutes per original task (source mean_delay),-0.5416666666666666,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Event-G,Event-G-WM,Event-G,unmet,source units,-2.5,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Event-G,Event-G-WM,Event-G,critical_fail,fraction,0.0,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Event-G,Event-G-WM,Event-G,utility,reward units,3.10211907771215,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Periodic-G,Event-G-WM,Periodic-G,trigger_count,count,-2.5,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Periodic-G,Event-G-WM,Periodic-G,reported_effective_reconstruction_count,count,0.3333333333333333,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Periodic-G,Event-G-WM,Periodic-G,independently_verified_effective_count,count,-0.3333333333333333,0.3333333333333333,0.8333333333333334,3,3,6,"[""seed=8201|parent=n02-event-development-06-mixed_events"", ""seed=8202|parent=n02-event-development-06-mixed_events"", ""seed=8203|parent=n02-event-development-06-mixed_events""]",descriptive paired difference only; no significance test
+Event-G-WM minus Periodic-G,Event-G-WM,Periodic-G,independently_verified_effective_count_lower_bound,count,0.3333333333333333,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Periodic-G,Event-G-WM,Periodic-G,independently_verified_effective_count_upper_bound,count,0.8333333333333334,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Periodic-G,Event-G-WM,Periodic-G,communication,count,0.3333333333333333,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Periodic-G,Event-G-WM,Periodic-G,completion,fraction,0.11111111111111106,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Periodic-G,Event-G-WM,Periodic-G,on_time,fraction,0.11111111111111106,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Periodic-G,Event-G-WM,Periodic-G,delay,minutes per original task (source mean_delay),-0.4861111111111111,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Periodic-G,Event-G-WM,Periodic-G,unmet,source units,-5.0,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Periodic-G,Event-G-WM,Periodic-G,critical_fail,fraction,0.0,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Event-G-WM minus Periodic-G,Event-G-WM,Periodic-G,utility,reward units,2.3047307847155936,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Periodic-G-WM minus Periodic-G,Periodic-G-WM,Periodic-G,trigger_count,count,0.0,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Periodic-G-WM minus Periodic-G,Periodic-G-WM,Periodic-G,reported_effective_reconstruction_count,count,0.6666666666666666,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Periodic-G-WM minus Periodic-G,Periodic-G-WM,Periodic-G,independently_verified_effective_count,count,1.0,0.6666666666666666,1.3333333333333333,2,4,6,"[""seed=8202|parent=n02-event-development-05-environment_perturbation"", ""seed=8202|parent=n02-event-development-06-mixed_events"", ""seed=8203|parent=n02-event-development-05-environment_perturbation"", ""seed=8203|parent=n02-event-development-06-mixed_events""]",descriptive paired difference only; no significance test
+Periodic-G-WM minus Periodic-G,Periodic-G-WM,Periodic-G,independently_verified_effective_count_lower_bound,count,0.6666666666666666,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Periodic-G-WM minus Periodic-G,Periodic-G-WM,Periodic-G,independently_verified_effective_count_upper_bound,count,1.3333333333333333,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Periodic-G-WM minus Periodic-G,Periodic-G-WM,Periodic-G,communication,count,2.0,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Periodic-G-WM minus Periodic-G,Periodic-G-WM,Periodic-G,completion,fraction,0.11111111111111106,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Periodic-G-WM minus Periodic-G,Periodic-G-WM,Periodic-G,on_time,fraction,0.11111111111111106,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Periodic-G-WM minus Periodic-G,Periodic-G-WM,Periodic-G,delay,minutes per original task (source mean_delay),-0.4861111111111111,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Periodic-G-WM minus Periodic-G,Periodic-G-WM,Periodic-G,unmet,source units,-5.0,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Periodic-G-WM minus Periodic-G,Periodic-G-WM,Periodic-G,critical_fail,fraction,0.0,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test
+Periodic-G-WM minus Periodic-G,Periodic-G-WM,Periodic-G,utility,reward units,2.332056996989993,MISSING,MISSING,6,0,6,[],descriptive paired difference only; no significance test

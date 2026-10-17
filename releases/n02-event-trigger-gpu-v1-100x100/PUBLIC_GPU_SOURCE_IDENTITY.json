@@ -1,0 +1,11 @@
+{
+  "attempt": "n02-event-gpu-v1-c3cd21185f184855af2a8300bc3d572b",
+  "excluded_source_file_count": 1,
+  "formal_result": "COMPLETE_INTEGRITY_VERIFIED",
+  "independent_final_review": "PENDING",
+  "release": "n02-event-trigger-gpu-v1-4da7094c3be34d84972628ec3e276575",
+  "schema": "n02-public-gpu-source-identity/1",
+  "source_file_count": 77,
+  "source_manifest_sha256": "7907ee2acd32dd2271a40c816bb7616fbe4427e5e84096c5ee2ffb193219235d",
+  "staged_source_file_count": 76
+}

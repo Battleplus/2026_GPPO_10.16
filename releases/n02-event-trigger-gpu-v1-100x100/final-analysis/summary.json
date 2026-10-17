@@ -1,0 +1,39 @@
+{
+  "report_type": "independent_descriptive_summary",
+  "input_snapshot": "<private-input-snapshot>",
+  "label": "GPU-formal-final-snapshot-descriptive-analysis",
+  "expected_method_seed_parent_cells": 24,
+  "transition_cells_found": 24,
+  "method_summary_rows": 48,
+  "paired_contrast_rows": 48,
+  "producer_evaluation_cells_found": 24,
+  "transition_rows_without_allocation_receipts": 7,
+  "relevant_audit_artifacts_found": 12,
+  "all_24_cells_present": true,
+  "methods": [
+    "Periodic-G",
+    "Event-G",
+    "Periodic-G-WM",
+    "Event-G-WM"
+  ],
+  "seeds": [
+    8201,
+    8202,
+    8203
+  ],
+  "development_parents": [
+    "n02-event-development-05-environment_perturbation",
+    "n02-event-development-06-mixed_events"
+  ],
+  "counts_source": "raw n02-event-policy-transition JSONL; no producer computation modules imported",
+  "missing_policy": "Missing source field or artifact is the literal string MISSING; never inferred as zero.",
+  "interpretation_limits": [
+    "Trigger, requested reconstruction, concrete non-NOOP action count, reported effective count, and receipt-verified effective count are separate.",
+    "Concrete non-NOOP actions are not presumed effective; verification requires task-owner-change, queue-reorder, or valid before/after queue receipts.",
+    "Local/global scope selection is not proof of effective local/global allocation change.",
+    "No significance or broad superiority claim is made from three seeds and two development parents.",
+    "Event-G-WM changes trigger and critic together, so critic effects are not isolated.",
+    "A lower trigger count alone is not evidence of fewer actual reconstructions or better task outcomes.",
+    "A completed GPU run requires matching attempt/source identity and an external review receipt."
+  ]
+}

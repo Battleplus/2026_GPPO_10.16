@@ -1,0 +1,11 @@
+# GPU Formal Run Summary
+
+The formal GPU attempt completed, and its retrieved evidence passed integrity verification: all 144 evidence files and 77 source files matched, with no hash mismatches or unexpected files. The independent final review is still pending; this summary does not make an acceptance claim.
+
+The run recorded three world-model checkpoints with 80 CUDA updates each, 12 policy checkpoints with 112 CUDA updates each, 24 development episodes, and 253 branches. Total CUDA updates were 240 for the world model and 1,344 for policy. Elapsed run time was about 71 minutes.
+
+Development results cover four methods, three seeds, and two development parents (six cells per method). They are descriptive means, not significance tests or evidence of broad superiority. Event-G-WM changes both trigger and critic, so this comparison cannot isolate the critic effect. Trigger counts and effective reconstructions are distinct. Receipt-verified effective counts average 2.17 for Periodic-G and 4.00 for Event-G across six valid cells; Periodic-G-WM averages 3.50 across two valid cells (four missing), and Event-G-WM averages 2.00 across three valid cells (three missing). The respective lower/upper sensitivity means are 2.83/3.50 and 2.50/3.00; they are bounds, not imputed point estimates. Seven selected/requested actions lacked valid allocation receipts; missing exact counts are retained as `MISSING`.
+
+The accompanying JSON contains the selected descriptive means, integrity commitments, counts, and interpretation limits. Evidence remains private. The commitments identify the verified source manifest, evidence manifest, and archive by SHA-256 without including raw logs, checkpoints, runtime state, or machine paths. Selected v2 analysis tables and notes are included under `final-analysis/`; private absolute paths in those reviewed artifacts were replaced with `<private-input-snapshot>` for the public copy.
+
+On the stated Event-G research gate, the descriptive effective-count comparison fails this set: Event-G averages 4.00 independently verified effective changes versus 2.17 for Periodic-G, a difference of +1.83 across six valid cells. This is a negative gate result, not a statistical claim; the final Sol review remains pending.

@@ -1,0 +1,13 @@
+{
+  "schema": "n02-event-gpu-branch-modifications/1",
+  "source_release": "n02-event-trigger-v1",
+  "scope": "GPU execution plumbing only; event experiment design and scientific scale remain unchanged",
+  "baseline_derived_changes": {
+    "civilian/runtime-spec.json": {
+      "baseline_sha256": "1de2151bb9a85b73be90946c591b8274aa8d2739767274a5285e5d31353ca644",
+      "reason": "Describe CUDA world-model/PPO training on cuda:0 while environment simulation remains CPU."
+    }
+  },
+  "cpu_baseline_modified": false,
+  "old_checkpoints_or_runs_reused": false
+}

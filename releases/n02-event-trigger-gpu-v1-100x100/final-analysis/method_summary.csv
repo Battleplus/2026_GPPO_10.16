@@ -1,0 +1,49 @@
+method,metric,unit,mean,valid_cells,missing_cells,total_cells,interpretation
+Periodic-G,trigger_count,count,15.0,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G,reported_effective_reconstruction_count,count,2.1666666666666665,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G,independently_verified_effective_count,count,2.1666666666666665,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G,independently_verified_effective_count_lower_bound,count,2.1666666666666665,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G,independently_verified_effective_count_upper_bound,count,2.1666666666666665,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G,communication,count,11.666666666666666,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G,completion,fraction,0.8472222222222222,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G,on_time,fraction,0.8472222222222222,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G,delay,minutes per original task (source mean_delay),0.6944444444444444,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G,unmet,source units,7.5,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G,critical_fail,fraction,0.0,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G,utility,reward units,7.658359718789579,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G,trigger_count,count,12.333333333333334,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G,reported_effective_reconstruction_count,count,4.0,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G,independently_verified_effective_count,count,4.0,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G,independently_verified_effective_count_lower_bound,count,4.0,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G,independently_verified_effective_count_upper_bound,count,4.0,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G,communication,count,13.666666666666666,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G,completion,fraction,0.8472222222222222,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G,on_time,fraction,0.8333333333333334,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G,delay,minutes per original task (source mean_delay),0.75,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G,unmet,source units,5.0,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G,critical_fail,fraction,0.0,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G,utility,reward units,6.860971425793023,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G-WM,trigger_count,count,15.0,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G-WM,reported_effective_reconstruction_count,count,2.8333333333333335,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G-WM,independently_verified_effective_count,count,3.5,2,4,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G-WM,independently_verified_effective_count_lower_bound,count,2.8333333333333335,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G-WM,independently_verified_effective_count_upper_bound,count,3.5,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G-WM,communication,count,13.666666666666666,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G-WM,completion,fraction,0.9583333333333333,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G-WM,on_time,fraction,0.9583333333333333,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G-WM,delay,minutes per original task (source mean_delay),0.20833333333333334,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G-WM,unmet,source units,2.5,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G-WM,critical_fail,fraction,0.0,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Periodic-G-WM,utility,reward units,9.990416715779572,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G-WM,trigger_count,count,12.5,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G-WM,reported_effective_reconstruction_count,count,2.5,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G-WM,independently_verified_effective_count,count,2.0,3,3,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G-WM,independently_verified_effective_count_lower_bound,count,2.5,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G-WM,independently_verified_effective_count_upper_bound,count,3.0,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G-WM,communication,count,12.0,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G-WM,completion,fraction,0.9583333333333333,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G-WM,on_time,fraction,0.9583333333333333,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G-WM,delay,minutes per original task (source mean_delay),0.20833333333333334,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G-WM,unmet,source units,2.5,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G-WM,critical_fail,fraction,0.0,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means
+Event-G-WM,utility,reward units,9.963090503505173,6,0,6,descriptive mean across available method×seed×parent cells; not DEVELOPMENT_EVALUATION.descriptive_means

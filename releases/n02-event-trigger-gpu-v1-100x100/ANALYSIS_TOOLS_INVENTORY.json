@@ -1,0 +1,19 @@
+{
+  "schema": "n02-public-analysis-tools-inventory/1",
+  "tools": [
+    {
+      "bytes": 37279,
+      "origin_path": "development/ch2_disaster_relief_n02_event_trigger_v1_100x100_gpu/reviews/audit_event_consequences.py",
+      "public_path": "analysis/audit_event_consequences.py",
+      "public_sha256": "e83d20ca8200ccb0159e3ec5ad58cd29fe9e00a8ef79bfeb0fc346f670749230",
+      "source_sha256": "e83d20ca8200ccb0159e3ec5ad58cd29fe9e00a8ef79bfeb0fc346f670749230"
+    },
+    {
+      "bytes": 29761,
+      "origin_path": "development/n02_gpu_report_tools/summarize_run.py",
+      "public_path": "analysis/summarize_run.py",
+      "public_sha256": "4a9296843bf5e064ce0572713965886ceb165f55f96952f4a599c4e4bad4f7b0",
+      "source_sha256": "4a9296843bf5e064ce0572713965886ceb165f55f96952f4a599c4e4bad4f7b0"
+    }
+  ]
+}
