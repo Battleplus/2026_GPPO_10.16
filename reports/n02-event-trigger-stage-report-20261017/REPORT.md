@@ -116,6 +116,29 @@ GPU 运行实际完成了：
 
 因此，当前阶段应先固定触发与候选逻辑，再做 WM 消融和性能判断。
 
+### 6.1 一次预测、两处使用
+
+在同一个时间步、同一组候选动作上，世界模型只调用一次。一次 ensemble prediction 同时得到每个候选的后果预测均值、预测方差和候选标识，之后由两个模块复用同一份结果：
+
+```text
+生成候选动作
+      ↓
+世界模型 ensemble 预测一次
+      ↓
+      ├─ 提取 NOOP 预测效用和整体不确定性 → 事件触发指标 Γt
+      └─ 使用预测均值和方差特征 → auxiliary critic
+                                      ↓
+                              GPPO actor 选择动作
+```
+
+事件触发器不会直接从所有候选中挑选预测价值最高的动作。Event-G-WM 中，触发器主要使用 NOOP 的预测效用判断保持当前分配是否可能恶化，并使用预测方差表示不确定性；这些量参与 `d_degradation`、`d_uncertainty` 和最终的 `Γt`。随后同一份候选预测被送入 auxiliary critic。critic 输出与普通 GPPO critic 相加，供 PPO 的价值估计和训练使用。
+
+因此，当前链路不是“世界模型预测两次”，也不是“世界模型直接替 actor 选动作”，而是：
+
+> 每个决策时间步对当前候选集预测一次；同一份预测结果分别服务于事件触发判断和 auxiliary critic，最终动作仍由 GPPO actor 在合法动作掩码下选择。
+
+Periodic-G-WM 也会使用世界模型进入 auxiliary critic，但它的触发时机由周期规则控制；Event-G-WM 才会让世界模型摘要实际参与阈值触发判断。下一个时间步如果状态或候选集变化，会进行新的一次预测。
+
 ## 7. 失败原因的通俗解释
 
 本次系统表现为：**少叫几次重分配，但每次一叫就改得太大。**
@@ -188,5 +211,6 @@ GPU 运行实际完成了：
 - [方法汇总表](../../releases/n02-event-trigger-gpu-v1-100x100/final-analysis/method_summary.csv)
 - [配对比较表](../../releases/n02-event-trigger-gpu-v1-100x100/final-analysis/paired_comparison.csv)
 - [收据缺口表](../../releases/n02-event-trigger-gpu-v1-100x100/final-analysis/receipt_gaps.csv)
+- [世界模型—触发器—Critic 数据流说明](WORLD_MODEL_TRIGGER_CRITIC_DATAFLOW.md)
 
 原始运行日志、私有路径、checkpoint 和服务器凭据不随本汇报公开。
