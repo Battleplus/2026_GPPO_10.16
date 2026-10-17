@@ -1,0 +1,24 @@
+{
+  "archive_id": "n02-event-trigger-stage-report-20261017",
+  "project": "N02 event-triggered dynamic task reallocation",
+  "source_release": "n02-event-trigger-gpu-v1-100x100",
+  "archive_date": "2026-10-17",
+  "repository": "Battleplus/2026_GPPO_10.16",
+  "branch": "archive/n02-event-trigger-stage-report-20261017",
+  "contents": [
+    "REPORT.md",
+    "N02_事件触发式动态重构实验阶段性汇报.docx",
+    "SHA256SUMS.txt"
+  ],
+  "status": {
+    "engineering_run": "complete",
+    "research_gate": "failed",
+    "independent_final_sol_high_receipt": "pending",
+    "paper_scale_experiments": "paused"
+  },
+  "privacy": {
+    "private_paths_removed_from_public_markdown": true,
+    "credentials_and_tokens_included": false,
+    "raw_logs_and_checkpoints_included": false
+  }
+}
