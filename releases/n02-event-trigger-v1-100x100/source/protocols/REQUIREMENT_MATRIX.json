@@ -1,0 +1,213 @@
+{
+  "schema": "n02-event-requirement-matrix/1",
+  "scope": "Full new user event-triggerV1 specification; original fivecorecheckpass insufficient",
+  "requirements": {
+    "S01": {
+      "requirement": "100x100 contract, six parents split4train2dev,6platforms4UAV2heli,12tasks,three seeds,2x2,windows8/16/24/32",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "S02": {
+      "requirement": "Public heterogeneous nodes platform/task/environment; communication/assignment edges; no future hidden state inputs",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "D01": {
+      "requirement": "Task arrival/cancel/priority/deadline, platform failure/energy/capability/load, environment wind/obstacle/risk/passability, communication quality/loss/split affect actual execution",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "D02": {
+      "requirement": "Four severity categories plus state/degradation/margin/uncertainty are computed and logged",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "T01": {
+      "requirement": "Fixed weighted gamma; strong failure/critical arrival/networksplit bypass;4minute cooldown",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "T02": {
+      "requirement": "Training-only registered nonzero q.75 threshold, final frozen before dev; initial/final provenance explicit",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "T03": {
+      "requirement": "Each timestep logs event_type,severity,gamma,threshold,triggered,cooldown,strong,scope",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "A01": {
+      "requirement": "Affected direct/late/energy/dependency/cooperation tasks and owner/failure/replacement/onehop platforms",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "A02": {
+      "requirement": "Local limits6tasks4platforms connected safe; global failure/split/overflow/repairfailure/overlappingevents",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "A03": {
+      "requirement": "High-level NOOP/LOCAL_REPAIR/GLOBAL_REPLAN with light/strong action mask",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "C01": {
+      "requirement": "<=16 unique catalog: NOOP,C1,up to7local,up to7cross; transfer/swap/insertion and genuine action execution",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "C02": {
+      "requirement": "Public priority/slack/capability/distance/energy/comm/switch ranking; common prefix/snapshot/tape; stable key complete action",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "C03": {
+      "requirement": "Capability/stock/time/energy/communication feasibility and explicit rejection reason; constraint repair tests",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "W01": {
+      "requirement": "Graph encoder plus actual GRU/Transformer over public recent history and full candidate action",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "W02": {
+      "requirement": "Nextstate/progress/delay/energy/failure/communication/constraint/utility prediction heads and valid masks",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "W03": {
+      "requirement": "Independent ensemble seeds8201/8202/8203,40epochs,batch8,train-only normalization,checkpoint full state",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "W04": {
+      "requirement": "Newprocess strict restore predictions identical, variance finite, perhead MAE/MSE/BCE and coverage",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "W05": {
+      "requirement": "WM actual degradation/uncertainty/branch ranking/auxcritic; frozen and never changes actor logits directly",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "P01": {
+      "requirement": "Real hierarchical high/low actor decisions incl scope/platform/task scope and actual reconstruction",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "P02": {
+      "requirement": "Reward completion-delay-energy-risk-comm-switch-reconstruction,count and scale separate",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "P03": {
+      "requirement": "Four methods pairedinitial actor/tapes/parentorder/updates; same snapshot catalogs shared and closedloop differences honest",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "P04": {
+      "requirement": "Three policy seeds real PPO,logits,oldnewlogprob,value,GAE,losses,finite nonzero aux gradients/params,freezehash",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "P05": {
+      "requirement": "Policy checkpoints complete and freshprocess strict restore/inference equality",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "E01": {
+      "requirement": "M1 periodic/rule only no PPO; triggerdelay,cooldown,scope,comm/localglobal measured",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "E02": {
+      "requirement": "M2 paired30min branches windows8/16/24/32; labels independently recomputed NOOP and nontarget",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "E03": {
+      "requirement": "Stop before training unless80percent effective windows2plusdifferentlegalconsequences",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "E04": {
+      "requirement": "All taskmetrics completion/ontime/delay/unmet/criticalfailure/utility with denominators",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "E05": {
+      "requirement": "Reconstruction count/size/response/switch/localglobal/comm/runtime measured",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "E06": {
+      "requirement": "Energy/loadbalance/capabilityenergytimecommviolations/safetyrisk metrics",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "E07": {
+      "requirement": "WM metrics/rankingaccuracy/oraclehit/regret/unknown/uncertaintycalibration/gradientfreezeaudit",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "R01": {
+      "requirement": "Native Windows ssh/scp deployment/source SHA/runtime CPU1/new attempts/no oldcheckpoints/runreuse",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "R02": {
+      "requirement": "Workcounts plus time/resource settlement, failure preservation and output hashes",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "G01": {
+      "requirement": "Sol High readonly frozen source and actual evidence review with explicit PASS/REPAIR/STOP",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "G02": {
+      "requirement": "Compare Event counts lower than Periodic, no futureinputs,localglobal,budgetupdates,restore,coverage",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "G03": {
+      "requirement": "Negative efficacy honest; dev limited two types,not completepaper; no success claim from engineering",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "G04": {
+      "requirement": "Public newversion archive after privacy+hashreview with exact commit/branch/tag",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "P06": {
+      "requirement": "Executable conserved task split/cooperation and originaltask rollup; thirdchapter allocation handoff without flightplanning claim",
+      "status": "UNVERIFIED",
+      "evidence": []
+    },
+    "B01": {
+      "requirement": "After four core methods pass: execute periodicglobal,traditionalauction,greedydynamic; other four listed baseline families map to coremethods. Preserve conditional gate evidence if not entered.",
+      "status": "CONDITIONAL_PENDING_CORE_GATE",
+      "evidence": []
+    }
+  },
+  "required_artifacts": [
+    "EVENT_TRIGGER_CONFIG.json",
+    "THRESHOLD_MANIFEST.json",
+    "AFFECTED_SCOPE_REPORT.jsonl",
+    "CANDIDATE_RECONSTRUCTION_REPORT.json",
+    "EVENT_TRIGGER_LOG.jsonl",
+    "CANDIDATE_TABLE.jsonl",
+    "BRANCH_TRAJECTORIES.jsonl",
+    "CONSEQUENCE_LABELS.jsonl",
+    "WORLD_MODEL_ENSEMBLE_METRICS.json",
+    "G_GWM_COMPARISON.json",
+    "DEVELOPMENT_EVALUATION.json",
+    "RESOURCE_SETTLEMENT.json",
+    "SOL_HIGH_REVIEW.json",
+    "FINAL_EVENT_TRIGGER_REPORT.md"
+  ],
+  "created_utc": "2026-10-16T12:21:33.452018+00:00"
+}

@@ -1,0 +1,259 @@
+{
+  "data_boundary_audit": {
+    "affected_scope_rows": 720,
+    "affected_scope_triggered_rows": 132,
+    "all_truth_task_count_set": [
+      12
+    ],
+    "candidate_table_rows": 253,
+    "candidate_table_splits": {
+      "development": 82,
+      "train": 171
+    },
+    "consequence_label_rows": 24,
+    "consequence_labels_two_distinct_outcomes": 24,
+    "consequence_labels_valid_windows": 24,
+    "forbidden_input_key_hits": [],
+    "interpretation": "No raw_truth/private_binding/simulator_snapshot/reward/outcome keys were found in model sample or training observation payloads; event-tape and provenance identifiers are metadata.",
+    "m0_public_only_observations": true,
+    "producer_label_fields_read_false": true
+  },
+  "evidence_attempt": "n02-event-v1-310d73fcbd4044709ef1f6cb8e7f3a91",
+  "findings": [
+    "Complete snapshot independently verifies all 142 remote evidence hashes with zero missing, mismatched, or inaccessible files.",
+    "M2 gate passes on all 16 training windows and all 24 planned windows; development diversity remains report-only.",
+    "M3 ensemble training and fresh-process restore are complete; the final threshold is calibrated from train data with the world-model and frozen before development evaluation.",
+    "M4 contains four variants across three seeds, 112 paired updates per seed/method, 240 transitions per round, 12/12 policy restores, and unchanged frozen world-model parameters.",
+    "All 96 policy JSONL streams parse cleanly with expected row counts: 24 development files x60, 12 PPO logs x112, 48 round files x240, and 12 rollout files x960.",
+    "Development evaluation and G/G-WM comparison are explicitly descriptive and do not establish broad superiority or isolate the critic effect.",
+    "Engineering formal-evidence closure passes; scientific efficacy claims remain unverified and require separate statistical/scientific review."
+  ],
+  "hash_audit": {
+    "expected_manifest_entries": 142,
+    "inaccessible_count": 0,
+    "inaccessible_files": [],
+    "local_manifest_files_present": 142,
+    "manifest_schema": "n02-event-evidence-hashes/1",
+    "matching_count": 142,
+    "mismatch_count": 0,
+    "mismatches": [],
+    "missing_count": 0,
+    "missing_files": []
+  },
+  "policy_stream_audit": {
+    "all_policy_streams_valid": true,
+    "checkpoint_hashes_match_request_and_manifest": true,
+    "counts": {
+      "development_files": 24,
+      "development_rows": 1440,
+      "ppo_files": 12,
+      "ppo_rows": 1344,
+      "rollout_files": 12,
+      "rollout_rows": 11520,
+      "round_files": 48,
+      "round_rows": 11520
+    },
+    "files": 96,
+    "files_with_parse_or_row_count_errors": []
+  },
+  "prior_receipts": [
+    "reviews/SOL_RUNTIME_DOC_REVIEW.json",
+    "reviews/SOL_INDEPENDENT_PROBES.json",
+    "reviews/SOL_SOURCE_READINESS_REVIEW_REPAIR.json"
+  ],
+  "resource_settlement": {
+    "first_error": null,
+    "guardian": {
+      "child_cpu_seconds": 4002.980973,
+      "child_exit_code": 0,
+      "cpu_budget_exceeded": false,
+      "guardian_exit_code": 0,
+      "guardian_total_wall_seconds": 4008.927337655041,
+      "timed_out": false
+    },
+    "stages": {
+      "m0": "complete",
+      "m1": "complete",
+      "m2": "complete",
+      "m3": "complete",
+      "m4": "complete"
+    },
+    "totals": {
+      "branches": 253,
+      "cpu_seconds": 3997.8898072760003,
+      "environment_steps": 21602,
+      "optimizer_updates": 1584,
+      "policy_forwards": 112080,
+      "wall_seconds": 4005.7329710000195,
+      "world_model_forwards": 20514
+    }
+  },
+  "result_directory": "<local-path-redacted>",
+  "reviewed_release": "n02-event-trigger-v1-88e8d32fc167433c89c0832cb0b38f76",
+  "reviewed_utc": "2026-10-17T11:17:25.337847+08:00",
+  "reviewer": "GPT-6.1 Sol High independent read-only reviewer",
+  "runtime_identity": {
+    "config_sha256": "45b20d8069c016888d91db740b39c982e1ca65cd72b50d928f12210b3c9b0009",
+    "run_id": "5a64dfffee4744c88e8bffb81c6a55bb",
+    "runtime": {
+      "cpu_affinity": [
+        0
+      ],
+      "cuda_visible_devices": "",
+      "gpu_initialized": false,
+      "kernel_witness_finite": true,
+      "kernel_witness_sha256": "ff3d33d81ed68680c4338791244cfb6f647f7b76d93953c44e8c768402d84ce7",
+      "kernel_witness_shape": [
+        8,
+        8
+      ],
+      "numpy": "1.26.0",
+      "python": "3.11.16",
+      "seed": 8201,
+      "torch": "2.7.0+cu128",
+      "torch_threads": 1
+    },
+    "schema": "n02-event-runtime/1",
+    "source_files_verified": 73,
+    "source_manifest_sha256": "c0e1fce584bef6112844274ba31385eaa842f9720d6c2ea656f89a891759184c",
+    "systemd_invocation_id": "e80b37b6a2784125aa802282d115d44f"
+  },
+  "schema": "n02-sol-formal-evidence-review/2",
+  "scope": "Independent read-only audit of the complete formal M0-M4 evidence snapshot, resources, hashes, and information-boundary indicators. Source/config/frozen evidence were not modified.",
+  "snapshot_stability": {
+    "changes_between_relists": 0,
+    "local_file_count_including_hash_manifest": 143,
+    "observation_seconds": 10,
+    "relist_count_1": 143,
+    "relist_count_2": 143
+  },
+  "source_files_verified": 73,
+  "source_manifest_sha256": "c0e1fce584bef6112844274ba31385eaa842f9720d6c2ea656f89a891759184c",
+  "stage_assessment": {
+    "M0": {
+      "contract_checks": {
+        "candidate_identity_and_limit": true,
+        "development_threshold_input_rejected": true,
+        "noop_execution_and_repair": true,
+        "public_only_observations": true,
+        "scenario_validation": true,
+        "threshold_train_parent_ids": [
+          "n02-event-train-01-new_arrival",
+          "n02-event-train-02-platform_failure",
+          "n02-event-train-03-energy_drop",
+          "n02-event-train-04-communication_drop"
+        ]
+      },
+      "reported_status": "complete"
+    },
+    "M2": {
+      "candidate_rows_legal": 253,
+      "candidate_rows_rejected": 0,
+      "candidate_table_rows": 253,
+      "development_samples": 8,
+      "gate_passed": true,
+      "observed_windows": 24,
+      "planned_train_windows": 16,
+      "planned_windows": 24,
+      "reported_status": "complete",
+      "train_diversity_fraction": 1.0,
+      "train_windows_with_two_distinct_legal_outcomes": 16
+    },
+    "M3": {
+      "checkpoint_restore": {
+        "checkpoint_paths": [
+          "<server-path-redacted>",
+          "<server-path-redacted>",
+          "<server-path-redacted>"
+        ],
+        "ensemble_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "fresh_process": true,
+        "prediction_sha256": "8ba33f4a8476e1b1db9b4237108a06dcdd32cfe1e2ce620cbd55dc8cc09e5d13",
+        "status": "complete"
+      },
+      "development_sample_count": 8,
+      "development_unknown_fraction": 0.05464649583204693,
+      "ensemble_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+      "reported_status": "complete",
+      "threshold": {
+        "calibration_stage": "M3_final_world_model",
+        "frozen_before_development_evaluation": true,
+        "score_count": 240,
+        "source_parent_ids": [
+          "n02-event-train-01-new_arrival",
+          "n02-event-train-02-platform_failure",
+          "n02-event-train-03-energy_drop",
+          "n02-event-train-04-communication_drop"
+        ],
+        "source_split": "train",
+        "threshold": 0.40407885092742896,
+        "world_model_forward_calls_for_calibration": 720,
+        "world_model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "world_model_used": true
+      },
+      "training_sample_count": 16,
+      "training_unknown_fraction": 0.05396402398401066
+    },
+    "M4": {
+      "comparison_status": "descriptive_only",
+      "development_evaluation": {
+        "claim_scope": "first-round diagnostic six-parent comparison only",
+        "development_parent_count": 2,
+        "seed_count": 3,
+        "status": "complete"
+      },
+      "fresh_process_restore": {
+        "checkpoint_count": 12,
+        "status": "complete"
+      },
+      "paired_optimizer_updates_per_seed_method": 112,
+      "policy_restore_check": {
+        "all_checks_complete": true,
+        "checkpoint_count": 12,
+        "fresh_process": true,
+        "status": "complete"
+      },
+      "reported_status": "complete",
+      "runner_resource_counts": {
+        "environment_steps_development": 1440,
+        "environment_steps_training": 11520,
+        "optimizer_updates": 1344,
+        "policy_actor_and_critic_forwards_including_fresh_restore": 112080,
+        "policy_fresh_process_restore_forwards": 24,
+        "policy_same_process_checkpoint_restore_forwards": 24,
+        "world_model_forwards": 19476
+      },
+      "transition_count_minimum_by_round": [
+        240,
+        240,
+        240,
+        240
+      ],
+      "updates_per_epoch_by_round": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "variants": [
+        "Event-G",
+        "Event-G-WM",
+        "Periodic-G",
+        "Periodic-G-WM"
+      ],
+      "world_model_frozen": true,
+      "world_model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+      "world_model_parameter_changed": false
+    }
+  },
+  "verdict": {
+    "M0": "PASS",
+    "M2": "PASS",
+    "M3": "PASS",
+    "M4": "PASS",
+    "engineering": "ENGINEERING_PASS",
+    "repair_status": "NONE",
+    "scientific_claims": "UNVERIFIED"
+  },
+  "working_directory": "<local-path-redacted>"
+}

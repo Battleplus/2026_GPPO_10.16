@@ -1,0 +1,137 @@
+{
+  "analysis": {
+    "claim_scope": "first-round diagnostic six-parent comparison only",
+    "development_threshold_tuning": false,
+    "negative_result_policy": "report observed metrics; do not tune using development or claim superiority without evidence"
+  },
+  "collection": {
+    "branch_horizon": 30,
+    "max_candidates": 16,
+    "minimum_distinct_window_fraction": 0.8,
+    "seed": 8201,
+    "windows": [
+      8,
+      16,
+      24,
+      32
+    ]
+  },
+  "map": {
+    "cols": 100,
+    "grid_cells": 10000,
+    "grid_contract": "relief-grid-100x100-v1",
+    "rows": 100
+  },
+  "ppo": {
+    "clip_ratio": 0.2,
+    "device": "cpu",
+    "entropy_coefficient": 0.01,
+    "episodes_per_round": 4,
+    "epochs": 4,
+    "gae_lambda": 0.95,
+    "gamma": 0.99,
+    "learning_rate": 0.0003,
+    "max_updates": 128,
+    "minibatch_size": 32,
+    "rounds": 4,
+    "seeds": [
+      8201,
+      8202,
+      8203
+    ],
+    "variants": [
+      "Periodic-G",
+      "Event-G",
+      "Periodic-G-WM",
+      "Event-G-WM"
+    ]
+  },
+  "resolved_trigger": {
+    "calibration_split": "train",
+    "delta_min": 4,
+    "history_length": 4,
+    "local_platform_limit": 4,
+    "local_task_limit": 6,
+    "periodic_interval": 4,
+    "quantile": 0.75,
+    "threshold_quantile": 0.75,
+    "weights": {
+      "d_degradation": 0.3,
+      "d_margin": 0.25,
+      "d_state": 0.35,
+      "d_uncertainty": 0.1
+    }
+  },
+  "reward": {
+    "communication": 0.01,
+    "completion": 1.0,
+    "delay": 0.2,
+    "energy": 0.01,
+    "reconstruction": 0.05,
+    "reconstruction_scale": 0.01,
+    "risk": 0.25,
+    "switch": 0.05
+  },
+  "runtime": {
+    "cpu_affinity": [
+      0
+    ],
+    "cpu_budget_seconds": 6600,
+    "cuda_visible_devices": "",
+    "device": "cpu",
+    "memory_max_bytes": 8589934592,
+    "threads": 1,
+    "wall_timeout_seconds": 7200
+  },
+  "scenario": {
+    "development_parents": 2,
+    "helicopter": 2,
+    "horizon": 60,
+    "parents": 6,
+    "perturbation_shape": [
+      2,
+      2
+    ],
+    "tasks": 12,
+    "train_parents": 4,
+    "uav": 4
+  },
+  "schema": "n02-event-trigger-config/1",
+  "seeds": [
+    8201,
+    8202,
+    8203
+  ],
+  "source_config_path": "<server-path-redacted>",
+  "source_config_sha256": "45b20d8069c016888d91db740b39c982e1ca65cd72b50d928f12210b3c9b0009",
+  "trigger": {
+    "calibration_split": "train",
+    "delta_min": 4,
+    "history_length": 4,
+    "local_platform_limit": 4,
+    "local_task_limit": 6,
+    "periodic_interval": 4,
+    "quantile": 0.75,
+    "threshold_quantile": 0.75,
+    "weights": {
+      "d_degradation": 0.3,
+      "d_margin": 0.25,
+      "d_state": 0.35,
+      "d_uncertainty": 0.1
+    }
+  },
+  "version": "event-trigger-v1-100x100",
+  "world_model": {
+    "batch_size": 8,
+    "device": "cpu",
+    "epochs": 40,
+    "hidden_dim": 48,
+    "history_length": 4,
+    "learning_rate": 0.001,
+    "seeds": [
+      8201,
+      8202,
+      8203
+    ]
+  }
+}

@@ -1,0 +1,1866 @@
+{
+  "checks": {
+    "candidate_identity_and_limit": true,
+    "development_threshold_input_rejected": true,
+    "noop_execution_and_repair": true,
+    "public_only_observations": true,
+    "scenario_validation": true,
+    "threshold_train_parent_ids": [
+      "n02-event-train-01-new_arrival",
+      "n02-event-train-02-platform_failure",
+      "n02-event-train-03-energy_drop",
+      "n02-event-train-04-communication_drop"
+    ]
+  },
+  "development_parent_count": 2,
+  "initial_threshold_manifest": {
+    "calibration_stage": "M1_initial_diagnostic_no_world_model",
+    "config_sha256": "715433054aa92292620c5accab0f17dc715af31058a01e8c639ddedad14a6090",
+    "delta_min": 4,
+    "frozen_before_development_evaluation": true,
+    "quantile": 0.75,
+    "raw_positive_scores": [
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.03885412265552937,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 1,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.010605478132825957,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 2,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.010313316898480935,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 3,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.014379484330340383,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 4,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.056071353146540645,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 5,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.012055591020774728,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 6,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.009712626603180613,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 7,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.008771691486208183,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 8,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.02568287417481037,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 9,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.006970752929283535,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 10,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.006747291185429949,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 11,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.004321198036552108,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 12,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00441274238297029,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 13,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.004508981311256073,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 14,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.004610285446293739,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 15,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.005328488909679282,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 16,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.005456532160004211,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 17,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.005591778378409378,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 18,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.005734853080688814,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 19,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00588645638573728,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 20,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.0060473744821292,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 21,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006218493277231156,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 22,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006400814729518114,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 23,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.006336633762309675,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 24,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006532594118681283,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 25,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006742574061819433,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 26,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006968135208069617,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 27,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.007211080260176779,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 28,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.007473501446137978,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 29,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.007757841138429802,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 30,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.008066968387467384,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 31,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.008110718429188096,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 32,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.008458329341689858,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 33,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00884015635234762,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 34,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.009261529019282826,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 35,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00972894825582586,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 36,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.010250428094109131,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 37,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.010835965034868838,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 38,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.011498194502508621,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 39,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.0122533280898694,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 40,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.01312252334119717,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 41,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.014133940046979578,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 42,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.015325924461902861,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 43,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.01675212320512628,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 44,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.01849006127345237,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 45,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.020656312209657742,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 46,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.023435154911481987,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 47,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.027137503055974458,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 48,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.03233675447846052,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 49,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.040237832207628055,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 50,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.19966541834596163,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 51,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.054928765895072756,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 52,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.1355206110684312,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 53,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 54,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 55,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 56,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 57,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 58,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 59,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-01-new_arrival",
+        "time": 60,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.03885412265552937,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 1,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.010605478132825957,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 2,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.010313316898480935,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 3,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.014379484330340383,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 4,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.056071353146540645,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 5,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.012055591020774728,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 6,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.009712626603180613,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 7,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.008771691486208183,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 8,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.02568287417481037,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 9,
+        "wm_summary": null
+      },
+      {
+        "event_type": "platform_disturbance",
+        "gamma_value": 0.006970752929283535,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 10,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.006747291185429949,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 11,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.004321198036552108,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 12,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00441274238297029,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 13,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.004508981311256073,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 14,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.004610285446293739,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 15,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.005328488909679282,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 16,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.005456532160004211,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 17,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.005591778378409378,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 18,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.005734853080688814,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 19,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00588645638573728,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 20,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.0060473744821292,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 21,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006218493277231156,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 22,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006400814729518114,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 23,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.006336633762309675,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 24,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006532594118681283,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 25,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006742574061819433,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 26,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006968135208069617,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 27,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.007211080260176779,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 28,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.007473501446137978,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 29,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.007757841138429802,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 30,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.008066968387467384,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 31,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.008110718429188096,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 32,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.008458329341689858,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 33,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00884015635234762,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 34,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.009261529019282826,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 35,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00972894825582586,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 36,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.010250428094109131,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 37,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.010835965034868838,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 38,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.011498194502508621,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 39,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.0122533280898694,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 40,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.01312252334119717,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 41,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.014133940046979578,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 42,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.015325924461902861,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 43,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.01675212320512628,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 44,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.01849006127345237,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 45,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.020656312209657742,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 46,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.023435154911481987,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 47,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.027137503055974458,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 48,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.03233675447846052,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 49,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.040237832207628055,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 50,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.19966541834596163,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 51,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.054928765895072756,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 52,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.1355206110684312,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 53,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 54,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 55,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 56,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 57,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 58,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 59,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-02-platform_failure",
+        "time": 60,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.03885412265552937,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 1,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.010605478132825957,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 2,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.010313316898480935,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 3,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.014379484330340383,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 4,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.056071353146540645,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 5,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.012055591020774728,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 6,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.009712626603180613,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 7,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.008771691486208183,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 8,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.02568287417481037,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 9,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.006970752929283535,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 10,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.006747291185429949,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 11,
+        "wm_summary": null
+      },
+      {
+        "event_type": "platform_disturbance",
+        "gamma_value": 0.022569004717294894,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 12,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00441274238297029,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 13,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.004508981311256073,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 14,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.004610285446293739,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 15,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.005328488909679282,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 16,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.005456532160004211,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 17,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.005591778378409378,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 18,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.005734853080688814,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 19,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00588645638573728,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 20,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.0060473744821292,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 21,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006218493277231156,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 22,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006400814729518114,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 23,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.006336633762309675,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 24,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006532594118681283,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 25,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006742574061819433,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 26,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006968135208069617,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 27,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.007211080260176779,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 28,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.007473501446137978,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 29,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.007757841138429802,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 30,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.008066968387467384,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 31,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.008110718429188096,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 32,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.008458329341689858,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 33,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00884015635234762,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 34,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.009261529019282826,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 35,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00972894825582586,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 36,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.010250428094109131,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 37,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.010835965034868838,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 38,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.011498194502508621,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 39,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.0122533280898694,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 40,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.01312252334119717,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 41,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.014133940046979578,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 42,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.015325924461902861,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 43,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.01675212320512628,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 44,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.01849006127345237,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 45,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.020656312209657742,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 46,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.023435154911481987,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 47,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.027137503055974458,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 48,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.03233675447846052,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 49,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.040237832207628055,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 50,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.19966541834596163,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 51,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.054928765895072756,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 52,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.1355206110684312,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 53,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 54,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 55,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 56,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 57,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 58,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 59,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-03-energy_drop",
+        "time": 60,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.03885412265552937,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 1,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.010605478132825957,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 2,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.010313316898480935,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 3,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.014379484330340383,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 4,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.056071353146540645,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 5,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.012055591020774728,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 6,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.009712626603180613,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 7,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.008771691486208183,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 8,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.02568287417481037,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 9,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.006970752929283535,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 10,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.006747291185429949,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 11,
+        "wm_summary": null
+      },
+      {
+        "event_type": "execution_residual",
+        "gamma_value": 0.004321198036552108,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 12,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00441274238297029,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 13,
+        "wm_summary": null
+      },
+      {
+        "event_type": "communication_disturbance",
+        "gamma_value": 0.004508981311256073,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 14,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.004610285446293739,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 15,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.005328488909679282,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 16,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.005456532160004211,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 17,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.005591778378409378,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 18,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.005734853080688814,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 19,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00588645638573728,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 20,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.0060473744821292,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 21,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006218493277231156,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 22,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006400814729518114,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 23,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.10633663376230967,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 24,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006532594118681283,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 25,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006742574061819433,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 26,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.006968135208069617,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 27,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.007211080260176779,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 28,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.007473501446137978,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 29,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.007757841138429802,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 30,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.008066968387467384,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 31,
+        "wm_summary": null
+      },
+      {
+        "event_type": "task_disturbance",
+        "gamma_value": 0.008110718429188096,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 32,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.008458329341689858,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 33,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00884015635234762,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 34,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.009261529019282826,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 35,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.00972894825582586,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 36,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.010250428094109131,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 37,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.010835965034868838,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 38,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.011498194502508621,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 39,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.0122533280898694,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 40,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.01312252334119717,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 41,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.014133940046979578,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 42,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.015325924461902861,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 43,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.01675212320512628,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 44,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.01849006127345237,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 45,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.020656312209657742,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 46,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.023435154911481987,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 47,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.027137503055974458,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 48,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.03233675447846052,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 49,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.040237832207628055,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 50,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.19966541834596163,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 51,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.054928765895072756,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 52,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06052061106843119,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 53,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 54,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 55,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 56,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 57,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 58,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 59,
+        "wm_summary": null
+      },
+      {
+        "event_type": "none",
+        "gamma_value": 0.06318062828042786,
+        "parent_id": "n02-event-train-04-communication_drop",
+        "time": 60,
+        "wm_summary": null
+      }
+    ],
+    "schema": "event-threshold-manifest/1",
+    "score_count": 240,
+    "source_parent_ids": [
+      "n02-event-train-01-new_arrival",
+      "n02-event-train-02-platform_failure",
+      "n02-event-train-03-energy_drop",
+      "n02-event-train-04-communication_drop"
+    ],
+    "source_parents": [
+      "n02-event-train-01-new_arrival",
+      "n02-event-train-02-platform_failure",
+      "n02-event-train-03-energy_drop",
+      "n02-event-train-04-communication_drop"
+    ],
+    "source_split": "train",
+    "threshold": 0.027137503055974458,
+    "training_input_sha256": "f774e29ec284f45ac4a5a5c6041dfb801e7d5ee74ac7872d6ffae912313075d3",
+    "training_sequence_sha256": "f774e29ec284f45ac4a5a5c6041dfb801e7d5ee74ac7872d6ffae912313075d3",
+    "weights": {
+      "d_degradation": 0.3,
+      "d_margin": 0.25,
+      "d_state": 0.35,
+      "d_uncertainty": 0.1
+    },
+    "wm_summaries_used": false,
+    "world_model_degradation": 0.0,
+    "world_model_uncertainty": 0.0,
+    "world_model_used": false
+  },
+  "parent_count": 6,
+  "scenario_checks": [
+    {
+      "condition": "new_arrival",
+      "event_tape_id": "c9f558cd31f027f63cdefb4e15915b3320a6780a18e3cebe7a9a96174786e2a2",
+      "map": {
+        "cell_km": 1.0,
+        "cols": 100,
+        "grid_cells": 10000,
+        "grid_contract": "relief-grid-100x100-v1",
+        "local_block": [
+          40,
+          40,
+          2,
+          2
+        ],
+        "rows": 100
+      },
+      "parent_id": "n02-event-train-01-new_arrival",
+      "platform_count": 6,
+      "split": "train",
+      "task_count": 12
+    },
+    {
+      "condition": "platform_failure",
+      "event_tape_id": "675ce8354b078a94760613fdccc16a26758614f8ad1610a57b3ff7da125b0394",
+      "map": {
+        "cell_km": 1.0,
+        "cols": 100,
+        "grid_cells": 10000,
+        "grid_contract": "relief-grid-100x100-v1",
+        "local_block": [
+          40,
+          40,
+          2,
+          2
+        ],
+        "rows": 100
+      },
+      "parent_id": "n02-event-train-02-platform_failure",
+      "platform_count": 6,
+      "split": "train",
+      "task_count": 12
+    },
+    {
+      "condition": "energy_drop",
+      "event_tape_id": "e16a2c25da9dfde6ca3668cfac5b3c43a5a5610c30d36ee15b159414c9a40564",
+      "map": {
+        "cell_km": 1.0,
+        "cols": 100,
+        "grid_cells": 10000,
+        "grid_contract": "relief-grid-100x100-v1",
+        "local_block": [
+          40,
+          40,
+          2,
+          2
+        ],
+        "rows": 100
+      },
+      "parent_id": "n02-event-train-03-energy_drop",
+      "platform_count": 6,
+      "split": "train",
+      "task_count": 12
+    },
+    {
+      "condition": "communication_drop",
+      "event_tape_id": "8d376db1cba6536dc2f72c322326847ec45c8abb0056ff9d8b50ddde3ce82181",
+      "map": {
+        "cell_km": 1.0,
+        "cols": 100,
+        "grid_cells": 10000,
+        "grid_contract": "relief-grid-100x100-v1",
+        "local_block": [
+          40,
+          40,
+          2,
+          2
+        ],
+        "rows": 100
+      },
+      "parent_id": "n02-event-train-04-communication_drop",
+      "platform_count": 6,
+      "split": "train",
+      "task_count": 12
+    },
+    {
+      "condition": "environment_perturbation",
+      "event_tape_id": "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+      "map": {
+        "cell_km": 1.0,
+        "cols": 100,
+        "grid_cells": 10000,
+        "grid_contract": "relief-grid-100x100-v1",
+        "local_block": [
+          40,
+          40,
+          2,
+          2
+        ],
+        "rows": 100
+      },
+      "parent_id": "n02-event-development-05-environment_perturbation",
+      "platform_count": 6,
+      "split": "development",
+      "task_count": 12
+    },
+    {
+      "condition": "mixed_events",
+      "event_tape_id": "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+      "map": {
+        "cell_km": 1.0,
+        "cols": 100,
+        "grid_cells": 10000,
+        "grid_contract": "relief-grid-100x100-v1",
+        "local_block": [
+          40,
+          40,
+          2,
+          2
+        ],
+        "rows": 100
+      },
+      "parent_id": "n02-event-development-06-mixed_events",
+      "platform_count": 6,
+      "split": "development",
+      "task_count": 12
+    }
+  ],
+  "schema": "event-trigger-m0-report/1",
+  "status": "complete",
+  "train_parent_count": 4,
+  "training_sequence_sha256": "f774e29ec284f45ac4a5a5c6041dfb801e7d5ee74ac7872d6ffae912313075d3"
+}

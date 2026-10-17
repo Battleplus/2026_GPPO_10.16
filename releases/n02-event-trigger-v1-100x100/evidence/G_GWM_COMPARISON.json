@@ -1,0 +1,619 @@
+{
+  "comparisons": [
+    {
+      "left": "Event-G",
+      "metric_mean_differences_left_minus_right": {
+        "communication_messages": 1.666666666666666,
+        "completed_tasks": -0.16666666666666607,
+        "completion_rate": -0.01388888888888884,
+        "critical_failure_rate": 0.0,
+        "critical_failures": 0.0,
+        "effective_reconstruction_count": 2.6666666666666665,
+        "energy_used": 28.550238486226043,
+        "executed_requested_reconstruction_count": 2.6666666666666665,
+        "explicit_dispatch_count": 1.5,
+        "failed_tasks": 0.16666666666666666,
+        "global_utility": -1.6418077158918694,
+        "known_task_count": 0.0,
+        "load_balance": 0.0,
+        "mean_delay": 0.31944444444444453,
+        "on_time_rate": -0.02777777777777779,
+        "operational_dispatch_count": 0.5,
+        "reconstruction_count": 2.6666666666666665,
+        "reconstruction_size": 2.6666666666666665,
+        "requested_non_noop_decision_count": 2.6666666666666665,
+        "requested_reconstruction_count": 2.6666666666666665,
+        "seed": 0.0,
+        "task_count": 0.0,
+        "task_switch_count": 1.6666666666666667,
+        "ticks": 0.0,
+        "time": 0.0,
+        "total_reward": -1.6418077158918694,
+        "trigger_count": 1.6666666666666679,
+        "trigger_invocation_count": 1.6666666666666679,
+        "unmet_demand": -0.833333333333333,
+        "wall_seconds": -1.8100763943317961
+      },
+      "right": "Periodic-G"
+    },
+    {
+      "left": "Event-G-WM",
+      "metric_mean_differences_left_minus_right": {
+        "communication_messages": 0.3333333333333339,
+        "completed_tasks": 1.166666666666666,
+        "completion_rate": 0.09722222222222221,
+        "critical_failure_rate": 0.0,
+        "critical_failures": 0.0,
+        "effective_reconstruction_count": -1.1666666666666665,
+        "energy_used": -26.833951352801744,
+        "executed_requested_reconstruction_count": -0.833333333333333,
+        "explicit_dispatch_count": -0.16666666666666652,
+        "failed_tasks": -0.16666666666666666,
+        "global_utility": 3.194504835388263,
+        "known_task_count": 0.0,
+        "load_balance": 0.0,
+        "mean_delay": -0.6527777777777778,
+        "on_time_rate": 0.11111111111111116,
+        "operational_dispatch_count": 0.8333333333333339,
+        "reconstruction_count": -1.1666666666666665,
+        "reconstruction_size": -1.1666666666666665,
+        "requested_non_noop_decision_count": -0.833333333333333,
+        "requested_reconstruction_count": -0.833333333333333,
+        "seed": 0.0,
+        "task_count": 0.0,
+        "task_switch_count": -1.6666666666666667,
+        "ticks": 0.0,
+        "time": 0.0,
+        "total_reward": 3.194504835388263,
+        "trigger_count": -4.166666666666668,
+        "trigger_invocation_count": -4.166666666666668,
+        "unmet_demand": -2.166666666666667,
+        "wall_seconds": 0.5594989481808916
+      },
+      "right": "Event-G"
+    },
+    {
+      "left": "Event-G-WM",
+      "metric_mean_differences_left_minus_right": {
+        "communication_messages": 2.0,
+        "completed_tasks": 1.0,
+        "completion_rate": 0.08333333333333337,
+        "critical_failure_rate": 0.0,
+        "critical_failures": 0.0,
+        "effective_reconstruction_count": 1.5,
+        "energy_used": 1.7162871334242986,
+        "executed_requested_reconstruction_count": 1.8333333333333335,
+        "explicit_dispatch_count": 1.3333333333333335,
+        "failed_tasks": 0.0,
+        "global_utility": 1.5526971194963934,
+        "known_task_count": 0.0,
+        "load_balance": 0.0,
+        "mean_delay": -0.33333333333333326,
+        "on_time_rate": 0.08333333333333337,
+        "operational_dispatch_count": 1.333333333333334,
+        "reconstruction_count": 1.5,
+        "reconstruction_size": 1.5,
+        "requested_non_noop_decision_count": 1.8333333333333335,
+        "requested_reconstruction_count": 1.8333333333333335,
+        "seed": 0.0,
+        "task_count": 0.0,
+        "task_switch_count": 0.0,
+        "ticks": 0.0,
+        "time": 0.0,
+        "total_reward": 1.5526971194963934,
+        "trigger_count": -2.5,
+        "trigger_invocation_count": -2.5,
+        "unmet_demand": -3.0,
+        "wall_seconds": -1.2505774461509045
+      },
+      "right": "Periodic-G"
+    }
+  ],
+  "development_descriptive_means": {
+    "Event-G": {
+      "communication_messages": {
+        "count": 6,
+        "mean": 12.166666666666666
+      },
+      "completed_tasks": {
+        "count": 6,
+        "mean": 10.333333333333334
+      },
+      "completion_rate": {
+        "count": 6,
+        "mean": 0.8611111111111112
+      },
+      "critical_failure_rate": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "critical_failures": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "effective_reconstruction_count": {
+        "count": 12,
+        "mean": 3.6666666666666665
+      },
+      "energy_used": {
+        "count": 6,
+        "mean": 49.25415381115754
+      },
+      "executed_requested_reconstruction_count": {
+        "count": 6,
+        "mean": 3.6666666666666665
+      },
+      "explicit_dispatch_count": {
+        "count": 6,
+        "mean": 4.0
+      },
+      "failed_tasks": {
+        "count": 6,
+        "mean": 0.16666666666666666
+      },
+      "global_utility": {
+        "count": 6,
+        "mean": 6.756573565820742
+      },
+      "known_task_count": {
+        "count": 6,
+        "mean": 12.0
+      },
+      "load_balance": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "mean_delay": {
+        "count": 6,
+        "mean": 0.8611111111111112
+      },
+      "on_time_rate": {
+        "count": 6,
+        "mean": 0.8472222222222222
+      },
+      "operational_dispatch_count": {
+        "count": 12,
+        "mean": 11.0
+      },
+      "reconstruction_count": {
+        "count": 6,
+        "mean": 3.6666666666666665
+      },
+      "reconstruction_size": {
+        "count": 12,
+        "mean": 3.6666666666666665
+      },
+      "requested_non_noop_decision_count": {
+        "count": 6,
+        "mean": 3.6666666666666665
+      },
+      "requested_reconstruction_count": {
+        "count": 6,
+        "mean": 3.6666666666666665
+      },
+      "seed": {
+        "count": 6,
+        "mean": 8202.0
+      },
+      "task_count": {
+        "count": 6,
+        "mean": 12.0
+      },
+      "task_switch_count": {
+        "count": 6,
+        "mean": 1.6666666666666667
+      },
+      "ticks": {
+        "count": 6,
+        "mean": 60.0
+      },
+      "time": {
+        "count": 6,
+        "mean": 60.0
+      },
+      "total_reward": {
+        "count": 6,
+        "mean": 6.756573565820742
+      },
+      "trigger_count": {
+        "count": 6,
+        "mean": 16.666666666666668
+      },
+      "trigger_invocation_count": {
+        "count": 6,
+        "mean": 16.666666666666668
+      },
+      "unmet_demand": {
+        "count": 6,
+        "mean": 4.666666666666667
+      },
+      "wall_seconds": {
+        "count": 6,
+        "mean": 9.891057209655022
+      }
+    },
+    "Event-G-WM": {
+      "communication_messages": {
+        "count": 6,
+        "mean": 12.5
+      },
+      "completed_tasks": {
+        "count": 6,
+        "mean": 11.5
+      },
+      "completion_rate": {
+        "count": 6,
+        "mean": 0.9583333333333334
+      },
+      "critical_failure_rate": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "critical_failures": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "effective_reconstruction_count": {
+        "count": 12,
+        "mean": 2.5
+      },
+      "energy_used": {
+        "count": 6,
+        "mean": 22.4202024583558
+      },
+      "executed_requested_reconstruction_count": {
+        "count": 6,
+        "mean": 2.8333333333333335
+      },
+      "explicit_dispatch_count": {
+        "count": 6,
+        "mean": 3.8333333333333335
+      },
+      "failed_tasks": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "global_utility": {
+        "count": 6,
+        "mean": 9.951078401209005
+      },
+      "known_task_count": {
+        "count": 6,
+        "mean": 12.0
+      },
+      "load_balance": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "mean_delay": {
+        "count": 6,
+        "mean": 0.20833333333333334
+      },
+      "on_time_rate": {
+        "count": 6,
+        "mean": 0.9583333333333334
+      },
+      "operational_dispatch_count": {
+        "count": 12,
+        "mean": 11.833333333333334
+      },
+      "reconstruction_count": {
+        "count": 6,
+        "mean": 2.5
+      },
+      "reconstruction_size": {
+        "count": 12,
+        "mean": 2.5
+      },
+      "requested_non_noop_decision_count": {
+        "count": 6,
+        "mean": 2.8333333333333335
+      },
+      "requested_reconstruction_count": {
+        "count": 6,
+        "mean": 2.8333333333333335
+      },
+      "seed": {
+        "count": 6,
+        "mean": 8202.0
+      },
+      "task_count": {
+        "count": 6,
+        "mean": 12.0
+      },
+      "task_switch_count": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "ticks": {
+        "count": 6,
+        "mean": 60.0
+      },
+      "time": {
+        "count": 6,
+        "mean": 60.0
+      },
+      "total_reward": {
+        "count": 6,
+        "mean": 9.951078401209005
+      },
+      "trigger_count": {
+        "count": 6,
+        "mean": 12.5
+      },
+      "trigger_invocation_count": {
+        "count": 6,
+        "mean": 12.5
+      },
+      "unmet_demand": {
+        "count": 6,
+        "mean": 2.5
+      },
+      "wall_seconds": {
+        "count": 6,
+        "mean": 10.450556157835914
+      }
+    },
+    "Periodic-G": {
+      "communication_messages": {
+        "count": 6,
+        "mean": 10.5
+      },
+      "completed_tasks": {
+        "count": 6,
+        "mean": 10.5
+      },
+      "completion_rate": {
+        "count": 6,
+        "mean": 0.875
+      },
+      "critical_failure_rate": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "critical_failures": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "effective_reconstruction_count": {
+        "count": 12,
+        "mean": 1.0
+      },
+      "energy_used": {
+        "count": 6,
+        "mean": 20.7039153249315
+      },
+      "executed_requested_reconstruction_count": {
+        "count": 6,
+        "mean": 1.0
+      },
+      "explicit_dispatch_count": {
+        "count": 6,
+        "mean": 2.5
+      },
+      "failed_tasks": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "global_utility": {
+        "count": 6,
+        "mean": 8.398381281712611
+      },
+      "known_task_count": {
+        "count": 6,
+        "mean": 12.0
+      },
+      "load_balance": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "mean_delay": {
+        "count": 6,
+        "mean": 0.5416666666666666
+      },
+      "on_time_rate": {
+        "count": 6,
+        "mean": 0.875
+      },
+      "operational_dispatch_count": {
+        "count": 12,
+        "mean": 10.5
+      },
+      "reconstruction_count": {
+        "count": 6,
+        "mean": 1.0
+      },
+      "reconstruction_size": {
+        "count": 12,
+        "mean": 1.0
+      },
+      "requested_non_noop_decision_count": {
+        "count": 6,
+        "mean": 1.0
+      },
+      "requested_reconstruction_count": {
+        "count": 6,
+        "mean": 1.0
+      },
+      "seed": {
+        "count": 6,
+        "mean": 8202.0
+      },
+      "task_count": {
+        "count": 6,
+        "mean": 12.0
+      },
+      "task_switch_count": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "ticks": {
+        "count": 6,
+        "mean": 60.0
+      },
+      "time": {
+        "count": 6,
+        "mean": 60.0
+      },
+      "total_reward": {
+        "count": 6,
+        "mean": 8.398381281712611
+      },
+      "trigger_count": {
+        "count": 6,
+        "mean": 15.0
+      },
+      "trigger_invocation_count": {
+        "count": 6,
+        "mean": 15.0
+      },
+      "unmet_demand": {
+        "count": 6,
+        "mean": 5.5
+      },
+      "wall_seconds": {
+        "count": 6,
+        "mean": 11.701133603986818
+      }
+    },
+    "Periodic-G-WM": {
+      "communication_messages": {
+        "count": 6,
+        "mean": 12.666666666666666
+      },
+      "completed_tasks": {
+        "count": 6,
+        "mean": 11.5
+      },
+      "completion_rate": {
+        "count": 6,
+        "mean": 0.9583333333333334
+      },
+      "critical_failure_rate": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "critical_failures": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "effective_reconstruction_count": {
+        "count": 12,
+        "mean": 2.5
+      },
+      "energy_used": {
+        "count": 6,
+        "mean": 22.269020322539323
+      },
+      "executed_requested_reconstruction_count": {
+        "count": 6,
+        "mean": 2.5
+      },
+      "explicit_dispatch_count": {
+        "count": 6,
+        "mean": 3.5
+      },
+      "failed_tasks": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "global_utility": {
+        "count": 6,
+        "mean": 9.958831067813255
+      },
+      "known_task_count": {
+        "count": 6,
+        "mean": 12.0
+      },
+      "load_balance": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "mean_delay": {
+        "count": 6,
+        "mean": 0.20833333333333334
+      },
+      "on_time_rate": {
+        "count": 6,
+        "mean": 0.9583333333333334
+      },
+      "operational_dispatch_count": {
+        "count": 12,
+        "mean": 11.5
+      },
+      "reconstruction_count": {
+        "count": 6,
+        "mean": 2.5
+      },
+      "reconstruction_size": {
+        "count": 12,
+        "mean": 2.5
+      },
+      "requested_non_noop_decision_count": {
+        "count": 6,
+        "mean": 2.5
+      },
+      "requested_reconstruction_count": {
+        "count": 6,
+        "mean": 2.5
+      },
+      "seed": {
+        "count": 6,
+        "mean": 8202.0
+      },
+      "task_count": {
+        "count": 6,
+        "mean": 12.0
+      },
+      "task_switch_count": {
+        "count": 6,
+        "mean": 0.0
+      },
+      "ticks": {
+        "count": 6,
+        "mean": 60.0
+      },
+      "time": {
+        "count": 6,
+        "mean": 60.0
+      },
+      "total_reward": {
+        "count": 6,
+        "mean": 9.958831067813255
+      },
+      "trigger_count": {
+        "count": 6,
+        "mean": 15.0
+      },
+      "trigger_invocation_count": {
+        "count": 6,
+        "mean": 15.0
+      },
+      "unmet_demand": {
+        "count": 6,
+        "mean": 2.5
+      },
+      "wall_seconds": {
+        "count": 6,
+        "mean": 12.735025355340136
+      }
+    }
+  },
+  "optimizer_updates_per_seed_method": 112,
+  "schema": "event-g-gwm-comparison/1",
+  "semantics": {
+    "Event-G": "event trigger with graph policy and no world model",
+    "Event-G-WM": "model-assisted trigger and model-assisted critic",
+    "Event-G-WM_vs_Event-G": "combined model-assisted trigger and critic contribution; critic effect is not isolated",
+    "Periodic-G": "periodic trigger with graph policy and no world model",
+    "Periodic-G-WM": "periodic trigger with model-assisted critic; periodic timing fixed"
+  },
+  "status": "descriptive_only",
+  "updates_per_epoch_by_round": [
+    7,
+    7,
+    7,
+    7
+  ],
+  "world_model_frozen": true
+}

@@ -1,0 +1,21 @@
+{
+  "attempt": "n02-event-v1-310d73fcbd4044709ef1f6cb8e7f3a91",
+  "cgroup_cpu_seconds_at_guardian_start": 1.376963,
+  "cgroup_cpu_seconds_at_settlement": 4007.332133,
+  "child_cpu_seconds": 4002.980973,
+  "child_exit_code": 0,
+  "child_max_rss_kib": 1086736,
+  "child_pid": 1272356,
+  "cpu_budget_enforcement_scope": "whole fresh systemd cgroup, including guardian and restore descendants",
+  "cpu_budget_exceeded": false,
+  "guardian_exit_code": 0,
+  "guardian_plus_child_cpu_seconds": 4007.332132,
+  "guardian_self_cpu_seconds": 4.351159,
+  "guardian_total_wall_seconds": 4008.927337655041,
+  "includes": "This guardian child process tree only; excludes upload, local tests, review and other attempts.",
+  "run_id": "5a64dfffee4744c88e8bffb81c6a55bb",
+  "schema": "n02-event-guardian-settlement/1",
+  "systemd_invocation_id": "e80b37b6a2784125aa802282d115d44f",
+  "timed_out": false,
+  "wall_seconds": 4007.58138514898
+}

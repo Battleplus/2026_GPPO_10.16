@@ -1,0 +1,11 @@
+{
+  "checkpoint_paths": [
+    "<server-path-redacted>",
+    "<server-path-redacted>",
+    "<server-path-redacted>"
+  ],
+  "ensemble_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+  "fresh_process": true,
+  "prediction_sha256": "8ba33f4a8476e1b1db9b4237108a06dcdd32cfe1e2ce620cbd55dc8cc09e5d13",
+  "status": "complete"
+}

@@ -1,0 +1,18 @@
+{
+  "authorization_reused": false,
+  "config_path": "<server-path-redacted>",
+  "config_sha256": "45b20d8069c016888d91db740b39c982e1ca65cd72b50d928f12210b3c9b0009",
+  "created_utc": "2026-10-17T01:31:22.218284+00:00",
+  "run_id": "b8fba4f7207a461698150b03d33f7b32",
+  "run_reuse": false,
+  "schema": "n02-event-trigger-run/1",
+  "source_identity": {
+    "event_environment.py": "279085fa5a85339ad21f6ef39fea6a9513c136e82cabd724cd4c963bc6b582d2",
+    "event_models.py": "0facc4b09de8902c3b4b385b6e10695dd8c67c32a021c67d281bf8a3a9d8fb58",
+    "event_oracle.py": "0258cd524d327fae49bf7bd535fd9533b02b7429e85d078377bcdeac4d324fc6",
+    "event_policy.py": "f89e6cbe485f095b6f5f6c4792bc991eb92f9c6392dfc806f3baa6a89fc5fcf9",
+    "event_runner.py": "f1b30a8b561843723c5851d7221db23477e2e73fb19f33da00ae4dc57c2ef2e9",
+    "event_scenarios.py": "60ec58301da91eb6b686b12c9002c9cc6520011d29e476d76c162cbc9617a92e",
+    "event_trigger.py": "14e1dcb5a2103eeb06a714536d6919c7624926f9042932f013e34493d187f1a3"
+  }
+}

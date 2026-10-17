@@ -1,15 +1,18 @@
-# N02 灾后动态再分配：最小工程闭环
+# N02 灾后动态再分配
 
-2026-10-16：五项核心检查通过，独立审核结论为 **ENGINEERING_PASS**。完整论文实验尚未开展。
+本仓库保存 N02 从最小闭环到事件触发式重构的可审计工程版本。
 
-100×100 民用仿真场景使用公开信息 C1 生成初始分配，执行真实 2×2 空间扰动，采集 44 条候选分支，独立复算标签，完成世界模型 2 次更新及新进程恢复，以及 G/G-WM 各 8 次 PPO 更新。开发评价的三项主要指标差值均为 0，不能据此声称 G-WM 更优。数据是实际执行仿真生成的结果，不是现场观测数据。
+## 当前节点
 
-- [源码、测试、数据、checkpoint 和运行说明](releases/n02-minimal-closure-v1-100x100/README.md)
-- [验收状态](releases/n02-minimal-closure-v1-100x100/STATUS.md)
-- [运行结果、失败历史及资源结算](releases/n02-minimal-closure-v1-100x100/RUN_SUMMARY.md)
-- [独立审核公开副本](releases/n02-minimal-closure-v1-100x100/provenance/review/)
-- [公开文件清单及原始/脱敏哈希](releases/n02-minimal-closure-v1-100x100/PUBLIC_ARCHIVE_INVENTORY.json)
+`archive/n02-full-event-trigger`：100x100 事件触发 V1 工程闭环已通过 GPT-6.1 Sol High 独立只读复审。发布目录为 [`releases/n02-event-trigger-v1-100x100`](releases/n02-event-trigger-v1-100x100/)。
 
-在发布目录执行 `python -B tools/verify_public_snapshot.py` 可校验公开文件。原始版本身份与脱敏公开副本的摘要分别记录；私有凭据、授权原文、SQLite 和原始运行日志未公开。
+复审结论：`ENGINEERING_PASS`。M0、M2、M3、M4 通过；完整证据快照 142/142 哈希一致；96 个策略 JSONL 全部解析并满足预期行数；世界模型恢复和 12 个策略 checkpoint 恢复通过。
 
-仓库的 `history/` 及旧文档保留早期节点记录；当前结论以本次 release 为准。
+科学效能结论仍为 `UNVERIFIED`。开发集和 G/G-WM 比较属于首轮描述性诊断，不能支持算法优越性或独立的辅助 critic 因果结论。
+
+## 历史节点
+
+- [`releases/n02-minimal-closure-v1-100x100`](releases/n02-minimal-closure-v1-100x100/)：此前已归档的 100x100 最小工程闭环。
+- `history/`：计划、失败证据和早期审核记录。
+
+公开归档不包含密码、私钥、token、授权原文、私有服务器上下文、SQLite、原始控制台日志或无关旧模型。

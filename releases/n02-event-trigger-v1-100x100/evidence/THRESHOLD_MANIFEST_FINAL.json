@@ -1,0 +1,3158 @@
+{
+  "calibration_stage": "M3_final_world_model",
+  "config_sha256": "715433054aa92292620c5accab0f17dc715af31058a01e8c639ddedad14a6090",
+  "delta_min": 4,
+  "frozen_before_development_evaluation": true,
+  "initial_threshold_sha256": "dbaef3d833ce4b32f6cf1a36d10ca7821109948bfff03374ed02ffac96218f7f",
+  "pre_model_threshold": 0.027137503055974458,
+  "quantile": 0.75,
+  "raw_positive_scores": [
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.12191192350689709,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 1,
+      "wm_summary": {
+        "candidate_count": 5,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.8305780085136771,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.14414824545383453
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.08511372524722108,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 2,
+      "wm_summary": {
+        "candidate_count": 5,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.7450824711439511,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.24507838487625122
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.0828136507346606,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 3,
+      "wm_summary": {
+        "candidate_count": 5,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.7250033383617966,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.26195845007896423
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.08194621232834015,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 4,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.6756672799799976,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.2472013384103775
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.1026543926166818,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 5,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.4658303947014115,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.23403115570545197
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.05834309626951709,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 6,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.4628750524874236,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.2227608561515808
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.05574738574918233,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 7,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.46034759146001714,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.21117691695690155
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.05914336603561453,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 8,
+      "wm_summary": {
+        "candidate_count": 16,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5037167454940634,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.1275407075881958
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.07880703339359786,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 9,
+      "wm_summary": {
+        "candidate_count": 7,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5312415921878749,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.11565228551626205
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.06029790062796626,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 10,
+      "wm_summary": {
+        "candidate_count": 7,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5332714769868272,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.10469663143157959
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.06022636720178544,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 11,
+      "wm_summary": {
+        "candidate_count": 7,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5347907601635549,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.09409067779779434
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.05602810209982736,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 12,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5170690406327525,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.0818556472659111
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.05631975373339354,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 13,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5190701135042325,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.07037395983934402
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.05656563078651924,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 14,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5205664947526316,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.0590960867702961
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.04452455164761194,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 15,
+      "wm_summary": {
+        "candidate_count": 6,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.399142662013182,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.04771016165614128
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.05775345146198787,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 16,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.03401610627770424,
+        "d_uncertainty": 0.42220130668997313,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.03401610627770424
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.061528336190097344,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 17,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.046375174075365067,
+        "d_uncertainty": 0.4215925180748361,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.046375174075365067
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.06549318536382731,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 18,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.059378597885370255,
+        "d_uncertainty": 0.4208782761980685,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.059378597885370255
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.06975327118406072,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 19,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.07337183505296707,
+        "d_uncertainty": 0.42006867587481783,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.07337183505296707
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.07444702696391445,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 20,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.08879832178354263,
+        "d_uncertainty": 0.41921074043114387,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.08879832178354263
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.07985784594265899,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 21,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.10659104585647583,
+        "d_uncertainty": 0.4183315770358705,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.10659104585647583
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.08650755852348326,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 22,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.1284646838903427,
+        "d_uncertainty": 0.4174966007914929,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.1284646838903427
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.09549382909214882,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 23,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.15803393721580505,
+        "d_uncertainty": 0.41682833197889185,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.15803393721580505
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.13081639028020361,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 24,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.27955612540245056,
+        "d_uncertainty": 0.4061291889715876,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.27955612540245056
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.15777660408295474,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 25,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.36809399724006653,
+        "d_uncertainty": 0.408158107922535,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.36809399724006653
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.21090989026482018,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 26,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.5425660610198975,
+        "d_uncertainty": 0.41397497897031516,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.5425660610198975
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3142814464176884,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 27,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.8835423588752747,
+        "d_uncertainty": 0.4225060354703642,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.8835423588752747
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3512804034892304,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 28,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 1.4417024850845337,
+        "d_uncertainty": 0.44069323229053586,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -1.4417024850845337
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3592595736042626,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 29,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 2.1037232875823975,
+        "d_uncertainty": 0.5178607215812465,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -2.1037232875823975
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.372138082584398,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 30,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 2.6674773693084717,
+        "d_uncertainty": 0.6438024144596819,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -2.6674773693084717
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.38275423158558264,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 31,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.029149055480957,
+        "d_uncertainty": 0.7468726319811522,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.029149055480957
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.389411144626872,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 32,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.2818048000335693,
+        "d_uncertainty": 0.8130042619768392,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.2818048000335693
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.39235335283547856,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 33,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.3890647888183594,
+        "d_uncertainty": 0.8389502349378873,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.3890647888183594
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3941168297987936,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 34,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.4575531482696533,
+        "d_uncertainty": 0.8527667344644595,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.4575531482696533
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.39531796753582404,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 35,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.5065174102783203,
+        "d_uncertainty": 0.8605643851654122,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.5065174102783203
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.396226338598687,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 36,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.543795585632324,
+        "d_uncertainty": 0.8649739034286114,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.543795585632324
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3969810995145102,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 37,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.5743846893310547,
+        "d_uncertainty": 0.8673067142040106,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.5743846893310547
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.39766355172816403,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 38,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6005609035491943,
+        "d_uncertainty": 0.8682758669329519,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6005609035491943
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3983299855516299,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 39,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6235625743865967,
+        "d_uncertainty": 0.868317910491213,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6235625743865967
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3990258208536751,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 40,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6440725326538086,
+        "d_uncertainty": 0.867724927638057,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6440725326538086
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3997945416299116,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 41,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6625850200653076,
+        "d_uncertainty": 0.8667201828871445,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6625850200653076
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4006815502186262,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 42,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.679426908493042,
+        "d_uncertainty": 0.8654761017164665,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.679426908493042
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4017386536428841,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 43,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6948115825653076,
+        "d_uncertainty": 0.8641272918098126,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6948115825653076
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.40303074763941904,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 44,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.7089736461639404,
+        "d_uncertainty": 0.8627862443429282,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7089736461639404
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4046439474821492,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 45,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.7220866680145264,
+        "d_uncertainty": 0.8615388620869684,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7220866680145264
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.40670112636730893,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 46,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.734276056289673,
+        "d_uncertainty": 0.8604481415765118,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.734276056289673
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.40939131128368,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 47,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.745680093765259,
+        "d_uncertainty": 0.8595615637219801,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.745680093765259
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.41302895926918665,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 48,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.756399154663086,
+        "d_uncertainty": 0.8589145621321221,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.756399154663086
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.41818975911118994,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 49,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.766505241394043,
+        "d_uncertainty": 0.8585300463272946,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.766505241394043
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.43019057214517326,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 50,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 3.7760770320892334,
+        "d_uncertainty": 0.8995273993754522,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7760770320892334
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4450650395331645,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 51,
+      "wm_summary": {
+        "candidate_count": 4,
+        "d_degradation": 3.7851736545562744,
+        "d_uncertainty": 0.9539962118720285,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7851736545562744
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.44720257316743167,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 52,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.7938308715820312,
+        "d_uncertainty": 0.9227380727235893,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7938308715820312
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4531359994924239,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 53,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8020989894866943,
+        "d_uncertainty": 0.9261538842399272,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8020989894866943
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4561153302003079,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 54,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.810007095336914,
+        "d_uncertainty": 0.9293470191988004,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.810007095336914
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4564127987447951,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 55,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8175716400146484,
+        "d_uncertainty": 0.9323217046436724,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8175716400146484
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45669170083676125,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 56,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.824827194213867,
+        "d_uncertainty": 0.9351107255633339,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.824827194213867
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4569537062683039,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 57,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8317973613739014,
+        "d_uncertainty": 0.9377307798787602,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8317973613739014
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45720177686332825,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 58,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.838510274887085,
+        "d_uncertainty": 0.9402114858290039,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.838510274887085
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45743863285388797,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 59,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.844989538192749,
+        "d_uncertainty": 0.9425800457346009,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.844989538192749
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4576658158745125,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "time": 60,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.851252317428589,
+        "d_uncertainty": 0.9448518759408461,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.851252317428589
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.12191192350689709,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 1,
+      "wm_summary": {
+        "candidate_count": 5,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.8305780085136771,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.14414824545383453
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.08511372524722108,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 2,
+      "wm_summary": {
+        "candidate_count": 5,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.7450824711439511,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.24507838487625122
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.0828136507346606,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 3,
+      "wm_summary": {
+        "candidate_count": 5,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.7250033383617966,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.26195845007896423
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.08194621232834015,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 4,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.6756672799799976,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.2472013384103775
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.1026543926166818,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 5,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.4658303947014115,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.23403115570545197
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.05834309626951709,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 6,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.4628750524874236,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.2227608561515808
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.05574738574918233,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 7,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.46034759146001714,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.21117691695690155
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.05914336603561453,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 8,
+      "wm_summary": {
+        "candidate_count": 16,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5037167454940634,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.1275407075881958
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.07880703339359786,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 9,
+      "wm_summary": {
+        "candidate_count": 7,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5312415921878749,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.11565228551626205
+      }
+    },
+    {
+      "event_type": "platform_disturbance",
+      "gamma_value": 0.06291642102730197,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 10,
+      "wm_summary": {
+        "candidate_count": 6,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5594566809801843,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.10449842363595963
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.06284774092123373,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 11,
+      "wm_summary": {
+        "candidate_count": 6,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5610044973580377,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.09393829107284546
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.058114529318277486,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 12,
+      "wm_summary": {
+        "candidate_count": 7,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5379333128172538,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.08163276314735413
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.058428678688540694,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 13,
+      "wm_summary": {
+        "candidate_count": 7,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.540159363055704,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.0700991079211235
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.05869017338488431,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 14,
+      "wm_summary": {
+        "candidate_count": 7,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5418119207362824,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.05872495472431183
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.04570486495624824,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 15,
+      "wm_summary": {
+        "candidate_count": 5,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.410945795099545,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.047233209013938904
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.05901361807411853,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 16,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.034640055149793625,
+        "d_uncertainty": 0.43293112619501156,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.034640055149793625
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.06283876717623849,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 17,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.04715275764465332,
+        "d_uncertainty": 0.4323640772283828,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.04715275764465332
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.06686757186537852,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 18,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.06034797057509422,
+        "d_uncertainty": 0.4317140231444087,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.06034797057509422
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.07121268217790555,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 19,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.07459639012813568,
+        "d_uncertainty": 0.43098912058776034,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.07459639012813568
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.0760256110870329,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 20,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.09038466215133667,
+        "d_uncertainty": 0.4302375605589463,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.09038466215133667
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.08161676130833909,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 21,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.10873516649007797,
+        "d_uncertainty": 0.42948836879186486,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.10873516649007797
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.08855940002508364,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 22,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.13153062760829926,
+        "d_uncertainty": 0.42881718465362706,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.13153062760829926
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.09805491399540417,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 23,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.1627219319343567,
+        "d_uncertainty": 0.42837519685579056,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.1627219319343567
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.13775339410081916,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 24,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.28783997893333435,
+        "d_uncertainty": 0.45064766658509153,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.28783997893333435
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.1664504143048026,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 25,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.3828172981739044,
+        "d_uncertainty": 0.4507263073394999,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.3828172981739044
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.22259172025181803,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 26,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.5684931874275208,
+        "d_uncertainty": 0.4530118996174238,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.5684931874275208
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.32941677113886125,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 27,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.9232638478279114,
+        "d_uncertainty": 0.45469481582418236,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.9232638478279114
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3539842859649086,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 28,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 1.4884051084518433,
+        "d_uncertainty": 0.46773205704731824,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -1.4884051084518433
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.361945789787965,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 29,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 2.1511075496673584,
+        "d_uncertainty": 0.5447228834182702,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -2.1511075496673584
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3747312296039288,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 30,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 2.7080204486846924,
+        "d_uncertainty": 0.6697338846549897,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -2.7080204486846924
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3846781122963132,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 31,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.0508882999420166,
+        "d_uncertainty": 0.7661114390884584,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.0508882999420166
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.39049224390353493,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 32,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.2918663024902344,
+        "d_uncertainty": 0.8238152547434686,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.2918663024902344
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3933031696065107,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 33,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.3947160243988037,
+        "d_uncertainty": 0.8484484026482085,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.3947160243988037
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3950310867947137,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 34,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.461284637451172,
+        "d_uncertainty": 0.861909304423661,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.461284637451172
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3962261852199626,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 35,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.509251594543457,
+        "d_uncertainty": 0.8696465620067977,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.509251594543457
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3971398718802277,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 36,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.5459537506103516,
+        "d_uncertainty": 0.8741092362440185,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.5459537506103516
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.39790476210721804,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 37,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.576136589050293,
+        "d_uncertainty": 0.8765433401310888,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.576136589050293
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3986006694269638,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 38,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6019890308380127,
+        "d_uncertainty": 0.8776470439209496,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6019890308380127
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.39928339781017935,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 39,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6247150897979736,
+        "d_uncertainty": 0.8778520330767074,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6247150897979736
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3999975428700922,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 40,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6449859142303467,
+        "d_uncertainty": 0.8774421478022283,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6449859142303467
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4007859061944069,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 41,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6632916927337646,
+        "d_uncertainty": 0.8766338285320974,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6632916927337646
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4016929235250781,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 42,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.679957151412964,
+        "d_uncertainty": 0.8755898347809856,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.679957151412964
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.40276914215428167,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 43,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.695192575454712,
+        "d_uncertainty": 0.8744321769237884,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.695192575454712
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.40407885092742896,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 44,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.709228277206421,
+        "d_uncertainty": 0.8732672772230269,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.709228277206421
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.40570748856994326,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 45,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.7222344875335693,
+        "d_uncertainty": 0.8721742729649088,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7222344875335693
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4077773092707262,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 46,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.7343332767486572,
+        "d_uncertainty": 0.8712099706106844,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7343332767486572
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.41047712167113454,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 47,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.7456600666046143,
+        "d_uncertainty": 0.8704196675965251,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7456600666046143
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.41412111433893634,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 48,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.7563140392303467,
+        "d_uncertainty": 0.8698361128296187,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7563140392303467
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.41928474625345025,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 49,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.766364097595215,
+        "d_uncertainty": 0.8694799177498971,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.766364097595215
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4249151947014159,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 50,
+      "wm_summary": {
+        "candidate_count": 6,
+        "d_degradation": 3.7758891582489014,
+        "d_uncertainty": 0.846773624937879,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7758891582489014
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4451290000176754,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 51,
+      "wm_summary": {
+        "candidate_count": 4,
+        "d_degradation": 3.7849466800689697,
+        "d_uncertainty": 0.9546358167171374,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7849466800689697
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4471742032844344,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 52,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.793572187423706,
+        "d_uncertainty": 0.9224543738936168,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.793572187423706
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.453102044182648,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 53,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.801814317703247,
+        "d_uncertainty": 0.9258143311421678,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.801814317703247
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45607631466852916,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 54,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8097028732299805,
+        "d_uncertainty": 0.9289568638810127,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8097028732299805
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4563691196408741,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 55,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8172531127929688,
+        "d_uncertainty": 0.9318849136044629,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8172531127929688
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45664369858633413,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 56,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8244991302490234,
+        "d_uncertainty": 0.9346307030590625,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8244991302490234
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45690172583504934,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 57,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8314638137817383,
+        "d_uncertainty": 0.9372109755462149,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8314638137817383
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45714608272365553,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 58,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8381755352020264,
+        "d_uncertainty": 0.9396545444322766,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8381755352020264
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45737941394777687,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 59,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8446567058563232,
+        "d_uncertainty": 0.94198785667349,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8446567058563232
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45760336260489604,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "time": 60,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.850924253463745,
+        "d_uncertainty": 0.9442273432446818,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.850924253463745
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.12191192350689709,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 1,
+      "wm_summary": {
+        "candidate_count": 5,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.8305780085136771,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.14414824545383453
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.08511372524722108,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 2,
+      "wm_summary": {
+        "candidate_count": 5,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.7450824711439511,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.24507838487625122
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.0828136507346606,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 3,
+      "wm_summary": {
+        "candidate_count": 5,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.7250033383617966,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.26195845007896423
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.08194621232834015,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 4,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.6756672799799976,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.2472013384103775
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.1026543926166818,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 5,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.4658303947014115,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.23403115570545197
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.05834309626951709,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 6,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.4628750524874236,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.2227608561515808
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.05574738574918233,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 7,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.46034759146001714,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.21117691695690155
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.05914336603561453,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 8,
+      "wm_summary": {
+        "candidate_count": 16,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5037167454940634,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.1275407075881958
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.07880703339359786,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 9,
+      "wm_summary": {
+        "candidate_count": 7,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5312415921878749,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.11565228551626205
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.06029790062796626,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 10,
+      "wm_summary": {
+        "candidate_count": 7,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5332714769868272,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.10469663143157959
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.06022636720178544,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 11,
+      "wm_summary": {
+        "candidate_count": 7,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5347907601635549,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.09409067779779434
+      }
+    },
+    {
+      "event_type": "platform_disturbance",
+      "gamma_value": 0.07438909725524098,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 12,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5182009253794608,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.08194036036729813
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.056438445243853774,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 13,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5202570286088348,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.07050267606973648
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.05668853993709422,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 14,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5217955862583814,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.059251461178064346
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.04473713968424932,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 15,
+      "wm_summary": {
+        "candidate_count": 6,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.4012685423795558,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.04788653180003166
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.05776302167662718,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 16,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.03382280096411705,
+        "d_uncertainty": 0.42287692477712785,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.03382280096411705
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.061537418109176636,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 17,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.04616182669997215,
+        "d_uncertainty": 0.42232337939180775,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.04616182669997215
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.0655007739017101,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 18,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.05914005637168884,
+        "d_uncertainty": 0.42166978611794065,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.05914005637168884
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.0697571133030414,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 19,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.07309937477111816,
+        "d_uncertainty": 0.42092447791017124,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.07309937477111816
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.07444308993457899,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 20,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.08847802132368088,
+        "d_uncertainty": 0.42013227151737453,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.08847802132368088
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.07983761500668565,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 21,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.10619606822729111,
+        "d_uncertainty": 0.41931420056369123,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.10619606822729111
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.08645415301857172,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 22,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.12794344127178192,
+        "d_uncertainty": 0.41852627359805994,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.12794344127178192
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.09537217612667803,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 23,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.15727949142456055,
+        "d_uncertainty": 0.4178751396979176,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.15727949142456055
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.13050197882344514,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 24,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.27825355529785156,
+        "d_uncertainty": 0.40689278471780005,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.27825355529785156
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.15712072931920892,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 25,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.3657114505767822,
+        "d_uncertainty": 0.40874700027492955,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.3657114505767822
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.20959840532917381,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 26,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.5380899310112,
+        "d_uncertainty": 0.4142885196399439,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.5380899310112
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.31204697690058986,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 27,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.8760892748832703,
+        "d_uncertainty": 0.4225205922753916,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.8760892748832703
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.35114023182799614,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 28,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 1.4325790405273438,
+        "d_uncertainty": 0.43929151567819336,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -1.4325790405273438
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3588271602067759,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 29,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 2.097625494003296,
+        "d_uncertainty": 0.5135365876063798,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -2.097625494003296
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3716533350781429,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 30,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 2.665154218673706,
+        "d_uncertainty": 0.6389549393971313,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -2.665154218673706
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.38230885592489416,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 31,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.0278568267822266,
+        "d_uncertainty": 0.7424188753742677,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.0278568267822266
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.388949258401129,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 32,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.2809417247772217,
+        "d_uncertainty": 0.808385399719409,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.2809417247772217
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.39193264945341494,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 33,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.3884544372558594,
+        "d_uncertainty": 0.8347432011172512,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.3884544372558594
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3937274949415067,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 34,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.4571120738983154,
+        "d_uncertainty": 0.848873385891591,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.4571120738983154
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.39495271378314933,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 35,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.506188154220581,
+        "d_uncertainty": 0.8569118476386648,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.506188154220581
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3958790378644971,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 36,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.543538808822632,
+        "d_uncertainty": 0.8615008960867123,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.543538808822632
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3966480336734216,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 37,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.5741748809814453,
+        "d_uncertainty": 0.863976055793125,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.5741748809814453
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.39734189739213854,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 38,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6003787517547607,
+        "d_uncertainty": 0.8650593235726971,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6003787517547607
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3980175506298443,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 39,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.623394250869751,
+        "d_uncertainty": 0.865193561273357,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.623394250869751
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3987208289896409,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 40,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6439082622528076,
+        "d_uncertainty": 0.8646750089977149,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6439082622528076
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3994955649120113,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 41,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6624181270599365,
+        "d_uncertainty": 0.8637304157081412,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6624181270599365
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.40038738671302376,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 42,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6792538166046143,
+        "d_uncertainty": 0.8625344666604418,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6792538166046143
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.40144822775545275,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 43,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6946322917938232,
+        "d_uncertainty": 0.8612230329354993,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6946322917938232
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.40274318413356736,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 44,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.708787202835083,
+        "d_uncertainty": 0.859910609284411,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.708787202835083
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.40435847217403537,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 45,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.7218945026397705,
+        "d_uncertainty": 0.8586841090058298,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7218945026397705
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.406417063690614,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 46,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.734079360961914,
+        "d_uncertainty": 0.8576075148095624,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.734079360961914
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.40910820269055154,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 47,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.7454802989959717,
+        "d_uncertainty": 0.8567304777906951,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7454802989959717
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4127463749640021,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 48,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.756197214126587,
+        "d_uncertainty": 0.8560887190802768,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.756197214126587
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4179074153277852,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 49,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.7663023471832275,
+        "d_uncertainty": 0.8557066084932469,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7663023471832275
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.43017761628675033,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 50,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 3.775874376296997,
+        "d_uncertainty": 0.8993978407912225,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.775874376296997
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4451231032869835,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 51,
+      "wm_summary": {
+        "candidate_count": 4,
+        "d_degradation": 3.78497314453125,
+        "d_uncertainty": 0.9545768494102187,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.78497314453125
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.44722192972572267,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 52,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.7936325073242188,
+        "d_uncertainty": 0.9229316383064995,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7936325073242188
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45315526692196656,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 53,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8019039630889893,
+        "d_uncertainty": 0.9263465585353535,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8019039630889893
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4561343315304466,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 54,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8098161220550537,
+        "d_uncertainty": 0.9295370325001872,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8098161220550537
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4564313000091075,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 55,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8173859119415283,
+        "d_uncertainty": 0.932506717286796,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8173859119415283
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4567095357414857,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 56,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8246467113494873,
+        "d_uncertainty": 0.9352890746105784,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8246467113494873
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45697074866286097,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 57,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.831623077392578,
+        "d_uncertainty": 0.937901203824331,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.831623077392578
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45721794211808936,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 58,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8383426666259766,
+        "d_uncertainty": 0.9403731383766151,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8383426666259766
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45745373226352615,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 59,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.844829559326172,
+        "d_uncertainty": 0.9427310398309827,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.844829559326172
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.457679931862355,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "time": 60,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8510990142822266,
+        "d_uncertainty": 0.9449930358192715,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8510990142822266
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.12191192350689709,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 1,
+      "wm_summary": {
+        "candidate_count": 5,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.8305780085136771,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.14414824545383453
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.08511372524722108,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 2,
+      "wm_summary": {
+        "candidate_count": 5,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.7450824711439511,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.24507838487625122
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.0828136507346606,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 3,
+      "wm_summary": {
+        "candidate_count": 5,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.7250033383617966,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.26195845007896423
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.08194621232834015,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 4,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.6756672799799976,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.2472013384103775
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.1026543926166818,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 5,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.4658303947014115,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.23403115570545197
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.05834309626951709,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 6,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.4628750524874236,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.2227608561515808
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.05574738574918233,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 7,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.46034759146001714,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.21117691695690155
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.05914336603561453,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 8,
+      "wm_summary": {
+        "candidate_count": 16,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5037167454940634,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.1275407075881958
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.07880703339359786,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 9,
+      "wm_summary": {
+        "candidate_count": 7,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5312415921878749,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.11565228551626205
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.06029790062796626,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 10,
+      "wm_summary": {
+        "candidate_count": 7,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5332714769868272,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.10469663143157959
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.06022636720178544,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 11,
+      "wm_summary": {
+        "candidate_count": 7,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5347907601635549,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.09409067779779434
+      }
+    },
+    {
+      "event_type": "execution_residual",
+      "gamma_value": 0.05602810209982736,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 12,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5170690406327525,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.0818556472659111
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.05631975373339354,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 13,
+      "wm_summary": {
+        "candidate_count": 8,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.5190701135042325,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.07037395983934402
+      }
+    },
+    {
+      "event_type": "communication_disturbance",
+      "gamma_value": 0.04464651632946226,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 14,
+      "wm_summary": {
+        "candidate_count": 6,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.40137535018206183,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.048250462859869
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.04463530674348948,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 15,
+      "wm_summary": {
+        "candidate_count": 6,
+        "d_degradation": 0.0,
+        "d_uncertainty": 0.4002502129719574,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": 0.036524977535009384
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.06109737959205289,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 16,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.045741721987724304,
+        "d_uncertainty": 0.42046374086056315,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.045741721987724304
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.06496541476903764,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 17,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.05835634469985962,
+        "d_uncertainty": 0.4200197919907554,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.05835634469985962
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.06903773537980332,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 18,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.07164362072944641,
+        "d_uncertainty": 0.4195287078256002,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.07164362072944641
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.07342119910056724,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 19,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.08595997095108032,
+        "d_uncertainty": 0.4189835473455434,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.08595997095108032
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.07825942370044643,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 20,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.10176815837621689,
+        "d_uncertainty": 0.41842519801844086,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.10176815837621689
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.08384806728966492,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 21,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.1200471743941307,
+        "d_uncertainty": 0.41786540489296503,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.1200471743941307
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.09073250816147166,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 22,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.14260078966617584,
+        "d_uncertainty": 0.41733777984387754,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.14260078966617584
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.10006146519711438,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 23,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.17323212325572968,
+        "d_uncertainty": 0.4169101349087736,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.17323212325572968
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.13660854731515817,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 24,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.2970777750015259,
+        "d_uncertainty": 0.4114858105239075,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.2970777750015259
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.16450918468669998,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 25,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.38957783579826355,
+        "d_uncertainty": 0.41103239828539634,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.38957783579826355
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.21946431141002226,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 26,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.5717387795448303,
+        "d_uncertainty": 0.41200103484753736,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.5717387795448303
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3261270105108601,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 27,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 0.9262421727180481,
+        "d_uncertainty": 0.4128622348737611,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -0.9262421727180481
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3495345915539659,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 28,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 1.502393126487732,
+        "d_uncertainty": 0.423235112937891,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -1.502393126487732
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.35738960763994515,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 29,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 2.1777918338775635,
+        "d_uncertainty": 0.4991610619380719,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -2.1777918338775635
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.370049757467223,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 30,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 2.734295606613159,
+        "d_uncertainty": 0.6229191632879321,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -2.734295606613159
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.37938771803655547,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 31,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.071793556213379,
+        "d_uncertainty": 0.713207496490881,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.071793556213379
+      }
+    },
+    {
+      "event_type": "task_disturbance",
+      "gamma_value": 0.38517892622676253,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 32,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.30816650390625,
+        "d_uncertainty": 0.7706820779757444,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.30816650390625
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3872893251400338,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 33,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.4088573455810547,
+        "d_uncertainty": 0.7883099579834398,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.4088573455810547
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3884524645595268,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 34,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.4741036891937256,
+        "d_uncertainty": 0.7961230820717919,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.4741036891937256
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.38917980552540843,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 35,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.521191358566284,
+        "d_uncertainty": 0.7991827650612562,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.521191358566284
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3897010731307342,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 36,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.5573012828826904,
+        "d_uncertainty": 0.7997212487490831,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.5573012828826904
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3901193258155269,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 37,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.587111711502075,
+        "d_uncertainty": 0.7986889772141772,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.587111711502075
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.39050187854232143,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 38,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6127357482910156,
+        "d_uncertainty": 0.7966591350745263,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6127357482910156
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3908975667965856,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 39,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6353185176849365,
+        "d_uncertainty": 0.7939937229407703,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6353185176849365
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.39134803418534747,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 40,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.655491590499878,
+        "d_uncertainty": 0.7909470609547811,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.655491590499878
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3918933350374404,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 41,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.673722505569458,
+        "d_uncertainty": 0.7877081169624319,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.673722505569458
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3925766696493401,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 42,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.6903235912323,
+        "d_uncertainty": 0.7844272960236054,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.6903235912323
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.39344884166057664,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 43,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.7055022716522217,
+        "d_uncertainty": 0.7812291719867379,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7055022716522217
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.39457262417367145,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 44,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.719485282897949,
+        "d_uncertainty": 0.7782050096854517,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.719485282897949
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3960325916817867,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 45,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.732442855834961,
+        "d_uncertainty": 0.7754253040833436,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.732442855834961
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.3979507530217193,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 46,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.7444961071014404,
+        "d_uncertainty": 0.7729444081206153,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7444961071014404
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4005146461728435,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 47,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.7557780742645264,
+        "d_uncertainty": 0.770794912613615,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7557780742645264
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4040376238256588,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 48,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.766387939453125,
+        "d_uncertainty": 0.769001207696843,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.766387939453125
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.40909490491998757,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 49,
+      "wm_summary": {
+        "candidate_count": 9,
+        "d_degradation": 3.776393175125122,
+        "d_uncertainty": 0.7675815044152707,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.776393175125122
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4181529827099621,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 50,
+      "wm_summary": {
+        "candidate_count": 6,
+        "d_degradation": 3.7858712673187256,
+        "d_uncertainty": 0.7791515050233405,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7858712673187256
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4398017904016902,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 51,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.7948787212371826,
+        "d_uncertainty": 0.9013637205572856,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.7948787212371826
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4454447717075724,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 52,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.803449869155884,
+        "d_uncertainty": 0.905160058124997,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.803449869155884
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4513941762490147,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 53,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8116347789764404,
+        "d_uncertainty": 0.9087356518058348,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8116347789764404
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45439139279175395,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 54,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.81946063041687,
+        "d_uncertainty": 0.9121076451132609,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.81946063041687
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45470829085223136,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 55,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.82694411277771,
+        "d_uncertainty": 0.9152766257180351,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.82694411277771
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45500790588580065,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 56,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.834118604660034,
+        "d_uncertainty": 0.9182727760537277,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.834118604660034
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4552918352759503,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 57,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8410074710845947,
+        "d_uncertainty": 0.9211120699552244,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8410074710845947
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.45556265478736446,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 58,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.847640037536621,
+        "d_uncertainty": 0.9238202650693661,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.847640037536621
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4558230663773766,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 59,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.854038953781128,
+        "d_uncertainty": 0.9264243809694871,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.854038953781128
+      }
+    },
+    {
+      "event_type": "none",
+      "gamma_value": 0.4560744639017727,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "time": 60,
+      "wm_summary": {
+        "candidate_count": 1,
+        "d_degradation": 3.8602211475372314,
+        "d_uncertainty": 0.9289383562134483,
+        "model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+        "utility_noop": -3.8602211475372314
+      }
+    }
+  ],
+  "schema": "event-threshold-manifest/1",
+  "score_count": 240,
+  "source_parent_ids": [
+    "n02-event-train-01-new_arrival",
+    "n02-event-train-02-platform_failure",
+    "n02-event-train-03-energy_drop",
+    "n02-event-train-04-communication_drop"
+  ],
+  "source_parents": [
+    "n02-event-train-01-new_arrival",
+    "n02-event-train-02-platform_failure",
+    "n02-event-train-03-energy_drop",
+    "n02-event-train-04-communication_drop"
+  ],
+  "source_split": "train",
+  "threshold": 0.40407885092742896,
+  "training_input_sha256": "afe8f061d1d92d01301e6c15745386ab517cfeb73b5957b8485ec3ea92002d54",
+  "weights": {
+    "d_degradation": 0.3,
+    "d_margin": 0.25,
+    "d_state": 0.35,
+    "d_uncertainty": 0.1
+  },
+  "wm_summaries_used": true,
+  "world_model_forward_calls_for_calibration": 720,
+  "world_model_hash": "2d2e67bf2042cf5bbff7f0116725654c6f3eddb78f1dd0cdfbbac8bf6fe2a3f2",
+  "world_model_used": true
+}
