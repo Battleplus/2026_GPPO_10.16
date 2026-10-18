@@ -1,7 +1,11 @@
-# 当前归档范围
+# Archive Branch Rules
 
-当前公开成果位于 [releases/n02-minimal-closure-v1-100x100](releases/n02-minimal-closure-v1-100x100/README.md)，包含独立审核后的脱敏源码、仿真数据、模型及报告。其精确字节由 release 内的清单和校验工具验证。
+The historical v1 release and N02 v2 GPU release are separate snapshots under `releases/`. The v2 archive does not replace or rewrite v1. Each release keeps its own validation outputs, inventory, identity, and evidence commitments.
 
-私有凭据、授权原文、个人路径、私有 SQLite 和原始运行日志不公开。原始身份摘要与公开副本摘要分别记录；首次失败历史保留。
+For each release, the frozen private source-manifest SHA-256 and the public redacted-payload SHA-256 are distinct values. `PUBLIC_ARCHIVE_INVENTORY.json` records the frozen-source commitment and public-file hash separately for every staged payload file. Do not compare or substitute one hash for the other.
 
-仓库根目录旧 `PUBLIC_ALLOWLIST.txt`、`PUBLIC_CHECK_RESULT.md`、`HASH_PROVENANCE.md` 和 `tools/public_archive_check.py` 仅描述早期文档快照，不能用于验证本次 release。本次规范见 release 内的 `ARCHIVE_RULES.md` 和 `PRIVACY_REPORT.md`。
+The v2 package documents GPU engineering closure as `PASS_ENGINEERING_CLOSURE` and the registered mechanism/utility/cost result as `REPAIR_REQUIRED`. It is an honest negative result and makes no scientific-success claim. The public result summary gives the evaluated scope, descriptive means, passed and failed registered criteria, and limitations.
+
+Raw run logs, trajectories, receipts containing private provenance, and WM/PPO checkpoint files remain outside the public payload. Their original byte sizes and SHA-256 values may be recorded as digest-only evidence commitments. Never add the raw files, local or remote filesystem paths, connection endpoints, credentials, or private review originals to the public release.
+
+Each release's own archive verifier must pass. A new release requires its own sanitized-staging consistency and privacy review before publication. Status documents must name the engineering and acceptance outcomes separately and must not imply publication before it occurs.

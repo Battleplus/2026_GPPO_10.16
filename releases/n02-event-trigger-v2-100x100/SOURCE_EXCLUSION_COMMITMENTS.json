@@ -1,0 +1,11 @@
+{
+  "categories": {
+    "operational_source_excluded": {
+      "commitment_sha256": "71863729b78e9f5d8886f6ec6dae946927abd56754caa326318c2ba5dc4ba2fc",
+      "count": 3
+    }
+  },
+  "excluded_file_count": 3,
+  "excluded_paths_disclosed": false,
+  "schema": "n02-v2-source-exclusion-commitments/1"
+}

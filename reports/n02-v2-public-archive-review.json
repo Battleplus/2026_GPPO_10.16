@@ -1,0 +1,53 @@
+{
+  "schema": "n02-v2-public-archive-review/1",
+  "date": "2026-10-18",
+  "reviewer": "GPT-6.1 Sol High; separate agent/context within the same model family",
+  "decision": "PASS_SANITIZED_NEGATIVE_RESULT_ARCHIVE_EXACT_BYTES",
+  "scope": "Incremental read-only privacy, exact-byte inventory/publication-request consistency, and honest negative-result review. Frozen source semantics were not re-reviewed. No remote write or publication was performed by the reviewer.",
+  "release": "n02-event-trigger-v2-gpu-68e537cd0c5c43e19a8bec4a0a3e209d",
+  "public_payload_sha256": "a3629212876786a22dc21ce9ac65378dc1871154950bda925ee77ac18bcd22d6",
+  "inventory_sha256": "cfe81d94c69722578c79e0cd3b6c03baef38be799ef0f69881b7e3eb92823dd3",
+  "inventory_sidecar_sha256": "e5282c47eef187b544cdb33c9cacf4f806d6b4ef6a04281f29196fc215bbdcdf",
+  "public_result_summary_sha256": "8dec18b5ea62c3172e9a6d6f389e2ea701e7bd0d66a75cc1f549ce67cda84333",
+  "root_document_sha256": {
+    "STATUS.md": "554c75ec52508efa17f7ed204cdd000896546285d01572b85c2313fa11a94aa6",
+    "ARCHIVE_RULES.md": "4845f5ca63b0dbe5f596955f9f183bda6774e169d4f3d3977a4a95d81b059f97"
+  },
+  "reviewed_publication_byte_set": {
+    "files": 90,
+    "bytes": 1709693,
+    "canonical_file_set_sha256": "a6222602b0dff420e621e8006726e3ffa006bc1dcf316d22089d3cb445bc12ee",
+    "branch": "archive/n02-event-trigger-v2-100x100",
+    "tag": "n02-event-trigger-v2-repair-required",
+    "release_directory": "releases/n02-event-trigger-v2-100x100/",
+    "receipt_destination": "reports/n02-v2-public-archive-review.json",
+    "receipt_is_separate_from_frozen_90_file_set": true
+  },
+  "checks": {
+    "inventory_records": 86,
+    "staged_files_including_inventory_and_sidecar": 88,
+    "unchanged_public_source_files": 79,
+    "hash_mismatches": 0,
+    "raw_inputs_copied": false,
+    "private_result_digest_commitments": 146,
+    "evidence_commitments": 149,
+    "review_original_digest_commitments": 8,
+    "private_paths_endpoints_credentials_or_raw_artifacts_detected": false,
+    "summary_matches_independent_means_and_required_failures": true
+  },
+  "scientific_outcome": {
+    "engineering_closure": "PASS_ENGINEERING_CLOSURE",
+    "registered_acceptance": "REPAIR_REQUIRED",
+    "scientific_acceptance": "FAIL_REQUIRED_CRITERIA_UNMET",
+    "formal_event_g_local_repair": {
+      "train": 0,
+      "development": 0
+    },
+    "event_g_utility_non_decrease": false,
+    "at_least_one_event_g_cost_reduction": false
+  },
+  "publication_disposition": "The exact reviewed bytes are suitable for publication only as an honest REPAIR_REQUIRED negative-result archive on the named new branch/tag, with this receipt added separately. This does not change scientific acceptance, authorize expanded experiments, or record publication execution.",
+  "pending_snapshot_fields": "PENDING/NOT_REVIEWED publication fields in the frozen payload and root documents are retained as pre-publication snapshot metadata. This separate receipt completes the bounded staging review for their exact hashes; producer placeholders are not rewritten as self-approved PASS.",
+  "independence_limit": "Same-model-family separate context, not cross-family replication or third-party signed certification.",
+  "issues": []
+}

@@ -1,0 +1,11 @@
+{
+  "archive_completion": "PENDING",
+  "private_frozen_manifest_sha256": "4cc3ffec17f6f9341741293e5daf657e8898a1aa2b113c80d6f6a9496e40fae0",
+  "private_frozen_source_file_count": 82,
+  "public_redacted_payload_sha256": "a3629212876786a22dc21ce9ac65378dc1871154950bda925ee77ac18bcd22d6",
+  "public_review_summary_count": 1,
+  "public_sha_definition": "SHA-256 of canonical JSON containing public paths, byte counts, and public file SHA-256 values for source and reviewed summary payload files only.",
+  "public_source_file_count": 79,
+  "release": "n02-event-trigger-v2-gpu-68e537cd0c5c43e19a8bec4a0a3e209d",
+  "schema": "n02-v2-public-archive-identity/1"
+}

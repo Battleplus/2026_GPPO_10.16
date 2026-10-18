@@ -1,0 +1,7 @@
+# N02 v2 public archive staging
+
+This is an unpublished, sanitized preparation snapshot. Frozen source files are copied only from the explicit public allowlist and are checked against the private frozen manifest before staging. `PUBLIC_ARCHIVE_INVENTORY.json` separates each private source hash from the public file hash. `PUBLIC_ARCHIVE_IDENTITY.json` keeps the frozen manifest SHA-256 distinct from the redacted public payload SHA-256.
+
+Review originals and private evidence are not copied. `EVIDENCE_HASH_MANIFEST.json` contains only caller-provided labels, byte sizes, and SHA-256 commitments; checkpoint-like inputs are digest-only. Add final evidence later with the builder's `add-evidence` command, then verify again.
+
+The frozen source gate is PASS. Sol's independent final review reports GPU engineering closure `PASS_ENGINEERING_CLOSURE` and registered mechanism/utility/cost acceptance `REPAIR_REQUIRED`; the desired scientific advantage is not established. The public result summary gives the descriptive development means, each registered criterion, and review limits. Raw run originals and checkpoints are excluded; their hashes and byte sizes are committed in `EVIDENCE_HASH_MANIFEST.json`. The summary's independent final review is complete, while incremental sanitized-staging consistency/privacy review and publication remain pending. This archive makes no scientific-success claim.
