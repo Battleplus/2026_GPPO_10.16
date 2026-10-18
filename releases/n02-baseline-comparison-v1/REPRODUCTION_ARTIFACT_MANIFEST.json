@@ -1,0 +1,246 @@
+{
+  "checkpoint_scope": "metadata_strings_only_tensor_values_unchanged",
+  "checkpoints": [
+    {
+      "bytes": 1960647,
+      "exported_sha256": "c8cf1c84460c6813778678f5ca5ab9b4022360d4f46a681116efe4a65794e0ce",
+      "label": "formal-checkpoint-01",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "c8cf1c84460c6813778678f5ca5ab9b4022360d4f46a681116efe4a65794e0ce",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-01.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1960583,
+      "exported_sha256": "b15fea24700b5da2c42a59576e0d5d4d790b99268363d13037b4af5860960ffe",
+      "label": "formal-checkpoint-02",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "b15fea24700b5da2c42a59576e0d5d4d790b99268363d13037b4af5860960ffe",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-02.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1960711,
+      "exported_sha256": "f7365448dcc33b6110062acf7177583c6168f85db0db98552b9c8a7ea5ee7c66",
+      "label": "formal-checkpoint-03",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "f7365448dcc33b6110062acf7177583c6168f85db0db98552b9c8a7ea5ee7c66",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-03.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1497721,
+      "exported_sha256": "709bb9fceff55a639adbf294e3715e52e832c06b7c01177e730b87062f3c05cd",
+      "label": "formal-checkpoint-04",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "709bb9fceff55a639adbf294e3715e52e832c06b7c01177e730b87062f3c05cd",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-04.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1497721,
+      "exported_sha256": "c5c6b75996756ac3d35ecd37c0b5123a54c7b49dfa729e8b048be20015ddea6d",
+      "label": "formal-checkpoint-05",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "c5c6b75996756ac3d35ecd37c0b5123a54c7b49dfa729e8b048be20015ddea6d",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-05.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1497785,
+      "exported_sha256": "fb8da353b1d724352ae61a023f00fdede85b6183d694bdac1a1c93ecdb81d214",
+      "label": "formal-checkpoint-06",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "fb8da353b1d724352ae61a023f00fdede85b6183d694bdac1a1c93ecdb81d214",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-06.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1441881,
+      "exported_sha256": "7bb575ece090acc359e8b8e179f3cb0a851c4cb2d80f7736688d4793609ae016",
+      "label": "formal-checkpoint-07",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "7bb575ece090acc359e8b8e179f3cb0a851c4cb2d80f7736688d4793609ae016",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-07.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1441881,
+      "exported_sha256": "0d12536dce25058c7a8251fca43903b8ba0fbee4e795e4b4701a04096884f61b",
+      "label": "formal-checkpoint-08",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "0d12536dce25058c7a8251fca43903b8ba0fbee4e795e4b4701a04096884f61b",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-08.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1441945,
+      "exported_sha256": "ab545b1ea53435247e6dbb98ffe8f8be4a243742f97c2987ccc93696a900a25e",
+      "label": "formal-checkpoint-09",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "ab545b1ea53435247e6dbb98ffe8f8be4a243742f97c2987ccc93696a900a25e",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-09.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1439961,
+      "exported_sha256": "002f28407880b4ace14fc58f3ae7e68fa450820dce44e4435ee5543aa805adbc",
+      "label": "formal-checkpoint-10",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "002f28407880b4ace14fc58f3ae7e68fa450820dce44e4435ee5543aa805adbc",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-10.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1439961,
+      "exported_sha256": "25043940c3e5360c721abc3158141697aff773f58cbcbcaa609387652f265468",
+      "label": "formal-checkpoint-11",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "25043940c3e5360c721abc3158141697aff773f58cbcbcaa609387652f265468",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-11.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1440025,
+      "exported_sha256": "e79e06054f41f6e33ef73e3381269f50b0ce48202f4d116858eb2018809bf868",
+      "label": "formal-checkpoint-12",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "e79e06054f41f6e33ef73e3381269f50b0ce48202f4d116858eb2018809bf868",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-12.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1485241,
+      "exported_sha256": "7569f1275211eafdb49d814ec65fff023bb2a568ba10bf8286d307e3a4cbafa2",
+      "label": "formal-checkpoint-13",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "7569f1275211eafdb49d814ec65fff023bb2a568ba10bf8286d307e3a4cbafa2",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-13.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1485241,
+      "exported_sha256": "60f7599b179d1dba3ea43eb9904c3b8f428144254d7cd9cfa9c47032558a1b80",
+      "label": "formal-checkpoint-14",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "60f7599b179d1dba3ea43eb9904c3b8f428144254d7cd9cfa9c47032558a1b80",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-14.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1485305,
+      "exported_sha256": "c57a2d8af1180c5a51b33c6abda8ae0e3b4b110ebcabb682438f1f16d8f544d2",
+      "label": "formal-checkpoint-15",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "c57a2d8af1180c5a51b33c6abda8ae0e3b4b110ebcabb682438f1f16d8f544d2",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-15.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1439961,
+      "exported_sha256": "79ad597e9d72f987149cb89242ac0dfda21c63ea128979bf7b9a3feb6c3df5b5",
+      "label": "formal-checkpoint-16",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "79ad597e9d72f987149cb89242ac0dfda21c63ea128979bf7b9a3feb6c3df5b5",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-16.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1439961,
+      "exported_sha256": "6304ee4684c42cd41e4c546e64d64de9632d20df8b6e2af5c4e739feb1a9596b",
+      "label": "formal-checkpoint-17",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "6304ee4684c42cd41e4c546e64d64de9632d20df8b6e2af5c4e739feb1a9596b",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-17.pt",
+      "transformed": false
+    },
+    {
+      "bytes": 1440025,
+      "exported_sha256": "4d8cf86415b3f5b3d68b54bc2f57a1c3e3444d61434cbf9c38521edfebb437b5",
+      "label": "formal-checkpoint-18",
+      "metadata_check": "PASS_METADATA_STRINGS_ONLY",
+      "original_sha256": "4d8cf86415b3f5b3d68b54bc2f57a1c3e3444d61434cbf9c38521edfebb437b5",
+      "public_path": "reproduction/checkpoints/formal-checkpoint-18.pt",
+      "transformed": false
+    }
+  ],
+  "jsonl": [
+    {
+      "chunk_count": 4,
+      "chunks": [
+        {
+          "bytes": 16758046,
+          "public_path": "reproduction/evaluation-actions.part-0001.jsonl",
+          "sha256": "45effa5c603be987d315b3b4bf4cbdae36528bba15a7d9474fa57ec132178ed1"
+        },
+        {
+          "bytes": 16775284,
+          "public_path": "reproduction/evaluation-actions.part-0002.jsonl",
+          "sha256": "9614caec0c2e62aca87a8a5a7ea1853c0c35b312ba19763b0fc1d135e9357b81"
+        },
+        {
+          "bytes": 16770281,
+          "public_path": "reproduction/evaluation-actions.part-0003.jsonl",
+          "sha256": "8056a2a6b8783c28c81d32d595207a1c4856570e366410c5ab61e384ecf8d4a3"
+        },
+        {
+          "bytes": 8393046,
+          "public_path": "reproduction/evaluation-actions.part-0004.jsonl",
+          "sha256": "a5bbb4f24a6bfe8edc8ea994b3e6ddfb159e341312ac9c0ed246afa9e7bded73"
+        }
+      ],
+      "exported_sha256": "25db7987b99f13a27db6a75857209d46dbc9d567fa7916720360a18447f96853",
+      "label": "evaluation-actions",
+      "original_sha256": "25db7987b99f13a27db6a75857209d46dbc9d567fa7916720360a18447f96853",
+      "transformed": false
+    },
+    {
+      "chunk_count": 1,
+      "chunks": [
+        {
+          "bytes": 70606,
+          "public_path": "reproduction/evaluation-episodes.jsonl",
+          "sha256": "88104a69954a34e61c71038a75189ca2345cb0fba234555d98d4022f86c10e82"
+        }
+      ],
+      "exported_sha256": "88104a69954a34e61c71038a75189ca2345cb0fba234555d98d4022f86c10e82",
+      "label": "evaluation-episodes",
+      "original_sha256": "88104a69954a34e61c71038a75189ca2345cb0fba234555d98d4022f86c10e82",
+      "transformed": false
+    },
+    {
+      "chunk_count": 2,
+      "chunks": [
+        {
+          "bytes": 16776166,
+          "public_path": "reproduction/optimizer-updates.part-0001.jsonl",
+          "sha256": "f3cd26a238b39dab21027ff499b3b57bb7f87f420f8e31e66caf8a632cd29599"
+        },
+        {
+          "bytes": 4373714,
+          "public_path": "reproduction/optimizer-updates.part-0002.jsonl",
+          "sha256": "9b1d33955009dec0783ce8b746a18a04cce3064cb1a61b1af9d970d38fc314ea"
+        }
+      ],
+      "exported_sha256": "ad9a9d0742f0ada9c88b0e72f321b1a4e7307bc68076cd3e0957f40ec5995f74",
+      "label": "optimizer-updates",
+      "original_sha256": "62aa71158d18bf9c9e1a51fb99b45adb5f4e24e2058826436b0cd6dfbe1e7b59",
+      "transformed": true
+    },
+    {
+      "chunk_count": 1,
+      "chunks": [
+        {
+          "bytes": 9246295,
+          "public_path": "reproduction/training-episodes.jsonl",
+          "sha256": "c02f5dd0bf8022ef8169226e942eb63aa4e070c011560d229d8764984ff0b74c"
+        }
+      ],
+      "exported_sha256": "c02f5dd0bf8022ef8169226e942eb63aa4e070c011560d229d8764984ff0b74c",
+      "label": "training-episodes",
+      "original_sha256": "5e17128a434ceb164ad962b23af946dc03a0970988d7f8727438dead5c7d2cb8",
+      "transformed": true
+    }
+  ],
+  "schema": "n02-baseline-reproduction-artifacts/1"
+}

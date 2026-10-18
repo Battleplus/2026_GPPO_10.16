@@ -1,0 +1,333 @@
+{
+  "blocking_findings": [],
+  "checkpoint_and_wm_boundary": {
+    "all_policy_digests_and_counters_match_two_archived_evaluation_restore_receipts": true,
+    "archived_training_and_evaluation_processes_distinct": true,
+    "archived_wm_actual_restored_rng_matches_presave": true,
+    "archived_wm_restore_process_distinct_and_exit_zero": true,
+    "interpretation": "Archived CUDA recovery is evidenced by hash-bound process receipts and independently checked checkpoint payloads. This review did not run a new CUDA restore.",
+    "serialized_policy_model_optimizer_rng_digests_all_match": true,
+    "serialized_wm_model_optimizer_rng_probe_digests_all_match": true,
+    "wm_actor_logits_invariant": true,
+    "wm_auxiliary_critic_sensitive": true,
+    "wm_boundary_audit_records": 6,
+    "wm_frozen_states_unchanged_no_gradients_optimizer_excluded": true
+  },
+  "engineering_acceptance": "PASS",
+  "identity_bindings": {
+    "formal_config_sha256": "409d538427490df49f308287aa1ef1b5b1eaabb83f7bb9d3c4f6a3222f90e7d5",
+    "formal_source_manifest_sha256": "53171ce5e2e01717d467e136efc14cf7586a5688d052c6f66ff4269f739ea268",
+    "frozen_input_index_sha256": "7cb329580ab1130840ccba1414fcb7775db67becd83fe03fc0acee157e4067c7",
+    "frozen_original_oracle_sha256": "ae7785acad7ccce0c0013ecdb04640d3d2578e520087795d27c90c4c0b70d4af",
+    "measurement_oracle_sha256": "8bef7110f505083518490e25eb2e94a308af696d7e8e656ccc547c61822371b8",
+    "prior_actual_gate1_review_sha256": "b610b8fc1397826fd896926edc96bba5b0c7209f503c6e4e9c455fa523cee855",
+    "prior_actual_gate2_review_sha256": "ea75853133f75ca5b4e8f4bd08b99bec74c28eafa67500a933b3436d5ba85059",
+    "private_evidence_index_sha256": "4857ef020587cc21cf81fe864aa98759902b7dd9a72b1e64c1cc07f203b96c4f",
+    "proof_helper_sha256": "e0ab4f37f764e3dfb72dbb9c14c9e3d85e0c367a1cd904e47f70af6af039ccb7",
+    "public_inventory_sha256": "f83eef737cae71fdac1e1f06e1deb086c58e851298cd44b5b6d156d09b169acb"
+  },
+  "independent_replays": {
+    "original_oracle": {
+      "exact_archived_report": true,
+      "mismatch": 66,
+      "missing": 28,
+      "status": "FAIL"
+    },
+    "public_action_and_episode_projection_matches_raw_source": true,
+    "public_replay_exit_code": 0,
+    "raw_public_oracle_reports_exactly_equal": true,
+    "revised_oracle": {
+      "exact_archived_report": true,
+      "mismatch": 0,
+      "missing": 0,
+      "status": "PASS"
+    },
+    "standardized_cell_metrics_and_method_means_exactly_reproduced": true,
+    "standardized_metric_definitions": {
+      "communication_messages": "environment action delivery plus explicit rule protocol messages",
+      "constraint_violation_rate": "ticks with positive violations / 60",
+      "local_repair_count": "local planning invocations; unique raw local effect witnesses reported separately",
+      "response_time": "sum planning_latency_seconds / max(1, planning invocations); not policy-only response latency"
+    }
+  },
+  "independent_supporting_artifacts": [
+    {
+      "bytes": 3324,
+      "path": "reviews/SOL_HIGH_GATE3_EXECUTION.json",
+      "sha256": "e57a3648c68b3eed1211a37c389a82ee1166e2b70c18e819b9b3015d4c9d6281"
+    },
+    {
+      "bytes": 12615,
+      "path": "reviews/SOL_HIGH_GATE3_EXTENDED.json",
+      "sha256": "e204602236a1b4e488ecc983906bdda387dd580842fb69e77e5326579c793e7a"
+    },
+    {
+      "bytes": 543,
+      "path": "reviews/SOL_HIGH_GATE3_FINAL_HASH_RECHECK.json",
+      "sha256": "99b6526f0e4a414e3822a45c7d9e58c3b6922d6c3e0c8c11a6dcd5c6364f863e"
+    },
+    {
+      "bytes": 111541,
+      "path": "reviews/SOL_HIGH_GATE3_ORIGINAL_ORACLE_REPLAY.json",
+      "sha256": "06c76ab6b06c89aec047b12fb0ada98c579490e17c199874834d081e0f777682"
+    },
+    {
+      "bytes": 92206,
+      "path": "reviews/SOL_HIGH_GATE3_REVISED_ORACLE_REPLAY.json",
+      "sha256": "fc78cacccff5fdec7bd790e6d178f7b7caa04c9e0602cd76a6891bb664916c99"
+    },
+    {
+      "bytes": 130121,
+      "path": "reviews/SOL_HIGH_GATE3_PUBLIC_REPLAY.json",
+      "sha256": "0abb0096f566303f12724f991f41676587146086506b23d0b2396d573917a4a1"
+    },
+    {
+      "bytes": 11,
+      "path": "reviews/SOL_HIGH_GATE3_PUBLIC_REPLAY.stdout.txt",
+      "sha256": "536250a09a5fe5f5faf325ee309c2f9200017a2f382d5ebb4f655b2f7e55c253"
+    },
+    {
+      "bytes": 112,
+      "path": "reviews/SOL_HIGH_GATE3_TAMPER_TESTS.stdout.txt",
+      "sha256": "c620a85720c4b9c079d230f27579dc6bffa81909dfc994a2444f9a3c35bae099"
+    },
+    {
+      "bytes": 45979,
+      "path": "reviews/SOL_HIGH_GATE3_REAL_DATA_CAUSAL_MUTATIONS.json",
+      "sha256": "e0233c03c36567f41673483d325523c2eca362bbadf3bf0c8c01bd9bbe4d9475"
+    },
+    {
+      "bytes": 7535,
+      "path": "reviews/SOL_HIGH_GATE3_END_TO_END_CAUSAL_MUTATIONS.json",
+      "sha256": "f378f35a5ceda729dc862343eb9d274c6fc995aa820f76fad52c3e006d41ecaf"
+    },
+    {
+      "bytes": 8210,
+      "path": "reviews/SOL_HIGH_GATE3_TRAINING_COUNTS.json",
+      "sha256": "aa26d028758cf9d7eff512be13bd24382b0c693a5b1fbf3a048c9c5838390e51"
+    },
+    {
+      "bytes": 108155,
+      "path": "reviews/SOL_HIGH_GATE3_C1_SOURCE_REPLAY.json",
+      "sha256": "55af36ca008a61fa1d2d7be202e12b8fc3417dc35cbaa5d9a595c88d10bb4179"
+    },
+    {
+      "bytes": 15900,
+      "path": "reviews/SOL_HIGH_GATE3_FROZEN_LOCAL_WITNESSES.json",
+      "sha256": "0b6613b88bb2eb69e869f1441463e5e8831baa815853f528412ce4592e0ea325"
+    },
+    {
+      "bytes": 68135,
+      "path": "reviews/SOL_HIGH_GATE3_STANDARD_METRICS.json",
+      "sha256": "d7ee0298e76765f2a4012c75c52390f4cf4e3e070ca8609b0a5d49aa7defa1d9"
+    },
+    {
+      "bytes": 12641,
+      "path": "reviews/sol_high_gate3_audit.py",
+      "sha256": "9699179580bad35025e3b142cad6c30a990c4d466a3c7fdfba41035d2a139fd9"
+    },
+    {
+      "bytes": 11923,
+      "path": "reviews/sol_high_gate3_extended.py",
+      "sha256": "29aca371afb924413efb033584ec0d3db84c892275abf7b7d8ac7e953ba4c579"
+    },
+    {
+      "bytes": 624,
+      "path": "reviews/sol_high_gate3_resume.py",
+      "sha256": "be3d2b8251a138a9aab4ca22f767472a7b7b92d529384d8d0c92bd53228b71eb"
+    },
+    {
+      "bytes": 762,
+      "path": "reviews/sol_high_gate3_checkpoint_resume.py",
+      "sha256": "3536eb03adee96d76cfff3beb2d24c45ad4a9e6280bf263676a083963cb7a4be"
+    }
+  ],
+  "integrity": {
+    "all_expected_hashes_sizes_match": true,
+    "assembled_outputs_verified": 6,
+    "entry_files_verified": 9,
+    "excluded_large_flat_ppo_checkpoints": 3,
+    "final_inputs_unchanged": true,
+    "frozen_manifest_payloads_verified": 102,
+    "private_inventory_bytes": 2211936019,
+    "private_source_exclusions": 8,
+    "private_source_inventory_files_verified": 258,
+    "public_actual_files_including_inventory_sidecars": 164,
+    "public_listed_files_verified": 162,
+    "public_payload_bytes": 122798109,
+    "public_source_files": 94,
+    "public_unmodified_small_checkpoints": 18,
+    "raw_training_actions_private_with_commitments": true,
+    "unlisted_public_files": []
+  },
+  "material_limits": [
+    "Only three seeds and two development parents; descriptive findings, no independent confirmation set or significance claim.",
+    "Greedy, Auction and CBBA-lite are candidate-constrained controls; CBBA-lite is not full CBBA or a convergence claim. Rule seed repeats are deterministic repetitions, not independent trained samples.",
+    "PPO and GPPO parameter counts differ; graph-versus-flat architecture package comparison does not isolate a causal graph advantage.",
+    "WM is frozen auxiliary-critic-only. It is not an actor, candidate planner, or trigger.",
+    "Public replay reconstructs disclosed compact evaluation data, not omitted private training action bytes or large flat PPO checkpoints.",
+    "The public training guide describes fresh execution with new provenance, not bypassing original strict checkpoint identity or independently tested GPU training commands.",
+    "Privacy acceptance covers exact public text and public checkpoint metadata strings; tensor values were unchanged and were not represented as a tensor-content privacy scan.",
+    "The original frozen oracle FAIL and intermediate audit failures remain part of provenance; the revised PASS is explicitly measurement-version-specific."
+  ],
+  "measurement_revision_acceptance": {
+    "accepted_for_this_frozen_dataset": true,
+    "actual_chain_mutations": 202,
+    "actual_chain_mutations_all_rejected": true,
+    "all_release_roots_have_only_corresponding_leaf_owner_change": true,
+    "delayed_dispatch_rows": 6,
+    "delayed_dispatch_task_proofs": 7,
+    "end_to_end_episode_mutations": 29,
+    "end_to_end_episode_mutations_all_fail_closed": true,
+    "environment_route_release_rows_and_proofs": 22,
+    "existing_metric_formulae_not_relaxed": true,
+    "new_scope": "Complete delayed-dispatch attribution and fully evidenced nonterminal blocked-route environment releases; no general owner-change waiver. Every unexplained root owner change still fails closed. Environment releases do not count as causal reconstruction.",
+    "original_coordinator_missing_test_stdout_not_retroactively_claimed": true,
+    "original_oracle_and_algorithm_not_edited": true,
+    "original_oracle_fail_retained": true,
+    "proofs": 29,
+    "raw_test_stdout_archived_by_this_reviewer": true,
+    "supplied_tamper_tests": 16,
+    "supplied_tests_exit_code": 0
+  },
+  "nonblocking_errata": [
+    {
+      "correct_interpretation": "16 is the per-method/seed group count accidentally labeled record_count; 18 distinct groups were independently counted, each with 16 actual JSONL lines. The raw file has 288 lines. The training manifest and executive workload total already say 288.",
+      "correct_total": 288,
+      "disposition": "Preserve frozen bytes. Treat this independent review as the explicit erratum and link it from repository root status.",
+      "frozen_value": 16,
+      "id": "EPISODE_COUNT_METADATA",
+      "location": "FORMAL001_TRAINING_EVIDENCE_CONSISTENCY.json and public reports/training-evidence-consistency.json: episodes.record_count",
+      "severity": "LOW_METADATA"
+    },
+    {
+      "correction": "1..7 applies to Event-GPPO and Event-GPPO-WM; all nine methods span 1..8. The configured upper cap 16 was never demonstrated.",
+      "disposition": "Keep hash-bound input unchanged; clarify scope in root README/STATUS and retain this review.",
+      "id": "CANDIDATE_RANGE_SCOPE",
+      "location": "PUBLIC_RESULT_INDEX.md candidate-range sentence",
+      "severity": "LOW_SCOPE_WORDING"
+    },
+    {
+      "correction": "Each event method has 9 unique local action witnesses. Frozen verifier emits 11 Event-GPPO and 12 Event-GPPO-WM raw records because a single action may have both queue and owner evidence.",
+      "disposition": "Interpret nine as distinct witness actions, not raw record count.",
+      "id": "LOCAL_WITNESS_COUNT_UNIT",
+      "location": "Executive summary phrase nine actual local witnesses each",
+      "severity": "LOW_SCOPE_WORDING"
+    }
+  ],
+  "publication_interpretation": "This PASS clears the existing Sol Gate3 engineering/publication condition for the unchanged inventory-bound stage. Publish it as a completed negative-result archive, accompanied by this review and its explicit errata. The frozen stage PENDING labels describe its pre-review freeze and are reconciled by the external root status and this review. No scientific PASS is granted.",
+  "publication_readiness": "PASS_FOR_HASH_BOUND_NEGATIVE_RESULT_ARCHIVE",
+  "reason": "The unchanged frozen evidence and public stage are internally consistent and independently replayable under the explicitly disclosed external measurement revision. The predeclared research criterion still fails. The metadata errata below do not change measurements or hide missing workload.",
+  "review_scope": {
+    "cpu_checkpoint_deserialization_and_digest_recomputation": true,
+    "cuda_checkpoint_restore_rerun": false,
+    "gpu_training_rerun": false,
+    "parent_root_readme_status_may_link_this_review_without_altering_stage": true,
+    "publication_performed": false,
+    "read_only_reviewed_inputs": true,
+    "reviewed_public_stage": "formal001-public-stage-002",
+    "server_operations": false,
+    "writes_confined_to_reviews": true
+  },
+  "review_utc": "2026-10-18T13:06:43.917279+00:00",
+  "reviewer": {
+    "agent": "/root/sol61_gate2_pilot005",
+    "decision_authored_by_reviewer": true,
+    "parent_must_not_substitute_signature": true,
+    "requested_model": "GPT-6.1 Sol",
+    "requested_reasoning_effort": "high",
+    "role": "Independent Sol High reviewer"
+  },
+  "schema": "n02-sol-high-gate3-formal001-review/1",
+  "scientific_acceptance": "RESEARCH_CRITERIA_FAILED",
+  "scientific_results": {
+    "all_method_legal_candidate_range": [
+      1,
+      8
+    ],
+    "configured_candidate_cap": 16,
+    "empty_domain_global_actions_each": 0,
+    "event_global_nonnoop_each": 15,
+    "event_legal_candidate_range": [
+      1,
+      7
+    ],
+    "event_local_nonnoop_each": 9,
+    "event_nonnoop_totals_each": 24,
+    "event_noop_totals": {
+      "Event-GPPO": 16,
+      "Event-GPPO-WM": 15
+    },
+    "event_planning_totals": {
+      "Event-GPPO": 40,
+      "Event-GPPO-WM": 39
+    },
+    "event_raw_witness_record_counts": {
+      "Event-GPPO": 11,
+      "Event-GPPO-WM": 12
+    },
+    "event_unique_local_effect_action_witnesses_each": 9,
+    "paired_comparisons": [
+      {
+        "event": "Event-GPPO",
+        "event_minus_periodic": {
+          "communication_messages": 3.0,
+          "completion_rate": 0.06944444444444453,
+          "effective_reconstruction_count": 1.5,
+          "global_utility": 0.6375457126615922,
+          "on_time_rate": 0.06944444444444453,
+          "planning_invocation_count": -8.333333333333332,
+          "reconstruction_size": 1.5
+        },
+        "fixed_resource_reconstruction_reduction_met": false,
+        "paired_cells": 6,
+        "periodic": "Periodic-GPPO",
+        "scientific_verdict": "RESEARCH_CRITERIA_FAILED"
+      },
+      {
+        "event": "Event-GPPO-WM",
+        "event_minus_periodic": {
+          "communication_messages": 0.0,
+          "completion_rate": 0.0,
+          "effective_reconstruction_count": 0.0,
+          "global_utility": 0.02272554085259504,
+          "on_time_rate": 0.0,
+          "planning_invocation_count": -8.5,
+          "reconstruction_size": 0.0
+        },
+        "fixed_resource_reconstruction_reduction_met": false,
+        "paired_cells": 6,
+        "periodic": "Periodic-GPPO-WM",
+        "scientific_verdict": "RESEARCH_CRITERIA_FAILED"
+      }
+    ],
+    "statistical_significance_claim": false,
+    "status": "RESEARCH_CRITERIA_FAILED"
+  },
+  "verdict": "PASS",
+  "workload_verified": {
+    "actor_decision_mask_mismatches": 0,
+    "c1_public_generator_replay_matches_54_eval_and_288_training_episodes": true,
+    "critic_only_updates_leave_actor_parameters_unchanged": true,
+    "evaluation_cells": 54,
+    "evaluation_identity_set": "9 methods x seeds 8201,8202,8203 x 2 development parents",
+    "evaluation_ticks": 3240,
+    "evaluation_ticks_each_cell": 60,
+    "learning_evaluation_restore_receipts": 36,
+    "minibatch_physical_transition_rows": 69120,
+    "optimizer_budget_caps_respected": true,
+    "policy_checkpoints": 18,
+    "policy_cuda_updates": 2304,
+    "policy_groups": 18,
+    "policy_updates_each": 128,
+    "short_tail_minibatches_retained": 1152,
+    "training_episode_lines": 288,
+    "training_episodes_each_group": 16,
+    "training_raw_action_lines": 17280,
+    "training_ticks_each_episode": 60,
+    "wm_cuda_updates": 240,
+    "wm_members": 3,
+    "wm_training_forwards": 240,
+    "wm_updates_each": 80
+  }
+}

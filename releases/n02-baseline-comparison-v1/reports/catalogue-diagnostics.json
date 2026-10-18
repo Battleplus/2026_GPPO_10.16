@@ -1,0 +1,4541 @@
+{
+  "by_cell": {
+    "Auction|8201|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 6,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 54,
+          "2": 1,
+          "4": 3,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3833333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 54,
+        "1": 1,
+        "3": 3,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 55,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 55,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9166666666666666,
+        "rate_among_known_planned": 0.9166666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 55,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 55
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 4,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 3,
+        "none": 54,
+        "rising": 3
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 3,
+        "below_threshold": 19,
+        "cooldown": 1,
+        "empty_impact_domain": 29,
+        "hysteresis_release": 3,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "Auction|8201|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 55,
+          "2": 1,
+          "5": 2,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3666666666666667,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 55,
+        "1": 1,
+        "4": 2,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 56,
+        "True": 4
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 56,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9333333333333333,
+        "rate_among_known_planned": 0.9333333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 56,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 56
+      },
+      "selected_scope_counts": {
+        "LOCAL_REPAIR": 4,
+        "NOOP": 56
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 7,
+        "none": 44,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 32,
+        "cooldown": 2,
+        "empty_impact_domain": 6,
+        "hysteresis_active": 7,
+        "hysteresis_release": 4,
+        "persistence": 1,
+        "warmup": 3
+      }
+    },
+    "Auction|8202|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 6,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 54,
+          "2": 1,
+          "4": 3,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3833333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 54,
+        "1": 1,
+        "3": 3,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 55,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 55,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9166666666666666,
+        "rate_among_known_planned": 0.9166666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 55,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 55
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 4,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 3,
+        "none": 54,
+        "rising": 3
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 3,
+        "below_threshold": 19,
+        "cooldown": 1,
+        "empty_impact_domain": 29,
+        "hysteresis_release": 3,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "Auction|8202|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 55,
+          "2": 1,
+          "5": 2,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3666666666666667,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 55,
+        "1": 1,
+        "4": 2,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 56,
+        "True": 4
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 56,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9333333333333333,
+        "rate_among_known_planned": 0.9333333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 56,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 56
+      },
+      "selected_scope_counts": {
+        "LOCAL_REPAIR": 4,
+        "NOOP": 56
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 7,
+        "none": 44,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 32,
+        "cooldown": 2,
+        "empty_impact_domain": 6,
+        "hysteresis_active": 7,
+        "hysteresis_release": 4,
+        "persistence": 1,
+        "warmup": 3
+      }
+    },
+    "Auction|8203|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 6,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 54,
+          "2": 1,
+          "4": 3,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3833333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 54,
+        "1": 1,
+        "3": 3,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 55,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 55,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9166666666666666,
+        "rate_among_known_planned": 0.9166666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 55,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 55
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 4,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 3,
+        "none": 54,
+        "rising": 3
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 3,
+        "below_threshold": 19,
+        "cooldown": 1,
+        "empty_impact_domain": 29,
+        "hysteresis_release": 3,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "Auction|8203|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 55,
+          "2": 1,
+          "5": 2,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3666666666666667,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 55,
+        "1": 1,
+        "4": 2,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 56,
+        "True": 4
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 56,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9333333333333333,
+        "rate_among_known_planned": 0.9333333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 56,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 56
+      },
+      "selected_scope_counts": {
+        "LOCAL_REPAIR": 4,
+        "NOOP": 56
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 7,
+        "none": 44,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 32,
+        "cooldown": 2,
+        "empty_impact_domain": 6,
+        "hysteresis_active": 7,
+        "hysteresis_release": 4,
+        "persistence": 1,
+        "warmup": 3
+      }
+    },
+    "CBBA-lite|8201|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 6,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 54,
+          "2": 1,
+          "4": 3,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3833333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 54,
+        "1": 1,
+        "3": 3,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 55,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 55,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9166666666666666,
+        "rate_among_known_planned": 0.9166666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 55,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 55
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 4,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 3,
+        "none": 54,
+        "rising": 3
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 3,
+        "below_threshold": 19,
+        "cooldown": 1,
+        "empty_impact_domain": 29,
+        "hysteresis_release": 3,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "CBBA-lite|8201|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 55,
+          "2": 1,
+          "5": 2,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3666666666666667,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 55,
+        "1": 1,
+        "4": 2,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 56,
+        "True": 4
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 56,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9333333333333333,
+        "rate_among_known_planned": 0.9333333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 56,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 56
+      },
+      "selected_scope_counts": {
+        "LOCAL_REPAIR": 4,
+        "NOOP": 56
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 7,
+        "none": 44,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 32,
+        "cooldown": 2,
+        "empty_impact_domain": 6,
+        "hysteresis_active": 7,
+        "hysteresis_release": 4,
+        "persistence": 1,
+        "warmup": 3
+      }
+    },
+    "CBBA-lite|8202|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 6,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 54,
+          "2": 1,
+          "4": 3,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3833333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 54,
+        "1": 1,
+        "3": 3,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 55,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 55,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9166666666666666,
+        "rate_among_known_planned": 0.9166666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 55,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 55
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 4,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 3,
+        "none": 54,
+        "rising": 3
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 3,
+        "below_threshold": 19,
+        "cooldown": 1,
+        "empty_impact_domain": 29,
+        "hysteresis_release": 3,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "CBBA-lite|8202|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 55,
+          "2": 1,
+          "5": 2,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3666666666666667,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 55,
+        "1": 1,
+        "4": 2,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 56,
+        "True": 4
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 56,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9333333333333333,
+        "rate_among_known_planned": 0.9333333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 56,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 56
+      },
+      "selected_scope_counts": {
+        "LOCAL_REPAIR": 4,
+        "NOOP": 56
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 7,
+        "none": 44,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 32,
+        "cooldown": 2,
+        "empty_impact_domain": 6,
+        "hysteresis_active": 7,
+        "hysteresis_release": 4,
+        "persistence": 1,
+        "warmup": 3
+      }
+    },
+    "CBBA-lite|8203|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 6,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 54,
+          "2": 1,
+          "4": 3,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3833333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 54,
+        "1": 1,
+        "3": 3,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 55,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 55,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9166666666666666,
+        "rate_among_known_planned": 0.9166666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 55,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 55
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 4,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 3,
+        "none": 54,
+        "rising": 3
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 3,
+        "below_threshold": 19,
+        "cooldown": 1,
+        "empty_impact_domain": 29,
+        "hysteresis_release": 3,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "CBBA-lite|8203|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 55,
+          "2": 1,
+          "5": 2,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3666666666666667,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 55,
+        "1": 1,
+        "4": 2,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 56,
+        "True": 4
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 56,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9333333333333333,
+        "rate_among_known_planned": 0.9333333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 56,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 56
+      },
+      "selected_scope_counts": {
+        "LOCAL_REPAIR": 4,
+        "NOOP": 56
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 7,
+        "none": 44,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 32,
+        "cooldown": 2,
+        "empty_impact_domain": 6,
+        "hysteresis_active": 7,
+        "hysteresis_release": 4,
+        "persistence": 1,
+        "warmup": 3
+      }
+    },
+    "Event-GPPO-WM|8201|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "3": 1,
+          "4": 3,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 4.4,
+        "min": 3
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "2": 1,
+        "3": 3,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 5,
+      "reconstruction_size_histogram_planned_rows": {
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 0,
+        "known_count": 5,
+        "rate_among_all_planned": 0.0,
+        "rate_among_known_planned": 0.0
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 0,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 0
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 2,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 5,
+        "none": 50,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 29,
+        "empty_impact_domain": 15,
+        "hysteresis_release": 5,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Event-GPPO-WM|8201|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 3,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 5,
+        "1": 3
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 5,
+          "4": 2,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 2.5,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 5,
+        "3": 2,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 8,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 5,
+        "1": 3
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 5,
+        "True": 3
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 5,
+        "known_count": 8,
+        "rate_among_all_planned": 0.625,
+        "rate_among_known_planned": 0.625
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 5,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 5
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 2,
+        "LOCAL_REPAIR": 1,
+        "NOOP": 57
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 2,
+        "held": 35,
+        "none": 15,
+        "rising": 3,
+        "service_debt_retry": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 8,
+        "below_threshold": 7,
+        "cooldown": 1,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 35,
+        "hysteresis_release": 2,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Event-GPPO-WM|8202|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "3": 1,
+          "4": 3,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 4.4,
+        "min": 3
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "2": 1,
+        "3": 3,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 5,
+      "reconstruction_size_histogram_planned_rows": {
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 0,
+        "known_count": 5,
+        "rate_among_all_planned": 0.0,
+        "rate_among_known_planned": 0.0
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 0,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 0
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 2,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 5,
+        "none": 50,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 29,
+        "empty_impact_domain": 15,
+        "hysteresis_release": 5,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Event-GPPO-WM|8202|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 3,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 5,
+        "1": 3
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 5,
+          "4": 2,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 2.5,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 5,
+        "3": 2,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 8,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 5,
+        "1": 3
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 5,
+        "True": 3
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 5,
+        "known_count": 8,
+        "rate_among_all_planned": 0.625,
+        "rate_among_known_planned": 0.625
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 5,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 5
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 2,
+        "LOCAL_REPAIR": 1,
+        "NOOP": 57
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 2,
+        "held": 35,
+        "none": 15,
+        "rising": 3,
+        "service_debt_retry": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 8,
+        "below_threshold": 7,
+        "cooldown": 1,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 35,
+        "hysteresis_release": 2,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Event-GPPO-WM|8203|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "3": 1,
+          "4": 3,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 4.4,
+        "min": 3
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "2": 1,
+        "3": 3,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 5,
+      "reconstruction_size_histogram_planned_rows": {
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 0,
+        "known_count": 5,
+        "rate_among_all_planned": 0.0,
+        "rate_among_known_planned": 0.0
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 0,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 0
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 2,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 5,
+        "none": 50,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 29,
+        "empty_impact_domain": 15,
+        "hysteresis_release": 5,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Event-GPPO-WM|8203|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 3,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 5,
+        "1": 3
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 5,
+          "4": 2,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 2.5,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 5,
+        "3": 2,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 8,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 5,
+        "1": 3
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 5,
+        "True": 3
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 5,
+        "known_count": 8,
+        "rate_among_all_planned": 0.625,
+        "rate_among_known_planned": 0.625
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 5,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 5
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 2,
+        "LOCAL_REPAIR": 1,
+        "NOOP": 57
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 2,
+        "held": 35,
+        "none": 15,
+        "rising": 3,
+        "service_debt_retry": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 8,
+        "below_threshold": 7,
+        "cooldown": 1,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 35,
+        "hysteresis_release": 2,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Event-GPPO|8201|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "3": 1,
+          "4": 3,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 4.4,
+        "min": 3
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "2": 1,
+        "3": 3,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 5,
+      "reconstruction_size_histogram_planned_rows": {
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 0,
+        "known_count": 5,
+        "rate_among_all_planned": 0.0,
+        "rate_among_known_planned": 0.0
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 0,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 0
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 2,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 5,
+        "none": 50,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 29,
+        "empty_impact_domain": 15,
+        "hysteresis_release": 5,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Event-GPPO|8201|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 3,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 5,
+        "1": 3
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 5,
+          "4": 2,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 2.5,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 5,
+        "3": 2,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 8,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 5,
+        "1": 3
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 5,
+        "True": 3
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 5,
+        "known_count": 8,
+        "rate_among_all_planned": 0.625,
+        "rate_among_known_planned": 0.625
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 5,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 5
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 2,
+        "LOCAL_REPAIR": 1,
+        "NOOP": 57
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 2,
+        "held": 35,
+        "none": 15,
+        "rising": 3,
+        "service_debt_retry": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 8,
+        "below_threshold": 7,
+        "cooldown": 1,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 35,
+        "hysteresis_release": 2,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Event-GPPO|8202|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 1,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 1,
+          "3": 1,
+          "4": 3,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 3.8333333333333335,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 1,
+        "2": 1,
+        "3": 3,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 6,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 1,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 1,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 1,
+        "known_count": 6,
+        "rate_among_all_planned": 0.16666666666666666,
+        "rate_among_known_planned": 0.16666666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 1,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 1
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 2,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 6,
+        "held": 2,
+        "none": 46,
+        "rising": 6
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 6,
+        "below_threshold": 26,
+        "empty_impact_domain": 15,
+        "hysteresis_active": 2,
+        "hysteresis_release": 6,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "Event-GPPO|8202|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 3,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 5,
+        "1": 3
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 5,
+          "4": 2,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 2.5,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 5,
+        "3": 2,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 8,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 5,
+        "1": 3
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 5,
+        "True": 3
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 5,
+        "known_count": 8,
+        "rate_among_all_planned": 0.625,
+        "rate_among_known_planned": 0.625
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 5,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 5
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 2,
+        "LOCAL_REPAIR": 1,
+        "NOOP": 57
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 2,
+        "held": 35,
+        "none": 15,
+        "rising": 3,
+        "service_debt_retry": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 8,
+        "below_threshold": 7,
+        "cooldown": 1,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 35,
+        "hysteresis_release": 2,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Event-GPPO|8203|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "3": 1,
+          "4": 3,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 4.4,
+        "min": 3
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "2": 1,
+        "3": 3,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 5,
+      "reconstruction_size_histogram_planned_rows": {
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 0,
+        "known_count": 5,
+        "rate_among_all_planned": 0.0,
+        "rate_among_known_planned": 0.0
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 0,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 0
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 2,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 5,
+        "none": 50,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 29,
+        "empty_impact_domain": 15,
+        "hysteresis_release": 5,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Event-GPPO|8203|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 3,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 5,
+        "1": 3
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 5,
+          "4": 2,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 2.5,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 5,
+        "3": 2,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 8,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 5,
+        "1": 3
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 5,
+        "True": 3
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 5,
+        "known_count": 8,
+        "rate_among_all_planned": 0.625,
+        "rate_among_known_planned": 0.625
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 5,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 5
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 2,
+        "LOCAL_REPAIR": 1,
+        "NOOP": 57
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 2,
+        "held": 35,
+        "none": 15,
+        "rising": 3,
+        "service_debt_retry": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 8,
+        "below_threshold": 7,
+        "cooldown": 1,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 35,
+        "hysteresis_release": 2,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "GPPO|8201|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 7,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 53,
+        "1": 7
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 53,
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.4,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 53,
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 53,
+        "1": 7
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 53,
+        "True": 7
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 53,
+        "known_count": 60,
+        "rate_among_all_planned": 0.8833333333333333,
+        "rate_among_known_planned": 0.8833333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 53,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 53
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 6,
+        "NOOP": 53
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 1,
+        "none": 51,
+        "rising": 4
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 4,
+        "below_threshold": 17,
+        "cooldown": 3,
+        "empty_impact_domain": 25,
+        "hysteresis_active": 1,
+        "hysteresis_release": 4,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "GPPO|8201|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 7,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 54,
+        "1": 6
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 53,
+          "2": 1,
+          "4": 1,
+          "5": 3,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.4833333333333334,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 53,
+        "1": 1,
+        "3": 1,
+        "4": 3,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 54,
+        "1": 6
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 53,
+        "True": 7
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 53,
+        "known_count": 60,
+        "rate_among_all_planned": 0.8833333333333333,
+        "rate_among_known_planned": 0.8833333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 53,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 53
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 6,
+        "NOOP": 53
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 7,
+        "none": 44,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 32,
+        "cooldown": 3,
+        "empty_impact_domain": 4,
+        "hysteresis_active": 7,
+        "hysteresis_release": 4,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "GPPO|8202|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 17,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 43,
+          "2": 1,
+          "3": 2,
+          "4": 8,
+          "5": 2,
+          "6": 2,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 2.0,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 43,
+        "1": 1,
+        "2": 2,
+        "3": 8,
+        "4": 2,
+        "5": 2,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 55,
+        "1": 4,
+        "2": 1
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 52,
+        "True": 8
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 52,
+        "known_count": 60,
+        "rate_among_all_planned": 0.8666666666666667,
+        "rate_among_known_planned": 0.8666666666666667
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 52,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 52
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 7,
+        "NOOP": 52
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "none": 52,
+        "rising": 4
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 4,
+        "below_threshold": 19,
+        "cooldown": 3,
+        "empty_impact_domain": 22,
+        "hysteresis_release": 4,
+        "persistence": 5,
+        "warmup": 3
+      }
+    },
+    "GPPO|8202|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 8,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 52,
+          "2": 1,
+          "5": 3,
+          "6": 2,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.6,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 52,
+        "1": 1,
+        "4": 3,
+        "5": 2,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 53,
+        "True": 7
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 53,
+        "known_count": 60,
+        "rate_among_all_planned": 0.8833333333333333,
+        "rate_among_known_planned": 0.8833333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 53,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 53
+      },
+      "selected_scope_counts": {
+        "LOCAL_REPAIR": 7,
+        "NOOP": 53
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 7,
+        "none": 44,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 30,
+        "cooldown": 4,
+        "empty_impact_domain": 5,
+        "hysteresis_active": 7,
+        "hysteresis_release": 4,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "GPPO|8203|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 7,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 53,
+        "1": 7
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 53,
+          "2": 1,
+          "3": 4,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3666666666666667,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 53,
+        "1": 1,
+        "2": 4,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 53,
+        "1": 7
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 53,
+        "True": 7
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 53,
+        "known_count": 60,
+        "rate_among_all_planned": 0.8833333333333333,
+        "rate_among_known_planned": 0.8833333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 53,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 53
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 4,
+        "NOOP": 53
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 5,
+        "held": 1,
+        "none": 49,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 28,
+        "cooldown": 2,
+        "empty_impact_domain": 12,
+        "hysteresis_active": 1,
+        "hysteresis_release": 5,
+        "persistence": 4,
+        "warmup": 3
+      }
+    },
+    "GPPO|8203|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 6,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 54,
+          "2": 1,
+          "4": 2,
+          "7": 2,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.4333333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 54,
+        "1": 1,
+        "3": 2,
+        "6": 2,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 54,
+        "True": 6
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 54,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9,
+        "rate_among_known_planned": 0.9
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 54,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 54
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 3,
+        "NOOP": 54
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 1,
+        "held": 35,
+        "none": 17,
+        "rising": 2,
+        "service_debt_retry": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 7,
+        "below_threshold": 6,
+        "cooldown": 3,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 35,
+        "hysteresis_release": 1,
+        "persistence": 4,
+        "warmup": 3
+      }
+    },
+    "Greedy|8201|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 6,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 54,
+          "2": 1,
+          "4": 3,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3833333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 54,
+        "1": 1,
+        "3": 3,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 55,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 55,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9166666666666666,
+        "rate_among_known_planned": 0.9166666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 55,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 55
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 4,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 3,
+        "none": 54,
+        "rising": 3
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 3,
+        "below_threshold": 19,
+        "cooldown": 1,
+        "empty_impact_domain": 29,
+        "hysteresis_release": 3,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "Greedy|8201|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 55,
+          "2": 1,
+          "5": 2,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3666666666666667,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 55,
+        "1": 1,
+        "4": 2,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 56,
+        "True": 4
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 56,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9333333333333333,
+        "rate_among_known_planned": 0.9333333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 56,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 56
+      },
+      "selected_scope_counts": {
+        "LOCAL_REPAIR": 4,
+        "NOOP": 56
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 7,
+        "none": 44,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 32,
+        "cooldown": 2,
+        "empty_impact_domain": 6,
+        "hysteresis_active": 7,
+        "hysteresis_release": 4,
+        "persistence": 1,
+        "warmup": 3
+      }
+    },
+    "Greedy|8202|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 6,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 54,
+          "2": 1,
+          "4": 3,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3833333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 54,
+        "1": 1,
+        "3": 3,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 55,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 55,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9166666666666666,
+        "rate_among_known_planned": 0.9166666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 55,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 55
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 4,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 3,
+        "none": 54,
+        "rising": 3
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 3,
+        "below_threshold": 19,
+        "cooldown": 1,
+        "empty_impact_domain": 29,
+        "hysteresis_release": 3,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "Greedy|8202|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 55,
+          "2": 1,
+          "5": 2,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3666666666666667,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 55,
+        "1": 1,
+        "4": 2,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 56,
+        "True": 4
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 56,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9333333333333333,
+        "rate_among_known_planned": 0.9333333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 56,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 56
+      },
+      "selected_scope_counts": {
+        "LOCAL_REPAIR": 4,
+        "NOOP": 56
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 7,
+        "none": 44,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 32,
+        "cooldown": 2,
+        "empty_impact_domain": 6,
+        "hysteresis_active": 7,
+        "hysteresis_release": 4,
+        "persistence": 1,
+        "warmup": 3
+      }
+    },
+    "Greedy|8203|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 6,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 54,
+          "2": 1,
+          "4": 3,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3833333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 54,
+        "1": 1,
+        "3": 3,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 55,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 55,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 55,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9166666666666666,
+        "rate_among_known_planned": 0.9166666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 55,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 55
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 4,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 3,
+        "none": 54,
+        "rising": 3
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 3,
+        "below_threshold": 19,
+        "cooldown": 1,
+        "empty_impact_domain": 29,
+        "hysteresis_release": 3,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "Greedy|8203|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 55,
+          "2": 1,
+          "5": 2,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.3666666666666667,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 55,
+        "1": 1,
+        "4": 2,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 56,
+        "1": 4
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 56,
+        "True": 4
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 56,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9333333333333333,
+        "rate_among_known_planned": 0.9333333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 56,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 56
+      },
+      "selected_scope_counts": {
+        "LOCAL_REPAIR": 4,
+        "NOOP": 56
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 7,
+        "none": 44,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 32,
+        "cooldown": 2,
+        "empty_impact_domain": 6,
+        "hysteresis_active": 7,
+        "hysteresis_release": 4,
+        "persistence": 1,
+        "warmup": 3
+      }
+    },
+    "PPO|8201|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 7,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 53,
+        "1": 7
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 53,
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.4,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 53,
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 53,
+        "1": 7
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 53,
+        "True": 7
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 53,
+        "known_count": 60,
+        "rate_among_all_planned": 0.8833333333333333,
+        "rate_among_known_planned": 0.8833333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 53,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 53
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 6,
+        "NOOP": 53
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 1,
+        "none": 51,
+        "rising": 4
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 4,
+        "below_threshold": 17,
+        "cooldown": 3,
+        "empty_impact_domain": 25,
+        "hysteresis_active": 1,
+        "hysteresis_release": 4,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "PPO|8201|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 7,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 54,
+        "1": 6
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 53,
+          "2": 1,
+          "4": 1,
+          "5": 3,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.4833333333333334,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 53,
+        "1": 1,
+        "3": 1,
+        "4": 3,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 54,
+        "1": 6
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 53,
+        "True": 7
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 53,
+        "known_count": 60,
+        "rate_among_all_planned": 0.8833333333333333,
+        "rate_among_known_planned": 0.8833333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 53,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 53
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 6,
+        "NOOP": 53
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 7,
+        "none": 44,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 32,
+        "cooldown": 3,
+        "empty_impact_domain": 4,
+        "hysteresis_active": 7,
+        "hysteresis_release": 4,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "PPO|8202|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 46,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 58,
+        "1": 2
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 14,
+          "2": 1,
+          "4": 10,
+          "6": 30,
+          "7": 1,
+          "8": 4
+        },
+        "max": 8,
+        "mean": 4.583333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 14,
+        "1": 1,
+        "3": 10,
+        "5": 30,
+        "6": 1,
+        "7": 4
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 58,
+        "1": 2
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 58,
+        "True": 2
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 58,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9666666666666667,
+        "rate_among_known_planned": 0.9666666666666667
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 58,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 58
+      },
+      "selected_scope_counts": {
+        "LOCAL_REPAIR": 2,
+        "NOOP": 58
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 9,
+        "held": 7,
+        "none": 28,
+        "rising": 10,
+        "service_debt_retry": 6
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 16,
+        "below_threshold": 20,
+        "cooldown": 3,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 7,
+        "hysteresis_release": 9,
+        "persistence": 1,
+        "warmup": 3
+      }
+    },
+    "PPO|8202|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 45,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 58,
+        "1": 2
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 15,
+          "2": 1,
+          "3": 6,
+          "4": 4,
+          "5": 4,
+          "6": 28,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 4.233333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 15,
+        "1": 1,
+        "2": 6,
+        "3": 4,
+        "4": 4,
+        "5": 28,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 58,
+        "1": 2
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 58,
+        "True": 2
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 58,
+        "known_count": 60,
+        "rate_among_all_planned": 0.9666666666666667,
+        "rate_among_known_planned": 0.9666666666666667
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 58,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 58
+      },
+      "selected_scope_counts": {
+        "LOCAL_REPAIR": 2,
+        "NOOP": 58
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 9,
+        "held": 8,
+        "none": 29,
+        "rising": 10,
+        "service_debt_retry": 4
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 14,
+        "below_threshold": 21,
+        "cooldown": 3,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 8,
+        "hysteresis_release": 9,
+        "persistence": 1,
+        "warmup": 3
+      }
+    },
+    "PPO|8203|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 8,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 53,
+        "1": 7
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 52,
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.45,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 52,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 53,
+        "1": 7
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 52,
+        "True": 8
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 52,
+        "known_count": 60,
+        "rate_among_all_planned": 0.8666666666666667,
+        "rate_among_known_planned": 0.8666666666666667
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 52,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 52
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 7,
+        "NOOP": 52
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 1,
+        "none": 51,
+        "rising": 4
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 4,
+        "below_threshold": 17,
+        "cooldown": 3,
+        "empty_impact_domain": 25,
+        "hysteresis_active": 1,
+        "hysteresis_release": 4,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "PPO|8203|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 7,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 54,
+        "1": 6
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 53,
+          "2": 1,
+          "4": 1,
+          "5": 3,
+          "7": 1,
+          "8": 1
+        },
+        "max": 8,
+        "mean": 1.4833333333333334,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 53,
+        "1": 1,
+        "3": 1,
+        "4": 3,
+        "6": 1,
+        "7": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 60,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 54,
+        "1": 6
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 53,
+        "True": 7
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 53,
+        "known_count": 60,
+        "rate_among_all_planned": 0.8833333333333333,
+        "rate_among_known_planned": 0.8833333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 53,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 53
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 6,
+        "NOOP": 53
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "held": 7,
+        "none": 44,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 32,
+        "cooldown": 3,
+        "empty_impact_domain": 4,
+        "hysteresis_active": 7,
+        "hysteresis_release": 4,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "Periodic-GPPO-WM|8201|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 10,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 10,
+          "3": 1,
+          "4": 3,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 2.1333333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 10,
+        "2": 1,
+        "3": 3,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 15,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 10,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 10,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 10,
+        "known_count": 15,
+        "rate_among_all_planned": 0.6666666666666666,
+        "rate_among_known_planned": 0.6666666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 10,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 10
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 2,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 5,
+        "none": 50,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 29,
+        "empty_impact_domain": 15,
+        "hysteresis_release": 5,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Periodic-GPPO-WM|8201|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 3,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 12,
+        "1": 3
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 12,
+          "4": 2,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 1.8,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 12,
+        "3": 2,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 15,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 12,
+        "1": 3
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 12,
+        "True": 3
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 12,
+        "known_count": 15,
+        "rate_among_all_planned": 0.8,
+        "rate_among_known_planned": 0.8
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 12,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 12
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 2,
+        "LOCAL_REPAIR": 1,
+        "NOOP": 57
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 2,
+        "held": 35,
+        "none": 15,
+        "rising": 3,
+        "service_debt_retry": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 8,
+        "below_threshold": 7,
+        "cooldown": 1,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 35,
+        "hysteresis_release": 2,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Periodic-GPPO-WM|8202|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 10,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 10,
+          "3": 1,
+          "4": 3,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 2.1333333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 10,
+        "2": 1,
+        "3": 3,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 15,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 10,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 10,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 10,
+        "known_count": 15,
+        "rate_among_all_planned": 0.6666666666666666,
+        "rate_among_known_planned": 0.6666666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 10,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 10
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 2,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 5,
+        "none": 50,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 29,
+        "empty_impact_domain": 15,
+        "hysteresis_release": 5,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Periodic-GPPO-WM|8202|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 3,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 12,
+        "1": 3
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 12,
+          "4": 2,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 1.8,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 12,
+        "3": 2,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 15,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 12,
+        "1": 3
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 12,
+        "True": 3
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 12,
+        "known_count": 15,
+        "rate_among_all_planned": 0.8,
+        "rate_among_known_planned": 0.8
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 12,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 12
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 2,
+        "LOCAL_REPAIR": 1,
+        "NOOP": 57
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 2,
+        "held": 35,
+        "none": 15,
+        "rising": 3,
+        "service_debt_retry": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 8,
+        "below_threshold": 7,
+        "cooldown": 1,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 35,
+        "hysteresis_release": 2,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Periodic-GPPO-WM|8203|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 10,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 10,
+          "3": 1,
+          "4": 3,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 2.1333333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 10,
+        "2": 1,
+        "3": 3,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 15,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 10,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 10,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 10,
+        "known_count": 15,
+        "rate_among_all_planned": 0.6666666666666666,
+        "rate_among_known_planned": 0.6666666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 10,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 10
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 2,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 5,
+        "none": 50,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 29,
+        "empty_impact_domain": 15,
+        "hysteresis_release": 5,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Periodic-GPPO-WM|8203|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 3,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 12,
+        "1": 3
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 12,
+          "4": 2,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 1.8,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 12,
+        "3": 2,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 15,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 12,
+        "1": 3
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 12,
+        "True": 3
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 12,
+        "known_count": 15,
+        "rate_among_all_planned": 0.8,
+        "rate_among_known_planned": 0.8
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 12,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 12
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 2,
+        "LOCAL_REPAIR": 1,
+        "NOOP": 57
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 2,
+        "held": 35,
+        "none": 15,
+        "rising": 3,
+        "service_debt_retry": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 8,
+        "below_threshold": 7,
+        "cooldown": 1,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 35,
+        "hysteresis_release": 2,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Periodic-GPPO|8201|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 5,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 10,
+        "1": 5
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 10,
+          "3": 1,
+          "4": 3,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 2.1333333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 10,
+        "2": 1,
+        "3": 3,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 15,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 10,
+        "1": 5
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 10,
+        "True": 5
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 10,
+        "known_count": 15,
+        "rate_among_all_planned": 0.6666666666666666,
+        "rate_among_known_planned": 0.6666666666666666
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 10,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 10
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 2,
+        "NOOP": 55
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 5,
+        "none": 50,
+        "rising": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 5,
+        "below_threshold": 29,
+        "empty_impact_domain": 15,
+        "hysteresis_release": 5,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Periodic-GPPO|8201|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 3,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 12,
+        "1": 3
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 12,
+          "4": 2,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 1.8,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 12,
+        "3": 2,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 15,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 12,
+        "1": 3
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 12,
+        "True": 3
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 12,
+        "known_count": 15,
+        "rate_among_all_planned": 0.8,
+        "rate_among_known_planned": 0.8
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 12,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 12
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 2,
+        "LOCAL_REPAIR": 1,
+        "NOOP": 57
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 2,
+        "held": 35,
+        "none": 15,
+        "rising": 3,
+        "service_debt_retry": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 8,
+        "below_threshold": 7,
+        "cooldown": 1,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 35,
+        "hysteresis_release": 2,
+        "persistence": 3,
+        "warmup": 3
+      }
+    },
+    "Periodic-GPPO|8202|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 4,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 11,
+        "1": 4
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 11,
+          "4": 3,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 2.0,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 11,
+        "3": 3,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 15,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 11,
+        "1": 4
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 11,
+        "True": 4
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 11,
+        "known_count": 15,
+        "rate_among_all_planned": 0.7333333333333333,
+        "rate_among_known_planned": 0.7333333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 11,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 11
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 1,
+        "LOCAL_REPAIR": 3,
+        "NOOP": 56
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 4,
+        "none": 52,
+        "rising": 4
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 4,
+        "below_threshold": 17,
+        "empty_impact_domain": 30,
+        "hysteresis_release": 4,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "Periodic-GPPO|8202|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 3,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 12,
+        "1": 3
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 12,
+          "5": 2,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 1.9333333333333333,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 12,
+        "4": 2,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 15,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 12,
+        "1": 3
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 12,
+        "True": 3
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 12,
+        "known_count": 15,
+        "rate_among_all_planned": 0.8,
+        "rate_among_known_planned": 0.8
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 12,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 12
+      },
+      "selected_scope_counts": {
+        "LOCAL_REPAIR": 3,
+        "NOOP": 57
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 5,
+        "held": 7,
+        "none": 42,
+        "rising": 6
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 6,
+        "below_threshold": 30,
+        "cooldown": 1,
+        "empty_impact_domain": 6,
+        "hysteresis_active": 7,
+        "hysteresis_release": 5,
+        "persistence": 2,
+        "warmup": 3
+      }
+    },
+    "Periodic-GPPO|8203|n02-event-development-05-environment_perturbation": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 11,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 15
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 4,
+          "6": 2,
+          "7": 1,
+          "8": 8
+        },
+        "max": 8,
+        "mean": 5.8,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 4,
+        "5": 2,
+        "6": 1,
+        "7": 8
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 15,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 15
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 15
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 15,
+        "known_count": 15,
+        "rate_among_all_planned": 1.0,
+        "rate_among_known_planned": 1.0
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 15,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 15
+      },
+      "selected_scope_counts": {
+        "NOOP": 60
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 10,
+        "held": 7,
+        "none": 26,
+        "rising": 11,
+        "service_debt_retry": 6
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 17,
+        "below_threshold": 22,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 7,
+        "hysteresis_release": 10,
+        "warmup": 3
+      }
+    },
+    "Periodic-GPPO|8203|n02-event-development-06-mixed_events": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 11,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 15
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 4,
+          "4": 2,
+          "5": 1,
+          "6": 7,
+          "7": 1
+        },
+        "max": 7,
+        "mean": 4.4,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 4,
+        "3": 2,
+        "4": 1,
+        "5": 7,
+        "6": 1
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 15,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 15
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 15
+      },
+      "rows": 60,
+      "selected_noop": {
+        "count": 15,
+        "known_count": 15,
+        "rate_among_all_planned": 1.0,
+        "rate_among_known_planned": 1.0
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 15,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 15
+      },
+      "selected_scope_counts": {
+        "NOOP": 60
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 10,
+        "held": 8,
+        "none": 26,
+        "rising": 11,
+        "service_debt_retry": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 16,
+        "below_threshold": 22,
+        "empty_impact_domain": 1,
+        "hysteresis_active": 8,
+        "hysteresis_release": 10,
+        "warmup": 3
+      }
+    }
+  },
+  "by_method": {
+    "Auction": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 33,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 333,
+        "1": 27
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 327,
+          "2": 6,
+          "4": 9,
+          "5": 6,
+          "7": 6,
+          "8": 6
+        },
+        "max": 8,
+        "mean": 1.375,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 327,
+        "1": 6,
+        "3": 9,
+        "4": 6,
+        "6": 6,
+        "7": 6
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 360,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 333,
+        "1": 27
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 333,
+        "True": 27
+      },
+      "rows": 360,
+      "selected_noop": {
+        "count": 333,
+        "known_count": 360,
+        "rate_among_all_planned": 0.925,
+        "rate_among_known_planned": 0.925
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 333,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 333
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 24,
+        "NOOP": 333
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 21,
+        "held": 21,
+        "none": 294,
+        "rising": 24
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 24,
+        "below_threshold": 153,
+        "cooldown": 9,
+        "empty_impact_domain": 105,
+        "hysteresis_active": 21,
+        "hysteresis_release": 21,
+        "persistence": 9,
+        "warmup": 18
+      }
+    },
+    "CBBA-lite": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 33,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 333,
+        "1": 27
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 327,
+          "2": 6,
+          "4": 9,
+          "5": 6,
+          "7": 6,
+          "8": 6
+        },
+        "max": 8,
+        "mean": 1.375,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 327,
+        "1": 6,
+        "3": 9,
+        "4": 6,
+        "6": 6,
+        "7": 6
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 360,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 333,
+        "1": 27
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 333,
+        "True": 27
+      },
+      "rows": 360,
+      "selected_noop": {
+        "count": 333,
+        "known_count": 360,
+        "rate_among_all_planned": 0.925,
+        "rate_among_known_planned": 0.925
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 333,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 333
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 24,
+        "NOOP": 333
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 21,
+        "held": 21,
+        "none": 294,
+        "rising": 24
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 24,
+        "below_threshold": 153,
+        "cooldown": 9,
+        "empty_impact_domain": 105,
+        "hysteresis_active": 21,
+        "hysteresis_release": 21,
+        "persistence": 9,
+        "warmup": 18
+      }
+    },
+    "Event-GPPO": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 24,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 16,
+        "1": 24
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 16,
+          "3": 3,
+          "4": 15,
+          "7": 6
+        },
+        "max": 7,
+        "mean": 3.175,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 16,
+        "2": 3,
+        "3": 15,
+        "6": 6
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 40,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 16,
+        "1": 24
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 16,
+        "True": 24
+      },
+      "rows": 360,
+      "selected_noop": {
+        "count": 16,
+        "known_count": 40,
+        "rate_among_all_planned": 0.4,
+        "rate_among_known_planned": 0.4
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 16,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 16
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 15,
+        "LOCAL_REPAIR": 9,
+        "NOOP": 336
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 22,
+        "held": 107,
+        "none": 191,
+        "rising": 25,
+        "service_debt_retry": 15
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 40,
+        "below_threshold": 105,
+        "cooldown": 3,
+        "empty_impact_domain": 48,
+        "hysteresis_active": 107,
+        "hysteresis_release": 22,
+        "persistence": 17,
+        "warmup": 18
+      }
+    },
+    "Event-GPPO-WM": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 24,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 15,
+        "1": 24
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 15,
+          "3": 3,
+          "4": 15,
+          "7": 6
+        },
+        "max": 7,
+        "mean": 3.230769230769231,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 15,
+        "2": 3,
+        "3": 15,
+        "6": 6
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 39,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 15,
+        "1": 24
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 15,
+        "True": 24
+      },
+      "rows": 360,
+      "selected_noop": {
+        "count": 15,
+        "known_count": 39,
+        "rate_among_all_planned": 0.38461538461538464,
+        "rate_among_known_planned": 0.38461538461538464
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 15,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 15
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 15,
+        "LOCAL_REPAIR": 9,
+        "NOOP": 336
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 21,
+        "held": 105,
+        "none": 195,
+        "rising": 24,
+        "service_debt_retry": 15
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 39,
+        "below_threshold": 108,
+        "cooldown": 3,
+        "empty_impact_domain": 48,
+        "hysteresis_active": 105,
+        "hysteresis_release": 21,
+        "persistence": 18,
+        "warmup": 18
+      }
+    },
+    "GPPO": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 52,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 325,
+        "1": 35
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 308,
+          "2": 6,
+          "3": 8,
+          "4": 13,
+          "5": 8,
+          "6": 4,
+          "7": 7,
+          "8": 6
+        },
+        "max": 8,
+        "mean": 1.5472222222222223,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 308,
+        "1": 6,
+        "2": 8,
+        "3": 13,
+        "4": 8,
+        "5": 4,
+        "6": 7,
+        "7": 6
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 360,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 325,
+        "1": 34,
+        "2": 1
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 318,
+        "True": 42
+      },
+      "rows": 360,
+      "selected_noop": {
+        "count": 318,
+        "known_count": 360,
+        "rate_among_all_planned": 0.8833333333333333,
+        "rate_among_known_planned": 0.8833333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 318,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 318
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 9,
+        "LOCAL_REPAIR": 33,
+        "NOOP": 318
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 22,
+        "held": 51,
+        "none": 257,
+        "rising": 25,
+        "service_debt_retry": 5
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 30,
+        "below_threshold": 132,
+        "cooldown": 18,
+        "empty_impact_domain": 69,
+        "hysteresis_active": 51,
+        "hysteresis_release": 22,
+        "persistence": 20,
+        "warmup": 18
+      }
+    },
+    "Greedy": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 33,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 333,
+        "1": 27
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 327,
+          "2": 6,
+          "4": 9,
+          "5": 6,
+          "7": 6,
+          "8": 6
+        },
+        "max": 8,
+        "mean": 1.375,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 327,
+        "1": 6,
+        "3": 9,
+        "4": 6,
+        "6": 6,
+        "7": 6
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 360,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 333,
+        "1": 27
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 333,
+        "True": 27
+      },
+      "rows": 360,
+      "selected_noop": {
+        "count": 333,
+        "known_count": 360,
+        "rate_among_all_planned": 0.925,
+        "rate_among_known_planned": 0.925
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 333,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 333
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 3,
+        "LOCAL_REPAIR": 24,
+        "NOOP": 333
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 21,
+        "held": 21,
+        "none": 294,
+        "rising": 24
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 24,
+        "below_threshold": 153,
+        "cooldown": 9,
+        "empty_impact_domain": 105,
+        "hysteresis_active": 21,
+        "hysteresis_release": 21,
+        "persistence": 9,
+        "warmup": 18
+      }
+    },
+    "PPO": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 120,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 330,
+        "1": 30
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 240,
+          "2": 6,
+          "3": 10,
+          "4": 21,
+          "5": 10,
+          "6": 58,
+          "7": 6,
+          "8": 9
+        },
+        "max": 8,
+        "mean": 2.438888888888889,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 240,
+        "1": 6,
+        "2": 10,
+        "3": 21,
+        "4": 10,
+        "5": 58,
+        "6": 6,
+        "7": 9
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 360,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 330,
+        "1": 30
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 327,
+        "True": 33
+      },
+      "rows": 360,
+      "selected_noop": {
+        "count": 327,
+        "known_count": 360,
+        "rate_among_all_planned": 0.9083333333333333,
+        "rate_among_known_planned": 0.9083333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 327,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 327
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 4,
+        "LOCAL_REPAIR": 29,
+        "NOOP": 327
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 34,
+        "held": 31,
+        "none": 247,
+        "rising": 38,
+        "service_debt_retry": 10
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 48,
+        "below_threshold": 139,
+        "cooldown": 18,
+        "empty_impact_domain": 60,
+        "hysteresis_active": 31,
+        "hysteresis_release": 34,
+        "persistence": 12,
+        "warmup": 18
+      }
+    },
+    "Periodic-GPPO": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 37,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 75,
+        "1": 15
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 53,
+          "3": 1,
+          "4": 10,
+          "5": 3,
+          "6": 9,
+          "7": 6,
+          "8": 8
+        },
+        "max": 8,
+        "mean": 3.011111111111111,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 53,
+        "2": 1,
+        "3": 10,
+        "4": 3,
+        "5": 9,
+        "6": 6,
+        "7": 8
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 90,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 75,
+        "1": 15
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 75,
+        "True": 15
+      },
+      "rows": 360,
+      "selected_noop": {
+        "count": 75,
+        "known_count": 90,
+        "rate_among_all_planned": 0.8333333333333334,
+        "rate_among_known_planned": 0.8333333333333334
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 75,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 75
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 6,
+        "LOCAL_REPAIR": 9,
+        "NOOP": 345
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 36,
+        "held": 57,
+        "none": 211,
+        "rising": 40,
+        "service_debt_retry": 16
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 56,
+        "below_threshold": 127,
+        "cooldown": 2,
+        "empty_impact_domain": 54,
+        "hysteresis_active": 57,
+        "hysteresis_release": 36,
+        "persistence": 10,
+        "warmup": 18
+      }
+    },
+    "Periodic-GPPO-WM": {
+      "actionable_planned_calls_with_at_least_one_legal_nonnoop": 24,
+      "effective_reconstruction_count_histogram_planned_rows": {
+        "0": 66,
+        "1": 24
+      },
+      "legal_catalog_size": {
+        "histogram": {
+          "1": 66,
+          "3": 3,
+          "4": 15,
+          "7": 6
+        },
+        "max": 7,
+        "mean": 1.9666666666666666,
+        "min": 1
+      },
+      "legal_nonnoop_catalog_size_histogram": {
+        "0": 66,
+        "2": 3,
+        "3": 15,
+        "6": 6
+      },
+      "missing_required_field_count_on_planned_rows": 0,
+      "planned_calls": 90,
+      "reconstruction_size_histogram_planned_rows": {
+        "0": 66,
+        "1": 24
+      },
+      "rejection_reason_counts": {},
+      "requested_nonnoop_counts_planned_rows": {
+        "False": 66,
+        "True": 24
+      },
+      "rows": 360,
+      "selected_noop": {
+        "count": 66,
+        "known_count": 90,
+        "rate_among_all_planned": 0.7333333333333333,
+        "rate_among_known_planned": 0.7333333333333333
+      },
+      "selected_pre_repair_vs_applied": {
+        "applied_noop_count": 66,
+        "changed_action_count": 0,
+        "selected_nonnoop_applied_noop_count": 0,
+        "selected_noop_applied_nonnoop_count": 0,
+        "selected_noop_count": 66
+      },
+      "selected_scope_counts": {
+        "GLOBAL_REPLAN": 15,
+        "LOCAL_REPAIR": 9,
+        "NOOP": 336
+      },
+      "trigger_edge_counts_all_rows": {
+        "falling": 21,
+        "held": 105,
+        "none": 195,
+        "rising": 24,
+        "service_debt_retry": 15
+      },
+      "trigger_suppression_reason_counts_all_rows": {
+        "": 39,
+        "below_threshold": 108,
+        "cooldown": 3,
+        "empty_impact_domain": 48,
+        "hysteresis_active": 105,
+        "hysteresis_release": 21,
+        "persistence": 18,
+        "warmup": 18
+      }
+    }
+  },
+  "input": {
+    "path": "[REDACTED_LOCAL_PATH]",
+    "row_count": 3240,
+    "sha256": "1c6cec9dc83f761b8f337b6f9a1b003bcb687bc4e3331556af93a35e94f207cc"
+  },
+  "note": "Missing planned-row fields are counted, never inferred to indicate NOOP. Reconstruction and requested_nonnoop histograms cover planned rows only; scope and trigger histograms cover all rows. Rejection reasons include only explicit rejected candidates present in candidate_catalog; generator-side rejections are not represented and are unknown here. All counts and rates describe supplied simulation rows only.",
+  "overall": {
+    "actionable_planned_calls_with_at_least_one_legal_nonnoop": 380,
+    "effective_reconstruction_count_histogram_planned_rows": {
+      "0": 1826,
+      "1": 233
+    },
+    "legal_catalog_size": {
+      "histogram": {
+        "1": 1679,
+        "2": 30,
+        "3": 28,
+        "4": 116,
+        "5": 39,
+        "6": 71,
+        "7": 55,
+        "8": 41
+      },
+      "max": 8,
+      "mean": 1.7586206896551724,
+      "min": 1
+    },
+    "legal_nonnoop_catalog_size_histogram": {
+      "0": 1679,
+      "1": 30,
+      "2": 28,
+      "3": 116,
+      "4": 39,
+      "5": 71,
+      "6": 55,
+      "7": 41
+    },
+    "missing_required_field_count_on_planned_rows": 0,
+    "planned_calls": 2059,
+    "reconstruction_size_histogram_planned_rows": {
+      "0": 1826,
+      "1": 232,
+      "2": 1
+    },
+    "rejection_reason_counts": {},
+    "requested_nonnoop_counts_planned_rows": {
+      "False": 1816,
+      "True": 243
+    },
+    "rows": 3240,
+    "selected_noop": {
+      "count": 1816,
+      "known_count": 2059,
+      "rate_among_all_planned": 0.8819815444390481,
+      "rate_among_known_planned": 0.8819815444390481
+    },
+    "selected_pre_repair_vs_applied": {
+      "applied_noop_count": 1816,
+      "changed_action_count": 0,
+      "selected_nonnoop_applied_noop_count": 0,
+      "selected_noop_applied_nonnoop_count": 0,
+      "selected_noop_count": 1816
+    },
+    "selected_scope_counts": {
+      "GLOBAL_REPLAN": 73,
+      "LOCAL_REPAIR": 170,
+      "NOOP": 2997
+    },
+    "trigger_edge_counts_all_rows": {
+      "falling": 219,
+      "held": 519,
+      "none": 2178,
+      "rising": 248,
+      "service_debt_retry": 76
+    },
+    "trigger_suppression_reason_counts_all_rows": {
+      "": 324,
+      "below_threshold": 1178,
+      "cooldown": 74,
+      "empty_impact_domain": 642,
+      "hysteresis_active": 519,
+      "hysteresis_release": 219,
+      "persistence": 122,
+      "warmup": 162
+    }
+  },
+  "schema": "n02-action-catalogue-summary/1",
+  "scope": "simulation_only_descriptive_not_independent_truth",
+  "trigger_edge_counts_all_rows": {
+    "falling": 219,
+    "held": 519,
+    "none": 2178,
+    "rising": 248,
+    "service_debt_retry": 76
+  },
+  "trigger_suppression_reason_counts_all_rows": {
+    "": 324,
+    "below_threshold": 1178,
+    "cooldown": 74,
+    "empty_impact_domain": 642,
+    "hysteresis_active": 519,
+    "hysteresis_release": 219,
+    "persistence": 122,
+    "warmup": 162
+  }
+}

@@ -1,0 +1,3385 @@
+{
+  "archive": {
+    "file_count": 162,
+    "files": [
+      {
+        "bytes": 651,
+        "path": "EVIDENCE_HASH_MANIFEST.json",
+        "sha256": "215f6ba2bea7d83a8b073955460c44f118da82cda3d14f02255d5a4bd4dc46de"
+      },
+      {
+        "bytes": 34602,
+        "path": "PRIVACY_SCAN_REPORT.json",
+        "sha256": "2eb1c6bdfd1ac42512d64e7816ff7e426d7fd393a34cf8de1192d28b88a95d66"
+      },
+      {
+        "bytes": 549,
+        "path": "PUBLIC_ARCHIVE_STATUS.json",
+        "sha256": "9b071e2830ea178b202609e1b10424ff8d0faab49e3581a79f3908fec9dba909"
+      },
+      {
+        "bytes": 36165,
+        "path": "PUBLIC_SOURCE_MANIFEST.json",
+        "sha256": "5dc84dfac54efa86e26b0689680880ae3384968a0e02c68b618d0b606d2399c3"
+      },
+      {
+        "bytes": 1162,
+        "path": "README.md",
+        "sha256": "09a6b55aa8cd9ab98a5afed2e07fa4d23f11f36f9239e6056ec739152d97aa9e"
+      },
+      {
+        "bytes": 98,
+        "path": "RELEASE_ASSET_MANIFEST.json",
+        "sha256": "7627a5b7049c65d1f1c2be8a280efb6591fe9ac2f86c278598c7178636abc3f9"
+      },
+      {
+        "bytes": 10580,
+        "path": "REPRODUCTION_ARTIFACT_MANIFEST.json",
+        "sha256": "f20bb4ad18ba9d079f8286f7ab382a5d4de876f5094c255d7bc5e64c2bf6d04c"
+      },
+      {
+        "bytes": 1658,
+        "path": "SOURCE_EXCLUSIONS.json",
+        "sha256": "81a84c25a9ca59c40534d6845500a3dfae702acaa4690f4af6cc78b0a9e44772"
+      },
+      {
+        "bytes": 520,
+        "path": "TRANSPORT_ADAPTER_PLACEHOLDER.md",
+        "sha256": "55de36d4109c9377e6845899329742c240b1a53194f74ac9898d74dd4049ae72"
+      },
+      {
+        "bytes": 7825,
+        "path": "measurement-tools/causal_receipt_proofs.py",
+        "sha256": "e0ab4f37f764e3dfb72dbb9c14c9e3d85e0c367a1cd904e47f70af6af039ccb7"
+      },
+      {
+        "bytes": 37930,
+        "path": "measurement-tools/independent_baseline_oracle_delivery_release_v2.py",
+        "sha256": "8bef7110f505083518490e25eb2e94a308af696d7e8e656ccc547c61822371b8"
+      },
+      {
+        "bytes": 12420,
+        "path": "measurement-tools/recompute_public_archive.py",
+        "sha256": "af647495e1a2d1e327ca5b71cfe4af3ce75acf4a4a978e8d94ca4c59424f39e4"
+      },
+      {
+        "bytes": 12829,
+        "path": "measurement-tools/standardize_final_metrics.py",
+        "sha256": "1c971c251baf877fbc9e50013ab0ee40d25c40f63ae7df90ceac02a617af52d1"
+      },
+      {
+        "bytes": 5757,
+        "path": "measurement-tools/test_causal_receipt_proofs.py",
+        "sha256": "032265c81bc356f924ad95699104bc93dbe6096899f0b09c80d061863879b92c"
+      },
+      {
+        "bytes": 6442,
+        "path": "reports/analyzer-resource-settlement.json",
+        "sha256": "f943ed69911bf6d6ddbeca6423f9ed214721a7b5056ca750cd74395d602a1e5d"
+      },
+      {
+        "bytes": 56045,
+        "path": "reports/assembled-resource-settlement.json",
+        "sha256": "d11c0d4286af8490f0482d461234e7569c4d251aae4d9a1b2f392d309d914810"
+      },
+      {
+        "bytes": 120554,
+        "path": "reports/catalogue-diagnostics.json",
+        "sha256": "afa13c3a99a27d8e0deb386140cbcb690b2bfec428331dea49e0bac4c2503d7f"
+      },
+      {
+        "bytes": 846519,
+        "path": "reports/compact-replay-provenance.json",
+        "sha256": "3cfcedb46a94a1a9e17ac5718e6345bfaaf617f45ee403edccb5a257739fb051"
+      },
+      {
+        "bytes": 84,
+        "path": "reports/evaluation-manifest.json",
+        "sha256": "de17c44e7f602c91e66b0b8d42c3f0c803a431b769f907c4b294c7348d4895ed"
+      },
+      {
+        "bytes": 4657,
+        "path": "reports/executive-summary.md",
+        "sha256": "41b56c6336b17e42fcfce3a32b7dc008bf67419eb619df33f5f57023a3fdd049"
+      },
+      {
+        "bytes": 1399,
+        "path": "reports/final-baseline-report.md",
+        "sha256": "edc33c4936cbcdde0fee96c4c22e001fbba1cabc9e4ffd6f0d80816e71fc30d9"
+      },
+      {
+        "bytes": 41792,
+        "path": "reports/final-evidence-index.json",
+        "sha256": "eb09b67a5ef63093646ac4f54574dadf3886348f07b18bb4d9eaab6648bdf323"
+      },
+      {
+        "bytes": 82134,
+        "path": "reports/final-manifest.json",
+        "sha256": "ec545cd7f5480c0d856cb39cef61951cf272b6122537f83956b1936cf3494192"
+      },
+      {
+        "bytes": 29689,
+        "path": "reports/final-method-comparison.json",
+        "sha256": "4b5caf993d6fd334306b1dd6e5747f12ce869a96b1a56e2b1c8457914e114050"
+      },
+      {
+        "bytes": 6442,
+        "path": "reports/final-resource-settlement.json",
+        "sha256": "f943ed69911bf6d6ddbeca6423f9ed214721a7b5056ca750cd74395d602a1e5d"
+      },
+      {
+        "bytes": 1314,
+        "path": "reports/final-trigger-report.md",
+        "sha256": "fabc29355e6b4a8a8582345825876333dd7b83a4fa9278051b5b895be060409b"
+      },
+      {
+        "bytes": 345473,
+        "path": "reports/formal-coverage.json",
+        "sha256": "c4b49980dcd2191d4173540b1ed8dbed9e58faf9ccfa9b8c2969ef0153b511ba"
+      },
+      {
+        "bytes": 89663,
+        "path": "reports/formal-independent-oracle.json",
+        "sha256": "6c379be5380c58be942c5eb204abb74748196e7196ecc80a4fb604b6dab2e39b"
+      },
+      {
+        "bytes": 11914,
+        "path": "reports/gate1-review.json",
+        "sha256": "f54ffd41b25b21e486d12689a17ecc38eb711aa69fc595f324dcec15b72b8afd"
+      },
+      {
+        "bytes": 16992,
+        "path": "reports/gate2-review.json",
+        "sha256": "6696fc530fa353aa01d046fe27f3a0a3b628dabad5e7be100023143f23e00010"
+      },
+      {
+        "bytes": 1749,
+        "path": "reports/mapping-key-redaction-provenance.json",
+        "sha256": "205b3952dbe8470684b68b6c1fa71421702caa8beb679e6b85eb4895a8a6ec05"
+      },
+      {
+        "bytes": 1823,
+        "path": "reports/measurement-change-identity.json",
+        "sha256": "ca6a9409da34a38cbbe0fdce2c52c7a80708ca2aa54a1c5f16f01b4d4e07277f"
+      },
+      {
+        "bytes": 302,
+        "path": "reports/measurement-identity.json",
+        "sha256": "66bf1b7890d2c3bc099dde215b0f9f845240f955165b68e0077148396cd3a1b4"
+      },
+      {
+        "bytes": 1476,
+        "path": "reports/measurement-revision.md",
+        "sha256": "1b48c7c7b763157a0580aa9f796c171699dbbd504c41964ac664b9e79f7e821c"
+      },
+      {
+        "bytes": 345480,
+        "path": "reports/old-coverage-schema-failure.json",
+        "sha256": "f262bf0d494fc6d68a9c38498e03fc6332221519385837308fa405e68030cd55"
+      },
+      {
+        "bytes": 108739,
+        "path": "reports/old-oracle-failure.json",
+        "sha256": "e2f7d66ac6b67187b4f82d701ca936bf12c02fda96a7dbb9411ce9e69b30a1e1"
+      },
+      {
+        "bytes": 1078,
+        "path": "reports/public-training-binding-probe.json",
+        "sha256": "77594ffd1832ba6f61b3bf19fcf6aa1656ba1c68a2dc31f10462eeb979140e5f"
+      },
+      {
+        "bytes": 3607,
+        "path": "reports/public-training-reproduction.md",
+        "sha256": "132f665a3487225179d183796b9bdfa4298e65ba32b3f74763a333b724e61214"
+      },
+      {
+        "bytes": 20718,
+        "path": "reports/restore-audit.json",
+        "sha256": "bc9013292f0c0d5cb9676b606ed7b225aa22ac9f829fc04d093f7dbe08a125fd"
+      },
+      {
+        "bytes": 66165,
+        "path": "reports/standard-metrics.json",
+        "sha256": "5e2b3cf1568654fa6adc287ead6ddc8276a5bd3aba44bb3e16cacd68392be103"
+      },
+      {
+        "bytes": 957,
+        "path": "reports/test-execution-receipt.json",
+        "sha256": "f7f3f1053c9b8bea779470fdfde3f28a4b82c0f286c9594654dae657b959eec4"
+      },
+      {
+        "bytes": 6633,
+        "path": "reports/training-evidence-consistency.json",
+        "sha256": "90896e138c7fe203f00c0326fa3350aa2ea6b7382456d1a0df09484e04b00879"
+      },
+      {
+        "bytes": 1960647,
+        "path": "reproduction/checkpoints/formal-checkpoint-01.pt",
+        "sha256": "c8cf1c84460c6813778678f5ca5ab9b4022360d4f46a681116efe4a65794e0ce"
+      },
+      {
+        "bytes": 1960583,
+        "path": "reproduction/checkpoints/formal-checkpoint-02.pt",
+        "sha256": "b15fea24700b5da2c42a59576e0d5d4d790b99268363d13037b4af5860960ffe"
+      },
+      {
+        "bytes": 1960711,
+        "path": "reproduction/checkpoints/formal-checkpoint-03.pt",
+        "sha256": "f7365448dcc33b6110062acf7177583c6168f85db0db98552b9c8a7ea5ee7c66"
+      },
+      {
+        "bytes": 1497721,
+        "path": "reproduction/checkpoints/formal-checkpoint-04.pt",
+        "sha256": "709bb9fceff55a639adbf294e3715e52e832c06b7c01177e730b87062f3c05cd"
+      },
+      {
+        "bytes": 1497721,
+        "path": "reproduction/checkpoints/formal-checkpoint-05.pt",
+        "sha256": "c5c6b75996756ac3d35ecd37c0b5123a54c7b49dfa729e8b048be20015ddea6d"
+      },
+      {
+        "bytes": 1497785,
+        "path": "reproduction/checkpoints/formal-checkpoint-06.pt",
+        "sha256": "fb8da353b1d724352ae61a023f00fdede85b6183d694bdac1a1c93ecdb81d214"
+      },
+      {
+        "bytes": 1441881,
+        "path": "reproduction/checkpoints/formal-checkpoint-07.pt",
+        "sha256": "7bb575ece090acc359e8b8e179f3cb0a851c4cb2d80f7736688d4793609ae016"
+      },
+      {
+        "bytes": 1441881,
+        "path": "reproduction/checkpoints/formal-checkpoint-08.pt",
+        "sha256": "0d12536dce25058c7a8251fca43903b8ba0fbee4e795e4b4701a04096884f61b"
+      },
+      {
+        "bytes": 1441945,
+        "path": "reproduction/checkpoints/formal-checkpoint-09.pt",
+        "sha256": "ab545b1ea53435247e6dbb98ffe8f8be4a243742f97c2987ccc93696a900a25e"
+      },
+      {
+        "bytes": 1439961,
+        "path": "reproduction/checkpoints/formal-checkpoint-10.pt",
+        "sha256": "002f28407880b4ace14fc58f3ae7e68fa450820dce44e4435ee5543aa805adbc"
+      },
+      {
+        "bytes": 1439961,
+        "path": "reproduction/checkpoints/formal-checkpoint-11.pt",
+        "sha256": "25043940c3e5360c721abc3158141697aff773f58cbcbcaa609387652f265468"
+      },
+      {
+        "bytes": 1440025,
+        "path": "reproduction/checkpoints/formal-checkpoint-12.pt",
+        "sha256": "e79e06054f41f6e33ef73e3381269f50b0ce48202f4d116858eb2018809bf868"
+      },
+      {
+        "bytes": 1485241,
+        "path": "reproduction/checkpoints/formal-checkpoint-13.pt",
+        "sha256": "7569f1275211eafdb49d814ec65fff023bb2a568ba10bf8286d307e3a4cbafa2"
+      },
+      {
+        "bytes": 1485241,
+        "path": "reproduction/checkpoints/formal-checkpoint-14.pt",
+        "sha256": "60f7599b179d1dba3ea43eb9904c3b8f428144254d7cd9cfa9c47032558a1b80"
+      },
+      {
+        "bytes": 1485305,
+        "path": "reproduction/checkpoints/formal-checkpoint-15.pt",
+        "sha256": "c57a2d8af1180c5a51b33c6abda8ae0e3b4b110ebcabb682438f1f16d8f544d2"
+      },
+      {
+        "bytes": 1439961,
+        "path": "reproduction/checkpoints/formal-checkpoint-16.pt",
+        "sha256": "79ad597e9d72f987149cb89242ac0dfda21c63ea128979bf7b9a3feb6c3df5b5"
+      },
+      {
+        "bytes": 1439961,
+        "path": "reproduction/checkpoints/formal-checkpoint-17.pt",
+        "sha256": "6304ee4684c42cd41e4c546e64d64de9632d20df8b6e2af5c4e739feb1a9596b"
+      },
+      {
+        "bytes": 1440025,
+        "path": "reproduction/checkpoints/formal-checkpoint-18.pt",
+        "sha256": "4d8cf86415b3f5b3d68b54bc2f57a1c3e3444d61434cbf9c38521edfebb437b5"
+      },
+      {
+        "bytes": 16758046,
+        "path": "reproduction/evaluation-actions.part-0001.jsonl",
+        "sha256": "45effa5c603be987d315b3b4bf4cbdae36528bba15a7d9474fa57ec132178ed1"
+      },
+      {
+        "bytes": 16775284,
+        "path": "reproduction/evaluation-actions.part-0002.jsonl",
+        "sha256": "9614caec0c2e62aca87a8a5a7ea1853c0c35b312ba19763b0fc1d135e9357b81"
+      },
+      {
+        "bytes": 16770281,
+        "path": "reproduction/evaluation-actions.part-0003.jsonl",
+        "sha256": "8056a2a6b8783c28c81d32d595207a1c4856570e366410c5ab61e384ecf8d4a3"
+      },
+      {
+        "bytes": 8393046,
+        "path": "reproduction/evaluation-actions.part-0004.jsonl",
+        "sha256": "a5bbb4f24a6bfe8edc8ea994b3e6ddfb159e341312ac9c0ed246afa9e7bded73"
+      },
+      {
+        "bytes": 70606,
+        "path": "reproduction/evaluation-episodes.jsonl",
+        "sha256": "88104a69954a34e61c71038a75189ca2345cb0fba234555d98d4022f86c10e82"
+      },
+      {
+        "bytes": 16776166,
+        "path": "reproduction/optimizer-updates.part-0001.jsonl",
+        "sha256": "f3cd26a238b39dab21027ff499b3b57bb7f87f420f8e31e66caf8a632cd29599"
+      },
+      {
+        "bytes": 4373714,
+        "path": "reproduction/optimizer-updates.part-0002.jsonl",
+        "sha256": "9b1d33955009dec0783ce8b746a18a04cce3064cb1a61b1af9d970d38fc314ea"
+      },
+      {
+        "bytes": 9246295,
+        "path": "reproduction/training-episodes.jsonl",
+        "sha256": "c02f5dd0bf8022ef8169226e942eb63aa4e070c011560d229d8764984ff0b74c"
+      },
+      {
+        "bytes": 4675,
+        "path": "source/configs/BASELINE_FORMAL_CONFIG.json",
+        "sha256": "409d538427490df49f308287aa1ef1b5b1eaabb83f7bb9d3c4f6a3222f90e7d5"
+      },
+      {
+        "bytes": 4554,
+        "path": "source/configs/BASELINE_PILOT_CONFIG.json",
+        "sha256": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a"
+      },
+      {
+        "bytes": 638,
+        "path": "source/configs/ENVIRONMENT_SPEC.json",
+        "sha256": "3872e63592d0c831e5f499459cd56ce1e151e465802debe05b103913c6cca87c"
+      },
+      {
+        "bytes": 2475,
+        "path": "source/configs/EVENT_TRIGGER_CONFIG.json",
+        "sha256": "1753c34e20a85f2a3d6b508ae2afe9c2195c99fd0245f0ea1a60ff3152a26b70"
+      },
+      {
+        "bytes": 452269,
+        "path": "source/data/gate1-r8/M2_DEVELOPMENT_MODEL_SAMPLES.jsonl",
+        "sha256": "977ffadc03d9eef61e367f446220c78245b170999658687f08882a07bb29d030"
+      },
+      {
+        "bytes": 929847,
+        "path": "source/data/gate1-r8/M2_MODEL_SAMPLES.jsonl",
+        "sha256": "6170d97e03382fc37fca3613735d91d5f7aaf7e1b4ad2967dd12b8b62539d42b"
+      },
+      {
+        "bytes": 105217,
+        "path": "source/data/gate1-r8/THRESHOLD_MANIFEST.json",
+        "sha256": "aa4dce2f5ec400c9db428b760a659aac7bbd38f336354fed45d81061de7fcb9f"
+      },
+      {
+        "bytes": 662,
+        "path": "source/package/civilian/PRIOR_RESOURCE_COST.json",
+        "sha256": "64ee35d5f22ec83269865ec872a91c978d1b3a07e20ee03868939a8d63169640"
+      },
+      {
+        "bytes": 45973,
+        "path": "source/package/civilian/acceptance_harness.py",
+        "sha256": "7bc54625386514a3ccb0b645fc38d63d2393d650b3bc6e056c0e0ab52aa19c1d"
+      },
+      {
+        "bytes": 18884,
+        "path": "source/package/civilian/baseline_checkpoints.py",
+        "sha256": "ce53f1297e9d5e5ec36dd84f8c1e0986fd348312e29d2fbe199091d82c36f20e"
+      },
+      {
+        "bytes": 28653,
+        "path": "source/package/civilian/baseline_learning.py",
+        "sha256": "2309e69e0ac86606698a328557c0ee5b2e8e5b131bd0ebba9e2dad179c2fa2aa"
+      },
+      {
+        "bytes": 8090,
+        "path": "source/package/civilian/baseline_metrics.py",
+        "sha256": "1a30d016aeca01f9d2c4ab7a0bc1bcdb1c78b8ec999ac2d567c1a77f55a52da4"
+      },
+      {
+        "bytes": 35915,
+        "path": "source/package/civilian/baseline_policies.py",
+        "sha256": "54a18a3d923f2b3534f3172d616a56a231b1ce274b63ee1917b6f6621a0b2591"
+      },
+      {
+        "bytes": 58276,
+        "path": "source/package/civilian/baseline_runner.py",
+        "sha256": "993bd2b789ec509a9e41d25761b6a89c166ac22bac01f46584f8e9499a415059"
+      },
+      {
+        "bytes": 5740,
+        "path": "source/package/civilian/baselines.py",
+        "sha256": "13b2a84662022b7ed6a56a19629ad3abe2ad954c46926eb1a72caa326039115a"
+      },
+      {
+        "bytes": 21373,
+        "path": "source/package/civilian/branching.py",
+        "sha256": "77fa42f76bc3238d0962b4603097920070821e1802c0f0862720c3c858375e58"
+      },
+      {
+        "bytes": 18098,
+        "path": "source/package/civilian/budget_ledger.py",
+        "sha256": "108b420e30c16771d3eab6fadbf17a6e9e023f8cdb0f6606e6d39e8c8038cb46"
+      },
+      {
+        "bytes": 13754,
+        "path": "source/package/civilian/chapter1_adapter.py",
+        "sha256": "5895d552ddd72d6f50e98c549123d1256f74c3c26c347abb051c94097bd3b552"
+      },
+      {
+        "bytes": 12737,
+        "path": "source/package/civilian/dataset_protocol.py",
+        "sha256": "b16a32f5bb1b95cddd094ef66604861026b1b5a117a76a730d9d18026eda1573"
+      },
+      {
+        "bytes": 88322,
+        "path": "source/package/civilian/driver.py",
+        "sha256": "1e8ef06c910284785d3427efbf1e0f2578ec4bbd9597037e08b5f7cd704e3c32"
+      },
+      {
+        "bytes": 22513,
+        "path": "source/package/civilian/evaluator.py",
+        "sha256": "7bdf8a83be7b7d2028528bdfec189b725c15bbaac710cb7c4517ecff9dc24bd6"
+      },
+      {
+        "bytes": 165931,
+        "path": "source/package/civilian/event_environment.py",
+        "sha256": "9fc93b311de7c7cc20ceb1cd857837d80856c335fe390d4a80be10ed75fd0839"
+      },
+      {
+        "bytes": 70612,
+        "path": "source/package/civilian/event_models.py",
+        "sha256": "e87f3a8d8a96446da4c9749b383a1053dd32019c7ec641e8269151dac735f40f"
+      },
+      {
+        "bytes": 40266,
+        "path": "source/package/civilian/event_oracle.py",
+        "sha256": "b9a9d9b10c7e3c33fd2bc55d74584548d9d71c59375633cecb37f86235d2fc57"
+      },
+      {
+        "bytes": 85676,
+        "path": "source/package/civilian/event_policy.py",
+        "sha256": "dad5672f6157fc4ee9d0ef05ddf223051dcbe4dbf55c275eff8676253a6a9886"
+      },
+      {
+        "bytes": 122959,
+        "path": "source/package/civilian/event_runner.py",
+        "sha256": "9ab5d17b75e4cfef881d2d42d950fd61e03c08b0b72a8f76ca8b3079aa6758e1"
+      },
+      {
+        "bytes": 12686,
+        "path": "source/package/civilian/event_scenarios.py",
+        "sha256": "04f09ca2de48ec52d5362b4785d5a7c6bdc2574fa8c502f1301e0ba59dba2193"
+      },
+      {
+        "bytes": 72708,
+        "path": "source/package/civilian/event_trigger.py",
+        "sha256": "2fb4fef2e6736bbedeb81ef5e1a70c55a78263230c4177ef3619439e173bbe44"
+      },
+      {
+        "bytes": 27914,
+        "path": "source/package/civilian/execution_gate.py",
+        "sha256": "d09513e1156ab8c7f01313a8daa79f7ad58f64b96eda8ba27cf9ab952b023d6a"
+      },
+      {
+        "bytes": 5300,
+        "path": "source/package/civilian/fixtures/combined.json",
+        "sha256": "ad507f15039998cc80a608cc097f58b88e2ccfdcc100518e252a5c4f26b4d4c6"
+      },
+      {
+        "bytes": 4849,
+        "path": "source/package/civilian/fixtures/control.json",
+        "sha256": "4bcbc5c4bbd7ffbfb3e850aaf23a06e95bd68817ceb36b21b2345ddc2957370a"
+      },
+      {
+        "bytes": 5002,
+        "path": "source/package/civilian/fixtures/energy_change.json",
+        "sha256": "17b473f8cb6f006b5d89f182b4c6f4ba617286c1d60517e1738bb173c54b6df5"
+      },
+      {
+        "bytes": 5323,
+        "path": "source/package/civilian/fixtures/external_commitment.json",
+        "sha256": "f2d5e830695fa0fd84e876ed66807e3102a559c7f361dffc2886a768e2673ae9"
+      },
+      {
+        "bytes": 4971,
+        "path": "source/package/civilian/fixtures/failure.json",
+        "sha256": "e8775eced309e04d8f454315fd6e76c2661967adf1c583ce223f10b1aa9a35af"
+      },
+      {
+        "bytes": 4854,
+        "path": "source/package/civilian/fixtures/report_delay.json",
+        "sha256": "d384e89dbb6c81fec0569aa63dc37cea1280f966d60eee84bc03e8dd33fdb0a7"
+      },
+      {
+        "bytes": 5030,
+        "path": "source/package/civilian/fixtures/stock_loss.json",
+        "sha256": "0ad22b5f9eba894daefdc0726b4b5a9563987ae3186514243d08bdf754e941a8"
+      },
+      {
+        "bytes": 35235,
+        "path": "source/package/civilian/graph_policy.py",
+        "sha256": "ccbbc895858b9c1963b39a52b3201f90b18dcb6dca942a856b2576aad06f397d"
+      },
+      {
+        "bytes": 29136,
+        "path": "source/package/civilian/independent_consequence_oracle.py",
+        "sha256": "d72fc8cb405236b19f70c17f964bc920c25a6087a7678dd5b3caa0bbb82408ba"
+      },
+      {
+        "bytes": 15517,
+        "path": "source/package/civilian/infra_io.py",
+        "sha256": "fbd6533833f8845d49ce6ad28b793245e58f22467acbe83e7c45a14704db7ace"
+      },
+      {
+        "bytes": 9265,
+        "path": "source/package/civilian/literal_graph_ops.py",
+        "sha256": "8a7e9e225c9efe758087c09260bb7af67281d5e30ec88f05650f87984ee2ed4e"
+      },
+      {
+        "bytes": 96844,
+        "path": "source/package/civilian/n2_stage_pipeline.py",
+        "sha256": "3e5ba3fa5799b341d41c0298eb3d28d48b14754fec5f0c876a931ea7be11d964"
+      },
+      {
+        "bytes": 3896,
+        "path": "source/package/civilian/package_layout.py",
+        "sha256": "0e003f50f1ead48c9afbf6b08f1dca7b1a14f74ca9bfeff1899004b10e24b500"
+      },
+      {
+        "bytes": 33935,
+        "path": "source/package/civilian/phase_handshake.py",
+        "sha256": "018e1b1da978ad229d75282d853f72aafb8d6762b70762bc5c983dc1979d96e5"
+      },
+      {
+        "bytes": 27948,
+        "path": "source/package/civilian/ppo_trainer.py",
+        "sha256": "d16c466ba42dc261723e7bc8b345980ea53464e23f6489979b997f64596ee37a"
+      },
+      {
+        "bytes": 65604,
+        "path": "source/package/civilian/process_guardian.py",
+        "sha256": "83c6f0e8947c6ee83394eb9c96376434e58e843693701bffdfbd7c7082945a6e"
+      },
+      {
+        "bytes": 958,
+        "path": "source/package/civilian/protocol_contract.py",
+        "sha256": "c3ac57f4e5e5c5920b5ca0b944030363ac47dcb6f77e659ec208d4d65a861162"
+      },
+      {
+        "bytes": 9611,
+        "path": "source/package/civilian/registered_data/data/development/n02-development-carrier_competition-00-f4a66619d2e7d832.json",
+        "sha256": "3a7a59176f3583a42a9e98db01b6b90a5d650593887be7dc7b42f1713e0a8e12"
+      },
+      {
+        "bytes": 9597,
+        "path": "source/package/civilian/registered_data/data/train/n02-train-base-00-0b08674536871cd5.json",
+        "sha256": "4e9e7ca66117a70491cc54a2572a8d9c93a7d18267bba922bb9e12d4e584a5c2"
+      },
+      {
+        "bytes": 9614,
+        "path": "source/package/civilian/registered_data/data/train/n02-train-carrier_competition-01-bcda9d83aea81125.json",
+        "sha256": "291ec6cdccbe5af96dc444b5b818f7dfb36d739ab2b6d7f15706d7471998bf18"
+      },
+      {
+        "bytes": 4254,
+        "path": "source/package/civilian/registered_data/fixtures/causal_allocation_case.json",
+        "sha256": "0fccd9743138e9011a2dea50afb03b417ffe6e8102c268456a97af896e5a0b71"
+      },
+      {
+        "bytes": 3319,
+        "path": "source/package/civilian/registered_data/input_registry.json",
+        "sha256": "14c44246a8d83081410f5a0450124158c21a8c6fb074c234622463233da16267"
+      },
+      {
+        "bytes": 55729,
+        "path": "source/package/civilian/relief_env.py",
+        "sha256": "d070e36c27b236c6a1d142681a37a1cded910f01e069ac0ef0b040c30f4ba1c3"
+      },
+      {
+        "bytes": 46286,
+        "path": "source/package/civilian/resource_supervisor.py",
+        "sha256": "d84fc78b18543e4a8ceceb40a8ccaa6c73c4953c9591497e9feaf101ab9a34e3"
+      },
+      {
+        "bytes": 1632,
+        "path": "source/package/civilian/runtime-spec.json",
+        "sha256": "7bfe3b827aa6d5e540ca83f73737bba082c45d873aa83bc1659e13c06a55619a"
+      },
+      {
+        "bytes": 17843,
+        "path": "source/package/civilian/scenario_matrix.py",
+        "sha256": "29fe6f2f7965c7d5da3430bd32a177daca38cfe37bdb36377d7d63baa8327a34"
+      },
+      {
+        "bytes": 21163,
+        "path": "source/package/civilian/scenario_schema.py",
+        "sha256": "4d17bf679dbe903848dbf240e2c7d3c3b930cb831a406e365cebeeeb23bc4b3f"
+      },
+      {
+        "bytes": 7216,
+        "path": "source/package/civilian/snapshot_contract.py",
+        "sha256": "1e309550b7cc72a498d2d2773d6ff941c87f42ef7ec36df6153a96a5f1a9c90e"
+      },
+      {
+        "bytes": 1429,
+        "path": "source/package/civilian/stable_identity.py",
+        "sha256": "812944f9f7cb4f16c9907c4d6cf6c552f5b0dc3f7ec8fa2e5ccbe859b04757ef"
+      },
+      {
+        "bytes": 7230,
+        "path": "source/package/civilian/test_synthetic_critic_interface.py",
+        "sha256": "d4e6c5f4a1cf9cd4fbbd05d120932596fecbbf25ae9806939238307424ec8008"
+      },
+      {
+        "bytes": 8678,
+        "path": "source/package/civilian/wm_prediction_cache.py",
+        "sha256": "6fa16499a7e743c7b5150a65144adad232d7335defc447b0cb7d5c39a785d62e"
+      },
+      {
+        "bytes": 56827,
+        "path": "source/package/civilian/world_model.py",
+        "sha256": "3adeaa6960c0494c59ddc34bce5e230491a62e7f76800dd13eedb473b3fdf4c5"
+      },
+      {
+        "bytes": 2637,
+        "path": "source/package/tests/fixtures/baseline_action_receipt_v1.json",
+        "sha256": "4bdf7d58a254c516465c93dc96912a3c956e4e257feb5bb5f43ce14924e010bb"
+      },
+      {
+        "bytes": 19922,
+        "path": "source/package/tests/test_100x100_contract.py",
+        "sha256": "54acd5998ae311f77f1888a0f52c85599fc61b81249f5243874c1d4f5917abd7"
+      },
+      {
+        "bytes": 4976,
+        "path": "source/package/tests/test_audit_gate1_replay.py",
+        "sha256": "d789e53b513880deed841ec12e614e30a3c125f87a5df9eff827659eeaecd15c"
+      },
+      {
+        "bytes": 14432,
+        "path": "source/package/tests/test_baseline_analysis.py",
+        "sha256": "c73c0dfce710214ea67a2e7f08210d1ea00ab0a2977dc2617e5663634a9deaad"
+      },
+      {
+        "bytes": 7078,
+        "path": "source/package/tests/test_baseline_checkpoints.py",
+        "sha256": "51fde0c43d5ccc266f123cf432e8ee10ed61623f6c38fb8b0ac19f45c517e863"
+      },
+      {
+        "bytes": 6338,
+        "path": "source/package/tests/test_baseline_fairness.py",
+        "sha256": "98aec6e5cd58af75cfaf60f044b2040b39c0c04e2ab270273515f556d533bb75"
+      },
+      {
+        "bytes": 11796,
+        "path": "source/package/tests/test_baseline_learning.py",
+        "sha256": "38ebfcd6e708e6b21aafba2e0932e71a6c48660a159015d28c2110c0923bbfae"
+      },
+      {
+        "bytes": 13452,
+        "path": "source/package/tests/test_baseline_policies.py",
+        "sha256": "005a102d197dda1c915692371c2bbec77b432d7d9cf38a5c7ada8cc3eff998d4"
+      },
+      {
+        "bytes": 2878,
+        "path": "source/package/tests/test_driver_close_snapshot.py",
+        "sha256": "db5bad004e586d5e5301df5b6073e4daa530c44d3a2ae0e3f91c75d9a16e6eac"
+      },
+      {
+        "bytes": 19003,
+        "path": "source/package/tests/test_event_environment.py",
+        "sha256": "b14929778fe7591592e606820f03e5739a3687479130c91c03486cabfb9cbd49"
+      },
+      {
+        "bytes": 2553,
+        "path": "source/package/tests/test_event_initial_c1.py",
+        "sha256": "766b18941907c415d3b4dc90d34b139f15abd442f7d2b14c0aac69fed982ce87"
+      },
+      {
+        "bytes": 9501,
+        "path": "source/package/tests/test_event_models.py",
+        "sha256": "2469c4002a171d91058b27e0538bb2ceb9b35c04567fc384608c3c2c5cb0adb6"
+      },
+      {
+        "bytes": 5494,
+        "path": "source/package/tests/test_event_oracle.py",
+        "sha256": "d96c57117d64c836aca95decefd531032020378142fdb88450275f05313fa748"
+      },
+      {
+        "bytes": 23192,
+        "path": "source/package/tests/test_event_policy.py",
+        "sha256": "b0926fd6323b92244507957ef5a79b4aa59abe883c452ec1b5d27b4dab7766c7"
+      },
+      {
+        "bytes": 7085,
+        "path": "source/package/tests/test_event_policy_repair1.py",
+        "sha256": "d71099f9128f0eff4f1276862becaff86bfcd493188abc1ed3236a2a18051f9b"
+      },
+      {
+        "bytes": 6933,
+        "path": "source/package/tests/test_event_runner.py",
+        "sha256": "a42d8380f6e367246b0538490b1d8de56ff37a9987e8b2900e95d738d6852165"
+      },
+      {
+        "bytes": 13545,
+        "path": "source/package/tests/test_event_runner_metrics.py",
+        "sha256": "70dfa83635d7bd3646c059c5c8be45aa31755ff538a95c116848671e114db4be"
+      },
+      {
+        "bytes": 18732,
+        "path": "source/package/tests/test_event_runner_scope_repair2.py",
+        "sha256": "7b01c53b066730ef849d0215248c866c606849371b0460488c98cf73e4554980"
+      },
+      {
+        "bytes": 9512,
+        "path": "source/package/tests/test_event_trigger.py",
+        "sha256": "ad0ca5fbae107d4641ebbac662913de99876b2562accde4df8b24fad83246aad"
+      },
+      {
+        "bytes": 12878,
+        "path": "source/package/tests/test_event_trigger_v2.py",
+        "sha256": "755654a13b258c9fcbf22607024de13dfb56545f9b079d13447cb0ea390a2344"
+      },
+      {
+        "bytes": 4977,
+        "path": "source/package/tests/test_formal_auth_binding.py",
+        "sha256": "3caef3290c29e67a2537d6fe8417112200a844fed3ea7efce48ab3d976a5ef1c"
+      },
+      {
+        "bytes": 4190,
+        "path": "source/package/tests/test_gpu_training_path.py",
+        "sha256": "a78381e965f346b0d021f1d496b3a6476fab9321df3fccbcb91b6bcb3932a800"
+      },
+      {
+        "bytes": 15999,
+        "path": "source/package/tests/test_independent_baseline_oracle.py",
+        "sha256": "5a4e8866707815141fa3119827f73d3a011d656b15c141ed335813760f438848"
+      },
+      {
+        "bytes": 2250,
+        "path": "source/package/tests/test_release_protocol_contract.py",
+        "sha256": "15a5ad6568394285223bf7583bb2f02802ff7988ebd57a0beb623cd66e57c629"
+      },
+      {
+        "bytes": 5571,
+        "path": "source/protocols/BASELINE_ANALYSIS_RESULT_SCHEMA.md",
+        "sha256": "ed8944b9639f4a62011c0bf05937dafd466871f5b1ec24e4eaea3a3e538ec153"
+      },
+      {
+        "bytes": 9258,
+        "path": "source/protocols/BASELINE_COMPARISON_CONTRACT.md",
+        "sha256": "fa7167bc6c52f7f8956498698e72e0d3f375dac4e991ae47ae8170d980db1de1"
+      },
+      {
+        "bytes": 5389,
+        "path": "source/protocols/BASELINE_PROVENANCE.json",
+        "sha256": "20ba5e33bb689d25499aabf368094b1456af1a1c7d91e0c5ceeb1601b7624d8e"
+      },
+      {
+        "bytes": 5242,
+        "path": "source/protocols/INDEPENDENT_BASELINE_ORACLE.md",
+        "sha256": "d1684aefc265ab85c7059577dc17bb1c313e83fbe36761dbd20427461934f593"
+      },
+      {
+        "bytes": 32678,
+        "path": "source/tools/analyze_baseline_results.py",
+        "sha256": "b1719494a5459a57cd20d1ef9c117ab49b374220575a8b21ee81788497a1e5dd"
+      },
+      {
+        "bytes": 8717,
+        "path": "source/tools/baseline_cuda_smoke.py",
+        "sha256": "66d7fa067a7e0e13ff8128a3c970089f973788251d7b11dcaec5ed0b1a36b62a"
+      },
+      {
+        "bytes": 9395,
+        "path": "source/tools/freeze_baselines.py",
+        "sha256": "6924557fb7219c1f8871ff714ce0007be2873cbc92a796555a9de74276530b32"
+      },
+      {
+        "bytes": 12448,
+        "path": "source/tools/gpu_smoke.py",
+        "sha256": "b9d651880dc0accc8e32442b01a8ebdb7cf18784c473d6a3bf9be352b26ff4d6"
+      },
+      {
+        "bytes": 35966,
+        "path": "source/tools/independent_baseline_oracle.py",
+        "sha256": "ae7785acad7ccce0c0013ecdb04640d3d2578e520087795d27c90c4c0b70d4af"
+      }
+    ],
+    "inventory_path": "[REDACTED_LOCAL_PATH]",
+    "inventory_sha256": "f83eef737cae71fdac1e1f06e1deb086c58e851298cd44b5b6d156d09b169acb"
+  },
+  "evaluation_manifest": {
+    "path": "[REDACTED_LOCAL_PATH]",
+    "sha256": "de17c44e7f602c91e66b0b8d42c3f0c803a431b769f907c4b294c7348d4895ed"
+  },
+  "oracle": {
+    "path": "[REDACTED_LOCAL_PATH]",
+    "sha256": "8bef7110f505083518490e25eb2e94a308af696d7e8e656ccc547c61822371b8"
+  },
+  "oracle_report": {
+    "causal_extension_proofs": [
+      {
+        "actionid": "Event-GPPO:n02-event-development-05-environment_perturbation:8201:43",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 43
+      },
+      {
+        "actionid": "Event-GPPO:n02-event-development-05-environment_perturbation:8202:43",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 43
+      },
+      {
+        "actionid": "Event-GPPO:n02-event-development-05-environment_perturbation:8203:43",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 43
+      },
+      {
+        "actionid": "Event-GPPO:n02-event-development-06-mixed_events:8201:45",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 45
+      },
+      {
+        "actionid": "Event-GPPO:n02-event-development-06-mixed_events:8202:45",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 45
+      },
+      {
+        "actionid": "Event-GPPO:n02-event-development-06-mixed_events:8203:45",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 45
+      },
+      {
+        "actionid": "Event-GPPO-WM:n02-event-development-05-environment_perturbation:8201:43",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 43
+      },
+      {
+        "actionid": "Event-GPPO-WM:n02-event-development-05-environment_perturbation:8202:43",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 43
+      },
+      {
+        "actionid": "Event-GPPO-WM:n02-event-development-05-environment_perturbation:8203:43",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 43
+      },
+      {
+        "actionid": "Event-GPPO-WM:n02-event-development-06-mixed_events:8201:45",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 45
+      },
+      {
+        "actionid": "Event-GPPO-WM:n02-event-development-06-mixed_events:8202:45",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 45
+      },
+      {
+        "actionid": "Event-GPPO-WM:n02-event-development-06-mixed_events:8203:45",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 45
+      },
+      {
+        "actionid": "GPPO:n02-event-development-05-environment_perturbation:8202:10",
+        "kind": "delayed_dispatch_owner_change",
+        "originid": "GPPO:n02-event-development-05-environment_perturbation:8202:9",
+        "taskid": "n02-task-09",
+        "time": 10
+      },
+      {
+        "actionid": "GPPO:n02-event-development-05-environment_perturbation:8202:17",
+        "kind": "delayed_dispatch_owner_change",
+        "originid": "GPPO:n02-event-development-05-environment_perturbation:8202:16",
+        "taskid": "n02-task-10",
+        "time": 17
+      },
+      {
+        "actionid": "GPPO:n02-event-development-05-environment_perturbation:8202:33",
+        "kind": "delayed_dispatch_owner_change",
+        "originid": "GPPO:n02-event-development-05-environment_perturbation:8202:32",
+        "taskid": "n02-task-11",
+        "time": 33
+      },
+      {
+        "actionid": "GPPO:n02-event-development-05-environment_perturbation:8202:33",
+        "kind": "delayed_dispatch_owner_change",
+        "originid": "GPPO:n02-event-development-05-environment_perturbation:8202:32",
+        "taskid": "n02-task-12",
+        "time": 33
+      },
+      {
+        "actionid": "GPPO:n02-event-development-05-environment_perturbation:8203:43",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 43
+      },
+      {
+        "actionid": "GPPO:n02-event-development-06-mixed_events:8202:10",
+        "kind": "delayed_dispatch_owner_change",
+        "originid": "GPPO:n02-event-development-06-mixed_events:8202:9",
+        "taskid": "n02-task-09",
+        "time": 10
+      },
+      {
+        "actionid": "GPPO:n02-event-development-06-mixed_events:8202:33",
+        "kind": "delayed_dispatch_owner_change",
+        "originid": "GPPO:n02-event-development-06-mixed_events:8202:32",
+        "taskid": "n02-task-12",
+        "time": 33
+      },
+      {
+        "actionid": "GPPO:n02-event-development-06-mixed_events:8203:45",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 45
+      },
+      {
+        "actionid": "PPO:n02-event-development-05-environment_perturbation:8203:25",
+        "kind": "delayed_dispatch_owner_change",
+        "originid": "PPO:n02-event-development-05-environment_perturbation:8203:24",
+        "taskid": "n02-task-11",
+        "time": 25
+      },
+      {
+        "actionid": "Periodic-GPPO:n02-event-development-05-environment_perturbation:8201:43",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 43
+      },
+      {
+        "actionid": "Periodic-GPPO:n02-event-development-06-mixed_events:8201:45",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 45
+      },
+      {
+        "actionid": "Periodic-GPPO-WM:n02-event-development-05-environment_perturbation:8201:43",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 43
+      },
+      {
+        "actionid": "Periodic-GPPO-WM:n02-event-development-05-environment_perturbation:8202:43",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 43
+      },
+      {
+        "actionid": "Periodic-GPPO-WM:n02-event-development-05-environment_perturbation:8203:43",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 43
+      },
+      {
+        "actionid": "Periodic-GPPO-WM:n02-event-development-06-mixed_events:8201:45",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 45
+      },
+      {
+        "actionid": "Periodic-GPPO-WM:n02-event-development-06-mixed_events:8202:45",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 45
+      },
+      {
+        "actionid": "Periodic-GPPO-WM:n02-event-development-06-mixed_events:8203:45",
+        "kind": "environment_route_release",
+        "originid": null,
+        "taskid": "n02-task-09",
+        "time": 45
+      }
+    ],
+    "episodes": [
+      {
+        "key": [
+          "Auction",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 6,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 3,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 21.728968178597146,
+          "environment_action_delivery_message_count": 17,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 10.93579720226188,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.0,
+          "net_utility": 10.77579720226188,
+          "nonempty_planning_invocation_count": 6,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 1.5485741291195154,
+          "policy_response_seconds": 1.5485626680310816,
+          "protocol_cost": 0.16,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 16,
+          "scope_nonempty_planning_count": 18,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 10.93579720226188
+        }
+      },
+      {
+        "key": [
+          "Auction",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 6,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 3,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 21.728968178597146,
+          "environment_action_delivery_message_count": 17,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 10.93579720226188,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.0,
+          "net_utility": 10.77579720226188,
+          "nonempty_planning_invocation_count": 6,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 1.7971486309543252,
+          "policy_response_seconds": 1.7971397808287293,
+          "protocol_cost": 0.16,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 16,
+          "scope_nonempty_planning_count": 18,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 10.93579720226188
+        }
+      },
+      {
+        "key": [
+          "Auction",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 6,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 3,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 21.728968178597146,
+          "environment_action_delivery_message_count": 17,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 10.93579720226188,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.0,
+          "net_utility": 10.77579720226188,
+          "nonempty_planning_invocation_count": 6,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 2.650915136153344,
+          "policy_response_seconds": 2.650900765962433,
+          "protocol_cost": 0.16,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 16,
+          "scope_nonempty_planning_count": 18,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 10.93579720226188
+        }
+      },
+      {
+        "key": [
+          "Auction",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 11,
+          "completion_rate": 0.9166666666666666,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 4.0,
+          "energy_units": 19.572759004735566,
+          "environment_action_delivery_message_count": 15,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 0.0,
+          "global_utility": 8.754644625641388,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.4166666666666667,
+          "net_utility": 8.60464462564139,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 11,
+          "on_time_rate": 0.9166666666666666,
+          "owner_change_count": 4.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 1.4550491268746555,
+          "policy_response_seconds": 1.455038446933031,
+          "protocol_cost": 0.15,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 4.0,
+          "requested_nonnoop": 4.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 15,
+          "scope_nonempty_planning_count": 45,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 8.754644625641388
+        }
+      },
+      {
+        "key": [
+          "Auction",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 11,
+          "completion_rate": 0.9166666666666666,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 4.0,
+          "energy_units": 19.572759004735566,
+          "environment_action_delivery_message_count": 15,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 0.0,
+          "global_utility": 8.754644625641388,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.4166666666666667,
+          "net_utility": 8.60464462564139,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 11,
+          "on_time_rate": 0.9166666666666666,
+          "owner_change_count": 4.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 1.7741382893291302,
+          "policy_response_seconds": 1.7741279182955623,
+          "protocol_cost": 0.15,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 4.0,
+          "requested_nonnoop": 4.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 15,
+          "scope_nonempty_planning_count": 45,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 8.754644625641388
+        }
+      },
+      {
+        "key": [
+          "Auction",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 11,
+          "completion_rate": 0.9166666666666666,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 4.0,
+          "energy_units": 19.572759004735566,
+          "environment_action_delivery_message_count": 15,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 0.0,
+          "global_utility": 8.754644625641388,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.4166666666666667,
+          "net_utility": 8.60464462564139,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 11,
+          "on_time_rate": 0.9166666666666666,
+          "owner_change_count": 4.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 2.2737944409018382,
+          "policy_response_seconds": 2.27378090005368,
+          "protocol_cost": 0.15,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 4.0,
+          "requested_nonnoop": 4.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 15,
+          "scope_nonempty_planning_count": 45,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 8.754644625641388
+        }
+      },
+      {
+        "key": [
+          "CBBA-lite",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 6,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 3,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 21.728968178597146,
+          "environment_action_delivery_message_count": 17,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 10.93579720226188,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.0,
+          "net_utility": 8.235797202261885,
+          "nonempty_planning_invocation_count": 6,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 1.492025269952137,
+          "policy_response_seconds": 1.4920146389049478,
+          "protocol_cost": 2.7,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 270,
+          "scope_nonempty_planning_count": 18,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 10.93579720226188
+        }
+      },
+      {
+        "key": [
+          "CBBA-lite",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 6,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 3,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 21.728968178597146,
+          "environment_action_delivery_message_count": 17,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 10.93579720226188,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.0,
+          "net_utility": 8.235797202261885,
+          "nonempty_planning_invocation_count": 6,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 1.9074488290934823,
+          "policy_response_seconds": 1.907438449037727,
+          "protocol_cost": 2.7,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 270,
+          "scope_nonempty_planning_count": 18,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 10.93579720226188
+        }
+      },
+      {
+        "key": [
+          "CBBA-lite",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 6,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 3,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 21.728968178597146,
+          "environment_action_delivery_message_count": 17,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 10.93579720226188,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.0,
+          "net_utility": 8.235797202261885,
+          "nonempty_planning_invocation_count": 6,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 2.769071889924817,
+          "policy_response_seconds": 2.7690563979558647,
+          "protocol_cost": 2.7,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 270,
+          "scope_nonempty_planning_count": 18,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 10.93579720226188
+        }
+      },
+      {
+        "key": [
+          "CBBA-lite",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 11,
+          "completion_rate": 0.9166666666666666,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 4.0,
+          "energy_units": 19.572759004735566,
+          "environment_action_delivery_message_count": 15,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 0.0,
+          "global_utility": 8.754644625641388,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.4166666666666667,
+          "net_utility": 7.194644625641385,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 11,
+          "on_time_rate": 0.9166666666666666,
+          "owner_change_count": 4.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 1.4587140191579238,
+          "policy_response_seconds": 1.4587027981178835,
+          "protocol_cost": 1.56,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 4.0,
+          "requested_nonnoop": 4.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 156,
+          "scope_nonempty_planning_count": 45,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 8.754644625641388
+        }
+      },
+      {
+        "key": [
+          "CBBA-lite",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 11,
+          "completion_rate": 0.9166666666666666,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 4.0,
+          "energy_units": 19.572759004735566,
+          "environment_action_delivery_message_count": 15,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 0.0,
+          "global_utility": 8.754644625641388,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.4166666666666667,
+          "net_utility": 7.194644625641385,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 11,
+          "on_time_rate": 0.9166666666666666,
+          "owner_change_count": 4.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 1.772490480914712,
+          "policy_response_seconds": 1.7724805408506654,
+          "protocol_cost": 1.56,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 4.0,
+          "requested_nonnoop": 4.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 156,
+          "scope_nonempty_planning_count": 45,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 8.754644625641388
+        }
+      },
+      {
+        "key": [
+          "CBBA-lite",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 11,
+          "completion_rate": 0.9166666666666666,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 4.0,
+          "energy_units": 19.572759004735566,
+          "environment_action_delivery_message_count": 15,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 0.0,
+          "global_utility": 8.754644625641388,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.4166666666666667,
+          "net_utility": 7.194644625641385,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 11,
+          "on_time_rate": 0.9166666666666666,
+          "owner_change_count": 4.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 2.9186544466065243,
+          "policy_response_seconds": 2.9186384469503537,
+          "protocol_cost": 1.56,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 4.0,
+          "requested_nonnoop": 4.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 156,
+          "scope_nonempty_planning_count": 45,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 8.754644625641388
+        }
+      },
+      {
+        "key": [
+          "Event-GPPO",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 106.16288733013813,
+          "environment_action_delivery_message_count": 18,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 3.0,
+          "global_utility": 9.588353861992795,
+          "local_invocation_count": 2.0,
+          "mean_delay": 0.0,
+          "net_utility": 9.588353861992795,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 5,
+          "planning_latency_seconds": 0.35168644099030644,
+          "policy_response_seconds": 0.05277342407498509,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 5,
+          "task_switch_count": 0,
+          "trigger_count": 5,
+          "utility": 9.588353861992795
+        }
+      },
+      {
+        "key": [
+          "Event-GPPO",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 6,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 106.16288733013813,
+          "environment_action_delivery_message_count": 18,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 3.0,
+          "global_utility": 9.588353861992791,
+          "local_invocation_count": 2.0,
+          "mean_delay": 0.0,
+          "net_utility": 9.588353861992791,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 6,
+          "planning_latency_seconds": 0.4399408220779151,
+          "policy_response_seconds": 0.07067282503703609,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 6,
+          "task_switch_count": 0,
+          "trigger_count": 6,
+          "utility": 9.588353861992791
+        }
+      },
+      {
+        "key": [
+          "Event-GPPO",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 106.16288733013813,
+          "environment_action_delivery_message_count": 18,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 3.0,
+          "global_utility": 9.588353861992795,
+          "local_invocation_count": 2.0,
+          "mean_delay": 0.0,
+          "net_utility": 9.588353861992795,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 5,
+          "planning_latency_seconds": 0.4703018730506301,
+          "policy_response_seconds": 0.06231517397100106,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 5,
+          "task_switch_count": 0,
+          "trigger_count": 5,
+          "utility": 9.588353861992795
+        }
+      },
+      {
+        "key": [
+          "Event-GPPO",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 3,
+          "cancelled_root_task_count": 0,
+          "completed_count": 9,
+          "completion_rate": 0.75,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 8,
+          "effective_reconstruction_count": 3.0,
+          "energy_units": 102.31547051758919,
+          "environment_action_delivery_message_count": 14,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 2.0,
+          "global_utility": 1.7151756540547165,
+          "local_invocation_count": 1.0,
+          "mean_delay": 2.0,
+          "net_utility": 1.7151756540547165,
+          "nonempty_planning_invocation_count": 3,
+          "on_time_count": 9,
+          "on_time_rate": 0.75,
+          "owner_change_count": 3.0,
+          "planning_invocation_count": 8,
+          "planning_latency_seconds": 0.34465894801542163,
+          "policy_response_seconds": 0.0828653919743374,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 3.0,
+          "requested_nonnoop": 3.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 8,
+          "task_switch_count": 0,
+          "trigger_count": 8,
+          "utility": 1.7151756540547165
+        }
+      },
+      {
+        "key": [
+          "Event-GPPO",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 3,
+          "cancelled_root_task_count": 0,
+          "completed_count": 9,
+          "completion_rate": 0.75,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 8,
+          "effective_reconstruction_count": 3.0,
+          "energy_units": 102.31547051758919,
+          "environment_action_delivery_message_count": 14,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 2.0,
+          "global_utility": 1.7151756540547165,
+          "local_invocation_count": 1.0,
+          "mean_delay": 2.0,
+          "net_utility": 1.7151756540547165,
+          "nonempty_planning_invocation_count": 3,
+          "on_time_count": 9,
+          "on_time_rate": 0.75,
+          "owner_change_count": 3.0,
+          "planning_invocation_count": 8,
+          "planning_latency_seconds": 0.39541231392649934,
+          "policy_response_seconds": 0.09771751414518803,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 3.0,
+          "requested_nonnoop": 3.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 8,
+          "task_switch_count": 0,
+          "trigger_count": 8,
+          "utility": 1.7151756540547165
+        }
+      },
+      {
+        "key": [
+          "Event-GPPO",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 3,
+          "cancelled_root_task_count": 0,
+          "completed_count": 9,
+          "completion_rate": 0.75,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 8,
+          "effective_reconstruction_count": 3.0,
+          "energy_units": 103.07869092757525,
+          "environment_action_delivery_message_count": 14,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 2.0,
+          "global_utility": 1.6469990314969305,
+          "local_invocation_count": 1.0,
+          "mean_delay": 2.0,
+          "net_utility": 1.6469990314969305,
+          "nonempty_planning_invocation_count": 3,
+          "on_time_count": 9,
+          "on_time_rate": 0.75,
+          "owner_change_count": 3.0,
+          "planning_invocation_count": 8,
+          "planning_latency_seconds": 0.40102671179920435,
+          "policy_response_seconds": 0.09771453199209645,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 3.0,
+          "requested_nonnoop": 3.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 8,
+          "task_switch_count": 0,
+          "trigger_count": 8,
+          "utility": 1.6469990314969305
+        }
+      },
+      {
+        "key": [
+          "Event-GPPO-WM",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 106.16288733013813,
+          "environment_action_delivery_message_count": 18,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 3.0,
+          "global_utility": 9.588353861992795,
+          "local_invocation_count": 2.0,
+          "mean_delay": 0.0,
+          "net_utility": 9.588353861992795,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 5,
+          "planning_latency_seconds": 0.4803309499984607,
+          "policy_response_seconds": 0.19160431501222774,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 5,
+          "task_switch_count": 0,
+          "trigger_count": 5,
+          "utility": 9.588353861992795
+        }
+      },
+      {
+        "key": [
+          "Event-GPPO-WM",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 106.16288733013813,
+          "environment_action_delivery_message_count": 18,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 3.0,
+          "global_utility": 9.588353861992795,
+          "local_invocation_count": 2.0,
+          "mean_delay": 0.0,
+          "net_utility": 9.588353861992795,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 5,
+          "planning_latency_seconds": 0.5991394490702078,
+          "policy_response_seconds": 0.21253195399185643,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 5,
+          "task_switch_count": 0,
+          "trigger_count": 5,
+          "utility": 9.588353861992795
+        }
+      },
+      {
+        "key": [
+          "Event-GPPO-WM",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 106.16288733013813,
+          "environment_action_delivery_message_count": 18,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 3.0,
+          "global_utility": 9.588353861992795,
+          "local_invocation_count": 2.0,
+          "mean_delay": 0.0,
+          "net_utility": 9.588353861992795,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 5,
+          "planning_latency_seconds": 0.621986317972187,
+          "policy_response_seconds": 0.22875501995440573,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 5,
+          "task_switch_count": 0,
+          "trigger_count": 5,
+          "utility": 9.588353861992795
+        }
+      },
+      {
+        "key": [
+          "Event-GPPO-WM",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 3,
+          "cancelled_root_task_count": 0,
+          "completed_count": 9,
+          "completion_rate": 0.75,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 8,
+          "effective_reconstruction_count": 3.0,
+          "energy_units": 102.31547051758919,
+          "environment_action_delivery_message_count": 14,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 2.0,
+          "global_utility": 1.7151756540547165,
+          "local_invocation_count": 1.0,
+          "mean_delay": 2.0,
+          "net_utility": 1.7151756540547165,
+          "nonempty_planning_invocation_count": 3,
+          "on_time_count": 9,
+          "on_time_rate": 0.75,
+          "owner_change_count": 3.0,
+          "planning_invocation_count": 8,
+          "planning_latency_seconds": 0.5453698411001824,
+          "policy_response_seconds": 0.29148379986872897,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 3.0,
+          "requested_nonnoop": 3.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 8,
+          "task_switch_count": 0,
+          "trigger_count": 8,
+          "utility": 1.7151756540547165
+        }
+      },
+      {
+        "key": [
+          "Event-GPPO-WM",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 3,
+          "cancelled_root_task_count": 0,
+          "completed_count": 9,
+          "completion_rate": 0.75,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 8,
+          "effective_reconstruction_count": 3.0,
+          "energy_units": 102.31547051758919,
+          "environment_action_delivery_message_count": 14,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 2.0,
+          "global_utility": 1.7151756540547165,
+          "local_invocation_count": 1.0,
+          "mean_delay": 2.0,
+          "net_utility": 1.7151756540547165,
+          "nonempty_planning_invocation_count": 3,
+          "on_time_count": 9,
+          "on_time_rate": 0.75,
+          "owner_change_count": 3.0,
+          "planning_invocation_count": 8,
+          "planning_latency_seconds": 0.6913926549605094,
+          "policy_response_seconds": 0.36322024586843327,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 3.0,
+          "requested_nonnoop": 3.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 8,
+          "task_switch_count": 0,
+          "trigger_count": 8,
+          "utility": 1.7151756540547165
+        }
+      },
+      {
+        "key": [
+          "Event-GPPO-WM",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 3,
+          "cancelled_root_task_count": 0,
+          "completed_count": 9,
+          "completion_rate": 0.75,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 8,
+          "effective_reconstruction_count": 3.0,
+          "energy_units": 103.07869092757525,
+          "environment_action_delivery_message_count": 14,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 2.0,
+          "global_utility": 1.6469990314969305,
+          "local_invocation_count": 1.0,
+          "mean_delay": 2.0,
+          "net_utility": 1.6469990314969305,
+          "nonempty_planning_invocation_count": 3,
+          "on_time_count": 9,
+          "on_time_rate": 0.75,
+          "owner_change_count": 3.0,
+          "planning_invocation_count": 8,
+          "planning_latency_seconds": 0.7237066628294997,
+          "policy_response_seconds": 0.38855020597111434,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 3.0,
+          "requested_nonnoop": 3.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 8,
+          "task_switch_count": 0,
+          "trigger_count": 8,
+          "utility": 1.6469990314969305
+        }
+      },
+      {
+        "key": [
+          "GPPO",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 7,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 4,
+          "effective_reconstruction_count": 7.0,
+          "energy_units": 26.47390446909266,
+          "environment_action_delivery_message_count": 21,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 10.518625312723604,
+          "local_invocation_count": 6.0,
+          "mean_delay": 0.0,
+          "net_utility": 10.518625312723604,
+          "nonempty_planning_invocation_count": 7,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 7.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 2.506343589979224,
+          "policy_response_seconds": 0.6687364130630158,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 7.0,
+          "requested_nonnoop": 7.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 24,
+          "task_switch_count": 3,
+          "trigger_count": 60,
+          "utility": 10.518625312723604
+        }
+      },
+      {
+        "key": [
+          "GPPO",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 17,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 4,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 26.47390446909266,
+          "environment_action_delivery_message_count": 20,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 10.688625312723603,
+          "local_invocation_count": 7.0,
+          "mean_delay": 0.0,
+          "net_utility": 10.688625312723603,
+          "nonempty_planning_invocation_count": 17,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 6.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 2.824225982883945,
+          "policy_response_seconds": 0.6758439227705821,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 6.0,
+          "requested_nonnoop": 8.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 29,
+          "task_switch_count": 2,
+          "trigger_count": 60,
+          "utility": 10.688625312723603
+        }
+      },
+      {
+        "key": [
+          "GPPO",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 7,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 7.0,
+          "energy_units": 109.40755870908725,
+          "environment_action_delivery_message_count": 22,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 3.0,
+          "global_utility": 9.253781864312819,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.0,
+          "net_utility": 9.253781864312819,
+          "nonempty_planning_invocation_count": 7,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 7.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 3.0224699514219537,
+          "policy_response_seconds": 0.7054805655498058,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 7.0,
+          "requested_nonnoop": 7.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 27,
+          "task_switch_count": 2,
+          "trigger_count": 60,
+          "utility": 9.253781864312819
+        }
+      },
+      {
+        "key": [
+          "GPPO",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 7,
+          "cancelled_root_task_count": 0,
+          "completed_count": 10,
+          "completion_rate": 0.8333333333333334,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 6.0,
+          "energy_units": 24.67725383636886,
+          "environment_action_delivery_message_count": 21,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 1.0,
+          "global_utility": 4.3729514510512475,
+          "local_invocation_count": 6.0,
+          "mean_delay": 1.4166666666666667,
+          "net_utility": 4.3729514510512475,
+          "nonempty_planning_invocation_count": 7,
+          "on_time_count": 10,
+          "on_time_rate": 0.8333333333333334,
+          "owner_change_count": 6.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 2.51249008893501,
+          "policy_response_seconds": 0.6808898369199596,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 6.0,
+          "requested_nonnoop": 7.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 51,
+          "task_switch_count": 3,
+          "trigger_count": 60,
+          "utility": 4.3729514510512475
+        }
+      },
+      {
+        "key": [
+          "GPPO",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 8,
+          "cancelled_root_task_count": 0,
+          "completed_count": 10,
+          "completion_rate": 0.8333333333333334,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 23.433267747046095,
+          "environment_action_delivery_message_count": 17,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 0.0,
+          "global_utility": 4.637886450381356,
+          "local_invocation_count": 7.0,
+          "mean_delay": 1.4166666666666667,
+          "net_utility": 4.637886450381356,
+          "nonempty_planning_invocation_count": 8,
+          "on_time_count": 10,
+          "on_time_rate": 0.8333333333333334,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 2.486341436917428,
+          "policy_response_seconds": 0.6759615511400625,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 7.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 49,
+          "task_switch_count": 2,
+          "trigger_count": 60,
+          "utility": 4.637886450381356
+        }
+      },
+      {
+        "key": [
+          "GPPO",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 6,
+          "cancelled_root_task_count": 0,
+          "completed_count": 9,
+          "completion_rate": 0.75,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 7,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 106.37437171184415,
+          "environment_action_delivery_message_count": 20,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 3.0,
+          "global_utility": 1.215290587793485,
+          "local_invocation_count": 3.0,
+          "mean_delay": 2.0,
+          "net_utility": 1.215290587793485,
+          "nonempty_planning_invocation_count": 6,
+          "on_time_count": 9,
+          "on_time_rate": 0.75,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 2.7736734800273553,
+          "policy_response_seconds": 0.7371100220480002,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 6.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 57,
+          "task_switch_count": 2,
+          "trigger_count": 60,
+          "utility": 1.215290587793485
+        }
+      },
+      {
+        "key": [
+          "Greedy",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 6,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 3,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 21.728968178597146,
+          "environment_action_delivery_message_count": 17,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 10.93579720226188,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.0,
+          "net_utility": 10.93579720226188,
+          "nonempty_planning_invocation_count": 6,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 1.5426280395477079,
+          "policy_response_seconds": 1.5426172602456063,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 18,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 10.93579720226188
+        }
+      },
+      {
+        "key": [
+          "Greedy",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 6,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 3,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 21.728968178597146,
+          "environment_action_delivery_message_count": 17,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 10.93579720226188,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.0,
+          "net_utility": 10.93579720226188,
+          "nonempty_planning_invocation_count": 6,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 1.7965619624010287,
+          "policy_response_seconds": 1.7965528324129991,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 18,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 10.93579720226188
+        }
+      },
+      {
+        "key": [
+          "Greedy",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 6,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 3,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 21.728968178597146,
+          "environment_action_delivery_message_count": 17,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 10.93579720226188,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.0,
+          "net_utility": 10.93579720226188,
+          "nonempty_planning_invocation_count": 6,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 2.8013927019783296,
+          "policy_response_seconds": 2.8013754909625277,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 18,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 10.93579720226188
+        }
+      },
+      {
+        "key": [
+          "Greedy",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 11,
+          "completion_rate": 0.9166666666666666,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 4.0,
+          "energy_units": 19.572759004735566,
+          "environment_action_delivery_message_count": 15,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 0.0,
+          "global_utility": 8.754644625641388,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.4166666666666667,
+          "net_utility": 8.754644625641388,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 11,
+          "on_time_rate": 0.9166666666666666,
+          "owner_change_count": 4.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 1.4705467300955206,
+          "policy_response_seconds": 1.4705376299098134,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 4.0,
+          "requested_nonnoop": 4.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 45,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 8.754644625641388
+        }
+      },
+      {
+        "key": [
+          "Greedy",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 11,
+          "completion_rate": 0.9166666666666666,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 4.0,
+          "energy_units": 19.572759004735566,
+          "environment_action_delivery_message_count": 15,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 0.0,
+          "global_utility": 8.754644625641388,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.4166666666666667,
+          "net_utility": 8.754644625641388,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 11,
+          "on_time_rate": 0.9166666666666666,
+          "owner_change_count": 4.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 1.7704045588034205,
+          "policy_response_seconds": 1.7703950378345326,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 4.0,
+          "requested_nonnoop": 4.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 45,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 8.754644625641388
+        }
+      },
+      {
+        "key": [
+          "Greedy",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 11,
+          "completion_rate": 0.9166666666666666,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 4.0,
+          "energy_units": 19.572759004735566,
+          "environment_action_delivery_message_count": 15,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 0.0,
+          "global_utility": 8.754644625641388,
+          "local_invocation_count": 4.0,
+          "mean_delay": 0.4166666666666667,
+          "net_utility": 8.754644625641388,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 11,
+          "on_time_rate": 0.9166666666666666,
+          "owner_change_count": 4.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 2.4677311762352474,
+          "policy_response_seconds": 2.4677150163333863,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 4.0,
+          "requested_nonnoop": 4.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 45,
+          "task_switch_count": 1,
+          "trigger_count": 60,
+          "utility": 8.754644625641388
+        }
+      },
+      {
+        "key": [
+          "PPO",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 7,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 4,
+          "effective_reconstruction_count": 7.0,
+          "energy_units": 26.47390446909266,
+          "environment_action_delivery_message_count": 21,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 10.518625312723604,
+          "local_invocation_count": 6.0,
+          "mean_delay": 0.0,
+          "net_utility": 10.518625312723604,
+          "nonempty_planning_invocation_count": 7,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 7.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 2.418924744881224,
+          "policy_response_seconds": 0.5786646721535362,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 7.0,
+          "requested_nonnoop": 7.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 24,
+          "task_switch_count": 3,
+          "trigger_count": 60,
+          "utility": 10.518625312723604
+        }
+      },
+      {
+        "key": [
+          "PPO",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 46,
+          "cancelled_root_task_count": 0,
+          "completed_count": 8,
+          "completion_rate": 0.6666666666666666,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 16,
+          "effective_reconstruction_count": 2.0,
+          "energy_units": 19.084658362104623,
+          "environment_action_delivery_message_count": 12,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 0.0,
+          "global_utility": 2.9615040004902475,
+          "local_invocation_count": 2.0,
+          "mean_delay": 1.8333333333333333,
+          "net_utility": 2.9615040004902475,
+          "nonempty_planning_invocation_count": 46,
+          "on_time_count": 8,
+          "on_time_rate": 0.6666666666666666,
+          "owner_change_count": 2.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 5.939721151837148,
+          "policy_response_seconds": 0.596230541006662,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 2.0,
+          "requested_nonnoop": 2.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 57,
+          "task_switch_count": 2,
+          "trigger_count": 60,
+          "utility": 2.9615040004902475
+        }
+      },
+      {
+        "key": [
+          "PPO",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 8,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 4,
+          "effective_reconstruction_count": 7.0,
+          "energy_units": 26.47390446909266,
+          "environment_action_delivery_message_count": 20,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 10.528625312723602,
+          "local_invocation_count": 7.0,
+          "mean_delay": 0.0,
+          "net_utility": 10.528625312723602,
+          "nonempty_planning_invocation_count": 8,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 7.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 3.146887704031542,
+          "policy_response_seconds": 0.7089649541885592,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 7.0,
+          "requested_nonnoop": 8.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 25,
+          "task_switch_count": 3,
+          "trigger_count": 60,
+          "utility": 10.528625312723602
+        }
+      },
+      {
+        "key": [
+          "PPO",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 7,
+          "cancelled_root_task_count": 0,
+          "completed_count": 10,
+          "completion_rate": 0.8333333333333334,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 6.0,
+          "energy_units": 24.668926004104446,
+          "environment_action_delivery_message_count": 21,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 1.0,
+          "global_utility": 4.373695356048529,
+          "local_invocation_count": 6.0,
+          "mean_delay": 1.4166666666666667,
+          "net_utility": 4.373695356048529,
+          "nonempty_planning_invocation_count": 7,
+          "on_time_count": 10,
+          "on_time_rate": 0.8333333333333334,
+          "owner_change_count": 6.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 2.543014744820539,
+          "policy_response_seconds": 0.5851822090917267,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 6.0,
+          "requested_nonnoop": 7.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 51,
+          "task_switch_count": 3,
+          "trigger_count": 60,
+          "utility": 4.373695356048529
+        }
+      },
+      {
+        "key": [
+          "PPO",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 45,
+          "cancelled_root_task_count": 0,
+          "completed_count": 7,
+          "completion_rate": 0.5833333333333334,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 14,
+          "effective_reconstruction_count": 2.0,
+          "energy_units": 18.884658362104624,
+          "environment_action_delivery_message_count": 12,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 0.0,
+          "global_utility": -1.1062016269945252,
+          "local_invocation_count": 2.0,
+          "mean_delay": 2.8333333333333335,
+          "net_utility": -1.1062016269945252,
+          "nonempty_planning_invocation_count": 45,
+          "on_time_count": 7,
+          "on_time_rate": 0.5833333333333334,
+          "owner_change_count": 2.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 5.335822014720179,
+          "policy_response_seconds": 0.5981927009997889,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 2.0,
+          "requested_nonnoop": 2.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 57,
+          "task_switch_count": 2,
+          "trigger_count": 60,
+          "utility": -1.1062016269945252
+        }
+      },
+      {
+        "key": [
+          "PPO",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 7,
+          "cancelled_root_task_count": 0,
+          "completed_count": 10,
+          "completion_rate": 0.8333333333333334,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 6.0,
+          "energy_units": 24.67725383636886,
+          "environment_action_delivery_message_count": 20,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 1.0,
+          "global_utility": 4.382951451051247,
+          "local_invocation_count": 6.0,
+          "mean_delay": 1.4166666666666667,
+          "net_utility": 4.382951451051247,
+          "nonempty_planning_invocation_count": 7,
+          "on_time_count": 10,
+          "on_time_rate": 0.8333333333333334,
+          "owner_change_count": 6.0,
+          "planning_invocation_count": 60,
+          "planning_latency_seconds": 3.2173596741631627,
+          "policy_response_seconds": 0.7342995940125547,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 6.0,
+          "requested_nonnoop": 7.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 51,
+          "task_switch_count": 3,
+          "trigger_count": 60,
+          "utility": 4.382951451051247
+        }
+      },
+      {
+        "key": [
+          "Periodic-GPPO",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 106.16288733013813,
+          "environment_action_delivery_message_count": 18,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 3.0,
+          "global_utility": 9.588353861992795,
+          "local_invocation_count": 2.0,
+          "mean_delay": 0.0,
+          "net_utility": 9.588353861992795,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 15,
+          "planning_latency_seconds": 1.3070941049954854,
+          "policy_response_seconds": 0.15433632489293814,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 9,
+          "task_switch_count": 0,
+          "trigger_count": 15,
+          "utility": 9.588353861992795
+        }
+      },
+      {
+        "key": [
+          "Periodic-GPPO",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 4,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 4,
+          "effective_reconstruction_count": 4.0,
+          "energy_units": 22.375621577642807,
+          "environment_action_delivery_message_count": 16,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 1.0,
+          "global_utility": 11.037466905371893,
+          "local_invocation_count": 3.0,
+          "mean_delay": 0.0,
+          "net_utility": 11.037466905371893,
+          "nonempty_planning_invocation_count": 4,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 4.0,
+          "planning_invocation_count": 15,
+          "planning_latency_seconds": 1.9330509532010183,
+          "policy_response_seconds": 0.19063123018713668,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 4.0,
+          "requested_nonnoop": 4.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 7,
+          "task_switch_count": 0,
+          "trigger_count": 15,
+          "utility": 11.037466905371893
+        }
+      },
+      {
+        "key": [
+          "Periodic-GPPO",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 11,
+          "cancelled_root_task_count": 0,
+          "completed_count": 8,
+          "completion_rate": 0.6666666666666666,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 17,
+          "effective_reconstruction_count": 0.0,
+          "energy_units": 15.780649745571319,
+          "environment_action_delivery_message_count": 8,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 0.0,
+          "global_utility": 3.26910353544859,
+          "local_invocation_count": 0.0,
+          "mean_delay": 1.8333333333333333,
+          "net_utility": 3.26910353544859,
+          "nonempty_planning_invocation_count": 11,
+          "on_time_count": 8,
+          "on_time_rate": 0.6666666666666666,
+          "owner_change_count": 0.0,
+          "planning_invocation_count": 15,
+          "planning_latency_seconds": 2.9938417850644328,
+          "policy_response_seconds": 0.1932036699145101,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 0.0,
+          "requested_nonnoop": 0.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 13,
+          "task_switch_count": 0,
+          "trigger_count": 15,
+          "utility": 3.26910353544859
+        }
+      },
+      {
+        "key": [
+          "Periodic-GPPO",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 3,
+          "cancelled_root_task_count": 0,
+          "completed_count": 9,
+          "completion_rate": 0.75,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 8,
+          "effective_reconstruction_count": 3.0,
+          "energy_units": 103.07869092757525,
+          "environment_action_delivery_message_count": 14,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 2.0,
+          "global_utility": 1.6469990314969305,
+          "local_invocation_count": 1.0,
+          "mean_delay": 2.0,
+          "net_utility": 1.6469990314969305,
+          "nonempty_planning_invocation_count": 3,
+          "on_time_count": 9,
+          "on_time_rate": 0.75,
+          "owner_change_count": 3.0,
+          "planning_invocation_count": 15,
+          "planning_latency_seconds": 1.2317620460526086,
+          "policy_response_seconds": 0.1536832288838923,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 3.0,
+          "requested_nonnoop": 3.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 13,
+          "task_switch_count": 0,
+          "trigger_count": 15,
+          "utility": 1.6469990314969305
+        }
+      },
+      {
+        "key": [
+          "Periodic-GPPO",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 3,
+          "cancelled_root_task_count": 0,
+          "completed_count": 10,
+          "completion_rate": 0.8333333333333334,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 6,
+          "effective_reconstruction_count": 3.0,
+          "energy_units": 20.38163863622683,
+          "environment_action_delivery_message_count": 14,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 0.0,
+          "global_utility": 5.188963593598776,
+          "local_invocation_count": 3.0,
+          "mean_delay": 1.4166666666666667,
+          "net_utility": 5.188963593598776,
+          "nonempty_planning_invocation_count": 3,
+          "on_time_count": 10,
+          "on_time_rate": 0.8333333333333334,
+          "owner_change_count": 3.0,
+          "planning_invocation_count": 15,
+          "planning_latency_seconds": 1.6798297549248673,
+          "policy_response_seconds": 0.1626564089092426,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 3.0,
+          "requested_nonnoop": 3.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 12,
+          "task_switch_count": 0,
+          "trigger_count": 15,
+          "utility": 5.188963593598776
+        }
+      },
+      {
+        "key": [
+          "Periodic-GPPO",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 11,
+          "cancelled_root_task_count": 0,
+          "completed_count": 7,
+          "completion_rate": 0.5833333333333334,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 16,
+          "effective_reconstruction_count": 0.0,
+          "energy_units": 15.58064974557132,
+          "environment_action_delivery_message_count": 8,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 0.0,
+          "global_utility": -0.713749278293796,
+          "local_invocation_count": 0.0,
+          "mean_delay": 2.8333333333333335,
+          "net_utility": -0.713749278293796,
+          "nonempty_planning_invocation_count": 11,
+          "on_time_count": 7,
+          "on_time_rate": 0.5833333333333334,
+          "owner_change_count": 0.0,
+          "planning_invocation_count": 15,
+          "planning_latency_seconds": 1.9297895359923132,
+          "policy_response_seconds": 0.1671567670418881,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 0.0,
+          "requested_nonnoop": 0.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 13,
+          "task_switch_count": 0,
+          "trigger_count": 15,
+          "utility": -0.713749278293796
+        }
+      },
+      {
+        "key": [
+          "Periodic-GPPO-WM",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 106.16288733013813,
+          "environment_action_delivery_message_count": 18,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 3.0,
+          "global_utility": 9.588353861992795,
+          "local_invocation_count": 2.0,
+          "mean_delay": 0.0,
+          "net_utility": 9.588353861992795,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 15,
+          "planning_latency_seconds": 1.6809410201967694,
+          "policy_response_seconds": 0.5424271450028755,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 9,
+          "task_switch_count": 0,
+          "trigger_count": 15,
+          "utility": 9.588353861992795
+        }
+      },
+      {
+        "key": [
+          "Periodic-GPPO-WM",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 106.16288733013813,
+          "environment_action_delivery_message_count": 18,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 3.0,
+          "global_utility": 9.588353861992795,
+          "local_invocation_count": 2.0,
+          "mean_delay": 0.0,
+          "net_utility": 9.588353861992795,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 15,
+          "planning_latency_seconds": 2.092869447078556,
+          "policy_response_seconds": 0.7244472238235176,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 9,
+          "task_switch_count": 0,
+          "trigger_count": 15,
+          "utility": 9.588353861992795
+        }
+      },
+      {
+        "key": [
+          "Periodic-GPPO-WM",
+          "n02-event-development-05-environment_perturbation",
+          "060069fa9b6a680651f7917eaf24b71f6aeee9d69088229c656c54535cc4f5bd",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 5,
+          "cancelled_root_task_count": 0,
+          "completed_count": 12,
+          "completion_rate": 1.0,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 5,
+          "effective_reconstruction_count": 5.0,
+          "energy_units": 106.16288733013813,
+          "environment_action_delivery_message_count": 18,
+          "failed_root_task_count": 0,
+          "global_invocation_count": 3.0,
+          "global_utility": 9.588353861992795,
+          "local_invocation_count": 2.0,
+          "mean_delay": 0.0,
+          "net_utility": 9.588353861992795,
+          "nonempty_planning_invocation_count": 5,
+          "on_time_count": 12,
+          "on_time_rate": 1.0,
+          "owner_change_count": 5.0,
+          "planning_invocation_count": 15,
+          "planning_latency_seconds": 2.384004956111312,
+          "policy_response_seconds": 0.6990415889304131,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 5.0,
+          "requested_nonnoop": 5.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 9,
+          "task_switch_count": 0,
+          "trigger_count": 15,
+          "utility": 9.588353861992795
+        }
+      },
+      {
+        "key": [
+          "Periodic-GPPO-WM",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8201
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 3,
+          "cancelled_root_task_count": 0,
+          "completed_count": 9,
+          "completion_rate": 0.75,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 8,
+          "effective_reconstruction_count": 3.0,
+          "energy_units": 103.07869092757525,
+          "environment_action_delivery_message_count": 14,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 2.0,
+          "global_utility": 1.6469990314969305,
+          "local_invocation_count": 1.0,
+          "mean_delay": 2.0,
+          "net_utility": 1.6469990314969305,
+          "nonempty_planning_invocation_count": 3,
+          "on_time_count": 9,
+          "on_time_rate": 0.75,
+          "owner_change_count": 3.0,
+          "planning_invocation_count": 15,
+          "planning_latency_seconds": 1.5715868590632454,
+          "policy_response_seconds": 0.5381866331445053,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 3.0,
+          "requested_nonnoop": 3.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 13,
+          "task_switch_count": 0,
+          "trigger_count": 15,
+          "utility": 1.6469990314969305
+        }
+      },
+      {
+        "key": [
+          "Periodic-GPPO-WM",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8202
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 3,
+          "cancelled_root_task_count": 0,
+          "completed_count": 9,
+          "completion_rate": 0.75,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 8,
+          "effective_reconstruction_count": 3.0,
+          "energy_units": 103.07869092757525,
+          "environment_action_delivery_message_count": 14,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 2.0,
+          "global_utility": 1.6469990314969305,
+          "local_invocation_count": 1.0,
+          "mean_delay": 2.0,
+          "net_utility": 1.6469990314969305,
+          "nonempty_planning_invocation_count": 3,
+          "on_time_count": 9,
+          "on_time_rate": 0.75,
+          "owner_change_count": 3.0,
+          "planning_invocation_count": 15,
+          "planning_latency_seconds": 1.825903536984697,
+          "policy_response_seconds": 0.6940593481413089,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 3.0,
+          "requested_nonnoop": 3.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 13,
+          "task_switch_count": 0,
+          "trigger_count": 15,
+          "utility": 1.6469990314969305
+        }
+      },
+      {
+        "key": [
+          "Periodic-GPPO-WM",
+          "n02-event-development-06-mixed_events",
+          "e32db378c088c9db67487d31f60d3cc0562a00b2684d2bb1e2a695dd700d9bdf",
+          8203
+        ],
+        "recomputed": {
+          "actionable_catalog_planning_count": 3,
+          "cancelled_root_task_count": 0,
+          "completed_count": 9,
+          "completion_rate": 0.75,
+          "constraint_violations": 0,
+          "critical_failures": 0,
+          "detector_event_edge_count": 8,
+          "effective_reconstruction_count": 3.0,
+          "energy_units": 103.07869092757525,
+          "environment_action_delivery_message_count": 14,
+          "failed_root_task_count": 1,
+          "global_invocation_count": 2.0,
+          "global_utility": 1.6469990314969305,
+          "local_invocation_count": 1.0,
+          "mean_delay": 2.0,
+          "net_utility": 1.6469990314969305,
+          "nonempty_planning_invocation_count": 3,
+          "on_time_count": 9,
+          "on_time_rate": 0.75,
+          "owner_change_count": 3.0,
+          "planning_invocation_count": 15,
+          "planning_latency_seconds": 1.9549084210884757,
+          "policy_response_seconds": 0.6120123960427009,
+          "protocol_cost": 0.0,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": 3.0,
+          "requested_nonnoop": 3.0,
+          "root_count": 12,
+          "rule_protocol_message_count": 0,
+          "scope_nonempty_planning_count": 13,
+          "task_switch_count": 0,
+          "trigger_count": 15,
+          "utility": 1.6469990314969305
+        }
+      }
+    ],
+    "measurement_revision": {
+      "id": "delayed-dispatch-and-environment-release-v2",
+      "oracle_sha256": "8bef7110f505083518490e25eb2e94a308af696d7e8e656ccc547c61822371b8",
+      "parent_frozen_oracle_sha256": "ae7785acad7ccce0c0013ecdb04640d3d2578e520087795d27c90c4c0b70d4af",
+      "proof_module_sha256": "e0ab4f37f764e3dfb72dbb9c14c9e3d85e0c367a1cd904e47f70af6af039ccb7",
+      "raw_data_or_algorithms_modified": false,
+      "scope": "strict raw causal evidence extension; original frozen oracle failure retained separately"
+    },
+    "mismatch": [],
+    "missing": [],
+    "schema": "independent-baseline-oracle-report/1",
+    "status": "PASS"
+  },
+  "reconstructed": {
+    "actions": {
+      "bytes": 58696657,
+      "label": "evaluation-actions",
+      "sha256": "25db7987b99f13a27db6a75857209d46dbc9d567fa7916720360a18447f96853"
+    },
+    "episodes": {
+      "bytes": 70606,
+      "label": "evaluation-episodes",
+      "sha256": "88104a69954a34e61c71038a75189ca2345cb0fba234555d98d4022f86c10e82"
+    }
+  },
+  "schema": "n02-public-archive-replay-report/1",
+  "scope": "simulated_public_evidence_only",
+  "status": "PASS"
+}

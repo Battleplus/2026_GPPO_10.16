@@ -1,0 +1,30 @@
+{
+  "schema": "n02-baseline-config/1",
+  "profile": "pilot",
+  "seed": 8201,
+  "parents": {"train": 4, "development": 2, "formal_total": 6},
+  "training": {"rounds": 1, "episodes_per_round": 4, "epochs": 4, "minibatch_size": 32, "max_updates_per_learning_method": 32},
+  "evaluation": {"deterministic": true, "development_parents_only": true, "development_parent_count": 2, "paired_seeds_descriptive_only": true, "no_significance_claim": true},
+  "methods": ["Greedy", "Auction", "CBBA-lite", "PPO", "GPPO", "Periodic-GPPO", "Event-GPPO", "Event-GPPO-WM", "Periodic-GPPO-WM"],
+  "primary_methods": ["Greedy", "Auction", "CBBA-lite", "PPO", "GPPO", "Periodic-GPPO", "Event-GPPO", "Event-GPPO-WM"],
+  "clocks": {"every_step": ["Greedy", "Auction", "CBBA-lite", "PPO", "GPPO"], "periodic_interval_minutes": 4, "event": ["Event-GPPO", "Event-GPPO-WM"]},
+  "environment": {"rows": 100, "cols": 100, "platforms": 6, "uav": 4, "helicopter": 2, "tasks": 12, "horizon_minutes": 60, "perturbation_shape": [2, 2], "candidate_cap": 16},
+  "data_reuse": {
+    "gate1_evidence": "evidence/gate1-cpu-m0-m2-20261018-r8",
+    "gate1_freeze_manifest_sha256": "00c9631e9265bd72254a846d34e1ea997fb46f777cb9adb0d9fab45dbc197def",
+    "training_samples": "M2_MODEL_SAMPLES.jsonl",
+    "development_samples": "M2_DEVELOPMENT_MODEL_SAMPLES.jsonl",
+    "threshold_manifest": "THRESHOLD_MANIFEST.json",
+    "reuse_policy": "Reuse only Gate1 r8 raw simulator samples and training-only frozen threshold; train a fresh WM ensemble for this profile."
+  },
+  "world_model": {"seeds": [8201, 8202, 8203], "members": 3, "epochs": 40, "batch_size": 8, "device": "cuda:0", "critic_only": true},
+  "trigger": {"source": "Gate1 r8 THRESHOLD_MANIFEST.json", "warmup_steps": 4, "persistence_steps": 2, "hysteresis_margin": 0.05, "history_length": 4, "periodic_interval_minutes": 4},
+  "accounting": {"protocol_message_weight": 0.01, "planning_latency_penalty": 0.0, "communication_action_delivery_cost_already_in_environment_utility": true},
+  "metrics": {"critical_priority_minimum": 5.0, "critical_deadline_rule": "criticality is frozen from original task priority >= 5.0 at reset; deadline changes remain outcome constraints, never redefine criticality", "task_denominator": "12 original task roots; aggregate split children and never count children separately", "split_root_completion": "all required child workloads completed", "completion_success": "completed by horizon", "on_time_success": "completed_at <= original root deadline; incomplete or cancelled roots count false", "mean_delay": "completed lateness; incomplete non-cancelled roots accrue through horizon; cancelled roots accrue only through cancellation; sum / 12", "critical_failure": "priority >= 5.0 at reset and root not completed by horizon"},
+  "runtime": {"python": "3.11.16", "torch": "2.7.0+cu128", "numpy": "1.26.0", "device": "cuda:0", "cuda_visible_devices": "0", "cpu_affinity": [0], "threads": 1},
+  "budget": {"wall_seconds": 7200, "cpu_seconds": 6600, "memory_max_bytes": 8589934592, "cpu_affinity": [0], "threads": 1},
+  "resource_budget": {"wall_seconds": 7200, "cpu_seconds": 6600, "memory_max_bytes": 8589934592, "cpu_affinity": [0], "threads": 1},
+  "comparison": {"pairing": ["parent_id", "event_tape_id", "initial_c1_assignment", "exogenous_identity"], "rule_seed_repeats_are_descriptive": true, "training_updates_cumulative_cap": true}
+  ,"frozen_gate_thresholds": {"event_vs_periodic_global_utility_mean_difference_min": 0.0, "critical_failure_count_must_not_increase": true, "completion_rate_max_drop": 0.02, "on_time_rate_max_drop": 0.02, "planning_invocations_must_be_lower": true, "at_least_one_must_decrease": ["environment_action_delivery_message_count", "rule_protocol_message_count", "effective_reconstruction_count", "reconstruction_size"], "empty_scope_global_actions": 0, "event_local_repair_witness_required": true, "net_utility_is_secondary_report_only": true, "three_seed_two_development_parent_significance": "descriptive paired cells only; do not claim statistical significance"},
+  "world_model_critic_boundary": {"actor_logits_invariant_to_world_model_predictions": true, "nondecision_value_features": "zero WM features; critic-only value allowed without candidate generation", "GAE_next_value": "for each adjacent physical transition use next transition old_value; truncated terminal bootstrap is explicitly marked zero-WM", "auxiliary_loss": "diagnostic residual; total critic loss already backpropagates through base+auxiliary value, so diagnostic is not added a second time"}
+}

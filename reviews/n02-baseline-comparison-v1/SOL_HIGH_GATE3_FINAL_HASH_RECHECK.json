@@ -1,0 +1,25 @@
+{
+  "entry": {
+    "bytes": 314024,
+    "count": 9,
+    "errors": []
+  },
+  "entry_sha256": "7cb329580ab1130840ccba1414fcb7775db67becd83fe03fc0acee157e4067c7",
+  "extra_public_files": [],
+  "outputs": {
+    "bytes": 230626,
+    "count": 6,
+    "errors": []
+  },
+  "private": {
+    "bytes": 2211936019,
+    "count": 258,
+    "errors": []
+  },
+  "public": {
+    "bytes": 122798109,
+    "count": 162,
+    "errors": []
+  },
+  "public_inventory_sha256": "f83eef737cae71fdac1e1f06e1deb086c58e851298cd44b5b6d156d09b169acb"
+}

@@ -1,0 +1,41 @@
+{
+  "categories": {
+    "operational_tool_outside_public_allowlist": {
+      "count": 2,
+      "source_hash_commitment": "db81ff27f1429b61f5598f4a89363c2c8701366c50cfd89051b1403d015fe0f8"
+    },
+    "private_deployment_adapter": {
+      "count": 1,
+      "source_hash_commitment": "727b80145e4b7864717a12053375dabc9b37b181542fb864658f3d3d523fab4d"
+    },
+    "private_execution_identity": {
+      "count": 1,
+      "source_hash_commitment": "9b1320975d72989f46656f60243edbb8c298727b209cf89bd50e18438e2cbdbe"
+    },
+    "private_operational_runbook": {
+      "count": 1,
+      "source_hash_commitment": "60749c86bbfea9b4aeb9e1be5ec30b704912814e34c0aeba2fd6f7e5ff6da144"
+    },
+    "private_runtime_adapter_test": {
+      "count": 1,
+      "source_hash_commitment": "bca739ce4378e522900ee948b88402b4dfbaf93420ef9b8f7c034d7e0b1c3aa0"
+    },
+    "private_runtime_guardian_adapter": {
+      "count": 1,
+      "source_hash_commitment": "0efe4bdff594555494d7b7491acde402b63989eada59c5eeb8b2a4ec345dfeb5"
+    },
+    "private_transport_test": {
+      "count": 1,
+      "source_hash_commitment": "be6aafcb65c322e28cf3a456b2528b358e435169807e7ed09fa4174a5a63be39"
+    }
+  },
+  "declared_policy": {
+    "credentials_tokens_authorization_ssh_context_private_database_raw_console_and_bytecode": "excluded by allowlist, suffix, and content scan",
+    "execution_request_and_run_identity": "not copied",
+    "private_deployment_adapter": "omitted; source is not modified",
+    "private_runtime_guardian": "omitted",
+    "runtime_invocation_runbook": "omitted; transport placeholder included"
+  },
+  "excluded_file_count": 8,
+  "schema": "n02-baseline-source-exclusions/1"
+}

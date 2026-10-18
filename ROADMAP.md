@@ -1,5 +1,7 @@
-# 后续范围
+# N02 roadmap
 
-用户选定的五项核心检查已经完成；[公开成果](releases/n02-minimal-closure-v1-100x100/README.md) 包含源码、仿真数据、模型、报告和哈希。
+Completed: v2 event mechanism repair; nine shared-catalogue baselines; pilot; three-seed formal GPU workload; causal replay; fresh-process restore audits; three independent Sol review gates; public archive preparation.
 
-事件触发式重构、更多基线、多尺度、三个 seed 和独立确认集属于后续论文实验。本次没有执行，也没有据工程通过推断方法有效性。
+Observed research gate failed. No expanded run, developer-scenario tuning or revised acceptance criterion is implied. Follow-up design should separately test planning cost and execution reconstruction cost, improve candidate coverage and WM actor-planning integration, use matched controls, and reserve an independent confirmation set before claiming paper-level efficacy.
+
+Prior roadmap is preserved in history/pre-n02-baseline-comparison-v1/ROADMAP.md when present.

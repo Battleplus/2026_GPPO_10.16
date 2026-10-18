@@ -1,0 +1,29 @@
+{
+  "not_rerun": true,
+  "schema": "n02-parent-observed-tests/1",
+  "scope": "Parent-observed earlier executions, raw stdout was not saved; not independent review",
+  "tests": [
+    {
+      "observation": "Prior parent tool execution observed; not a new test execution",
+      "observed_exit_code": 0,
+      "observed_result": {
+        "passed": 16,
+        "skipped": 0
+      },
+      "raw_stdout_file": "MISSING",
+      "test_source": "[REDACTED_LOCAL_PATH]",
+      "test_source_sha256": "032265c81bc356f924ad95699104bc93dbe6096899f0b09c80d061863879b92c"
+    },
+    {
+      "observation": "Prior parent tool execution observed; not a new test execution",
+      "observed_exit_code": 0,
+      "observed_result": {
+        "passed": 17,
+        "skipped": 2
+      },
+      "raw_stdout_file": "MISSING",
+      "test_source": "[REDACTED_LOCAL_PATH]",
+      "test_source_sha256": "91b60db4425bce52ffbcdd616daaed3f81774917afc5e24a78bc9ebef32c0e2f"
+    }
+  ]
+}

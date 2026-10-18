@@ -1,0 +1,18 @@
+{
+  "files": [
+    {
+      "new_sha256": "9b071e2830ea178b202609e1b10424ff8d0faab49e3581a79f3908fec9dba909",
+      "path": "PUBLIC_ARCHIVE_STATUS.json",
+      "prior_sha256": "47d400d07b2c232d4143486c594c8d6c81506f618617507cca69adc11f1cda4f"
+    },
+    {
+      "new_sha256": "09a6b55aa8cd9ab98a5afed2e07fa4d23f11f36f9239e6056ec739152d97aa9e",
+      "path": "README.md",
+      "prior_sha256": "a7ab0027b42f4d868692b7cf8687f715e167b43865c780f58ef1cf9b4d399223"
+    }
+  ],
+  "final_inventory_sha256": "f83eef737cae71fdac1e1f06e1deb086c58e851298cd44b5b6d156d09b169acb",
+  "prior_inventory_sha256": "de911675c2f207d58109945687fdb75e86ef185ed414f293d6205296eb62c8ba",
+  "schema": "n02-staging-description-correction/1",
+  "scope": "Generated status/readme corrections only before Gate3; scientific bytes unchanged"
+}

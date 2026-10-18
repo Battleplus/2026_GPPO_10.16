@@ -1,0 +1,416 @@
+[
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 9,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "Event-GPPO",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8201,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 3,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "Event-GPPO",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8202,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 3,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "Event-GPPO",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8203,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 9,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "Event-GPPO-WM",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8201,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 1,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "Event-GPPO-WM",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8202,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 3,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "Event-GPPO-WM",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8203,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 0,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "GPPO",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8201,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 0,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "GPPO",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8202,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 0,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "GPPO",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8203,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 0,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "PPO",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8201,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 0,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "PPO",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8202,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 0,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "PPO",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8203,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 0,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "Periodic-GPPO",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8201,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 0,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "Periodic-GPPO",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8202,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 0,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "Periodic-GPPO",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8203,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 0,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "Periodic-GPPO-WM",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8201,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 0,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "Periodic-GPPO-WM",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8202,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  },
+  {
+    "critic_only_actor_unchanged": true,
+    "critic_only_updates": 0,
+    "cuda": true,
+    "episodes": 16,
+    "final_cumulative_updates": 128,
+    "max_cumulative_updates": 128,
+    "method": "Periodic-GPPO-WM",
+    "optimizer_budget_remaining": 0,
+    "parents": 4,
+    "rounds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seed": 8203,
+    "steps_exact_1_to_128": true,
+    "ticks": [
+      60
+    ],
+    "updates": 128
+  }
+]

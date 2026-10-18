@@ -1,0 +1,280 @@
+{
+  "checks": {
+    "active_bundle_identity_bindings": "PASS",
+    "all_indexed_artifacts": "PASS",
+    "c1_public_computation_100x100_and_tapes": "PASS_REEXECUTED_CONTRACT_VERIFIER",
+    "controlled_2x2_physical_test": "PASS_REEXECUTED_TARGETED_TEST",
+    "direct_unfinished_closure_and_alternatives_separation": "PASS",
+    "empty_domain_noop_and_strong_not_global": "PASS",
+    "engineering_claim_scope": "PASS",
+    "failed_transfer_source_and_feasible_destination": "PASS",
+    "fresh_cpu_no_training_profile": "PASS",
+    "m2_branch_label_oracle": "PASS_REEXECUTED",
+    "m2_public_inputs_postbranch_truth_targets": "PASS_SOURCE_AND_RAW_BINDINGS",
+    "noop_non_target_unknown_masks_physical_diversity": "PASS",
+    "raw_mutations": "PASS_REEXECUTED",
+    "source_inventory_all_hashes_and_snapshot": "PASS",
+    "threshold_train_only_no_development_retune": "PASS",
+    "trigger_warmup_persistence_hysteresis_public_structural_service_debt": "PASS_ENGINEERING_SCOPE"
+  },
+  "closed_findings": [
+    {
+      "closure": "Production feasibility probe excludes completed/failed/expired/cancelled/split_parent historical ownership. Independent unchanged formal parent t=10 now returns True with six empty queues and no schedule issues; a controlled failed platform with unfinished assigned queue still returns False/platform_unavailable. New production fallback regression confirms terminal historical ownership does not enumerate global candidates or authorize fallback.",
+      "evidence": [
+        {
+          "file": "package/civilian/event_environment.py",
+          "line": 493
+        },
+        {
+          "file": "package/civilian/event_environment.py",
+          "line": 496
+        },
+        {
+          "file": "package/tests/test_event_environment.py",
+          "line": 105
+        },
+        {
+          "file": "package/tests/test_event_runner_scope_repair2.py",
+          "line": 147
+        }
+      ],
+      "fresh_output": "reviews/sol61-gate1-r8-20261018/TERMINAL_OWNERSHIP_RECHECK.json",
+      "id": "G1-R7-F01",
+      "status": "CLOSED"
+    }
+  ],
+  "delta_review": {
+    "added_files": [],
+    "changed_files": [
+      "package/civilian/event_environment.py",
+      "package/tests/test_event_environment.py",
+      "package/tests/test_event_runner_scope_repair2.py"
+    ],
+    "previous_manifest_sha256": "5f129fd2ba0e2bb99d2bb67338213df8ecc03631481946c06cf5967889aacd92",
+    "previous_review": "reviews/SOL_HIGH_GATE1_R7_REVIEW.json",
+    "previous_review_sha256": "de55c29ad2c37dd88b50ac6a8430d30864ef005cd07d9503bec70da0c7412c27",
+    "previous_source_bytes_archived_hash_match": true,
+    "removed_files": [],
+    "review_basis": "Previously inspected substantive Gate1 source semantics retained for 83 identical-hash files; all three deltas independently read and fresh evidence revalidated.",
+    "unchanged_source_file_count": 83
+  },
+  "effective_local_evidence": {
+    "file": "evidence/gate1-cpu-m0-m2-20261018-r8/EVENT_TRIGGER_LOG.jsonl",
+    "m1_type": "public-rule deterministic engineering replay; no trained PPO",
+    "other_production_flags_not_counted_as_strict_witnesses": 11,
+    "production_effective_local_flag_count": 17,
+    "strict_changed_queue_operation_receipt_count": 6,
+    "strict_witness_lines": [
+      9,
+      129,
+      249,
+      369,
+      489,
+      609
+    ],
+    "witness": "Each parent at t=8 inserts n02-task-09 into n02-heli-1 queue, with changed before/after queue receipt and owner-change raw event."
+  },
+  "findings": [],
+  "fresh_reviewer_executions": {
+    "contract_verifier": {
+      "output": "reviews/sol61-gate1-r8-20261018/CONTRACT_RECHECK.json",
+      "script_sha256": "7f5c4b1191981ee4122ed0fb78884881d396a408cd7d24175ff8db591a92128b",
+      "status": "PASS_CONTRACTS_AND_EFFECTIVE_LOCAL_ACTION"
+    },
+    "label_compare": {
+      "mismatches": 0,
+      "mutations_detected": 3,
+      "output": "reviews/sol61-gate1-r8-20261018/LABEL_COMPARISON.json",
+      "status": "PASS"
+    },
+    "raw_compute": {
+      "branches": 243,
+      "config_note": "Reviewer consumed run normalized config; producer consumed byte-bound freeze config. Explicit normalization matches, reward configuration is identical, computed labels/results match.",
+      "labels_sha256": "a8972200455dd944e748b4132f74dadceee5552729ff49bc45616d886d78f08c",
+      "non_public_task_rows": 432,
+      "non_target_audit_rows": 2665,
+      "noop_branches": 24,
+      "output": "reviews/sol61-gate1-r8-20261018/raw_compute/INDEPENDENT_COMPUTATION_RECEIPT.json",
+      "producer_labels_opened": false,
+      "project_modules_imported": false,
+      "script_sha256": "4d264d168e225f15cc0fecfca9e690f07e1c85e1cb0c8604a3b2c4b9508042ad",
+      "status": "PASS",
+      "train_diverse_windows": 16,
+      "train_diversity_fraction": 1.0,
+      "windows": 24
+    },
+    "raw_mutations": {
+      "detected": 6,
+      "output": "reviews/sol61-gate1-r8-20261018/RAW_MUTATIONS.json",
+      "status": "PASS"
+    },
+    "targeted_pytest": {
+      "cache_provider_disabled": true,
+      "failed": 0,
+      "passed": 65,
+      "python_bytecode_disabled": true,
+      "seconds": 19.8,
+      "test_files": [
+        "test_event_trigger.py",
+        "test_event_trigger_v2.py",
+        "test_event_environment.py",
+        "test_event_runner_scope_repair2.py",
+        "test_event_policy_repair1.py",
+        "test_audit_gate1_replay.py",
+        "test_100x100_contract.py",
+        "test_event_initial_c1.py"
+      ]
+    },
+    "terminal_ownership_recheck": {
+      "schema": "sol-gate1-terminal-ownership-recheck/1",
+      "source_evidence": [
+        "package/civilian/event_environment.py:493",
+        "package/civilian/event_environment.py:496",
+        "package/tests/test_event_environment.py:105",
+        "package/tests/test_event_runner_scope_repair2.py:147"
+      ],
+      "source_modified": false,
+      "status": "PASS",
+      "terminal_case": {
+        "current_assignment_feasible": true,
+        "failed_platform_owned_tasks": [
+          {
+            "assignee": "n02-uav-2",
+            "status": "completed",
+            "task_id": "n02-task-02"
+          },
+          {
+            "assignee": "n02-uav-2",
+            "status": "failed",
+            "task_id": "n02-task-06"
+          }
+        ],
+        "parent_id": "n02-event-train-02-platform_failure",
+        "queue_schedule_issues": [],
+        "queues": {
+          "n02-heli-1": [],
+          "n02-heli-2": [],
+          "n02-uav-1": [],
+          "n02-uav-2": [],
+          "n02-uav-3": [],
+          "n02-uav-4": []
+        },
+        "time": 10
+      },
+      "unfinished_queue_control": {
+        "controlled_intervention": "Mark one public reported platform failed while its unfinished assigned queue remains; separate from unchanged formal replay.",
+        "current_assignment_feasible": false,
+        "platform_id": "n02-heli-1",
+        "queue_schedule_issues": [
+          [
+            "platform_unavailable",
+            "n02-task-07",
+            "n02-heli-1"
+          ]
+        ],
+        "unfinished_queue": [
+          "n02-task-07"
+        ]
+      }
+    }
+  },
+  "gate": "Gate 1",
+  "identity": {
+    "active_freeze_path_explicit": true,
+    "map": [
+      100,
+      100
+    ],
+    "old_root_manifest_not_used": true,
+    "original_external_gpu_attempt": "outside_review_scope",
+    "parents": {
+      "development": 2,
+      "train": 4
+    },
+    "profile": "cpu-deterministic-replay-m0-m2-no-training",
+    "request_attempt_run_config_bindings": "MATCH",
+    "resolved_trigger_config": "MATCH_AFTER_EXPLICIT_NORMALIZATION",
+    "run_id": "25a0416eca224c57ac73875622978758",
+    "seed": 8201,
+    "stages": [
+      "M0",
+      "M1",
+      "M2"
+    ]
+  },
+  "limitations": [
+    "Accepted Gate1 amendment covers single-seed M0-M2 engineering evidence only. No baseline pilot, GPU training, world-model learning, PPO learning or scientific-superiority acceptance is issued.",
+    "Raw oracle is independent trace recomputation, not an independent simulator. Private initial-state/tape hash assertions are checked for consistency rather than reconstructing unavailable private snapshots.",
+    "Controlled physical 2x2 fixture changes depot/task geometry and removes perturbation from the control tape; it proves controlled physical causality, not a treatment effect in the unmodified formal scene.",
+    "Formal map/platform/task/depot data and event tapes match the archived v1 parents; C1 queues/receipts are regenerated by the public backlog planner and differ from the earlier single-step C1 initialization.",
+    "Observed r8 Event trigger counts remain 4-6 per 60-tick parent. No general trigger completeness guarantee is claimed.",
+    "No baseline pilot, GPU training, learned policy quality, formal three-seed learning or scientific-superiority acceptance is issued. Follow the already agreed baseline implementation, pilot, Gate2 and formal-run gates."
+  ],
+  "metadata_only_repairs": {
+    "attempts": 2,
+    "description": "Snapshot receipt and exact inventory initially contained a literal trailing backslash-n and failed JSON parsing; corrected metadata is parseable and bound by final index. All 86 source and snapshot file hashes match. Failed attempts are retained and are not described as successful replay/audit runs.",
+    "evidence": "evidence/gate1-cpu-m0-m2-20261018-r8_receipts/ASSEMBLER_FIRST_ATTEMPT_FAILURE.json",
+    "status": "ACCEPTED_AFTER_FINAL_HASH_AND_PARSE_CHECK"
+  },
+  "model": {
+    "id": "gpt-6.1-sol",
+    "identity_basis": "parent_dispatch_configuration",
+    "reasoning_effort": "high"
+  },
+  "new_review_gate": false,
+  "progression": "Gate1 PASS permits the next authorized baseline implementation step under the agreed protocol. Later pilot/formal/GPU gates remain required.",
+  "recorded_full_suite": {
+    "cuda_skips_not_passes": true,
+    "failed": 0,
+    "passed": 112,
+    "skipped": 3,
+    "stages_exit_codes": {
+      "M0": 0,
+      "M1": 0,
+      "M2": 0
+    },
+    "stderr_bytes": 0,
+    "stdout_sha256": "d85fad0def593f971456a1346a2511d5b93178c81d04eeaa1409fa99ef749779"
+  },
+  "resource_settlement": {
+    "branches": 243,
+    "environment_steps": 8348,
+    "first_error": null,
+    "optimizer_updates": 0,
+    "policy_forwards": 0,
+    "world_model_forwards": 0
+  },
+  "review_independence": {
+    "cross_model_family_review": false,
+    "same_model_family": true,
+    "separate_reviewer_agent": true
+  },
+  "review_type": "consolidated_read_only_repair_recheck",
+  "reviewed_source": {
+    "active_freeze": "evidence/gate1-cpu-freeze-20261018-r8",
+    "config_sha256": "1753c34e20a85f2a3d6b508ae2afe9c2195c99fd0245f0ea1a60ff3152a26b70",
+    "evidence_index_sha256": "d2fe99538555c3e2fa503559067fa0d167589fdf8634ce28f4c2adbfccb03643",
+    "exact_file_set_match": true,
+    "file_hash_mismatches": 0,
+    "final_source_recheck": "MATCH",
+    "indexed_artifact_count": 118,
+    "indexed_hash_mismatches": 0,
+    "local_replay_report_sha256": "08031bdb7614a2abe962f94a2151fbe55978c5539c217c113b66f1438f6664d2",
+    "manifest_file_count": 86,
+    "manifest_sha256": "00c9631e9265bd72254a846d34e1ea997fb46f777cb9adb0d9fab45dbc197def",
+    "release": "n02-event-trigger-v2-gate1-local-m0-m2-a6142be013c642f5a98765e4ee91c7fb",
+    "request_sha256": "bcfdc2698373ad3a5311b814b24dd5882396e7d66471acfa1d58b20c2a414d08",
+    "root": "[REDACTED_LOCAL_PATH]",
+    "sha256sums_match": true,
+    "source_snapshot_file_count": 86,
+    "source_snapshot_hashes_match": true,
+    "source_snapshot_receipt_sha256": "051fa19a57137c478ee0881b10a1e703dfc092dd1c5ff31f30b52ba40d6afbd7"
+  },
+  "reviewer_agent": "/root/sol61_gate1_r7",
+  "reviewer_outputs_only": true,
+  "revision": "r8",
+  "schema": "n02-gate1-independent-review/2",
+  "scope": "PASS only for accepted single-seed six-parent M0/M1/M2 engineering Gate1 amendment. This closes the same Gate1 repair review, not a new acceptance node.",
+  "source_modified": false,
+  "status": "PASS"
+}

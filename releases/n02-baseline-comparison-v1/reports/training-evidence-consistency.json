@@ -1,0 +1,176 @@
+{
+  "audits": {
+    "actor_initialization_all_equal": true,
+    "wm_critic_boundary_records": 6,
+    "world_model_freeze": {
+      "all_gradients_none": true,
+      "optimizer_excludes_world_model": true,
+      "requires_grad_false": true,
+      "state_unchanged": true
+    }
+  },
+  "checkpoint_restore_performed": false,
+  "checkpoints": [
+    {
+      "bytes": 1441881,
+      "path": "checkpoints/Event-GPPO/seed-8201.pt",
+      "remote_evidence_key": "runner/checkpoints/Event-GPPO/seed-8201.pt",
+      "sha256": "7bb575ece090acc359e8b8e179f3cb0a851c4cb2d80f7736688d4793609ae016"
+    },
+    {
+      "bytes": 1441881,
+      "path": "checkpoints/Event-GPPO/seed-8202.pt",
+      "remote_evidence_key": "runner/checkpoints/Event-GPPO/seed-8202.pt",
+      "sha256": "0d12536dce25058c7a8251fca43903b8ba0fbee4e795e4b4701a04096884f61b"
+    },
+    {
+      "bytes": 1441945,
+      "path": "checkpoints/Event-GPPO/seed-8203.pt",
+      "remote_evidence_key": "runner/checkpoints/Event-GPPO/seed-8203.pt",
+      "sha256": "ab545b1ea53435247e6dbb98ffe8f8be4a243742f97c2987ccc93696a900a25e"
+    },
+    {
+      "bytes": 1497721,
+      "path": "checkpoints/Event-GPPO-WM/seed-8201.pt",
+      "remote_evidence_key": "runner/checkpoints/Event-GPPO-WM/seed-8201.pt",
+      "sha256": "709bb9fceff55a639adbf294e3715e52e832c06b7c01177e730b87062f3c05cd"
+    },
+    {
+      "bytes": 1497721,
+      "path": "checkpoints/Event-GPPO-WM/seed-8202.pt",
+      "remote_evidence_key": "runner/checkpoints/Event-GPPO-WM/seed-8202.pt",
+      "sha256": "c5c6b75996756ac3d35ecd37c0b5123a54c7b49dfa729e8b048be20015ddea6d"
+    },
+    {
+      "bytes": 1497785,
+      "path": "checkpoints/Event-GPPO-WM/seed-8203.pt",
+      "remote_evidence_key": "runner/checkpoints/Event-GPPO-WM/seed-8203.pt",
+      "sha256": "fb8da353b1d724352ae61a023f00fdede85b6183d694bdac1a1c93ecdb81d214"
+    },
+    {
+      "bytes": 1439961,
+      "path": "checkpoints/GPPO/seed-8201.pt",
+      "remote_evidence_key": "runner/checkpoints/GPPO/seed-8201.pt",
+      "sha256": "002f28407880b4ace14fc58f3ae7e68fa450820dce44e4435ee5543aa805adbc"
+    },
+    {
+      "bytes": 1439961,
+      "path": "checkpoints/GPPO/seed-8202.pt",
+      "remote_evidence_key": "runner/checkpoints/GPPO/seed-8202.pt",
+      "sha256": "25043940c3e5360c721abc3158141697aff773f58cbcbcaa609387652f265468"
+    },
+    {
+      "bytes": 1440025,
+      "path": "checkpoints/GPPO/seed-8203.pt",
+      "remote_evidence_key": "runner/checkpoints/GPPO/seed-8203.pt",
+      "sha256": "e79e06054f41f6e33ef73e3381269f50b0ce48202f4d116858eb2018809bf868"
+    },
+    {
+      "bytes": 138953898,
+      "path": "checkpoints/PPO/seed-8201.pt",
+      "remote_evidence_key": "runner/checkpoints/PPO/seed-8201.pt",
+      "sha256": "cb96044dde1a3e1065227936043535e62fd50cd5a28236944e7d0bdc97871019"
+    },
+    {
+      "bytes": 138953898,
+      "path": "checkpoints/PPO/seed-8202.pt",
+      "remote_evidence_key": "runner/checkpoints/PPO/seed-8202.pt",
+      "sha256": "67f43a04af3f2fb8bcd726636fdc4851e8b31a346587240b46728af5d0527b2e"
+    },
+    {
+      "bytes": 138953962,
+      "path": "checkpoints/PPO/seed-8203.pt",
+      "remote_evidence_key": "runner/checkpoints/PPO/seed-8203.pt",
+      "sha256": "26e5e1abc07a3cbd5b4639ee2307d7970d8578a2f62783cc3de165534f201573"
+    },
+    {
+      "bytes": 1439961,
+      "path": "checkpoints/Periodic-GPPO/seed-8201.pt",
+      "remote_evidence_key": "runner/checkpoints/Periodic-GPPO/seed-8201.pt",
+      "sha256": "79ad597e9d72f987149cb89242ac0dfda21c63ea128979bf7b9a3feb6c3df5b5"
+    },
+    {
+      "bytes": 1439961,
+      "path": "checkpoints/Periodic-GPPO/seed-8202.pt",
+      "remote_evidence_key": "runner/checkpoints/Periodic-GPPO/seed-8202.pt",
+      "sha256": "6304ee4684c42cd41e4c546e64d64de9632d20df8b6e2af5c4e739feb1a9596b"
+    },
+    {
+      "bytes": 1440025,
+      "path": "checkpoints/Periodic-GPPO/seed-8203.pt",
+      "remote_evidence_key": "runner/checkpoints/Periodic-GPPO/seed-8203.pt",
+      "sha256": "4d8cf86415b3f5b3d68b54bc2f57a1c3e3444d61434cbf9c38521edfebb437b5"
+    },
+    {
+      "bytes": 1485241,
+      "path": "checkpoints/Periodic-GPPO-WM/seed-8201.pt",
+      "remote_evidence_key": "runner/checkpoints/Periodic-GPPO-WM/seed-8201.pt",
+      "sha256": "7569f1275211eafdb49d814ec65fff023bb2a568ba10bf8286d307e3a4cbafa2"
+    },
+    {
+      "bytes": 1485241,
+      "path": "checkpoints/Periodic-GPPO-WM/seed-8202.pt",
+      "remote_evidence_key": "runner/checkpoints/Periodic-GPPO-WM/seed-8202.pt",
+      "sha256": "60f7599b179d1dba3ea43eb9904c3b8f428144254d7cd9cfa9c47032558a1b80"
+    },
+    {
+      "bytes": 1485305,
+      "path": "checkpoints/Periodic-GPPO-WM/seed-8203.pt",
+      "remote_evidence_key": "runner/checkpoints/Periodic-GPPO-WM/seed-8203.pt",
+      "sha256": "c57a2d8af1180c5a51b33c6abda8ae0e3b4b110ebcabb682438f1f16d8f544d2"
+    }
+  ],
+  "config_sha256": "409d538427490df49f308287aa1ef1b5b1eaabb83f7bb9d3c4f6a3222f90e7d5",
+  "episodes": {
+    "episodes_per_group": 16,
+    "group_count": 18,
+    "record_count": 16
+  },
+  "independent_sol_pass": false,
+  "inputs": {
+    "ACTOR_INITIALIZATION_AUDIT.json": {
+      "bytes": 7967,
+      "path": "[REDACTED_LOCAL_PATH]",
+      "sha256": "7f12e882b5a129d569628aca2f32a74da228a62e4b07afaf75a1a6374077bb3b"
+    },
+    "BASELINE_TRAINING_MANIFEST.json": {
+      "bytes": 2788,
+      "path": "[REDACTED_LOCAL_PATH]",
+      "sha256": "ff7b1c272deeaaee758139c4e6c1984be9a89b6e537400778ce1e21854e5e9f9"
+    },
+    "OPTIMIZER_UPDATE_RECEIPTS.jsonl": {
+      "bytes": 22520372,
+      "path": "[REDACTED_LOCAL_PATH]",
+      "sha256": "62aa71158d18bf9c9e1a51fb99b45adb5f4e24e2058826436b0cd6dfbe1e7b59"
+    },
+    "TRAINING_EPISODES.jsonl": {
+      "bytes": 10159753,
+      "path": "[REDACTED_LOCAL_PATH]",
+      "sha256": "5e17128a434ceb164ad962b23af946dc03a0970988d7f8727438dead5c7d2cb8"
+    },
+    "WM_CRITIC_BOUNDARY_AUDIT.json": {
+      "bytes": 6419,
+      "path": "[REDACTED_LOCAL_PATH]",
+      "sha256": "1d13795afff3c3a37b19d9b7d2e4b8c4cbe2f57ef260741768fcf15cd9190312"
+    },
+    "WORLD_MODEL_FREEZE_AUDIT.json": {
+      "bytes": 5812,
+      "path": "[REDACTED_LOCAL_PATH]",
+      "sha256": "5eb4295de9cf79bacf38902801c3af3cfbf5415ac639f9d0d6a963c5cd232e5b"
+    }
+  },
+  "remote_evidence_hashes": {
+    "bytes": 3296,
+    "path": "[REDACTED_LOCAL_PATH]",
+    "sha256": "044cf878820f23dca433b384b88ed1dae0d593eaa22e007eee62a18b41a938b2"
+  },
+  "schema": "n02-training-evidence-consistency-report/1",
+  "scope": "receipt_and_artifact_consistency_only",
+  "status": "CONSISTENT",
+  "train_dir": "[REDACTED_LOCAL_PATH]",
+  "updates": {
+    "group_count": 18,
+    "record_count": 2304,
+    "updates_per_group": 128
+  }
+}

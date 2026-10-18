@@ -1,19 +1,24 @@
-# N02 灾后动态再分配
+# N02 v2 九方法正式实验
 
-本仓库保存 N02 从最小闭环到事件触发式重构的可审计工程版本。
+本轮使用 100×100 地图、4 UAV + 2 helicopter、12 个任务、4 个训练父场景和 2 个开发父场景。八个主方法外，增加 Periodic-GPPO-WM 辅助配对对照。三 seed 的 54 个开发评价单元已实际完成。
 
-## 当前节点
+研究结论为 **RESEARCH_CRITERIA_FAILED**。Event-GPPO 相比 Periodic-GPPO 的平均规划调用从 15 降到 6.67，完成率从 80.56% 升到 87.50%，全局效用从 5.0029 升到 5.6404；实际重构从 2.5 增到 4，环境动作消息从 13 增到 16。预设的通信、有效重构次数或重构规模至少一项下降的门槛未通过。WM 配对也未通过该门槛。
 
-`archive/n02-full-event-trigger` 的 repair3 运行已通过 GPT-6.1 Sol High 独立只读复审：[`releases/n02-event-trigger-v1-repair3-100x100`](releases/n02-event-trigger-v1-repair3-100x100/)。其源码 release 为 `n02-event-trigger-v1-18f0ed76de7f433380d231b1dd28bb61`，manifest SHA-256 为 `fc769fb36295501018afe43d7732684a5f3a843c13f591c786ac99e8f2f6ba09`；正式 attempt 为 `n02-event-v1-d0e59d2f21264863990169fe0874e764`。新归档使用 tag `n02-event-trigger-v1-repair3`。
+世界模型完成 240 次 CUDA 更新，六种学习方法合计完成 2,304 次 PPO 更新、288 个训练 episode。3 个世界模型和 18 个策略有新进程严格恢复收据。正式评价包含 3,240 个环境 tick。两个事件方法各有 9 个真实局部修复实例，空影响域的全局重构为零。
 
-复审结论为 `ENGINEERING_PASS`，143/143 证据哈希匹配。M1 事件模式有 42 次触发，全部为全局重规划；周期诊断有 13 次局部修复和 77 次全局重规划触发。M2 的 24 个窗口均通过独立后果复算，M3 完成世界模型训练与恢复，M4 完成四组策略训练和 12 次 checkpoint 恢复。公开边界不含模型 checkpoint 和原始大日志。
+关键限制：事件方法实际合法候选数为 1～7，全九方法为 1～8（配置上限 16）；WM 只用于冻结辅助 critic，并非 actor 的候选规划器；传统方法受统一候选目录约束，CBBA-lite 不是完整 CBBA；PPO/GPPO 参数量不匹配；三 seed 与两个开发场景只支持描述性比较。规则方法的 seed 重复不是独立训练样本。
 
-科学效能仍为 `UNVERIFIED`。开发集只有两个父场景，比较结果仅作描述；Event-G-WM 同时改变触发策略和 critic 输入，未独立识别 critic 的因果效应。
+旧独立复算器漏识别延迟通信指令和道路阻断释放。原失败报告保留；新增外部测量器要求完整因果证据链，原始算法、奖励、轨迹和阈值不变。修订复算器零差异、零缺项，最终解释以 Sol Gate3 审核为准。
 
-## 历史节点
+公开内容包括冻结源码、配置、后果训练样本、脱敏评价重放数据、训练更新收据、较小的图策略和世界模型 checkpoint、哈希、报告与独立审核。3 个大体积 Flat PPO checkpoint 和 1.44 GB 原始训练动作日志仅保留私有证据及公开哈希，不声称完整原始训练日志均已发布。历史资源账本中未测量的传输和 RSS 等字段保持 MISSING，不作外推。
 
-- [`releases/n02-event-trigger-v1-100x100`](releases/n02-event-trigger-v1-100x100/)：此前的正式运行归档，原目录与 tag 保留。
-- [`releases/n02-minimal-closure-v1-100x100`](releases/n02-minimal-closure-v1-100x100/)：此前已归档的 100x100 最小工程闭环。
-- `history/`：计划、失败证据和早期审核记录。
+详细报告及复算入口位于 `releases/n02-baseline-comparison-v1/`。本文件在最终审核前生成，工程验收与发布状态请查看同一提交的 `STATUS.md` 和 Gate3 收据。
 
-公开归档不包含密码、私钥、token、授权原文、私有服务器上下文、SQLite、原始控制台日志或模型权重文件。
+工程审核：GPT-6.1 Sol High Gate1、Gate2、Gate3 均 PASS。研究门槛：FAILED。
+
+- [正式源码、报告和数据](releases/n02-baseline-comparison-v1/)
+- [Gate3 独立审核](reviews/n02-baseline-comparison-v1/SOL_HIGH_GATE3_FORMAL001_REVIEW.md)
+- [公开数据重放](releases/n02-baseline-comparison-v1/reports/public-training-reproduction.md)
+- [此前仓库索引](history/pre-n02-baseline-comparison-v1/README.md)
+
+勘误：原训练协调器审计摘要的 `episodes.record_count=16` 是单组计数误标；Sol 对原始逐行记录核验为 18 组、288 个 episode。冻结报告保留原样，详见 Gate3 收据。

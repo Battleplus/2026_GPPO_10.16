@@ -1,0 +1,22 @@
+{
+  "binding": {
+    "development_samples": 8,
+    "development_samples_sha256": "977ffadc03d9eef61e367f446220c78245b170999658687f08882a07bb29d030",
+    "gate1_freeze_manifest_sha256": "00c9631e9265bd72254a846d34e1ea997fb46f777cb9adb0d9fab45dbc197def",
+    "gate1_manifest_binding_verified": true,
+    "relative_evidence_path": "data/gate1-r8",
+    "run_identity_sha256": "e2a5aeb35c8a39911b9f5696123b7545843fde951d1a0a45373e07f600807ff0",
+    "threshold_sha256": "aa4dce2f5ec400c9db428b760a659aac7bbd38f336354fed45d81061de7fcb9f",
+    "threshold_source_split": "train",
+    "threshold_value": 0.04499906362542646,
+    "training_samples": 16,
+    "training_samples_sha256": "6170d97e03382fc37fca3613735d91d5f7aaf7e1b4ad2967dd12b8b62539d42b"
+  },
+  "fresh_provenance": {
+    "manifest_sha256": "00c9631e9265bd72254a846d34e1ea997fb46f777cb9adb0d9fab45dbc197def",
+    "purpose": "fresh public reproduction; not original private execution identity",
+    "schema": "n02-public-reproduction-provenance/1"
+  },
+  "new_training_performed": false,
+  "status": "PASS_DATA_BINDING_ONLY"
+}

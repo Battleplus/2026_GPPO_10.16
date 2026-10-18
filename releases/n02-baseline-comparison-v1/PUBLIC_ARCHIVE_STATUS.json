@@ -1,0 +1,14 @@
+{
+  "archive_state": "UNPUBLISHED_STAGING",
+  "formal_results": "COMPLETE_54_CELLS",
+  "gate1_review": "PROVIDED_PASS",
+  "gate2_review": "PROVIDED_PASS",
+  "gate3_review": "PENDING_REVIEW_OUTSIDE_FROZEN_STAGE",
+  "pilot_results": "PROVIDED_IN_GATE2_REVIEW",
+  "publication": "NOT_PUBLISHED",
+  "publication_authorized": true,
+  "publication_condition": "Sol Gate3 must PASS before git publication",
+  "schema": "n02-baseline-public-archive-status/1",
+  "scientific_acceptance": "RESEARCH_CRITERIA_FAILED",
+  "source_manifest_binding": "RECORDED"
+}

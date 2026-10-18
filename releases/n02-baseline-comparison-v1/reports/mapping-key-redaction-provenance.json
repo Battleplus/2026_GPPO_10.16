@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "label": "formal-coverage",
+      "mapping_key_derivative_sha256": "c4b49980dcd2191d4173540b1ed8dbed9e58faf9ccfa9b8c2969ef0153b511ba",
+      "original_filename": "FORMAL_COVERAGE_REPORT.json",
+      "original_sha256": "19f3080fe116dfb18e5a0b4e46eaf45137aec7d230e6c9e57ea9c167d5d953e5",
+      "transformation": "private JSON keys replaced by stable SHA256 labels; values passed to normal sanitizer"
+    },
+    {
+      "label": "final-manifest",
+      "mapping_key_derivative_sha256": "1873fc58b27babb581b592c3193c4be62c671c80270a9fc5f72ae6b3bf2c85ac",
+      "original_filename": "FINAL_MANIFEST.json",
+      "original_sha256": "32b169c44e34b5ff5d60d3d2fdd530dc9b9a52f990832642f6d407eb045e7a4c",
+      "transformation": "private JSON keys replaced by stable SHA256 labels; values passed to normal sanitizer"
+    },
+    {
+      "label": "old-coverage-schema-failure",
+      "mapping_key_derivative_sha256": "f262bf0d494fc6d68a9c38498e03fc6332221519385837308fa405e68030cd55",
+      "original_filename": "FORMAL_COVERAGE_REPORT.json",
+      "original_sha256": "770645671e1e892c6855aafda47428c5b656f210f6775cc36d9aa8693e145db7",
+      "transformation": "private JSON keys replaced by stable SHA256 labels; values passed to normal sanitizer"
+    },
+    {
+      "label": "restore-audit",
+      "mapping_key_derivative_sha256": "bc9013292f0c0d5cb9676b606ed7b225aa22ac9f829fc04d093f7dbe08a125fd",
+      "original_filename": "FORMAL001_RESTORE_RECEIPT_AUDIT.json",
+      "original_sha256": "c0fb96b3dac7d79d5e5c624b7572f1614316d646427f205aaca948c58a2b700c",
+      "transformation": "private JSON keys replaced by stable SHA256 labels; values passed to normal sanitizer"
+    }
+  ],
+  "schema": "n02-public-report-key-redaction/1"
+}

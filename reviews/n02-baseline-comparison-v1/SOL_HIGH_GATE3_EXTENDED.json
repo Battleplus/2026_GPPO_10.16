@@ -1,0 +1,409 @@
+{
+  "checks": {
+    "c1_source_replay": {
+      "all_match": true,
+      "cells": 342,
+      "evaluation_cells": 54,
+      "training_episodes": 288
+    },
+    "distinct_archived_process_bindings": {
+      "distinct": true,
+      "evaluation_pid": 1764351,
+      "training_pid": 1750994,
+      "wm_distinct": true,
+      "wm_fresh_restore_pid": 1749489,
+      "wm_optimizer_steps": 240,
+      "wm_parent_pid": 1749399,
+      "wm_restore_exit": 0,
+      "wm_training_forwards": 240
+    },
+    "final_entry_hash": "7cb329580ab1130840ccba1414fcb7775db67becd83fe03fc0acee157e4067c7",
+    "final_public_inventory_hash": "f83eef737cae71fdac1e1f06e1deb086c58e851298cd44b5b6d156d09b169acb",
+    "independent_privacy_scan": {
+      "checkpoint_metadata_strings": 116560,
+      "findings": [],
+      "public_checkpoint_count": 18,
+      "scope": "text and metadata strings only; tensor values unchanged and not text scanned",
+      "text_files": 146
+    },
+    "method_clock_and_candidates": {
+      "Auction": {
+        "catalog_absent_on_skipped": true,
+        "catalog_candidate_max": 8,
+        "empty_domain_global_actions": 0,
+        "event_local_raw_witnesses": 0,
+        "legal_candidate_max": 8,
+        "legal_candidate_min": 1,
+        "nonnoop": 27,
+        "noop": 333,
+        "planned": 360,
+        "policy_receipt_present_on_planned": true
+      },
+      "CBBA-lite": {
+        "catalog_absent_on_skipped": true,
+        "catalog_candidate_max": 8,
+        "empty_domain_global_actions": 0,
+        "event_local_raw_witnesses": 0,
+        "legal_candidate_max": 8,
+        "legal_candidate_min": 1,
+        "nonnoop": 27,
+        "noop": 333,
+        "planned": 360,
+        "policy_receipt_present_on_planned": true
+      },
+      "Event-GPPO": {
+        "catalog_absent_on_skipped": true,
+        "catalog_candidate_max": 7,
+        "empty_domain_global_actions": 0,
+        "event_local_raw_witnesses": 11,
+        "legal_candidate_max": 7,
+        "legal_candidate_min": 1,
+        "nonnoop": 24,
+        "noop": 16,
+        "planned": 40,
+        "policy_receipt_present_on_planned": true
+      },
+      "Event-GPPO-WM": {
+        "catalog_absent_on_skipped": true,
+        "catalog_candidate_max": 7,
+        "empty_domain_global_actions": 0,
+        "event_local_raw_witnesses": 12,
+        "legal_candidate_max": 7,
+        "legal_candidate_min": 1,
+        "nonnoop": 24,
+        "noop": 15,
+        "planned": 39,
+        "policy_receipt_present_on_planned": true
+      },
+      "GPPO": {
+        "catalog_absent_on_skipped": true,
+        "catalog_candidate_max": 8,
+        "empty_domain_global_actions": 0,
+        "event_local_raw_witnesses": 0,
+        "legal_candidate_max": 8,
+        "legal_candidate_min": 1,
+        "nonnoop": 42,
+        "noop": 318,
+        "planned": 360,
+        "policy_receipt_present_on_planned": true
+      },
+      "Greedy": {
+        "catalog_absent_on_skipped": true,
+        "catalog_candidate_max": 8,
+        "empty_domain_global_actions": 0,
+        "event_local_raw_witnesses": 0,
+        "legal_candidate_max": 8,
+        "legal_candidate_min": 1,
+        "nonnoop": 27,
+        "noop": 333,
+        "planned": 360,
+        "policy_receipt_present_on_planned": true
+      },
+      "PPO": {
+        "catalog_absent_on_skipped": true,
+        "catalog_candidate_max": 8,
+        "empty_domain_global_actions": 0,
+        "event_local_raw_witnesses": 0,
+        "legal_candidate_max": 8,
+        "legal_candidate_min": 1,
+        "nonnoop": 33,
+        "noop": 327,
+        "planned": 360,
+        "policy_receipt_present_on_planned": true
+      },
+      "Periodic-GPPO": {
+        "catalog_absent_on_skipped": true,
+        "catalog_candidate_max": 8,
+        "empty_domain_global_actions": 0,
+        "event_local_raw_witnesses": 0,
+        "legal_candidate_max": 8,
+        "legal_candidate_min": 1,
+        "nonnoop": 15,
+        "noop": 75,
+        "planned": 90,
+        "policy_receipt_present_on_planned": true
+      },
+      "Periodic-GPPO-WM": {
+        "catalog_absent_on_skipped": true,
+        "catalog_candidate_max": 7,
+        "empty_domain_global_actions": 0,
+        "event_local_raw_witnesses": 0,
+        "legal_candidate_max": 7,
+        "legal_candidate_min": 1,
+        "nonnoop": 24,
+        "noop": 66,
+        "planned": 90,
+        "policy_receipt_present_on_planned": true
+      }
+    },
+    "policy_serialized_digest_checks": [
+      {
+        "counters_match_receipts": true,
+        "method": "Event-GPPO",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8201
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "Event-GPPO",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8202
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "Event-GPPO",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8203
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "Event-GPPO-WM",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8201
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "Event-GPPO-WM",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8202
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "Event-GPPO-WM",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8203
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "GPPO",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8201
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "GPPO",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8202
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "GPPO",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8203
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "Periodic-GPPO",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8201
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "Periodic-GPPO",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8202
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "Periodic-GPPO",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8203
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "Periodic-GPPO-WM",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8201
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "Periodic-GPPO-WM",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8202
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "Periodic-GPPO-WM",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8203
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "PPO",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8201
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "PPO",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8202
+      },
+      {
+        "counters_match_receipts": true,
+        "method": "PPO",
+        "model_digest": true,
+        "optimizer_counter_match": true,
+        "optimizer_digest": true,
+        "receipt_count": 2,
+        "receipt_model_optimizer_rng_match": true,
+        "rng_digest": true,
+        "saved_on_cuda": true,
+        "seed": 8203
+      }
+    ],
+    "raw_training_action_alignment": {
+      "actor_mask_mismatches": [],
+      "all_60_ticks": true,
+      "episode_counts_per_method_seed": [
+        16
+      ],
+      "episodes": 288,
+      "minibatch_physical_rows": 69120,
+      "raw_rows": 17280,
+      "sequence_errors": [],
+      "short_tail_minibatches": 1152
+    },
+    "wm_boundary_and_freeze": {
+      "all_actor_logits_invariant": true,
+      "all_auxiliary_sensitive": true,
+      "all_gradients_none": true,
+      "boundary_count": 6,
+      "optimizer_excludes_wm": true,
+      "requires_grad_false": true,
+      "same_states_start_end": true
+    },
+    "world_model_serialized_digest_checks": [
+      {
+        "model_digest": true,
+        "optimizer_digest": true,
+        "parameter_delta_l2": 5.189161246365006,
+        "probe_digest": true,
+        "rng_digest": true,
+        "seed": 8201,
+        "updates": 80
+      },
+      {
+        "model_digest": true,
+        "optimizer_digest": true,
+        "parameter_delta_l2": 5.141154326579723,
+        "probe_digest": true,
+        "rng_digest": true,
+        "seed": 8202,
+        "updates": 80
+      },
+      {
+        "model_digest": true,
+        "optimizer_digest": true,
+        "parameter_delta_l2": 5.05901628103573,
+        "probe_digest": true,
+        "rng_digest": true,
+        "seed": 8203,
+        "updates": 80
+      }
+    ]
+  },
+  "schema": "sol-independent-gate3-extended/1"
+}

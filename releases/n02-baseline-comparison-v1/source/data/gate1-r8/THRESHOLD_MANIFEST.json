@@ -1,0 +1,3888 @@
+{
+  "calibration_stage": "M1_initial_diagnostic_no_world_model",
+  "config_sha256": "e841c193372fb94f5a3b3ae29b11331331b7ef35290ede31813c60bf63a51de6",
+  "delta_min": 4,
+  "frozen_before_development_evaluation": true,
+  "hysteresis": {
+    "margin": 0.05,
+    "margin_source": "preregistered_trigger_config",
+    "rule": "tau_off=tau_on*(1-hysteresis_margin)"
+  },
+  "hysteresis_margin": 0.05,
+  "quantile": 0.75,
+  "raw_positive_scores": [
+    {
+      "d_state": 0.07624850066130755,
+      "d_state_execution": 0.07624850066130755,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.03703096803274636,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 1,
+      "wm_summary": null
+    },
+    {
+      "d_state": 8.289393842162021e-18,
+      "d_state_execution": 8.289393842162021e-18,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.009186728132825957,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 2,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.03734284003285628,
+      "d_state_execution": 0.03734284003285628,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.021964560909980627,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 3,
+      "wm_summary": null
+    },
+    {
+      "d_state": 1.0606323672129225e-17,
+      "d_state_execution": 1.0606323672129225e-17,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.011541984330340382,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 4,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0977628693685949,
+      "d_state_execution": 0.0977628693685949,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.04499906362542646,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 5,
+      "wm_summary": null
+    },
+    {
+      "d_state": 6.856433057013711e-18,
+      "d_state_execution": 6.856433057013711e-18,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.009172840635458868,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 6,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.03826975707317889,
+      "d_state_execution": 0.03826975707317889,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.019343942425347854,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 7,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 3.0289402309718492e-18,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.1021571009574688,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 8,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.032012307143378056,
+      "d_state_execution": 0.032012307143378056,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.016476190898893645,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 9,
+      "wm_summary": null
+    },
+    {
+      "d_state": 1.5261660770323743e-18,
+      "d_state_execution": 1.5261660770323743e-18,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.004028766084220374,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 10,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.039139159509174015,
+      "d_state_execution": 0.039139159509174015,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.017550127268580584,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 11,
+      "wm_summary": null
+    },
+    {
+      "d_state": 1.5428445035776189e-18,
+      "d_state_execution": 1.5428445035776189e-18,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.004381049879059822,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 12,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.004473389410632878,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 13,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.004570464302799426,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 14,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.004672648399816843,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 15,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.10160611171154167,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 16,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.00548464449026525,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 17,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.005620408210120414,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 18,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.005764030855111612,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 19,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.005916215311521036,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 20,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006077750881233975,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 21,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.0062495269866454034,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 22,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006432549569929132,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 23,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.1026082899791561,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 24,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.00655478568185529,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 25,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006765340626604547,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 26,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006991521005359001,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 27,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.007235134828570774,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 28,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.007498280516561969,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 29,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.007783407711060311,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 30,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.008093394053414093,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 31,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.10440206373740013,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 32,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.008501041528731773,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 33,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.008884370822306944,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 34,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.009307402465182333,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 35,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.009776663398062121,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 36,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.010300199823957629,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 37,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.010888048498168308,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 38,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.01155289591431984,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 39,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.012311019477535667,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 40,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.01318366307987159,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 41,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.014199102183288067,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 42,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.01539584182132531,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 43,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.016827752984400625,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 44,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.018572689083698267,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 45,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.020747725783156996,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 46,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.023537953516881174,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 47,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.027255697329511063,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 48,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.03247707193898449,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 49,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.040413081016026836,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 50,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.19974285938031097,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 51,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.055022508225096994,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 52,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.13564152222458029,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 53,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 54,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 55,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 56,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 57,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 58,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 59,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-01-new_arrival",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 60,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.07624850066130755,
+      "d_state_execution": 0.07624850066130755,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.03703096803274636,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 1,
+      "wm_summary": null
+    },
+    {
+      "d_state": 8.289393842162021e-18,
+      "d_state_execution": 8.289393842162021e-18,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.009186728132825957,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 2,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.03734284003285628,
+      "d_state_execution": 0.03734284003285628,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.021964560909980627,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 3,
+      "wm_summary": null
+    },
+    {
+      "d_state": 1.0606323672129225e-17,
+      "d_state_execution": 1.0606323672129225e-17,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.011541984330340382,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 4,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0977628693685949,
+      "d_state_execution": 0.0977628693685949,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.04499906362542646,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 5,
+      "wm_summary": null
+    },
+    {
+      "d_state": 6.856433057013711e-18,
+      "d_state_execution": 6.856433057013711e-18,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.009172840635458868,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 6,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.03826975707317889,
+      "d_state_execution": 0.03826975707317889,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.019343942425347854,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 7,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 3.0289402309718492e-18,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.1021571009574688,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 8,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.032012307143378056,
+      "d_state_execution": 0.032012307143378056,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.016476190898893645,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 9,
+      "wm_summary": null
+    },
+    {
+      "d_state": 1.0,
+      "d_state_execution": 1.5261660770323743e-18,
+      "d_state_structural": 1.0,
+      "event_type": "platform_disturbance",
+      "gamma_value": 0.35420925540171455,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 1.0,
+        "task": 0.0
+      },
+      "time": 10,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.004293107468037862,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 11,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.004381049879059821,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 12,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.004473389410632878,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 13,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.004570464302799426,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 14,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.004672648399816843,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 15,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.101747511200724,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 16,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.00562851610439711,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 17,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.00576688928947678,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 18,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.005913270511991029,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 19,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006068375815189567,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 20,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.00623300925270914,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 21,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006408076842665118,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 22,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.0065946032643349785,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 23,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.10271881739383458,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 24,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006667976550693957,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 25,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.0068813851963291294,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 26,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.007110630661220308,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 27,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.007357545346425476,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 28,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.007624255965369535,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 29,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.007913245168400149,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 30,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.008227429346115095,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 31,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.10450602479949411,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 32,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.008608764287448091,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 33,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.008996231447307839,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 34,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.009423836521339863,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 35,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.009898179044393694,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 36,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.010427394894601363,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 37,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.011021632921163227,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 38,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.011693721603312768,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 39,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.012460120899097746,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 40,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.013342313423628845,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 41,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.014368892936273027,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 42,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.015578798512488466,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 43,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.017026508801377616,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 44,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.01879075494333661,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 45,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.020989929196122036,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 46,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.023811190926980533,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 47,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.027570313402456182,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 48,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.032849618139913675,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 49,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.04087252240893212,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 50,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.19976782481333577,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 51,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.05504747365812179,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 52,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.13566648765760508,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 53,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06321782956510236,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 54,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06321782956510236,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 55,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06321782956510236,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 56,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06321782956510236,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 57,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06321782956510236,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 58,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06321782956510236,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 59,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06321782956510236,
+      "parent_id": "n02-event-train-02-platform_failure",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 60,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.07624850066130755,
+      "d_state_execution": 0.07624850066130755,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.03703096803274636,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 1,
+      "wm_summary": null
+    },
+    {
+      "d_state": 8.289393842162021e-18,
+      "d_state_execution": 8.289393842162021e-18,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.009186728132825957,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 2,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.03734284003285628,
+      "d_state_execution": 0.03734284003285628,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.021964560909980627,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 3,
+      "wm_summary": null
+    },
+    {
+      "d_state": 1.0606323672129225e-17,
+      "d_state_execution": 1.0606323672129225e-17,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.011541984330340382,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 4,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0977628693685949,
+      "d_state_execution": 0.0977628693685949,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.04499906362542646,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 5,
+      "wm_summary": null
+    },
+    {
+      "d_state": 6.856433057013711e-18,
+      "d_state_execution": 6.856433057013711e-18,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.009172840635458868,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 6,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.03826975707317889,
+      "d_state_execution": 0.03826975707317889,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.019343942425347854,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 7,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 3.0289402309718492e-18,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.1021571009574688,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 8,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.032012307143378056,
+      "d_state_execution": 0.032012307143378056,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.016476190898893645,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 9,
+      "wm_summary": null
+    },
+    {
+      "d_state": 1.5261660770323743e-18,
+      "d_state_execution": 1.5261660770323743e-18,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.004028766084220374,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 10,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.039139159509174015,
+      "d_state_execution": 0.039139159509174015,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.017550127268580584,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 11,
+      "wm_summary": null
+    },
+    {
+      "d_state": 1.0,
+      "d_state_execution": 0.0521925320139665,
+      "d_state_structural": 1.0,
+      "event_type": "platform_disturbance",
+      "gamma_value": 0.3543810498790598,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 1.0,
+        "task": 0.0
+      },
+      "time": 12,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.004473389410632878,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 13,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.004570464302799426,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 14,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.004672648399816843,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 15,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.10160611171154167,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 16,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.00548464449026525,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 17,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.005620408210120414,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 18,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.005764030855111612,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 19,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.005916215311521036,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 20,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006077750881233975,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 21,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.0062495269866454034,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 22,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006432549569929132,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 23,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.1026082899791561,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 24,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.00655478568185529,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 25,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006765340626604547,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 26,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006991521005359001,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 27,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.007235134828570774,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 28,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.007498280516561969,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 29,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.007783407711060311,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 30,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.008093394053414093,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 31,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.10440206373740013,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 32,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.008501041528731773,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 33,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.008884370822306944,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 34,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.009307402465182333,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 35,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.009776663398062121,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 36,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.010300199823957629,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 37,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.010888048498168308,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 38,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.01155289591431984,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 39,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.012311019477535667,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 40,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.01318366307987159,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 41,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.014199102183288067,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 42,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.01539584182132531,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 43,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.016827752984400625,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 44,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.018572689083698267,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 45,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.020747725783156996,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 46,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.023537953516881174,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 47,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.027255697329511063,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 48,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.03247707193898449,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 49,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.040413081016026836,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 50,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.19974285938031097,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 51,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.055022508225096994,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 52,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.13564152222458029,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 53,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 54,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 55,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 56,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 57,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 58,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 59,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-03-energy_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 60,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.07624850066130755,
+      "d_state_execution": 0.07624850066130755,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.03703096803274636,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 1,
+      "wm_summary": null
+    },
+    {
+      "d_state": 8.289393842162021e-18,
+      "d_state_execution": 8.289393842162021e-18,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.009186728132825957,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 2,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.03734284003285628,
+      "d_state_execution": 0.03734284003285628,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.021964560909980627,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 3,
+      "wm_summary": null
+    },
+    {
+      "d_state": 1.0606323672129225e-17,
+      "d_state_execution": 1.0606323672129225e-17,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.011541984330340382,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 4,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0977628693685949,
+      "d_state_execution": 0.0977628693685949,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.04499906362542646,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 5,
+      "wm_summary": null
+    },
+    {
+      "d_state": 6.856433057013711e-18,
+      "d_state_execution": 6.856433057013711e-18,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.009172840635458868,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 6,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.03826975707317889,
+      "d_state_execution": 0.03826975707317889,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.019343942425347854,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 7,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 3.0289402309718492e-18,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.1021571009574688,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 8,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.032012307143378056,
+      "d_state_execution": 0.032012307143378056,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.016476190898893645,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 9,
+      "wm_summary": null
+    },
+    {
+      "d_state": 1.5261660770323743e-18,
+      "d_state_execution": 1.5261660770323743e-18,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.004028766084220374,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 10,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.039139159509174015,
+      "d_state_execution": 0.039139159509174015,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.017550127268580584,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 11,
+      "wm_summary": null
+    },
+    {
+      "d_state": 1.5428445035776189e-18,
+      "d_state_execution": 1.5428445035776189e-18,
+      "d_state_structural": 0.0,
+      "event_type": "execution_residual",
+      "gamma_value": 0.004381049879059822,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 12,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.004473389410632878,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 13,
+      "wm_summary": null
+    },
+    {
+      "d_state": 1.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 1.0,
+      "event_type": "communication_disturbance",
+      "gamma_value": 0.3545704643027994,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 1.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 14,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.004672648399816843,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 15,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.10160611171154167,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 16,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.00548464449026525,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 17,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.005620408210120414,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 18,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.005764030855111612,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 19,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.005916215311521036,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 20,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006077750881233975,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 21,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.0062495269866454034,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 22,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006432549569929132,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 23,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.2026082899791561,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 24,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.00655478568185529,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 25,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006765340626604547,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 26,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.006991521005359001,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 27,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.007235134828570774,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 28,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.007498280516561969,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 29,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.007783407711060311,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 30,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.008093394053414093,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 31,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.275,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.275,
+      "event_type": "task_disturbance",
+      "gamma_value": 0.10440206373740013,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.275
+      },
+      "time": 32,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.008501041528731773,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 33,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.008884370822306944,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 34,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.009307402465182333,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 35,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.009776663398062121,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 36,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.010300199823957629,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 37,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.010888048498168308,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 38,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.01155289591431984,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 39,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.012311019477535667,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 40,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.01318366307987159,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 41,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.014199102183288067,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 42,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.01539584182132531,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 43,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.016827752984400625,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 44,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.018572689083698267,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 45,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.020747725783156996,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 46,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.023537953516881174,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 47,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.027255697329511063,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 48,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.03247707193898449,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 49,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.040413081016026836,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 50,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.19974285938031097,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 51,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.055022508225096994,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 52,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06064152222458028,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 53,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 54,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 55,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 56,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 57,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 58,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 59,
+      "wm_summary": null
+    },
+    {
+      "d_state": 0.0,
+      "d_state_execution": 0.0,
+      "d_state_structural": 0.0,
+      "event_type": "none",
+      "gamma_value": 0.06319286413207756,
+      "parent_id": "n02-event-train-04-communication_drop",
+      "structural_change_components": {
+        "communication": 0.0,
+        "environment": 0.0,
+        "platform": 0.0,
+        "task": 0.0
+      },
+      "time": 60,
+      "wm_summary": null
+    }
+  ],
+  "schema": "event-threshold-manifest/1",
+  "score_count": 240,
+  "score_definition": "d_state=max(execution_residual,structural_severity); gamma=weighted_sum(d_state,d_degradation,d_margin,d_uncertainty)",
+  "source_parent_ids": [
+    "n02-event-train-01-new_arrival",
+    "n02-event-train-02-platform_failure",
+    "n02-event-train-03-energy_drop",
+    "n02-event-train-04-communication_drop"
+  ],
+  "source_parents": [
+    "n02-event-train-01-new_arrival",
+    "n02-event-train-02-platform_failure",
+    "n02-event-train-03-energy_drop",
+    "n02-event-train-04-communication_drop"
+  ],
+  "source_split": "train",
+  "tau_off": 0.042749110444155136,
+  "tau_on": 0.04499906362542646,
+  "threshold": 0.04499906362542646,
+  "threshold_high": 0.04499906362542646,
+  "threshold_low": 0.042749110444155136,
+  "training_input_sha256": "9a1cd278b13eb5d4a75f7bec87ba129c1427514649f55f051ca521c9426c93da",
+  "training_sequence_sha256": "9a1cd278b13eb5d4a75f7bec87ba129c1427514649f55f051ca521c9426c93da",
+  "weights": {
+    "d_degradation": 0.3,
+    "d_margin": 0.25,
+    "d_state": 0.35,
+    "d_uncertainty": 0.1
+  },
+  "wm_summaries_used": false,
+  "world_model_degradation": 0.0,
+  "world_model_uncertainty": 0.0,
+  "world_model_used": false
+}

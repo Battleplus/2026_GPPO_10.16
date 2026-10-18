@@ -1,0 +1,1550 @@
+{
+  "assembly_status": "COMPLETE",
+  "client_measurements": [
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.28125,
+              "source": "local_client_process",
+              "wall_seconds": 14.102562
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T08:46:14.124560+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.03125,
+              "source": "local_client_process",
+              "wall_seconds": 6.296117
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T08:47:19.585147+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "3327208ae8b7331abfe5ef1557f30559e02996666b7568bb576c267cf83a9b9a"
+    },
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.34375,
+              "source": "local_client_process",
+              "wall_seconds": 7.894103
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T11:55:29.838890+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.03125,
+              "source": "local_client_process",
+              "wall_seconds": 4.13979
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T11:55:53.135302+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.046875,
+              "source": "local_client_process",
+              "wall_seconds": 1.905606
+            },
+            "error": null,
+            "operation": "launch",
+            "recorded_at_utc": "2026-10-18T11:56:08.869472+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "71d07bbb8fca94b35857b03d971401d05143d2c30742fbf5d740114fca459c62"
+    },
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.28125,
+              "source": "local_client_process",
+              "wall_seconds": 8.103375
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T11:01:59.435797+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.046875,
+              "source": "local_client_process",
+              "wall_seconds": 4.814619
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T11:02:38.417568+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.03125,
+              "source": "local_client_process",
+              "wall_seconds": 1.824111
+            },
+            "error": null,
+            "operation": "launch",
+            "recorded_at_utc": "2026-10-18T11:03:08.741474+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "342803f5ca2a46ed3efd892a3040e08a53126af31e34e047052d17ef7aa6f029"
+    },
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.296875,
+              "source": "local_client_process",
+              "wall_seconds": 8.001412
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T11:05:38.540128+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.015625,
+              "source": "local_client_process",
+              "wall_seconds": 4.647641
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T11:06:13.758440+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.015625,
+              "source": "local_client_process",
+              "wall_seconds": 2.741933
+            },
+            "error": null,
+            "operation": "launch",
+            "recorded_at_utc": "2026-10-18T11:06:48.053237+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "3b8dd2e996993a47cd4b6cd283a7355a2147f9601cf5c55be6e0c676f7e37d11"
+    },
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.34375,
+              "source": "local_client_process",
+              "wall_seconds": 14.301684
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T09:45:45.124470+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.046875,
+              "source": "local_client_process",
+              "wall_seconds": 6.337088
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T09:46:51.708528+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.03125,
+              "source": "local_client_process",
+              "wall_seconds": 3.550542
+            },
+            "error": null,
+            "operation": "launch",
+            "recorded_at_utc": "2026-10-18T09:47:18.011367+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "784a9800c5909d7c22db7d45de0b43e4bb589f69854895a876135d523f579acf"
+    },
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.296875,
+              "source": "local_client_process",
+              "wall_seconds": 13.957831
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T08:48:01.901434+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.0625,
+              "source": "local_client_process",
+              "wall_seconds": 8.539432
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T08:48:56.613052+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.03125,
+              "source": "local_client_process",
+              "wall_seconds": 3.281049
+            },
+            "error": null,
+            "operation": "launch",
+            "recorded_at_utc": "2026-10-18T08:50:09.940960+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "daa0103b8c3adb87f34960952a410b3ac773a2c667b52535fdb444b8f422624c"
+    },
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.3125,
+              "source": "local_client_process",
+              "wall_seconds": 13.87171
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T09:31:04.757795+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.0625,
+              "source": "local_client_process",
+              "wall_seconds": 6.220465
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T09:33:30.105890+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.03125,
+              "source": "local_client_process",
+              "wall_seconds": 3.578841
+            },
+            "error": null,
+            "operation": "launch",
+            "recorded_at_utc": "2026-10-18T09:34:03.248339+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "cb3736dc581a46c1ffcf76166341493712068e53370110d8fdd8724c62c08d96"
+    },
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.296875,
+              "source": "local_client_process",
+              "wall_seconds": 13.788935
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T08:52:21.409906+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.03125,
+              "source": "local_client_process",
+              "wall_seconds": 6.496593
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T08:53:17.982198+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.046875,
+              "source": "local_client_process",
+              "wall_seconds": 5.492972
+            },
+            "error": null,
+            "operation": "launch",
+            "recorded_at_utc": "2026-10-18T08:53:41.985868+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "dbaaf695fad1806464652b0a9c5c1756aa8f8aab00538fefbae0862799431cae"
+    },
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.3125,
+              "source": "local_client_process",
+              "wall_seconds": 23.044647
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T09:03:58.030653+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.0625,
+              "source": "local_client_process",
+              "wall_seconds": 7.804982
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T09:05:50.501961+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.0625,
+              "source": "local_client_process",
+              "wall_seconds": 3.337529
+            },
+            "error": null,
+            "operation": "launch",
+            "recorded_at_utc": "2026-10-18T09:06:15.552698+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "ce12eab977cbbd565de6b902d417fc051d5d3486d5b2253ab5209f61f3ca6daf"
+    },
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.390625,
+              "source": "local_client_process",
+              "wall_seconds": 14.555641
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T09:37:03.601134+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.0625,
+              "source": "local_client_process",
+              "wall_seconds": 7.470448
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T09:37:55.780666+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.046875,
+              "source": "local_client_process",
+              "wall_seconds": 3.30262
+            },
+            "error": null,
+            "operation": "launch",
+            "recorded_at_utc": "2026-10-18T09:38:21.172496+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "87342fae1ee19987c7149c386c9f61de91a744276849eca16311eeee5f5b7f9b"
+    },
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.390625,
+              "source": "local_client_process",
+              "wall_seconds": 14.275843
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T10:35:37.268506+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.0625,
+              "source": "local_client_process",
+              "wall_seconds": 4.977444
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T10:36:01.654585+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.03125,
+              "source": "local_client_process",
+              "wall_seconds": 2.159694
+            },
+            "error": null,
+            "operation": "launch",
+            "recorded_at_utc": "2026-10-18T10:36:23.444306+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "1f169dd914aaec6e4e1384d02eb009ecc7d28250fe15894ecc31d1f61c6740bc"
+    },
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.34375,
+              "source": "local_client_process",
+              "wall_seconds": 7.904965
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T10:23:39.605173+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.0625,
+              "source": "local_client_process",
+              "wall_seconds": 4.917613
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T10:24:02.345368+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.03125,
+              "source": "local_client_process",
+              "wall_seconds": 1.881759
+            },
+            "error": null,
+            "operation": "launch",
+            "recorded_at_utc": "2026-10-18T10:25:00.206458+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "e2d0ef04f0e51b9c07a0f86a085fa0db30a929921d195f1eec670e0a4a9157b8"
+    },
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.3125,
+              "source": "local_client_process",
+              "wall_seconds": 8.182498
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T10:29:48.393483+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.046875,
+              "source": "local_client_process",
+              "wall_seconds": 4.112833
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T10:30:13.584556+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.03125,
+              "source": "local_client_process",
+              "wall_seconds": 1.882381
+            },
+            "error": null,
+            "operation": "launch",
+            "recorded_at_utc": "2026-10-18T10:30:32.698150+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "34190837fc7a18e1d16e4d572dd070f1253c93c42d6f9c2e3a3db4312c866cc8"
+    },
+    {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "record": {
+        "operations": [
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.328125,
+              "source": "local_client_process",
+              "wall_seconds": 9.797464
+            },
+            "error": null,
+            "operation": "stage",
+            "recorded_at_utc": "2026-10-18T10:27:14.035537+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.078125,
+              "source": "local_client_process",
+              "wall_seconds": 4.896545
+            },
+            "error": null,
+            "operation": "probe",
+            "recorded_at_utc": "2026-10-18T10:28:00.716703+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          },
+          {
+            "client": {
+              "cpu_scope": "local_python_client_only",
+              "cpu_seconds": 0.03125,
+              "source": "local_client_process",
+              "wall_seconds": 1.784978
+            },
+            "error": null,
+            "operation": "launch",
+            "recorded_at_utc": "2026-10-18T10:28:21.258700+00:00",
+            "remote": {
+              "cpu_seconds": null,
+              "memory_peak_bytes": null,
+              "source": "remote_systemd_cgroup",
+              "status": "unmeasured"
+            },
+            "status": "PASS"
+          }
+        ],
+        "schema": "n02-baseline-client-measurements/1"
+      },
+      "sha256": "feb1c9a0af4cb85306942984644e4ae1cb8e15ee05bb3b4203b023644e3a62ec"
+    }
+  ],
+  "expected_formal_config_sha256": "409d538427490df49f308287aa1ef1b5b1eaabb83f7bb9d3c4f6a3222f90e7d5",
+  "expected_source_manifest_sha256": "53171ce5e2e01717d467e136efc14cf7586a5688d052c6f66ff4269f739ea268",
+  "formal_active_settlements": [
+    {
+      "guardian_status": "COMPLETE",
+      "metrics": {
+        "cgroup_cpu_seconds": 29.86947,
+        "wall_seconds": 29.93356908299029
+      },
+      "path": "[REDACTED_LOCAL_PATH]",
+      "phase": "freeze-wm",
+      "receipt": {
+        "attempt": "n02-baseline-formal-37d8998b31704156b8fa5003a16c7383",
+        "cgroup_cpu_seconds_at_settlement": 29.90608,
+        "cgroup_cpu_seconds_at_start": 0.03661,
+        "cgroup_descendants_killed": [],
+        "child_exit_code": 0,
+        "child_pid": 1749399,
+        "config_sha256_post": "409d538427490df49f308287aa1ef1b5b1eaabb83f7bb9d3c4f6a3222f90e7d5",
+        "config_sha256_pre": "409d538427490df49f308287aa1ef1b5b1eaabb83f7bb9d3c4f6a3222f90e7d5",
+        "cpu_affinity": [
+          0
+        ],
+        "cpu_budget_exceeded": false,
+        "cpu_budget_seconds": 19800,
+        "gpu_receipt_status": "valid",
+        "guardian_exit_code": 0,
+        "memory_max_bytes": 8589934592,
+        "phase": "freeze-wm",
+        "post_source_reverify_error": null,
+        "profile": "formal",
+        "profile_accounting_rule": "sum stage, probe, launch, and all phase settlements including failed attempts",
+        "resource_budget_scope": "per_phase",
+        "run_id": "067bcc085d8b467291341f7117af5a57",
+        "runtime_error": null,
+        "runtime_mismatches": {},
+        "schema": "n02-baseline-guardian-settlement/1",
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": "53171ce5e2e01717d467e136efc14cf7586a5688d052c6f66ff4269f739ea268",
+        "source_manifest_sha256_pre": "53171ce5e2e01717d467e136efc14cf7586a5688d052c6f66ff4269f739ea268",
+        "threads": 1,
+        "timed_out": false,
+        "wall_seconds": 29.93356908299029,
+        "wall_timeout_seconds": 21600
+      },
+      "sha256": "d1ee4dc3eca678c7da9057a91b2c2fc9cfe06a612a728c37a331d6cd9a49f62a",
+      "validation_checks": {
+        "child_exit_code": true,
+        "config_sha256_post": true,
+        "config_sha256_pre": true,
+        "expected_location": true,
+        "frozen_source_manifest_identity": true,
+        "gpu_receipt_status": true,
+        "guardian_exit_code": true,
+        "phase": true,
+        "profile": true,
+        "runtime_error": true,
+        "schema": true,
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": true,
+        "source_manifest_sha256_pre": true
+      }
+    },
+    {
+      "guardian_status": "COMPLETE",
+      "metrics": {
+        "cgroup_cpu_seconds": 2544.07663,
+        "wall_seconds": 2544.589906611014
+      },
+      "path": "[REDACTED_LOCAL_PATH]",
+      "phase": "train",
+      "receipt": {
+        "attempt": "n02-baseline-formal-868a9c9ec7c54f6a810cf696e3a45d25",
+        "cgroup_cpu_seconds_at_settlement": 2544.126285,
+        "cgroup_cpu_seconds_at_start": 0.049655,
+        "cgroup_descendants_killed": [],
+        "child_exit_code": 0,
+        "child_pid": 1750994,
+        "config_sha256_post": "409d538427490df49f308287aa1ef1b5b1eaabb83f7bb9d3c4f6a3222f90e7d5",
+        "config_sha256_pre": "409d538427490df49f308287aa1ef1b5b1eaabb83f7bb9d3c4f6a3222f90e7d5",
+        "cpu_affinity": [
+          0
+        ],
+        "cpu_budget_exceeded": false,
+        "cpu_budget_seconds": 19800,
+        "gpu_receipt_status": "valid",
+        "guardian_exit_code": 0,
+        "memory_max_bytes": 8589934592,
+        "phase": "train",
+        "post_source_reverify_error": null,
+        "profile": "formal",
+        "profile_accounting_rule": "sum stage, probe, launch, and all phase settlements including failed attempts",
+        "resource_budget_scope": "per_phase",
+        "run_id": "0274679b2cfe4157ad60a266f3d93041",
+        "runtime_error": null,
+        "runtime_mismatches": {},
+        "schema": "n02-baseline-guardian-settlement/1",
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": "53171ce5e2e01717d467e136efc14cf7586a5688d052c6f66ff4269f739ea268",
+        "source_manifest_sha256_pre": "53171ce5e2e01717d467e136efc14cf7586a5688d052c6f66ff4269f739ea268",
+        "threads": 1,
+        "timed_out": false,
+        "wall_seconds": 2544.589906611014,
+        "wall_timeout_seconds": 21600
+      },
+      "sha256": "544cd0bcdfea86879e28eceee1b5f75bc6524f61b400b36794190c8921e31ee7",
+      "validation_checks": {
+        "child_exit_code": true,
+        "config_sha256_post": true,
+        "config_sha256_pre": true,
+        "expected_location": true,
+        "frozen_source_manifest_identity": true,
+        "gpu_receipt_status": true,
+        "guardian_exit_code": true,
+        "phase": true,
+        "profile": true,
+        "runtime_error": true,
+        "schema": true,
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": true,
+        "source_manifest_sha256_pre": true
+      }
+    },
+    {
+      "guardian_status": "COMPLETE",
+      "metrics": {
+        "cgroup_cpu_seconds": 238.724721,
+        "wall_seconds": 238.81373391096713
+      },
+      "path": "[REDACTED_LOCAL_PATH]",
+      "phase": "evaluate",
+      "receipt": {
+        "attempt": "n02-baseline-formal-e315a839724f449c8b83987d02ed3413",
+        "cgroup_cpu_seconds_at_settlement": 238.77405,
+        "cgroup_cpu_seconds_at_start": 0.049329,
+        "cgroup_descendants_killed": [],
+        "child_exit_code": 0,
+        "child_pid": 1764351,
+        "config_sha256_post": "409d538427490df49f308287aa1ef1b5b1eaabb83f7bb9d3c4f6a3222f90e7d5",
+        "config_sha256_pre": "409d538427490df49f308287aa1ef1b5b1eaabb83f7bb9d3c4f6a3222f90e7d5",
+        "cpu_affinity": [
+          0
+        ],
+        "cpu_budget_exceeded": false,
+        "cpu_budget_seconds": 19800,
+        "gpu_receipt_status": "valid",
+        "guardian_exit_code": 0,
+        "memory_max_bytes": 8589934592,
+        "phase": "evaluate",
+        "post_source_reverify_error": null,
+        "profile": "formal",
+        "profile_accounting_rule": "sum stage, probe, launch, and all phase settlements including failed attempts",
+        "resource_budget_scope": "per_phase",
+        "run_id": "8a7bcff95eff48eb829a67bfdc0fdf6c",
+        "runtime_error": null,
+        "runtime_mismatches": {},
+        "schema": "n02-baseline-guardian-settlement/1",
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": "53171ce5e2e01717d467e136efc14cf7586a5688d052c6f66ff4269f739ea268",
+        "source_manifest_sha256_pre": "53171ce5e2e01717d467e136efc14cf7586a5688d052c6f66ff4269f739ea268",
+        "threads": 1,
+        "timed_out": false,
+        "wall_seconds": 238.81373391096713,
+        "wall_timeout_seconds": 21600
+      },
+      "sha256": "c0870feb7600b3c93e2bca2d3a2032bdfd3ece0368474e38fe1eba8d169faa4c",
+      "validation_checks": {
+        "child_exit_code": true,
+        "config_sha256_post": true,
+        "config_sha256_pre": true,
+        "expected_location": true,
+        "frozen_source_manifest_identity": true,
+        "gpu_receipt_status": true,
+        "guardian_exit_code": true,
+        "phase": true,
+        "profile": true,
+        "runtime_error": true,
+        "schema": true,
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": true,
+        "source_manifest_sha256_pre": true
+      }
+    }
+  ],
+  "formal_phase_validation": {
+    "evaluate": {
+      "reasons": [],
+      "valid": true
+    },
+    "freeze-wm": {
+      "reasons": [],
+      "valid": true
+    },
+    "train": {
+      "reasons": [],
+      "valid": true
+    }
+  },
+  "frozen_source_manifest_identity_valid": true,
+  "historical_identity_conflicts": [],
+  "historical_pilot_settlements": [
+    {
+      "guardian_status": "COMPLETE",
+      "identity": [
+        "n02-baseline-guardian-settlement/1",
+        "n02-baseline-pilot-0cc6f6410ba0490ab91c88f76a866542",
+        "evaluate"
+      ],
+      "metrics": {
+        "cgroup_cpu_seconds": 98.705794,
+        "wall_seconds": 98.7951050940319
+      },
+      "path": "[REDACTED_LOCAL_PATH]",
+      "receipt": {
+        "attempt": "n02-baseline-pilot-0cc6f6410ba0490ab91c88f76a866542",
+        "cgroup_cpu_seconds_at_settlement": 98.756438,
+        "cgroup_cpu_seconds_at_start": 0.050644,
+        "cgroup_descendants_killed": [],
+        "child_exit_code": 0,
+        "child_pid": 1742175,
+        "config_sha256_post": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "config_sha256_pre": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "cpu_affinity": [
+          0
+        ],
+        "cpu_budget_exceeded": false,
+        "cpu_budget_seconds": 6600,
+        "gpu_receipt_status": "valid",
+        "guardian_exit_code": 0,
+        "memory_max_bytes": 8589934592,
+        "phase": "evaluate",
+        "post_source_reverify_error": null,
+        "profile": "pilot",
+        "profile_accounting_rule": "sum stage, probe, launch, and all phase settlements including failed attempts",
+        "resource_budget_scope": "per_phase",
+        "run_id": "039636613a364a8bb1a4001d4d5c0448",
+        "runtime_error": null,
+        "runtime_mismatches": {},
+        "schema": "n02-baseline-guardian-settlement/1",
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": "c2c00f74aa84942aa8774b61f3253d1d43590d1632f34f154a3562bc53e4d1fc",
+        "source_manifest_sha256_pre": "c2c00f74aa84942aa8774b61f3253d1d43590d1632f34f154a3562bc53e4d1fc",
+        "threads": 1,
+        "timed_out": false,
+        "wall_seconds": 98.7951050940319,
+        "wall_timeout_seconds": 7200
+      },
+      "sha256": "c82cdbcf33a35f9b49e320268bc30c642a4d98c03107ffa5e61aaa66ce3a3302"
+    },
+    {
+      "guardian_status": "COMPLETE",
+      "identity": [
+        "n02-baseline-guardian-settlement/1",
+        "n02-baseline-pilot-1739f0f6d329492ba76730d3d8fea870",
+        "freeze-wm"
+      ],
+      "metrics": {
+        "cgroup_cpu_seconds": 24.330806,
+        "wall_seconds": 24.420093005988747
+      },
+      "path": "[REDACTED_LOCAL_PATH]",
+      "receipt": {
+        "attempt": "n02-baseline-pilot-1739f0f6d329492ba76730d3d8fea870",
+        "cgroup_cpu_seconds_at_settlement": 24.364272,
+        "cgroup_cpu_seconds_at_start": 0.033466,
+        "cgroup_descendants_killed": [],
+        "child_exit_code": 0,
+        "child_pid": 1722408,
+        "config_sha256_post": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "config_sha256_pre": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "cpu_affinity": [
+          0
+        ],
+        "cpu_budget_exceeded": false,
+        "cpu_budget_seconds": 6600,
+        "gpu_receipt_status": "valid",
+        "guardian_exit_code": 0,
+        "memory_max_bytes": 8589934592,
+        "phase": "freeze-wm",
+        "post_source_reverify_error": null,
+        "profile": "pilot",
+        "profile_accounting_rule": "sum stage, probe, launch, and all phase settlements including failed attempts",
+        "resource_budget_scope": "per_phase",
+        "run_id": "450754fa647143098d7a48832582cb2e",
+        "runtime_error": null,
+        "runtime_mismatches": {},
+        "schema": "n02-baseline-guardian-settlement/1",
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": "238411e7bff3a2c8191afa6f86b0bdef32b90190dbef35a7d21cbed6cf46d83a",
+        "source_manifest_sha256_pre": "238411e7bff3a2c8191afa6f86b0bdef32b90190dbef35a7d21cbed6cf46d83a",
+        "threads": 1,
+        "timed_out": false,
+        "wall_seconds": 24.420093005988747,
+        "wall_timeout_seconds": 7200
+      },
+      "sha256": "682446cc3c0f050ec51b274495888564f90a50466cbcd873903910779a7a73fa"
+    },
+    {
+      "guardian_status": "COMPLETE",
+      "identity": [
+        "n02-baseline-guardian-settlement/1",
+        "n02-baseline-pilot-1cea192d03f74a66bee545250230d9d3",
+        "freeze-wm"
+      ],
+      "metrics": {
+        "cgroup_cpu_seconds": 29.329702,
+        "wall_seconds": 29.470199771982152
+      },
+      "path": "[REDACTED_LOCAL_PATH]",
+      "receipt": {
+        "attempt": "n02-baseline-pilot-1cea192d03f74a66bee545250230d9d3",
+        "cgroup_cpu_seconds_at_settlement": 29.378224,
+        "cgroup_cpu_seconds_at_start": 0.048522,
+        "cgroup_descendants_killed": [],
+        "child_exit_code": 0,
+        "child_pid": 1737221,
+        "config_sha256_post": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "config_sha256_pre": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "cpu_affinity": [
+          0
+        ],
+        "cpu_budget_exceeded": false,
+        "cpu_budget_seconds": 6600,
+        "gpu_receipt_status": "valid",
+        "guardian_exit_code": 0,
+        "memory_max_bytes": 8589934592,
+        "phase": "freeze-wm",
+        "post_source_reverify_error": null,
+        "profile": "pilot",
+        "profile_accounting_rule": "sum stage, probe, launch, and all phase settlements including failed attempts",
+        "resource_budget_scope": "per_phase",
+        "run_id": "09b89a7d9c384efb81ee8271de9ef809",
+        "runtime_error": null,
+        "runtime_mismatches": {},
+        "schema": "n02-baseline-guardian-settlement/1",
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": "c2c00f74aa84942aa8774b61f3253d1d43590d1632f34f154a3562bc53e4d1fc",
+        "source_manifest_sha256_pre": "c2c00f74aa84942aa8774b61f3253d1d43590d1632f34f154a3562bc53e4d1fc",
+        "threads": 1,
+        "timed_out": false,
+        "wall_seconds": 29.470199771982152,
+        "wall_timeout_seconds": 7200
+      },
+      "sha256": "3f70f0c55486ef59e2d3fbace83db381a7f08837c538f2f9867ae844f4ae926d"
+    },
+    {
+      "guardian_status": "COMPLETE",
+      "identity": [
+        "n02-baseline-guardian-settlement/1",
+        "n02-baseline-pilot-28c0b97d5e6548d29111a78e253e880d",
+        "evaluate"
+      ],
+      "metrics": {
+        "cgroup_cpu_seconds": 91.49937100000001,
+        "wall_seconds": 91.53995391196804
+      },
+      "path": "[REDACTED_LOCAL_PATH]",
+      "receipt": {
+        "attempt": "n02-baseline-pilot-28c0b97d5e6548d29111a78e253e880d",
+        "cgroup_cpu_seconds_at_settlement": 91.547869,
+        "cgroup_cpu_seconds_at_start": 0.048498,
+        "cgroup_descendants_killed": [],
+        "child_exit_code": 0,
+        "child_pid": 1727343,
+        "config_sha256_post": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "config_sha256_pre": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "cpu_affinity": [
+          0
+        ],
+        "cpu_budget_exceeded": false,
+        "cpu_budget_seconds": 6600,
+        "gpu_receipt_status": "valid",
+        "guardian_exit_code": 0,
+        "memory_max_bytes": 8589934592,
+        "phase": "evaluate",
+        "post_source_reverify_error": null,
+        "profile": "pilot",
+        "profile_accounting_rule": "sum stage, probe, launch, and all phase settlements including failed attempts",
+        "resource_budget_scope": "per_phase",
+        "run_id": "ec20d2217ba547068c8ea8cc3824b9bf",
+        "runtime_error": null,
+        "runtime_mismatches": {},
+        "schema": "n02-baseline-guardian-settlement/1",
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": "238411e7bff3a2c8191afa6f86b0bdef32b90190dbef35a7d21cbed6cf46d83a",
+        "source_manifest_sha256_pre": "238411e7bff3a2c8191afa6f86b0bdef32b90190dbef35a7d21cbed6cf46d83a",
+        "threads": 1,
+        "timed_out": false,
+        "wall_seconds": 91.53995391196804,
+        "wall_timeout_seconds": 7200
+      },
+      "sha256": "23c9e775b22b80b758d2ab5415e715f3877894723e5e0691385ef3d105ed8441"
+    },
+    {
+      "guardian_status": "COMPLETE",
+      "identity": [
+        "n02-baseline-guardian-settlement/1",
+        "n02-baseline-pilot-35c06835c0254e66bfd78c43b7caa2f4",
+        "train"
+      ],
+      "metrics": {
+        "cgroup_cpu_seconds": 237.345147,
+        "wall_seconds": 237.4752909289673
+      },
+      "path": "[REDACTED_LOCAL_PATH]",
+      "receipt": {
+        "attempt": "n02-baseline-pilot-35c06835c0254e66bfd78c43b7caa2f4",
+        "cgroup_cpu_seconds_at_settlement": 237.41657,
+        "cgroup_cpu_seconds_at_start": 0.071423,
+        "cgroup_descendants_killed": [],
+        "child_exit_code": 0,
+        "child_pid": 1724187,
+        "config_sha256_post": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "config_sha256_pre": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "cpu_affinity": [
+          0
+        ],
+        "cpu_budget_exceeded": false,
+        "cpu_budget_seconds": 6600,
+        "gpu_receipt_status": "valid",
+        "guardian_exit_code": 0,
+        "memory_max_bytes": 8589934592,
+        "phase": "train",
+        "post_source_reverify_error": null,
+        "profile": "pilot",
+        "profile_accounting_rule": "sum stage, probe, launch, and all phase settlements including failed attempts",
+        "resource_budget_scope": "per_phase",
+        "run_id": "d61834484b8b41a6bd023123c430c124",
+        "runtime_error": null,
+        "runtime_mismatches": {},
+        "schema": "n02-baseline-guardian-settlement/1",
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": "238411e7bff3a2c8191afa6f86b0bdef32b90190dbef35a7d21cbed6cf46d83a",
+        "source_manifest_sha256_pre": "238411e7bff3a2c8191afa6f86b0bdef32b90190dbef35a7d21cbed6cf46d83a",
+        "threads": 1,
+        "timed_out": false,
+        "wall_seconds": 237.4752909289673,
+        "wall_timeout_seconds": 7200
+      },
+      "sha256": "80aa78839b91a51f483ad6e42dc50d5a8714ca67fca125207b6031ee1c1c09d2"
+    },
+    {
+      "guardian_status": "COMPLETE",
+      "identity": [
+        "n02-baseline-guardian-settlement/1",
+        "n02-baseline-pilot-50cd6daa7dad4d4ca93b135dad44d589",
+        "freeze-wm"
+      ],
+      "metrics": {
+        "cgroup_cpu_seconds": 30.30591,
+        "wall_seconds": 30.407832894998137
+      },
+      "path": "[REDACTED_LOCAL_PATH]",
+      "receipt": {
+        "attempt": "n02-baseline-pilot-50cd6daa7dad4d4ca93b135dad44d589",
+        "cgroup_cpu_seconds_at_settlement": 30.340464,
+        "cgroup_cpu_seconds_at_start": 0.034554,
+        "cgroup_descendants_killed": [],
+        "child_exit_code": 0,
+        "child_pid": 1709554,
+        "config_sha256_post": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "config_sha256_pre": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "cpu_affinity": [
+          0
+        ],
+        "cpu_budget_exceeded": false,
+        "cpu_budget_seconds": 6600,
+        "gpu_receipt_status": "valid",
+        "guardian_exit_code": 0,
+        "memory_max_bytes": 8589934592,
+        "phase": "freeze-wm",
+        "post_source_reverify_error": null,
+        "profile": "pilot",
+        "profile_accounting_rule": "sum stage, probe, launch, and all phase settlements including failed attempts",
+        "resource_budget_scope": "per_phase",
+        "run_id": "602e51c2a0fe4750869aa84fbc8d71af",
+        "runtime_error": null,
+        "runtime_mismatches": {},
+        "schema": "n02-baseline-guardian-settlement/1",
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": "682fd5d0a5af9f0ba3202c6533cd92032bdd900cf344f7367bd3d54ff1e35a1b",
+        "source_manifest_sha256_pre": "682fd5d0a5af9f0ba3202c6533cd92032bdd900cf344f7367bd3d54ff1e35a1b",
+        "threads": 1,
+        "timed_out": false,
+        "wall_seconds": 30.407832894998137,
+        "wall_timeout_seconds": 7200
+      },
+      "sha256": "8477dcd3bc2cbf11cc068f55b24e6bcf177ed345b774908cbd05b5538f51da04"
+    },
+    {
+      "guardian_status": "COMPLETE",
+      "identity": [
+        "n02-baseline-guardian-settlement/1",
+        "n02-baseline-pilot-729f327a5f4f40a59853e20c0c14df91",
+        "train"
+      ],
+      "metrics": {
+        "cgroup_cpu_seconds": 187.917652,
+        "wall_seconds": 188.08749069995247
+      },
+      "path": "[REDACTED_LOCAL_PATH]",
+      "receipt": {
+        "attempt": "n02-baseline-pilot-729f327a5f4f40a59853e20c0c14df91",
+        "cgroup_cpu_seconds_at_settlement": 187.967311,
+        "cgroup_cpu_seconds_at_start": 0.049659,
+        "cgroup_descendants_killed": [],
+        "child_exit_code": 0,
+        "child_pid": 1739882,
+        "config_sha256_post": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "config_sha256_pre": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "cpu_affinity": [
+          0
+        ],
+        "cpu_budget_exceeded": false,
+        "cpu_budget_seconds": 6600,
+        "gpu_receipt_status": "valid",
+        "guardian_exit_code": 0,
+        "memory_max_bytes": 8589934592,
+        "phase": "train",
+        "post_source_reverify_error": null,
+        "profile": "pilot",
+        "profile_accounting_rule": "sum stage, probe, launch, and all phase settlements including failed attempts",
+        "resource_budget_scope": "per_phase",
+        "run_id": "e1edee9d804f492f88e0892e76b8a449",
+        "runtime_error": null,
+        "runtime_mismatches": {},
+        "schema": "n02-baseline-guardian-settlement/1",
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": "c2c00f74aa84942aa8774b61f3253d1d43590d1632f34f154a3562bc53e4d1fc",
+        "source_manifest_sha256_pre": "c2c00f74aa84942aa8774b61f3253d1d43590d1632f34f154a3562bc53e4d1fc",
+        "threads": 1,
+        "timed_out": false,
+        "wall_seconds": 188.08749069995247,
+        "wall_timeout_seconds": 7200
+      },
+      "sha256": "246e2ddd10ae29e7e5a94cffd724b86b9bf37cf26b2a1688dc5f96415896ae65"
+    },
+    {
+      "guardian_status": "FAILED",
+      "identity": [
+        "n02-baseline-guardian-settlement/1",
+        "n02-baseline-pilot-aba63f0d3f094505bd906c41c368056c",
+        "train"
+      ],
+      "metrics": {
+        "cgroup_cpu_seconds": 1.577728,
+        "wall_seconds": 1.5923121880041435
+      },
+      "path": "[REDACTED_LOCAL_PATH]",
+      "receipt": {
+        "attempt": "n02-baseline-pilot-aba63f0d3f094505bd906c41c368056c",
+        "cgroup_cpu_seconds_at_settlement": 1.626972,
+        "cgroup_cpu_seconds_at_start": 0.049244,
+        "cgroup_descendants_killed": [],
+        "child_exit_code": null,
+        "child_pid": null,
+        "config_sha256_post": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "config_sha256_pre": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "cpu_affinity": [
+          0
+        ],
+        "cpu_budget_exceeded": false,
+        "cpu_budget_seconds": 6600,
+        "gpu_receipt_status": "not_required",
+        "guardian_exit_code": 1,
+        "memory_max_bytes": 8589934592,
+        "phase": "train",
+        "post_source_reverify_error": null,
+        "profile": "pilot",
+        "profile_accounting_rule": "sum stage, probe, launch, and all phase settlements including failed attempts",
+        "resource_budget_scope": "per_phase",
+        "run_id": "322f5a5e259148deb2a83b317309119a",
+        "runtime_error": "TypeError:Object of type PosixPath is not JSON serializable",
+        "runtime_mismatches": {},
+        "schema": "n02-baseline-guardian-settlement/1",
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": "682fd5d0a5af9f0ba3202c6533cd92032bdd900cf344f7367bd3d54ff1e35a1b",
+        "source_manifest_sha256_pre": "682fd5d0a5af9f0ba3202c6533cd92032bdd900cf344f7367bd3d54ff1e35a1b",
+        "threads": 1,
+        "timed_out": false,
+        "wall_seconds": 1.5923121880041435,
+        "wall_timeout_seconds": 7200
+      },
+      "sha256": "57662faa4a8f5265dac10ade047d02b03a6ed7b61c70d2b51ae5e1c84d2e8ebd"
+    },
+    {
+      "guardian_status": "FAILED",
+      "identity": [
+        "n02-baseline-guardian-settlement/1",
+        "n02-baseline-pilot-aea23c4fb4c7482384254dffb268a3d9",
+        "train"
+      ],
+      "metrics": {
+        "cgroup_cpu_seconds": 149.06857,
+        "wall_seconds": 149.27322132798145
+      },
+      "path": "[REDACTED_LOCAL_PATH]",
+      "receipt": {
+        "attempt": "n02-baseline-pilot-aea23c4fb4c7482384254dffb268a3d9",
+        "cgroup_cpu_seconds_at_settlement": 149.139205,
+        "cgroup_cpu_seconds_at_start": 0.070635,
+        "cgroup_descendants_killed": [],
+        "child_exit_code": 1,
+        "child_pid": 1714857,
+        "config_sha256_post": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "config_sha256_pre": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+        "cpu_affinity": [
+          0
+        ],
+        "cpu_budget_exceeded": false,
+        "cpu_budget_seconds": 6600,
+        "gpu_receipt_status": "not_required",
+        "guardian_exit_code": 1,
+        "memory_max_bytes": 8589934592,
+        "phase": "train",
+        "post_source_reverify_error": null,
+        "profile": "pilot",
+        "profile_accounting_rule": "sum stage, probe, launch, and all phase settlements including failed attempts",
+        "resource_budget_scope": "per_phase",
+        "run_id": "42b6398b89c84730a369ae87d037812a",
+        "runtime_error": null,
+        "runtime_mismatches": {},
+        "schema": "n02-baseline-guardian-settlement/1",
+        "source_config_unchanged": true,
+        "source_manifest_sha256_post": "b9adf7006c79177d1fe3522b8e07e1548d073b65c81738ec94e03f09ea479ede",
+        "source_manifest_sha256_pre": "b9adf7006c79177d1fe3522b8e07e1548d073b65c81738ec94e03f09ea479ede",
+        "threads": 1,
+        "timed_out": false,
+        "wall_seconds": 149.27322132798145,
+        "wall_timeout_seconds": 7200
+      },
+      "sha256": "48046d7ce5bc01e01352d5a1db12fb963d08360e17f6029644b940e1b2bbd310"
+    }
+  ],
+  "host_rss_bytes": "MISSING",
+  "interpretation": "inventory only; no extrapolated resource proposal or counters are substituted",
+  "measured_totals": {
+    "formal_active": {
+      "cgroup_cpu_seconds": 2812.670821,
+      "cgroup_cpu_seconds_subtotal_if_missing": 2812.670821,
+      "cuda_allocation_as_host_rss": false,
+      "host_rss_bytes": "MISSING",
+      "measurement_count": 3,
+      "missing_cgroup_cpu_seconds_count": 0,
+      "missing_measurement_count": 0,
+      "missing_wall_seconds_count": 0,
+      "wall_seconds": 2813.3372096049716,
+      "wall_seconds_subtotal_if_missing": 2813.3372096049716
+    },
+    "historical_conflicts_excluded_from_totals": 0,
+    "historical_pilot": {
+      "cgroup_cpu_seconds": 850.08068,
+      "cgroup_cpu_seconds_subtotal_if_missing": 850.08068,
+      "cuda_allocation_as_host_rss": false,
+      "host_rss_bytes": "MISSING",
+      "measurement_count": 9,
+      "missing_cgroup_cpu_seconds_count": 0,
+      "missing_measurement_count": 0,
+      "missing_wall_seconds_count": 0,
+      "wall_seconds": 851.0614998238743,
+      "wall_seconds_subtotal_if_missing": 851.0614998238743
+    }
+  },
+  "prechild_attempt_without_guardian": {
+    "attempt": "n02-baseline-pilot-6aeeb3458ef04708a3dcd439cfb7f9ff",
+    "cpu_measurement_valid": true,
+    "guardian_status": "NO_GUARDIAN",
+    "remote_resource_measurement": {
+      "cpu_seconds": 0.052376,
+      "cpu_status": "measured",
+      "memory_peak_bytes": null,
+      "memory_status": "unavailable",
+      "source": "remote_systemd_cgroup",
+      "status": "measured"
+    },
+    "state_path": "[REDACTED_LOCAL_PATH]",
+    "state_sha256": "a36773e1f66b349d2d7ace00d00f6cc0b1d458272008f4aea3fdcae50dc369ee",
+    "status_receipt_sha256": "8a55d27150d1a6c7f96a7964fa495494630c8ebbc01365eebff5539ebeb4d92c",
+    "wall_seconds": "MISSING"
+  },
+  "schema": "formal-resource-settlement-inventory-v1"
+}

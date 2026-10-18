@@ -1,0 +1,135 @@
+{
+  "checks": {
+    "completion_utc": "2026-10-18T12:52:58.052457+00:00",
+    "end_entry_inventory": {
+      "bytes": 314024,
+      "count": 9,
+      "errors": []
+    },
+    "end_public_inventory": {
+      "bytes": 122798109,
+      "count": 162,
+      "errors": []
+    },
+    "entry_inventory": {
+      "bytes": 314024,
+      "count": 9,
+      "errors": []
+    },
+    "entry_sha256": "7cb329580ab1130840ccba1414fcb7775db67becd83fe03fc0acee157e4067c7",
+    "evaluation_coverage": {
+      "actions": 3240,
+      "candidate_count_max": 8,
+      "candidate_count_min": 1,
+      "cells": 54,
+      "episodes": 54,
+      "methods": [
+        "Auction",
+        "CBBA-lite",
+        "Event-GPPO",
+        "Event-GPPO-WM",
+        "GPPO",
+        "Greedy",
+        "PPO",
+        "Periodic-GPPO",
+        "Periodic-GPPO-WM"
+      ],
+      "parents": [
+        "n02-event-development-05-environment_perturbation",
+        "n02-event-development-06-mixed_events"
+      ],
+      "seeds": [
+        8201,
+        8202,
+        8203
+      ],
+      "ticks_exact_0_to_59": true
+    },
+    "frozen_source_inventory": {
+      "bytes": 3607822,
+      "count": 102,
+      "errors": []
+    },
+    "generated_inventory": {
+      "bytes": 230626,
+      "count": 6,
+      "errors": []
+    },
+    "original_oracle": {
+      "exact_archived_report": true,
+      "mismatch": 66,
+      "missing": 28,
+      "status": "FAIL"
+    },
+    "private_inventory": {
+      "bytes": 2211936019,
+      "count": 258,
+      "errors": []
+    },
+    "public_exact_file_set": {
+      "actual": 164,
+      "extra": [],
+      "missing": []
+    },
+    "public_inventory": {
+      "bytes": 122798109,
+      "count": 162,
+      "errors": []
+    },
+    "public_projection": {
+      "actions": 3240,
+      "actions_exact": true,
+      "episodes": 54,
+      "episodes_exact": true
+    },
+    "public_replay_process": {
+      "returncode": 0,
+      "stderr_tail": "",
+      "stdout_tail": ""
+    },
+    "raw_public_report_exact_equality": true,
+    "real_data_causal_mutations": {
+      "all_rejected": true,
+      "by_kind": {
+        "delayed_dispatch_owner_change": 7,
+        "environment_route_release": 22
+      },
+      "mutations": 202,
+      "proofs": 29,
+      "release_root_no_other_leaf_change": true
+    },
+    "revised_oracle": {
+      "exact_archived_report": true,
+      "mismatch": 0,
+      "missing": 0,
+      "status": "PASS"
+    },
+    "standard_metrics_exact_values": {
+      "by_cell": true,
+      "definitions": true,
+      "method_means": true
+    },
+    "supplied_tamper_tests": {
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "................                                                         [100%]\n16 passed in 0.17s\n"
+    },
+    "training_consistency_episode_metadata": {
+      "episodes_per_group": 16,
+      "group_count": 18,
+      "record_count": 16
+    },
+    "training_counts": {
+      "all_128_updates": true,
+      "all_16_episodes": true,
+      "all_budget_caps": true,
+      "all_cuda": true,
+      "critic_only_actor_unchanged": true,
+      "episodes": 288,
+      "groups": 18,
+      "updates": 2304
+    }
+  },
+  "findings": [],
+  "schema": "sol-independent-gate3-execution/1"
+}

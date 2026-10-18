@@ -1,0 +1,327 @@
+{
+  "blocking_repairs": [],
+  "created_utc": "2026-10-18T10:59:30.059991+00:00",
+  "engineering_readiness": {
+    "active_phase_chain": "freeze-wm/train/evaluate all successful, same frozen pilot005 identity, guardian exit0, source/config unchanged",
+    "checkpoint_restoration": {
+      "WM_fresh_restore_pid": 1737319,
+      "WM_parent_pid": 1737221,
+      "WM_restore_exit_status": 0,
+      "model_optimizer_actual_rng_digests_and_fixed_predictions_verified": true,
+      "policy_evaluate_child_pid": 1742175,
+      "policy_train_child_pid": 1739882,
+      "six_policy_checkpoints_restored_in_new_evaluation_process": true
+    },
+    "frozen_regression_observation": "180 passed, 3 CUDA-only skipped; read raw log, did not rerun full suite",
+    "independent_verifier_replay": {
+      "issue_count": 2,
+      "oracle_mismatch_count": 0,
+      "oracle_missing_count": 0,
+      "oracle_status": "PASS",
+      "path": "[REDACTED_LOCAL_PATH]",
+      "sha256": "8c5e2f70c0a505814262e41007e0061c070060c48247b5694331c095009f5221",
+      "status": "FAIL"
+    },
+    "learning_updates": {
+      "WM_cuda_optimizer_updates": 240,
+      "WM_frozen_excluded_from_policy_optimizer": true,
+      "all_model_parameters_and_optimizer_moments_cuda": true,
+      "event_actor_changed_steps_per_method": 28,
+      "event_actor_row_uses_per_method": 88,
+      "event_critic_only_steps_per_method": 4,
+      "policy_cuda_optimizer_updates": 192,
+      "policy_updates_per_method": 32,
+      "retained_tail_minibatches_per_method": 16,
+      "training_episode_count": 24
+    },
+    "local_mechanism": {
+      "Event-GPPO-WM_raw_endpoint_verified_insertions": 11,
+      "Event-GPPO_raw_endpoint_verified_insertions": 11,
+      "first_witness": "train01/new_arrival tick12 task09 inserted into heli2 empty queue; actual raw owner and queue endpoints verified",
+      "satisfies_pilot_engineering_mechanism_requirement": true,
+      "selected_local_rows_per_event_method": 13,
+      "split": "train",
+      "substitutes_for_development_witness": false
+    },
+    "paired_tape_and_c1_identities": "PASS",
+    "raw_development_cells": 18,
+    "remote_artifact_hash_counts": {
+      "evaluate": 8,
+      "freeze-wm": 9,
+      "train": 18
+    },
+    "status": "PASS",
+    "ticks_per_cell": 60
+  },
+  "evidence_index": {
+    "hash_mismatches": [],
+    "path": "[REDACTED_LOCAL_PATH]",
+    "sha256": "8f186f0ca9e90212bb069244c60da42dee594ace7699837401b56300311998fb",
+    "verified_input_entries": 85,
+    "verified_output_entries": 32
+  },
+  "fairness_and_information_boundary": {
+    "PPO_GPPO": "flat PPO preserves public nodes, node types and typed adjacency; graph GPPO uses message passing; parameter counts differ, so comparison is encoder-architecture package, not parameter-matched isolation",
+    "WM": "frozen train-only ensemble; detached auxiliary critic only; disjoint actor/critic encoders; actual actor-invariance and critic-sensitivity audits pass; not a WM actor/planner",
+    "clocks": "shared public detector/scope runs every tick; nondecision evaluation ticks have NOOP and no catalogue/actor/planning-WM calls",
+    "future_leakage": "no future/event-tape/target or provenance-hash feature path found in actor/critic inputs; policy rollouts fit train parents only; WM normalizer and training use train samples only; threshold source train frozen",
+    "rule_methods": {
+      "description": "candidate-constrained Greedy/Auction/CBBA-lite only; CBBA-lite not full CBBA or convergence guarantee",
+      "each_rule_aggregate_legal_candidate_rows": 165,
+      "each_rule_supported_rows": 155,
+      "each_rule_unsupported_rows": 10,
+      "supported_nonnoop_fraction": 0.7777777777777778,
+      "traditional_unrestricted_baseline_claim_allowed": false,
+      "unsupported_cooperate_rows": 4,
+      "unsupported_split_rows": 6
+    },
+    "shared_catalogue_reward_repair_and_public_information": "source inspected; identical-snapshot catalogue contract retained; closed-loop catalogue differences are legitimate",
+    "status": "PASS_WITH_EXPLICIT_CLAIM_LIMITS"
+  },
+  "measurement_and_schema_repairs": {
+    "analysis_adapter": {
+      "C1_genuine_generator_replay": {
+        "assigned_initial_tasks": 8,
+        "cells": 18,
+        "path": "[REDACTED_LOCAL_PATH]",
+        "queue_hash": "40266227b17f7fff91686b47e45351a39324f9280a95a238c1ec810f75e91fbc",
+        "sha256": "cc19eaabe36d6ff650d3f1a20d3af3d2b3a4fa0bbca25a7235d337c137fd7551",
+        "status": "PASS"
+      },
+      "accepted": true,
+      "changes": "In memory only: fill null C1 field from validated initial queues and alias oracle critical_failure_count_priority_ge_5 from critical_failures. Original frozen analyzer, raw oracle, episodes and actions are unchanged; original all-metric oracle crosscheck remains enabled.",
+      "path": "[REDACTED_LOCAL_PATH]",
+      "sha256": "38809288d86df613ea4ea116d0127d29f14ff798df5527497d3d56eb7ffd0616"
+    },
+    "runtime_change_assessment": "003-to005 runtime behavior diff confined to causal measurement attribution; separate additions are legacy test fixtures, audit/verifier and freeze portability tooling, not policy/reward/clock tuning",
+    "source_classification_receipt": {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "sha256": "7df6875210c0e710f5c7aaef4351381b549f6b90316374853632a3443d5193e6"
+    },
+    "strict_verifier_and_thresholds_relaxed": false
+  },
+  "progression": {
+    "formal_budget_release_required": true,
+    "formal_gpu_launch_authorized_by_this_review": false,
+    "formal_gpu_started": false,
+    "formal_progression_eligible": true,
+    "formal_progression_scope": "unchanged frozen formal profile, all three seeds, fresh profile-specific WM/policies, same thresholds and two development parents, candidate-constrained claims",
+    "formal_request_release_flag_at_review": false,
+    "gate2_engineering_pass": true,
+    "gate3_required_before_publication": true,
+    "operational_next_step": "Parent may issue the concrete source/config/index-bound formal budget release under existing authorization, then perform normal stage/probe/launch binding. This receipt is the engineering review prerequisite; it is not a launch command.",
+    "publication_authorized": false
+  },
+  "resource_assessment": {
+    "CUDA_allocated_memory_is_not_host_memory": true,
+    "attempt_resolution_valid": true,
+    "budget_judgment": "Workload scales1/12/3 and2x measured-time margin are reasonable; estimates are not guarantees. Frozen per-phase upper caps21600s wall/19800s CPU/8GiB, one thread CPU0, remain enforceable; bind a concrete release before launch. All failed/history costs remain disclosed.",
+    "complete_profile_cpu_total": "MISSING",
+    "complete_profile_wall_total": "MISSING",
+    "failed_attempt_costs_retained": true,
+    "formal_budget_proposal_sha256": "8b588cb5e17a018681196c32c50d2c78afea023f7ec4d70f1d1fe7cc420756bb",
+    "guardian_known_cpu_seconds_subtotal": 850.08068,
+    "guardian_known_wall_seconds_subtotal": 851.0614998238743,
+    "historical_transport_cpu": "MISSING",
+    "host_memory_peak": "MISSING",
+    "missing_dimensions_are_not_zero": true,
+    "proposal": {
+      "formal_config_sha256": "409d538427490df49f308287aa1ef1b5b1eaabb83f7bb9d3c4f6a3222f90e7d5",
+      "missing_phases": [],
+      "note": "Proposal only; does not change per-phase configuration caps or authorize formal execution.",
+      "phase_proposals": {
+        "evaluate": {
+          "configured_formal_cpu_cap_seconds": 19800,
+          "configured_formal_wall_cap_seconds": 21600,
+          "estimated_cpu_limit_seconds": 593,
+          "estimated_wall_limit_seconds": 593,
+          "formal_to_pilot_workload_scale": 3.0,
+          "observed_cgroup_cpu_seconds": 98.705794,
+          "observed_memory_peak_bytes": "MISSING",
+          "observed_wall_seconds": 98.7951050940319,
+          "pilot_attempt": "n02-baseline-pilot-0cc6f6410ba0490ab91c88f76a866542",
+          "pilot_configured_memory_limit_bytes": 8589934592,
+          "pilot_receipt_sha256": "c82cdbcf33a35f9b49e320268bc30c642a4d98c03107ffa5e61aaa66ce3a3302"
+        },
+        "freeze-wm": {
+          "configured_formal_cpu_cap_seconds": 19800,
+          "configured_formal_wall_cap_seconds": 21600,
+          "estimated_cpu_limit_seconds": 59,
+          "estimated_wall_limit_seconds": 59,
+          "formal_to_pilot_workload_scale": 1.0,
+          "observed_cgroup_cpu_seconds": 29.329702,
+          "observed_memory_peak_bytes": "MISSING",
+          "observed_wall_seconds": 29.470199771982152,
+          "pilot_attempt": "n02-baseline-pilot-1cea192d03f74a66bee545250230d9d3",
+          "pilot_configured_memory_limit_bytes": 8589934592,
+          "pilot_receipt_sha256": "3f70f0c55486ef59e2d3fbace83db381a7f08837c538f2f9867ae844f4ae926d"
+        },
+        "train": {
+          "configured_formal_cpu_cap_seconds": 19800,
+          "configured_formal_wall_cap_seconds": 21600,
+          "estimated_cpu_limit_seconds": 4511,
+          "estimated_wall_limit_seconds": 4515,
+          "formal_to_pilot_workload_scale": 12.0,
+          "observed_cgroup_cpu_seconds": 187.917652,
+          "observed_memory_peak_bytes": "MISSING",
+          "observed_wall_seconds": 188.08749069995247,
+          "pilot_attempt": "n02-baseline-pilot-729f327a5f4f40a59853e20c0c14df91",
+          "pilot_configured_memory_limit_bytes": 8589934592,
+          "pilot_receipt_sha256": "246e2ddd10ae29e7e5a94cffd724b86b9bf37cf26b2a1688dc5f96415896ae65"
+        }
+      },
+      "pilot_config_sha256": "1c7ee58fe95ba9f434735788cc4cb18a54edbe34ce14aed2a3c5d6185621f31a",
+      "reason": "MEASURED_PHASES_SCALED_BY_FROZEN_CONFIG",
+      "release_authorized": false,
+      "requires_parent_review": true,
+      "safety_margin_multiplier": 2.0,
+      "schema": "n02-baseline-formal-budget-proposal/1",
+      "status": "PROPOSAL_ONLY",
+      "workload_scaling_rules": {
+        "evaluate": "seed count x development parent count",
+        "freeze-wm": "unchanged WM seeds/members/epochs and training sample source",
+        "train": "seed count x capped minibatch optimizer updates"
+      }
+    },
+    "receipt_count": 29,
+    "status": "ACCEPTED_WITH_DISCLOSED_MISSING_HISTORICAL_FIELDS"
+  },
+  "review_limitations": [
+    "Read-only review of fetched actual GPU evidence; no server access or new training.",
+    "Full regression result was observed from frozen raw log; independent verification and C1 generator/endpoint checks were rerun.",
+    "Pilot is one seed and two development parents; formal descriptive three-seed replication is still pending."
+  ],
+  "review_scope": "Gate2 engineering readiness for unchanged prospective formal replication; no scientific-success decision",
+  "reviewer": {
+    "independent_from_implementation": true,
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "role": "independent scientific/source/evidence reviewer"
+  },
+  "schema": "n02-sol-high-gate2-independent-review/1",
+  "scientific_assessment": {
+    "event_development_local_witness_counts": {
+      "Event-GPPO": 0,
+      "Event-GPPO-WM": 0
+    },
+    "event_gate_pairs": [
+      {
+        "criteria": {
+          "at_least_one_resource_or_reconstruction_metric_lower": true,
+          "completion_drop_within_0_02": false,
+          "critical_failures_not_increased": true,
+          "empty_scope_global_actions_zero": true,
+          "mean_global_utility_non_decrease": false,
+          "on_time_drop_within_0_02": false,
+          "planning_invocations_lower": false,
+          "raw_local_repair_witness_present": false
+        },
+        "event_empty_scope_global_action_count": 0,
+        "event_local_repair_witnesses": [],
+        "event_method": "Event-GPPO",
+        "independent_oracle_status": "PASS",
+        "independent_raw_paired_mean_global_utility_difference": -6.768755454198976,
+        "net_utility_is_secondary": true,
+        "paired_cell_count": 2,
+        "paired_mean_event_minus_periodic": {
+          "actionable_catalog_planning_count": 12.0,
+          "completion_rate": -0.2916666666666667,
+          "critical_failure_count_priority_ge_5": 0.0,
+          "detector_event_edge_count": 11.0,
+          "effective_reconstruction_count": -3.5,
+          "environment_action_delivery_message_count": -7.0,
+          "global_replan_invocation_count": -0.5,
+          "global_utility": -6.768755454198978,
+          "local_repair_invocation_count": -3.0,
+          "net_utility": -6.768755454198978,
+          "nonempty_planning_invocation_count": 12.0,
+          "on_time_rate": -0.2916666666666667,
+          "planning_invocation_count": 1.5,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": -3.5,
+          "requested_nonnoop_count": -3.5,
+          "rule_protocol_message_count": 0.0,
+          "scope_nonempty_planning_count": 8.0,
+          "task_owner_change_count": -3.5,
+          "trigger_count": 1.5
+        },
+        "periodic_method": "Periodic-GPPO",
+        "reduction_checks": {
+          "effective_reconstruction_count": true,
+          "environment_action_delivery_message_count": true,
+          "reconstruction_size": true,
+          "rule_protocol_message_count": false
+        },
+        "scientific_gate": "PILOT_DESCRIPTIVE_ONLY"
+      },
+      {
+        "criteria": {
+          "at_least_one_resource_or_reconstruction_metric_lower": true,
+          "completion_drop_within_0_02": false,
+          "critical_failures_not_increased": true,
+          "empty_scope_global_actions_zero": true,
+          "mean_global_utility_non_decrease": false,
+          "on_time_drop_within_0_02": false,
+          "planning_invocations_lower": false,
+          "raw_local_repair_witness_present": false
+        },
+        "event_empty_scope_global_action_count": 0,
+        "event_local_repair_witnesses": [],
+        "event_method": "Event-GPPO-WM",
+        "independent_oracle_status": "PASS",
+        "independent_raw_paired_mean_global_utility_difference": -6.767144541495503,
+        "net_utility_is_secondary": true,
+        "paired_cell_count": 2,
+        "paired_mean_event_minus_periodic": {
+          "actionable_catalog_planning_count": 12.0,
+          "completion_rate": -0.2916666666666667,
+          "critical_failure_count_priority_ge_5": 0.0,
+          "detector_event_edge_count": 11.0,
+          "effective_reconstruction_count": -3.5,
+          "environment_action_delivery_message_count": -7.0,
+          "global_replan_invocation_count": -0.5,
+          "global_utility": -6.767144541495503,
+          "local_repair_invocation_count": -3.0,
+          "net_utility": -6.767144541495503,
+          "nonempty_planning_invocation_count": 12.0,
+          "on_time_rate": -0.2916666666666667,
+          "planning_invocation_count": 1.5,
+          "queue_reorder_count": 0.0,
+          "reconstruction_size": -3.5,
+          "requested_nonnoop_count": -3.5,
+          "rule_protocol_message_count": 0.0,
+          "scope_nonempty_planning_count": 8.0,
+          "task_owner_change_count": -3.5,
+          "trigger_count": 1.5
+        },
+        "periodic_method": "Periodic-GPPO-WM",
+        "reduction_checks": {
+          "effective_reconstruction_count": true,
+          "environment_action_delivery_message_count": true,
+          "reconstruction_size": true,
+          "rule_protocol_message_count": false
+        },
+        "scientific_gate": "PILOT_DESCRIPTIVE_ONLY"
+      }
+    ],
+    "formal_scientific_status": "NOT_RUN",
+    "frozen_analyzer_status": "PILOT_DESCRIPTIVE_ONLY",
+    "interpretation": "Both event methods select NOOP on all33 planned development decisions (31 have legal non-NOOP candidates), plan17/16 versus periodic15/15, and lose completion/on-time and utility. Reduced communication/reconstruction accompanies failure to act and is not evidence of superior efficiency. No efficacy, WM gain, or significance claim is supported. The frozen analysis contract separates scientific results from engineering completion; a negative pilot does not require development-tuned algorithm repair before an unchanged prospective formal replication.",
+    "status": "FAILED_PILOT_CRITERIA_DESCRIPTIVE_ONLY",
+    "strict_development_verifier_status": "FAIL"
+  },
+  "source_binding": {
+    "formal_candidate": "[REDACTED_LOCAL_PATH]",
+    "formal_file_count": 102,
+    "formal_files_byte_identical_to_pilot005": true,
+    "formal_manifest_sha256": "53171ce5e2e01717d467e136efc14cf7586a5688d052c6f66ff4269f739ea268",
+    "gate1_receipt_sha256": "b610b8fc1397826fd896926edc96bba5b0c7209f503c6e4e9c455fa523cee855",
+    "gate1_receipt_status": "PASS",
+    "mismatches": [],
+    "pilot_bundle": "[REDACTED_LOCAL_PATH]",
+    "pilot_manifest_sha256": "c2c00f74aa84942aa8774b61f3253d1d43590d1632f34f154a3562bc53e4d1fc",
+    "verified_files": 102
+  },
+  "status": "PASS",
+  "tool_execution_note": "Initial default exec failed before execution with helper_unknown_error: setup refresh had errors. Narrow authorized require_escalated local read/check commands succeeded; no automatic approval rejection or server operation occurred."
+}

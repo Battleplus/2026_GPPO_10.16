@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "bytes": 138953898,
+      "copied": false,
+      "label": "flat-ppo-seed-8201",
+      "sha256": "cb96044dde1a3e1065227936043535e62fd50cd5a28236944e7d0bdc97871019"
+    },
+    {
+      "bytes": 138953898,
+      "copied": false,
+      "label": "flat-ppo-seed-8202",
+      "sha256": "67f43a04af3f2fb8bcd726636fdc4851e8b31a346587240b46728af5d0527b2e"
+    },
+    {
+      "bytes": 138953962,
+      "copied": false,
+      "label": "flat-ppo-seed-8203",
+      "sha256": "26e5e1abc07a3cbd5b4639ee2307d7970d8578a2f62783cc3de165534f201573"
+    }
+  ],
+  "raw_evidence_copied": false,
+  "schema": "n02-baseline-evidence-hash-manifest/1"
+}
