@@ -1,0 +1,12 @@
+{
+  "schema": "n02-v3-tool-provenance/1",
+  "tools/runtime_guardian.py": {
+    "source": "ch2_disaster_relief_n02_event_trigger_v2_100x100/tools/runtime_guardian.py",
+    "source_sha256": "4da8d1af0299a44008ccbe9f9ae9430330733cef3f3e96ad8ca64bc2daa279ae",
+    "adaptations": [
+      "v3 S2 runner command",
+      "fresh FORMAL_REQUEST identity",
+      "S2 has no world model; policy device audit retained"
+    ]
+  }
+}

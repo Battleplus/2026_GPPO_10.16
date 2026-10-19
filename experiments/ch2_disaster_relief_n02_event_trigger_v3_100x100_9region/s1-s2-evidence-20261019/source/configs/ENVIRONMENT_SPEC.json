@@ -1,0 +1,26 @@
+{
+  "schema": "n02-event-gpu-training-cpu-environment/1",
+  "python": "3.11.16",
+  "torch": "2.7.0+cu128",
+  "numpy": "1.26.0",
+  "training_device": "cuda:0",
+  "physical_gpu_index": 1,
+  "physical_device_mapping": "CUDA_VISIBLE_DEVICES=1 exposes physical GPU 1 as logical cuda:0",
+  "environment_device": "cpu",
+  "threads": 1,
+  "cpu_affinity": [
+    0
+  ],
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "kernel_witness": {
+    "seed": 8201,
+    "operation": "8x8 CUDA float32 matmul, backward and finite gradient"
+  },
+  "reuse": "Existing pinned N02 runtime; no installation, rebuild or checkpoint reuse"
+}

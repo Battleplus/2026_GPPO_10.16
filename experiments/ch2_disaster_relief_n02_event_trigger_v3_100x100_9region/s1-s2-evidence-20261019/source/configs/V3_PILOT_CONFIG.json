@@ -1,0 +1,49 @@
+{
+  "schema": "n02-v3-s2-pilot-config/1",
+  "seed": 8201,
+  "variants": ["Periodic-G", "Event-G"],
+  "world_model": false,
+  "training_parents": 4,
+  "development_parents": 2,
+  "rounds": 1,
+  "max_optimizer_updates": 32,
+  "paired_initial_actor": true,
+  "paired_event_tapes": true,
+  "development_used_for_tuning": false,
+  "collection": {"max_candidates": 16},
+  "trigger": {
+    "calibration_split": "train",
+    "threshold_source": "train_only",
+    "threshold_quantile": 0.75,
+    "hysteresis_margin": 0.05,
+    "delta_min": 4,
+    "periodic_interval": 4,
+    "warmup_steps": 0,
+    "persistence_steps": 1,
+    "weights": {"d_state": 0.35, "d_degradation": 0.30, "d_margin": 0.25, "d_uncertainty": 0.10}
+  },
+  "ppo": {
+    "variants": ["Periodic-G", "Event-G"],
+    "seeds": [8201],
+    "rounds": 1,
+    "epochs": 4,
+    "minibatch_size": 32,
+    "max_updates": 32,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_ratio": 0.2,
+    "entropy_coefficient": 0.01,
+    "device": "cuda:0"
+  },
+  "runtime": {
+    "device": "cuda:0",
+    "cuda_visible_devices": "1",
+    "physical_gpu_index": 1,
+    "cpu_affinity": [0],
+    "threads": 1,
+    "cpu_budget_seconds": 7200,
+    "wall_timeout_seconds": 7200,
+    "memory_max_bytes": 8589934592
+  }
+}

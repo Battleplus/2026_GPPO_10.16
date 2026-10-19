@@ -1,0 +1,38 @@
+{
+  "schema": "n02-event-gpu-environment/1",
+  "status": "fresh_gpu1_runtime_probe_passed_formal_run_not_run",
+  "evidence_scope": "runtime witness only; not S1, S2, S3 training or acceptance evidence",
+  "runtime": {
+    "python": "3.11.16",
+    "torch": "2.7.0+cu128",
+    "numpy": "1.26.0",
+    "cuda_visible_devices": "1",
+    "training_device": "cuda:0",
+    "cpu_affinity": [0],
+    "torch_threads": 1,
+    "environment_device": "cpu",
+    "logical_training_device": "cuda:0",
+    "physical_device_mapping": "CUDA_VISIBLE_DEVICES=1 exposes physical GPU 1 as logical cuda:0"
+  },
+  "gpu": {
+    "index": 1,
+    "name": "NVIDIA GeForce RTX 2080 Ti",
+    "cuda_available": true,
+    "forward_backward_witness": "passed",
+    "probe_peak_memory_allocated_bytes": 17043968,
+    "kernel_witness_sha256": "344b85288556618ab35f58218a99017f87fa9189920e7c73cb2ce2c71ea26c45",
+    "probe_receipt_sha256": "3ce73a8c4a817a5bb299e4b6e02009472b56fb9d28cdf2c9ebfb2200a352e3af",
+    "probe_attempt": "runtime-probe-9357f6ad-b5f6-41ee-9f3f-bf988c174574",
+    "probe_native_exit_code": 0,
+    "finite_input_parameter_gradient": true,
+    "formal_training_or_checkpoint_created": false,
+    "note": "Fresh seed-8201 CUDA forward/backward runtime probe only; formal S2 training remains unrun and pending independent S1 review."
+  },
+  "isolation": {
+    "old_checkpoints_read": false,
+    "old_runs_read": false,
+    "other_gpu_processes_terminated": false,
+    "torch_step_scalar_may_remain_cpu": true,
+    "adam_moments_must_be_cuda": true
+  }
+}

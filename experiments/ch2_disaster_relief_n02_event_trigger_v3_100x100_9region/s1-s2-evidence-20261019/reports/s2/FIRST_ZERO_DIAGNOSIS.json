@@ -1,0 +1,161 @@
+{
+  "development_means": {
+    "Event-G": {
+      "communication_messages": 38,
+      "completion_rate": 0.8,
+      "cross_region_messages": null,
+      "decision_latency_seconds": null,
+      "global_fallback_ratio": 1.0,
+      "global_reconstructions": 1,
+      "global_utility": 30.732515438337757,
+      "local_action_success_rate": null,
+      "local_reconstructions": 0,
+      "mean_delay_minutes": 1.6,
+      "on_time_rate": 0.8,
+      "owner_changes": 1,
+      "planning_calls": 60,
+      "reconstruction_size": 1,
+      "regional_reconstructions": 0,
+      "task_switches": 1,
+      "utility_per_communication_message": 0.8087504062720462,
+      "utility_per_completed_task": 0.853680984398271,
+      "utility_per_task": 0.6829447875186168
+    },
+    "Periodic-G": {
+      "communication_messages": 36,
+      "completion_rate": 0.8,
+      "cross_region_messages": null,
+      "decision_latency_seconds": null,
+      "global_fallback_ratio": null,
+      "global_reconstructions": 0,
+      "global_utility": 30.999399337653514,
+      "local_action_success_rate": null,
+      "local_reconstructions": 0,
+      "mean_delay_minutes": 1.6,
+      "on_time_rate": 0.8,
+      "owner_changes": 0,
+      "planning_calls": 60,
+      "reconstruction_size": 0,
+      "regional_reconstructions": 0,
+      "task_switches": 0,
+      "utility_per_communication_message": 0.861094426045931,
+      "utility_per_completed_task": 0.861094426045931,
+      "utility_per_task": 0.6888755408367447
+    }
+  },
+  "development_metric_coverage": {
+    "available_means": [
+      "global_utility",
+      "on_time_rate",
+      "completion_rate",
+      "mean_delay_minutes",
+      "communication_messages",
+      "planning_calls",
+      "global_reconstructions",
+      "local_reconstructions",
+      "reconstruction_size",
+      "owner_changes",
+      "task_switches"
+    ],
+    "decision_latency_null_reason": "no per-decision timer in raw transitions",
+    "safety_risk_null_reason": "raw move records lack risk values; do not interpret as zero risk",
+    "unknown_or_null_in_means": [
+      "safety_risk",
+      "decision_latency_seconds",
+      "cross_region_messages",
+      "local_action_success_rate"
+    ]
+  },
+  "first_failure": {
+    "Event-G": {
+      "actor_changed": true,
+      "actor_nonzero_gradients": 13,
+      "gamma_value_at_t10": 0.021439616177142073,
+      "high_level_mask_at_t10": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "legal_local_candidates_in_training_trajectories": 0,
+      "selected_action_at_t10": "NOOP",
+      "threshold_at_t10": 0.023214151451484255,
+      "triggered_at_t10": false
+    },
+    "Periodic-G": {
+      "actor_changed": false,
+      "actor_nonzero_gradients": 0,
+      "candidate_mask": [
+        true,
+        false,
+        false
+      ],
+      "effective_local_repairs": 0,
+      "final_actor_digest": "5c7124526c524e934ed37d8615f36d0aeec27382e8949810189c57aba80ac48f",
+      "gamma_value": 0.0152832093,
+      "high_level_mask": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "initial_actor_digest": "5c7124526c524e934ed37d8615f36d0aeec27382e8949810189c57aba80ac48f",
+      "legal_local_candidate_count": 2,
+      "local_candidates_selectable_by_mask": 0,
+      "selected_action": "NOOP",
+      "threshold": 0.0232141515,
+      "triggered": false
+    },
+    "earliest_observed_layer": "trigger eligibility / high-level action mask, before actor choice",
+    "time": 10,
+    "training_parent": "n02-v3-train-02-new_arrival"
+  },
+  "freeze": {
+    "attempt_id": "99a7e67bc1684fcb94a231e8c72a728e",
+    "expected_manifest_sha256": "21bbcd8769810d2988ed1edf79976107c8d8696b15cdd4565677cc748aa0d35a",
+    "release": "n02-v3-s2-bd8054b27c114c9fafffd77734b7ee8d",
+    "release_root": "[REDACTED_LOCAL_PATH]",
+    "result_manifest_sha256": "21bbcd8769810d2988ed1edf79976107c8d8696b15cdd4565677cc748aa0d35a",
+    "status": "FROZEN_REAL_RUN_PENDING_INDEPENDENT_REVIEW"
+  },
+  "gate_summary": {
+    "all_actions_bound": true,
+    "cost_pass": false,
+    "development_on_time_difference": 0.0,
+    "development_utility_difference": -0.26688389931575784,
+    "effective_local_pass": false,
+    "legal_binding_counts": {
+      "Event-G": 360,
+      "Periodic-G": 360
+    },
+    "on_time_pass": true,
+    "paired_updates_pass": true,
+    "strictly_lower_cost_metrics": [],
+    "training_effective_local_counts": {
+      "Event-G": 0,
+      "Periodic-G": 0
+    },
+    "utility_pass": false
+  },
+  "method_limits": [
+    "No simulation replay or policy inference was performed.",
+    "Legal binding validates raw candidate/repair/mask/executed-action provenance; it does not independently simulate feasibility.",
+    "Decision latency has no per-decision timer in raw transitions and is UNKNOWN.",
+    "Local success denominator is executed non-NOOP local actions; global fallback denominator is executed non-NOOP reconstruction actions. Zero denominators remain null.",
+    "Cross-region counts use communication source/target platform region identities at send time.",
+    "Reward-risk recomputation follows the frozen reward's missing-field-zero primitive semantics; safety-risk outcome stays null when raw move risk is absent."
+  ],
+  "mode": "read-only extraction of existing independent raw audit output",
+  "paired_development_episode_count": 6,
+  "schema": "s2-first-zero-diagnosis/1",
+  "source_artifacts": {
+    "audit_script": {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "sha256": "fa02e9e881c050be93a0946c60f9a6b02b59b045e3705351c96bc1ce82338357"
+    },
+    "raw_recomputation": {
+      "path": "[REDACTED_LOCAL_PATH]",
+      "sha256": "b04bc7cc26a32e71a8d0c3408bb760f6f128c0e997f8d15f3e56f14db2dadcc9"
+    }
+  }
+}

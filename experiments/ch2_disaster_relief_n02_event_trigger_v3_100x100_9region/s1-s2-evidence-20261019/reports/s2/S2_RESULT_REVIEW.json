@@ -1,0 +1,494 @@
+{
+  "S2": "FAIL",
+  "S3": "BLOCKED",
+  "S3_allowed": false,
+  "acceptance_status": "provisional",
+  "attempt_id": "99a7e67bc1684fcb94a231e8c72a728e",
+  "checkpoint_verification": {
+    "Event-G": {
+      "actor_state_sha256": "3a9978238b1aa49b07ec41f567060c9167ade8bdd5482cdf5ff7b4ddc731e1fa",
+      "checkpoint_file_sha256": "9cbb2881f6e7b8b8fedd481129578f6bcfc6c5e707768535982a84fc40ba7fab",
+      "fresh_process_receipt_matches": true,
+      "logged_optimizer_state_devices": [
+        "cuda:0"
+      ],
+      "logged_training_device": "cuda:0",
+      "model_state_sha256": "861f36d751086b97aedaa33290140dddd88ac76c99945ce3998fcffe3975f721",
+      "model_tensor_finite": true,
+      "optimizer_states": 52,
+      "optimizer_step_values": [
+        28
+      ],
+      "optimizer_tensor_finite": true,
+      "optimizer_updates": 28,
+      "read_method": "torch.load(map_location=cpu, weights_only=True); no model construction or forward call",
+      "remote_restore_forward_calls": {
+        "actor": 1,
+        "critic": 1
+      },
+      "remote_restore_wall_seconds": 2.0386069050291553,
+      "restored_probe_expected_sha256": "c1c3fd0ef1f4e7905e187bbeb8903c3152b9e6ff19db4cec4a4aae279b3e87b5",
+      "review_torch_version": "2.13.0+cpu",
+      "scenario_identity_sha256": "fb709053596a0c7d74dc3fe9645380c667b98e67d193c91c5ac50a525eea9af6",
+      "status": "VERIFIED",
+      "threshold_manifest_sha256": "86b47fcbec5a071370ca4f2404a1238f1da281bacb65d40c269309ce4916857f",
+      "training_config_sha256": "41af52cab7444795092d13ad118a202a1eb455b0b259308026d3feaaee5ebeb2"
+    },
+    "Periodic-G": {
+      "actor_state_sha256": "5c7124526c524e934ed37d8615f36d0aeec27382e8949810189c57aba80ac48f",
+      "checkpoint_file_sha256": "bc049c548e60cc36fb29040b51f88777118d3ec73048e70846fb8791f824d711",
+      "fresh_process_receipt_matches": true,
+      "logged_optimizer_state_devices": [
+        "cuda:0"
+      ],
+      "logged_training_device": "cuda:0",
+      "model_state_sha256": "52243c1fa3415dd54b5e0d7b2bf60eca9e047b98cbf60f2b1ca45c736fa277bb",
+      "model_tensor_finite": true,
+      "optimizer_states": 52,
+      "optimizer_step_values": [
+        28
+      ],
+      "optimizer_tensor_finite": true,
+      "optimizer_updates": 28,
+      "read_method": "torch.load(map_location=cpu, weights_only=True); no model construction or forward call",
+      "remote_restore_forward_calls": {
+        "actor": 1,
+        "critic": 1
+      },
+      "remote_restore_wall_seconds": 1.933238856960088,
+      "restored_probe_expected_sha256": "b3dae54e8cb4d5a03bc083eed93f8f52f45c1b457f2203123450021b34227084",
+      "review_torch_version": "2.13.0+cpu",
+      "scenario_identity_sha256": "fb709053596a0c7d74dc3fe9645380c667b98e67d193c91c5ac50a525eea9af6",
+      "status": "VERIFIED",
+      "threshold_manifest_sha256": "86b47fcbec5a071370ca4f2404a1238f1da281bacb65d40c269309ce4916857f",
+      "training_config_sha256": "41af52cab7444795092d13ad118a202a1eb455b0b259308026d3feaaee5ebeb2"
+    }
+  },
+  "deterministic_assurance": "verified for explicitly enumerated file/hash, record, arithmetic and tensor checks",
+  "development_means": {
+    "Event-G": {
+      "communication_messages": 38,
+      "completion_rate": 0.8,
+      "cross_region_messages": 0,
+      "decision_latency_seconds": null,
+      "global_fallback_ratio": 1.0,
+      "global_reconstructions": 1,
+      "global_utility": 30.732515438337757,
+      "local_action_success_rate": null,
+      "local_reconstructions": 0,
+      "mean_delay_minutes": 1.6,
+      "on_time_rate": 0.8,
+      "owner_changes": 1,
+      "planning_calls": 60,
+      "reconstruction_size": 1,
+      "regional_reconstructions": 0,
+      "task_switches": 1,
+      "utility_per_communication_message": 0.8087504062720462,
+      "utility_per_completed_task": 0.853680984398271,
+      "utility_per_task": 0.6829447875186168
+    },
+    "Periodic-G": {
+      "communication_messages": 36,
+      "completion_rate": 0.8,
+      "cross_region_messages": 0,
+      "decision_latency_seconds": null,
+      "global_fallback_ratio": null,
+      "global_reconstructions": 0,
+      "global_utility": 30.999399337653514,
+      "local_action_success_rate": null,
+      "local_reconstructions": 0,
+      "mean_delay_minutes": 1.6,
+      "on_time_rate": 0.8,
+      "owner_changes": 0,
+      "planning_calls": 60,
+      "reconstruction_size": 0,
+      "regional_reconstructions": 0,
+      "task_switches": 0,
+      "utility_per_communication_message": 0.861094426045931,
+      "utility_per_completed_task": 0.861094426045931,
+      "utility_per_task": 0.6888755408367447
+    }
+  },
+  "engineering_status": "REPAIR_REQUIRED",
+  "evaluation_type": "simulation_only",
+  "evidence_artifacts": {
+    "CHECKPOINT_VERIFICATION.json": "49ea01433640354aab0b5c5f94e4e39daab3be11c49b28ecb5f98ece7a8325fb",
+    "CROSS_REGION_RECOMPUTATION.json": "c574aa010af0143cb34620de8f7bd57d80970478cfda4ea7dd0eb4cccb924310",
+    "IDENTITY_CHAIN_VERIFICATION.json": "048fcc9700a357244442f58416815c6b307ede83866a1dcf3e35c693d67aeed5",
+    "RAW_RECOMPUTATION.json": "b04bc7cc26a32e71a8d0c3408bb760f6f128c0e997f8d15f3e56f14db2dadcc9",
+    "RESOURCE_RECONCILIATION.json": "f83f4a5d966714c4abd87a2dbfc121dbfd5ff7a05e71f739f92cd64e1bc44f21",
+    "RESULT_FREEZE_VERIFICATION.json": "2fdd09bf8bce071be265e6553704bac912c7d26a03cc311cead80ad12f97ed9d",
+    "REVIEW_TRACE.json": "5a7d88f2d1e74ba8c252df9165a0ce3737f7237cb5705aeb93f93ac70bda7b35",
+    "audit_s2_raw.py": "fa02e9e881c050be93a0946c60f9a6b02b59b045e3705351c96bc1ce82338357",
+    "finalize_s2_review.py": "00dbfcd44b65f3a7e3c59b720ad2a508e13c06363af20eb6f6d4c68199f40010"
+  },
+  "generated_at_utc": "2026-10-19T07:41:31.842796+00:00",
+  "integrity_checklist": {
+    "A_ground_truth": {
+      "details": "Simulated endpoint raw_truth tasks and step event primitives, not predictions, supply the outcome reference. Classification remains simulation_only.",
+      "status": "PASS"
+    },
+    "B_normalization": {
+      "details": "Raw utility is reported alongside divisions by fixed task count, completed-task count and raw communication count. No division by model output max/min/mean.",
+      "status": "PASS"
+    },
+    "C_result_existence": {
+      "details": "146 frozen file hashes, 32 exact raw-review inputs, source104 and checkpoint tensors verified. Registered producer results agree with independent arithmetic.",
+      "status": "PASS"
+    },
+    "D_metric_execution": {
+      "details": "Reward/outcome/cost traces are present and independently reconstructed. Decision latency is not recorded; local success denominator is zero; safety risk is unavailable. These are reporting limitations, not extra gates.",
+      "status": "WARN"
+    },
+    "E_scope": {
+      "details": "Only one paired seed, four train parents and two development parents. No S3/held-out superiority, robustness or real-world claim is supported.",
+      "status": "WARN"
+    },
+    "F_evaluation_type": "simulation_only"
+  },
+  "limitations": [
+    "No simulation replay or policy inference was performed.",
+    "Legal binding validates raw candidate/repair/mask/executed-action provenance; it does not independently simulate feasibility.",
+    "Decision latency has no per-decision timer in raw transitions and is UNKNOWN.",
+    "Local success denominator is executed non-NOOP local actions; global fallback denominator is executed non-NOOP reconstruction actions. Zero denominators remain null.",
+    "Cross-region counts use communication source/target platform region identities at send time.",
+    "Reward-risk recomputation follows the frozen reward's missing-field-zero primitive semantics; safety-risk outcome stays null when raw move risk is absent.",
+    "Cross-region reporting extension supersedes the preliminary null only for geographic endpoint semantics; fixed affiliation stays unknown for helicopters.",
+    "Checkpoint inspection verifies saved tensors and identity against remote restore receipts; it does not rerun GPU inference.",
+    "Action legality is checked through raw catalog/mask/repair/execution bindings and projections, not an independent simulator feasibility replay.",
+    "Periodic-G has 28 real critic/full-parameter updates but no actor tensor change and zero nonzero actor gradients; do not claim both actors learned.",
+    "No new acceptance threshold was introduced. No S3, training, simulation or policy inference was run by this reviewer.",
+    "Whole-cgroup memory peak is unknown; child RSS is not aggregate process-group peak.",
+    "Guardian actively polls CPU/wall while main child runs. Restore subprocess.run has no individual timeout and no concurrent guardian CPU poll; systemd CPUQuota=100%, MemoryMax=8GiB and RuntimeMaxSec=7260 remain configured. Observed settlement CPU/wall remain below7200. This is a boundary qualifier, not an added gate."
+  ],
+  "local_action_diagnosis": {
+    "Event-G": {
+      "affected_scope_at_t10": "GLOBAL_REPLAN",
+      "explanation": "At the same arrival, the catalog is NOOP plus eight globals. Gamma is below threshold, NOOP executes. Its earlier path differs, so this is not evidence of the same local masking cause as Periodic-G.",
+      "legal_local_catalog_rows_in_training": 0,
+      "same_arrival_t10": {
+        "candidate_index": 0,
+        "candidate_mask": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "candidate_scopes": [
+          "NOOP",
+          "GLOBAL_REPLAN",
+          "GLOBAL_REPLAN",
+          "GLOBAL_REPLAN",
+          "GLOBAL_REPLAN",
+          "GLOBAL_REPLAN",
+          "GLOBAL_REPLAN",
+          "GLOBAL_REPLAN",
+          "GLOBAL_REPLAN"
+        ],
+        "executed_action": {
+          "action_type": "reconstruct",
+          "dispatches": [],
+          "noop": true,
+          "queue_operations": [],
+          "scope": "NOOP"
+        },
+        "high_level_mask": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "parent_id": "n02-v3-train-02-new_arrival",
+        "scope": "NOOP",
+        "time": 10,
+        "trigger": {
+          "cooldown_active": false,
+          "cooldown_suppressed": false,
+          "eligible_scope_recommendation": "NOOP",
+          "event_active": false,
+          "gamma_value": 0.021439616177142073,
+          "high_level_action": "NOOP",
+          "high_level_mask": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "minutes_since_reconstruction": 9,
+          "minutes_since_trigger": 9,
+          "mode": "event",
+          "persistence_count": 0,
+          "persistence_ready": false,
+          "persistence_required": false,
+          "residual_only": false,
+          "schema": "event-trigger-decision/1",
+          "strong_event": false,
+          "threshold": 0.023214151451484255,
+          "threshold_high": 0.023214151451484255,
+          "threshold_low": 0.02205344387891004,
+          "time": 10,
+          "trigger_edge": "none",
+          "trigger_suppression_reason": "below_threshold",
+          "triggered": false
+        }
+      }
+    },
+    "Periodic-G": {
+      "affected_scope": "LOCAL_REPAIR",
+      "candidate_platforms": [
+        "n02-uav-04",
+        "n02-uav-03"
+      ],
+      "event": "task-r01-hidden arrival at t10",
+      "explanation": "Two legal local candidates exist, but trigger is false at a non-periodic tick and masks permit only NOOP; no executed local witness.",
+      "only_legal_local_catalog_row": {
+        "candidate_keys": [
+          "event-action-838cc9f6f59432f161c6e36c",
+          "event-action-eca785a0208b4b64618430b8"
+        ],
+        "candidate_mask": [
+          true,
+          false,
+          false
+        ],
+        "gamma": 0.015283209327996657,
+        "legal_local_candidates": 2,
+        "mask": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "row": 10,
+        "selected_scope": "NOOP",
+        "suppression": "",
+        "threshold": 0.023214151451484255,
+        "time": 10,
+        "triggered": false
+      },
+      "parent_id": "n02-v3-train-02-new_arrival",
+      "previous_periodic_trigger_t": 8
+    }
+  },
+  "metric_definitions": {
+    "aggregation": "Arithmetic mean of the two development parents, each with 45 original tasks and 36 completed/on-time tasks. One seed 8201.",
+    "cross_region_messages": "Geographic endpoint regions at send time using frozen half-open regions.bounds and observed positions; not fixed platform affiliation.",
+    "decision_latency_seconds": "null: per-decision timing absent; whole-run wall cannot substitute.",
+    "global_fallback_ratio": "executed non-NOOP global actions / all executed non-NOOP reconstruction actions; denominator 0 => null",
+    "local_action_success_rate": "bound executed non-NOOP local actions with raw owner/queue mutation witness / executed non-NOOP local actions; denominator 0 => null",
+    "mean_delay_minutes": "Mean terminal lateness over all 45 original tasks: max(0,(completed_at if completed else terminal_time)-deadline); includes unfinished tasks.",
+    "utility_per_communication_message": "sum independently reconstructed raw weighted rewards / raw communication_tx.message_count sum, then mean",
+    "utility_per_completed_task": "sum independently reconstructed raw weighted rewards / 36 completed tasks, then mean",
+    "utility_per_task": "sum independently reconstructed raw weighted rewards / 45 original tasks, then mean across parents"
+  },
+  "paired_initial_conditions": {
+    "n02-v3-development-05-communication_drop": {
+      "same_event_tape": true,
+      "same_initial_owner_queue": true,
+      "same_initial_public_observation": true
+    },
+    "n02-v3-development-06-regional_support": {
+      "same_event_tape": true,
+      "same_initial_owner_queue": true,
+      "same_initial_public_observation": true
+    },
+    "n02-v3-train-01-environment_perturbation": {
+      "same_event_tape": true,
+      "same_initial_owner_queue": true,
+      "same_initial_public_observation": true
+    },
+    "n02-v3-train-02-new_arrival": {
+      "same_event_tape": true,
+      "same_initial_owner_queue": true,
+      "same_initial_public_observation": true
+    },
+    "n02-v3-train-03-energy_drop": {
+      "same_event_tape": true,
+      "same_initial_owner_queue": true,
+      "same_initial_public_observation": true
+    },
+    "n02-v3-train-04-platform_failure": {
+      "same_event_tape": true,
+      "same_initial_owner_queue": true,
+      "same_initial_public_observation": true
+    }
+  },
+  "process_status": "COMPLETE_EXIT_0",
+  "producer_registered_gates_agree": true,
+  "registered_gates": {
+    "all_actions_bound": true,
+    "cost_pass": false,
+    "development_on_time_difference": 0.0,
+    "development_utility_difference": -0.26688389931575784,
+    "effective_local_pass": false,
+    "legal_binding_counts": {
+      "Event-G": 360,
+      "Periodic-G": 360
+    },
+    "on_time_pass": true,
+    "paired_updates_pass": true,
+    "strictly_lower_cost_metrics": [],
+    "training_effective_local_counts": {
+      "Event-G": 0,
+      "Periodic-G": 0
+    },
+    "utility_pass": false
+  },
+  "reporting_metric_count": 14,
+  "reporting_metrics_are_additional_gates": false,
+  "research_gate_status": "FAIL",
+  "resource_reconciliation": {
+    "boundary_note": "Whole fresh systemd cgroup includes guardian and restore descendants. Guardian+child CPU is not whole-cgroup CPU; CUDA allocation is not GPU elapsed compute time. Upload/local tests/review/other attempts excluded. Resource ledger has stage and formal exit rows; numerical settlement comes from GUARDIAN_SETTLEMENT.",
+    "cgroup_cpu_seconds_guardian_interval": 555.058339,
+    "enforcement_limit_note": "Guardian actively polls CPU/wall while main child runs. Restore subprocess.run has no individual timeout and no concurrent guardian CPU poll; systemd CPUQuota=100%, MemoryMax=8GiB and RuntimeMaxSec=7260 remain configured. Observed settlement CPU/wall remain below7200. This is a boundary qualifier, not an added gate.",
+    "external_journal_corroboration": {
+      "identity_matches_attempt": true,
+      "inside_result_manifest": false,
+      "path": "[REDACTED_LOCAL_PATH]",
+      "purpose": "Corroboration only. Terminal tail differs from earlier in-guardian settlement snapshot.",
+      "reported_terminal_systemd_cpu_seconds": 556.871,
+      "sha256": "e1955ce65d5f276910fc6e6d241f97feebe21881bc5d4ab3853753c1b38d1303"
+    },
+    "formal_budget": {
+      "cpu_affinity": [
+        0
+      ],
+      "cpu_budget_seconds": 7200,
+      "cuda_visible_devices": "1",
+      "logical_training_device": "cuda:0",
+      "memory_max_bytes": 8589934592,
+      "physical_gpu_index": 1,
+      "threads": 1,
+      "wall_timeout_seconds": 7200
+    },
+    "fresh_restore_subprocess_wall_seconds_sum": 3.9718457619892433,
+    "gpu_execution_receipt": {
+      "device": "cuda:0",
+      "optimizer_steps": 28,
+      "peak_memory_allocated_bytes": 470402048,
+      "policy_optimizer_state_devices": [
+        "cuda:0"
+      ],
+      "policy_parameter_devices": [
+        "cuda:0"
+      ],
+      "result_sha256": "25261ea0f3e363f9f6c5023be7f9614d1c25db416220257feefd1c0888c16c49",
+      "schema": "n02-v3-s2-gpu-execution-receipt/1",
+      "status": "complete"
+    },
+    "guardian_plus_child_cpu_seconds": 552.290893,
+    "memory_measurement_note": "Child max RSS is not aggregate cgroup peak. MemoryMax=8GiB is configured in frozen native launcher; whole-cgroup memory peak is not present in frozen evidence.",
+    "settlement": {
+      "attempt": "99a7e67bc1684fcb94a231e8c72a728e",
+      "cgroup_cpu_seconds_at_guardian_start": 1.125332,
+      "cgroup_cpu_seconds_at_settlement": 556.183671,
+      "child_cpu_seconds": 550.723076,
+      "child_exit_code": 0,
+      "child_max_rss_kib": 2418944,
+      "child_pid": 2040358,
+      "cpu_budget_enforcement_scope": "whole fresh systemd cgroup, including guardian and restore descendants; CUDA compute is separately recorded by the GPU execution receipt",
+      "cpu_budget_exceeded": false,
+      "guardian_exit_code": 0,
+      "guardian_plus_child_cpu_seconds": 552.290893,
+      "guardian_self_cpu_seconds": 1.5678169999999998,
+      "guardian_total_wall_seconds": 556.6107479539933,
+      "includes": "This guardian child process tree only; excludes upload, local tests, review and other attempts.",
+      "run_id": "eb5fee7ed88c43068f5796944727e031",
+      "schema": "n02-event-guardian-settlement/1",
+      "systemd_invocation_id": "8626f00739d945daa913f396f237596d",
+      "timed_out": false,
+      "wall_seconds": 555.4862833159859
+    },
+    "status": "VERIFIED_WITH_BOUNDARY_QUALIFIERS",
+    "supplementary_journal": "External S2_TERMINAL_JOURNAL_SUPPLEMENT.txt is not inside the frozen manifest and is not required for this verdict.",
+    "wall_measurement_note": "wall_seconds is sampled after both restore processes; it measures child-start through post-restore settlement, not child-only wall. guardian_total_wall_seconds begins earlier.",
+    "whole_cgroup_cpu_seconds_at_settlement": 556.183671,
+    "whole_cgroup_memory_peak_bytes": null
+  },
+  "result_manifest_sha256": "21bbcd8769810d2988ed1edf79976107c8d8696b15cdd4565677cc748aa0d35a",
+  "result_root": "[REDACTED_LOCAL_PATH]",
+  "review_independence": "same-family",
+  "reviewer_role": "fresh independent read-only reviewer of the executor; same-family context",
+  "run_id": "eb5fee7ed88c43068f5796944727e031",
+  "safety_risk": {
+    "Event-G": null,
+    "Periodic-G": null,
+    "reason": "Raw move events lack environmental_risk. Frozen reward uses missing-risk-zero semantics; the outcome safety metric remains unknown. No zero safety claim is supported."
+  },
+  "schema": "n02-independent-s2-result-review/1",
+  "semantic_assurance": "provisional; not external certification",
+  "source_manifest_sha256": "1a36e8d2f8eed88e43dc352ac1082eb3351041d3d5eb3b950ac85e98786cd9de",
+  "training_update_evidence": {
+    "Event-G": {
+      "actor_changed": true,
+      "actor_nonzero_gradients": 13,
+      "actual_steps": 28,
+      "all_finite_losses_gradients": true,
+      "all_training_tensors_cuda0": true,
+      "chain_continuous": true,
+      "count": 28,
+      "final_actor_digest": "3a9978238b1aa49b07ec41f567060c9167ade8bdd5482cdf5ff7b4ddc731e1fa",
+      "forward_counts": {
+        "checkpoint_probe_actor": 1,
+        "checkpoint_probe_critic": 1,
+        "development_actor": 120,
+        "development_critic": 120,
+        "fixed_snapshot_actor": 4,
+        "fixed_snapshot_critic": 2,
+        "ppo_update_actor": 896,
+        "ppo_update_critic": 896,
+        "total_actor": 1261,
+        "total_critic": 1259,
+        "training_collection_actor": 240,
+        "training_collection_critic": 240
+      },
+      "initial_actor_digest": "5c7124526c524e934ed37d8615f36d0aeec27382e8949810189c57aba80ac48f",
+      "model_parameter_devices": [
+        "cuda:0"
+      ],
+      "optimizer_state_devices": [
+        "cuda:0"
+      ],
+      "paired_sample_indices_digest": "c8f6991f4627e30b47063efc5b0369f6aa3709e7b5af4ddd0e2dd7f671aaa7a0",
+      "parameter_changes": 28
+    },
+    "Periodic-G": {
+      "actor_changed": false,
+      "actor_nonzero_gradients": 0,
+      "actual_steps": 28,
+      "all_finite_losses_gradients": true,
+      "all_training_tensors_cuda0": true,
+      "chain_continuous": true,
+      "count": 28,
+      "final_actor_digest": "5c7124526c524e934ed37d8615f36d0aeec27382e8949810189c57aba80ac48f",
+      "forward_counts": {
+        "checkpoint_probe_actor": 1,
+        "checkpoint_probe_critic": 1,
+        "development_actor": 120,
+        "development_critic": 120,
+        "fixed_snapshot_actor": 4,
+        "fixed_snapshot_critic": 2,
+        "ppo_update_actor": 896,
+        "ppo_update_critic": 896,
+        "total_actor": 1261,
+        "total_critic": 1259,
+        "training_collection_actor": 240,
+        "training_collection_critic": 240
+      },
+      "initial_actor_digest": "5c7124526c524e934ed37d8615f36d0aeec27382e8949810189c57aba80ac48f",
+      "model_parameter_devices": [
+        "cuda:0"
+      ],
+      "optimizer_state_devices": [
+        "cuda:0"
+      ],
+      "paired_sample_indices_digest": "c8f6991f4627e30b47063efc5b0369f6aa3709e7b5af4ddd0e2dd7f671aaa7a0",
+      "parameter_changes": 28
+    }
+  }
+}

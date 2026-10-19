@@ -1,0 +1,33 @@
+{
+  "S1": "PASS_CPU_MECHANISM_GATE_ONLY",
+  "S2": "FAIL_REPAIR_REQUIRED_INDEPENDENT_REVIEW_PROVISIONAL",
+  "S3": "NOT_RUN",
+  "S3NOTRUN": true,
+  "S3_allowed": false,
+  "attempt_id": "99a7e67bc1684fcb94a231e8c72a728e",
+  "builder_public_sha256": "75ce7ecc667e42f5d9c65a186863b4c887089a7696681aac259066140c33569d",
+  "builder_sha256": "75ce7ecc667e42f5d9c65a186863b4c887089a7696681aac259066140c33569d",
+  "evidence_manifest_sha256": null,
+  "noWM": true,
+  "periodic_actor": "UNCHANGED",
+  "producer_gate": "REPAIR_REQUIRED",
+  "publication": "NOT_APPROVED_PENDING_SOL_REVIEW",
+  "release": "n02-v3-s2-bd8054b27c114c9fafffd77734b7ee8d",
+  "result_manifest_sha256": "21bbcd8769810d2988ed1edf79976107c8d8696b15cdd4565677cc748aa0d35a",
+  "run_id": "eb5fee7ed88c43068f5796944727e031",
+  "schema": "n02-v3-s1-s2-failure-archive-identity/1",
+  "source_manifest_sha256": "1a36e8d2f8eed88e43dc352ac1082eb3351041d3d5eb3b950ac85e98786cd9de",
+  "source_omissions": [
+    {
+      "reason": "deployment helper omitted from public package; contains server connection and deployment details",
+      "source_path": "tools/native_v3_remote.py",
+      "source_sha256": "68fbdb1259e3f2e51971435f9a8caa32fa70d530e957357d196332c39fddfe21"
+    },
+    {
+      "reason": "analysis helper has machine-specific absolute input/output roots; its derived JSON and human-readable diagnosis are included",
+      "source_path": "s2_first_zero_diagnosis/reproduce_first_zero.py",
+      "source_sha256": "78eee1c466b68dd17e48c088524a3809c481629b1ab809b08c24cdde752e09a1"
+    }
+  ],
+  "world_model": "NOT_PRESENT_IN_THIS_TRIAL"
+}

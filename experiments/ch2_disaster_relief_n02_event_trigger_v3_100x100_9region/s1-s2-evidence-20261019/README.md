@@ -1,0 +1,9 @@
+# N02 v3 S1/S2 Failure Archive Candidate
+
+Unpublished, sanitized candidate prepared for independent review. The frozen S2 source and result manifests were hash-checked before staging. `PUBLIC_HASH_MAPPING.json` records source and public hashes for every included input file, with the transformation used. `PUBLIC_ARCHIVE_INVENTORY.json` is the complete manifest of staged files.
+
+S1 was independently reviewed as PASS for the CPU mechanism gate only. It does not establish PPO, learned-trigger, world-model, research-performance, or research acceptance. The reviewer found all 45 paired task outcomes identical within the observed horizon; forecast completion estimates do not demonstrate an actual completion improvement.
+
+The real S2 run completed on GPU, and the same-family independent review records S2 `FAIL / REPAIR_REQUIRED` with S3 blocked. Event-G minus Periodic-G development utility is -0.26688389931575784 (required >= 0); on-time difference is 0 (required >= -0.02); no planning, communication, or reconstruction cost strictly decreased; and effective local training actions are zero for both variants. S3 is `NOT_RUN` and `S3_allowed=false`. The Periodic actor is unchanged; no world-model result exists for this trial. The S1/S2 artifacts describe the standalone N02 environment and do not use Isaac Sim traces or describe later Isaac scenario work. The review remains provisional same-family assurance, not external certification.
+
+Checkpoint binaries, large raw trajectories/logs, authorization and publishing binding originals, private control artifacts, and the native remote deployment helper are excluded and listed in `PUBLIC_EXCLUSIONS.json`. The deployment helper can be supplied separately after endpoint/privacy review; the public package retains the model, policy, environment, protocol, tests, and local audit tools.

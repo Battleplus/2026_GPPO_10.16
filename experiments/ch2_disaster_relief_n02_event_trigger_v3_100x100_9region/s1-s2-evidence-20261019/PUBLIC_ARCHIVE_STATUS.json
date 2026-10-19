@@ -1,0 +1,18 @@
+{
+  "Periodic_actor": "UNCHANGED",
+  "S1": "PASS_CPU_MECHANISM_GATE_ONLY",
+  "S1_scope_limitations": "No PPO, learned-trigger, world-model, research-performance, or policy-selected regional-replanning acceptance; all 45 paired task outcomes identical within observed horizon.",
+  "S2": "REPAIR_REQUIRED",
+  "S2_failure_summary": "utility and strict-cost gates fail; effective local training action count is zero for both variants; on-time gate passes",
+  "S2_independent_review": "FAIL_PROVISIONAL_SAME_FAMILY",
+  "S3": "NOT_RUN",
+  "S3NOTRUN": true,
+  "S3_allowed": false,
+  "candidate_state": "PENDING_SOL_REVIEW",
+  "environment_scope": "Standalone N02 simulation/source; does not use Isaac Sim traces and does not describe the user's later Isaac scenario work.",
+  "noWM": true,
+  "publication_approval": "PENDING_SOL_REVIEW",
+  "schema": "n02-v3-public-archive-status/1",
+  "scientific_acceptance": "NOT_ESTABLISHED",
+  "world_model": "NOT_PRESENT_IN_THIS_TRIAL"
+}

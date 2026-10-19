@@ -1,0 +1,135 @@
+{
+  "S3_allowed": false,
+  "checks": {
+    "Event-G_action_execution_binding": {
+      "expected": [
+        "all_transitions_bound_to_legal_candidate_repair_receipt_execution_and_raw_action"
+      ],
+      "failreason": null,
+      "observed": {
+        "fully_bound_legal_execution_count": 360,
+        "transition_count": 360
+      },
+      "valid": true
+    },
+    "Event-G_effective_local_action": {
+      "expected": {
+        "minimum": 1,
+        "source_split": "train"
+      },
+      "failreason": "no_bound_effective_local_action_with_raw_projection_witness",
+      "observed": {
+        "training_effective_local_action_count_with_raw_owner_or_queue_witness": 0
+      },
+      "valid": false
+    },
+    "Periodic-G_action_execution_binding": {
+      "expected": [
+        "all_transitions_bound_to_legal_candidate_repair_receipt_execution_and_raw_action"
+      ],
+      "failreason": null,
+      "observed": {
+        "fully_bound_legal_execution_count": 360,
+        "transition_count": 360
+      },
+      "valid": true
+    },
+    "Periodic-G_effective_local_action": {
+      "expected": {
+        "minimum": 1,
+        "source_split": "train"
+      },
+      "failreason": "no_bound_effective_local_action_with_raw_projection_witness",
+      "observed": {
+        "training_effective_local_action_count_with_raw_owner_or_queue_witness": 0
+      },
+      "valid": false
+    },
+    "development_global_utility_difference": {
+      "expected": {
+        "aggregation": "mean_of_two_development_parents",
+        "minimum_difference": 0.0,
+        "numerical_comparison_tolerance": 1e-12,
+        "operator": "greater_than_or_equal"
+      },
+      "failreason": "global_utility_difference_below_threshold",
+      "observed": {
+        "Event-G_mean": 30.732515438337757,
+        "Event-G_minus_Periodic-G": -0.26688389931575784,
+        "Periodic-G_mean": 30.999399337653514
+      },
+      "valid": false
+    },
+    "development_on_time_rate_difference": {
+      "expected": {
+        "aggregation": "mean_of_two_development_parents",
+        "minimum_difference": -0.02,
+        "numerical_comparison_tolerance": 1e-12,
+        "operator": "greater_than_or_equal"
+      },
+      "failreason": null,
+      "observed": {
+        "Event-G_mean": 0.8,
+        "Event-G_minus_Periodic-G": 0.0,
+        "Periodic-G_mean": 0.8
+      },
+      "valid": true
+    },
+    "development_strict_cost_lower": {
+      "expected": {
+        "aggregation": "mean_of_two_development_parents",
+        "condition": "Event-G is strictly lower for at least one metric",
+        "metrics": [
+          "planning_calls",
+          "communication_messages",
+          "reconstruction_size"
+        ]
+      },
+      "failreason": "no_cost_metric_strictly_lower",
+      "observed": {
+        "mean_by_variant": {
+          "Event-G": {
+            "communication_messages": 38.0,
+            "planning_calls": 60.0,
+            "reconstruction_size": 1.0
+          },
+          "Periodic-G": {
+            "communication_messages": 36.0,
+            "planning_calls": 60.0,
+            "reconstruction_size": 0.0
+          }
+        },
+        "strictly_lower_metrics": []
+      },
+      "valid": false
+    },
+    "paired_update_counts": {
+      "expected": {
+        "each_variant_seed_8201": "integer in [1, 32]",
+        "paired_equal": true
+      },
+      "failreason": null,
+      "observed": {
+        "Event-G": 28,
+        "Periodic-G": 28
+      },
+      "valid": true
+    },
+    "parent_split_contract": {
+      "expected": {
+        "development": 2,
+        "train": 4,
+        "unique_parent_count": 6
+      },
+      "failreason": null,
+      "observed": {
+        "development": 2,
+        "train": 4,
+        "unique_parent_count": 6
+      },
+      "valid": true
+    }
+  },
+  "schema": "n02-v3-s2-engineering-gate/1",
+  "status": "REPAIR_REQUIRED"
+}
