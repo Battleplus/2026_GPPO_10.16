@@ -1,0 +1,68 @@
+{
+  "approval_scope": "This exact sanitized S0 archive candidate may be published. This is archive review only; no S1/S2/S3 research acceptance or publication action is implied.",
+  "checks": {
+    "builder_read_only_verify_exit_code": 0,
+    "failed": 0,
+    "independent_audit_exit_code": 0,
+    "manually_reviewed_nonsecret_authorization_prose_matches": 4,
+    "passed": 591,
+    "privacy_unresolved_findings": 0,
+    "total": 591
+  },
+  "independent_audit_script_sha256": "7204f7df6bfe38ee7b229635ab428df6a854adcd3519022adba193c293588cbd",
+  "limitations": [
+    "Static privacy scanning cannot mathematically exclude arbitrary unknown secret encodings. Four broad-pattern matches were manually confirmed to be exact historical gate prose, not credentials; initial scan records retained privately.",
+    "Historical auditor script is path-redacted and included as an artifact, not claimed as a fresh runnable verification.",
+    "Selected raw S0 evidence is included; REQUEST files and local execution/test logs are excluded and not represented as included.",
+    "No simulation, training, S1 acceptance, S2/S3 launch, remote write or publication performed by this review."
+  ],
+  "local_detailed_matrix_sha256": "db3a968d7bad0da9ce5ac50901dd8ffa57aafa2ab3f3d7e97427258598bd8689",
+  "local_detailed_review_sha256": "18aa3a4e8cb0ac8d71e3b50552d36a92327ad7c5bd820b0161d02f12ba644d8c",
+  "reviewed_at_utc": "2026-10-19T04:45:39.829884+00:00",
+  "reviewer": "GPT-6.1 Sol High, independent review context within the same model family; provisional scope, not external certification.",
+  "schema": "n02-v3-public-archive-review/1",
+  "scope_status": {
+    "S0_A": "PASS",
+    "S0_B": "PASS",
+    "S1": "IN_PROGRESS_EVIDENCE_NOT_INCLUDED",
+    "S1_acceptance": "NOT_ESTABLISHED",
+    "S2": "NOT_RUN",
+    "S3": "NOT_RUN",
+    "scientific_acceptance": "NOT_ESTABLISHED"
+  },
+  "sealed_candidate": {
+    "candidate_files_including_inventory_and_seal": 146,
+    "evidence_manifest_sha256": "f76241bc27c995aa308c383ed70298c780c375e4f0f9e84cdd7c50d74b6130fd",
+    "frozen_evidence_entries_checked": 43,
+    "frozen_source_entries_checked": 93,
+    "historical_reports_and_auditor_artifacts": 8,
+    "inventory_entries": 144,
+    "inventory_relative_path": "PUBLIC_ARCHIVE_INVENTORY.json",
+    "inventory_sha256": "ab3181d83165969f359feea13c0c2659f11111bb9541afde14e8269263c897b7",
+    "mapping_relative_path": "PUBLIC_HASH_MAPPING.json",
+    "mapping_sha256": "b104490645346ec5a6cb6d7a73ffa970e9078559582c5780cddf6e3e45f02ea2",
+    "original_r5_review_sha256": "c3cd4faf1eb735e2d008e654213d52429f499b51e66fc3987f1468890eff8961",
+    "preregistration_sha256": "b9020a2b25d9a3f144f363b63d93a3bd89c45b2fe54e107a513dce05b51549d1",
+    "release": "n02-v3-s0-cc048803057b43c49b94449117476de8",
+    "selected_raw_S0_JSON_files": 37,
+    "source_manifest_sha256": "c21be3cf1889b41584eb1eaf3697407840dd986996d1214436b58501909a5f3b",
+    "source_to_public_mappings": 139,
+    "unchanged_before_after_review": true
+  },
+  "status_interpretation": [
+    "Candidate-internal pending-review labels are immutable historical preparation metadata. This separate report records the subsequent review of those exact sealed bytes.",
+    "spatial_2x2_causality NOT_RUN refers to evidence in this S0 archive. It does not assert that the current S1 producer is inactive; S1 is in progress, excluded here, and not accepted.",
+    "Historical S0 reports retain their then-current S1 NOT_RUN or blocked states. They are not current S1 execution-status reports."
+  ],
+  "verdict": "PASS",
+  "verified": [
+    "Externally supplied inventory, mapping, frozen source and original R5 review hashes match.",
+    "Exact candidate file coverage, hashes, byte counts, unique safe relative paths, no symlinks or reparse points.",
+    "Every original-to-public mapping independently regenerated without importing the archive builder or producer code; source copies preserve exact bytes.",
+    "All 93 frozen source and 43 frozen evidence entries verified against original manifests.",
+    "All 146 candidate files scanned for credentials, private endpoints, personal absolute paths, non-UTF8 data and excluded binary/bytecode artifacts; no unresolved findings.",
+    "R3 and R4 REPAIR reports and their failure explanations retained as historical reports.",
+    "Only S0 A/B PASS claimed: 30/45/9 contract/public-C1 boundary plus isolated 6-platform/12-task diagnostic.",
+    "Preregistered S2 Event-G minus Periodic-G utility minimum 0 and on-time minimum -0.02 match the user-confirmed tolerance."
+  ]
+}

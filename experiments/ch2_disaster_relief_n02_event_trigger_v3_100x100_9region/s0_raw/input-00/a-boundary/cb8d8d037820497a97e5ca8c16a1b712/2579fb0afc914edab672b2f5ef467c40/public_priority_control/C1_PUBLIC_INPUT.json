@@ -1,0 +1,1633 @@
+{
+  "horizon": 60,
+  "queue_planning_algorithm": "public-C1-iterative-mission-projection-v1",
+  "schedule_backlog": true,
+  "single_step_input": {
+    "depots": [
+      {
+        "id": "depot-r00",
+        "position": [
+          13.5,
+          13.5
+        ],
+        "stock": {
+          "medical": 20.0,
+          "water": 20.0
+        }
+      },
+      {
+        "id": "depot-r01",
+        "position": [
+          46.5,
+          13.5
+        ],
+        "stock": {
+          "medical": 20.0,
+          "water": 20.0
+        }
+      },
+      {
+        "id": "depot-r02",
+        "position": [
+          80.0,
+          13.5
+        ],
+        "stock": {
+          "medical": 20.0,
+          "water": 20.0
+        }
+      },
+      {
+        "id": "depot-r10",
+        "position": [
+          13.5,
+          46.5
+        ],
+        "stock": {
+          "medical": 20.0,
+          "water": 20.0
+        }
+      },
+      {
+        "id": "depot-r11",
+        "position": [
+          46.5,
+          46.5
+        ],
+        "stock": {
+          "medical": 20.0,
+          "water": 20.0
+        }
+      },
+      {
+        "id": "depot-r12",
+        "position": [
+          80.0,
+          46.5
+        ],
+        "stock": {
+          "medical": 20.0,
+          "water": 20.0
+        }
+      },
+      {
+        "id": "depot-r20",
+        "position": [
+          13.5,
+          80.0
+        ],
+        "stock": {
+          "medical": 20.0,
+          "water": 20.0
+        }
+      },
+      {
+        "id": "depot-r21",
+        "position": [
+          46.5,
+          80.0
+        ],
+        "stock": {
+          "medical": 20.0,
+          "water": 20.0
+        }
+      },
+      {
+        "id": "depot-r22",
+        "position": [
+          80.0,
+          80.0
+        ],
+        "stock": {
+          "medical": 20.0,
+          "water": 20.0
+        }
+      }
+    ],
+    "known_tasks": [
+      {
+        "deadline": 35,
+        "discovered_by": null,
+        "id": "task-r00-1",
+        "kind": "inspection",
+        "known_initial": true,
+        "local": true,
+        "position": [
+          15.0,
+          15.5
+        ],
+        "priority": 1000.0,
+        "region_center": [
+          16.5,
+          16.5
+        ],
+        "region_id": "r00",
+        "report_delay": 0,
+        "service_minutes": 2
+      },
+      {
+        "commodity": "water",
+        "deadline": 39,
+        "depot_id": "depot-r00",
+        "discovered_by": null,
+        "id": "task-r00-2",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          18.0,
+          15.5
+        ],
+        "priority": 4.6,
+        "quantity": 3.0,
+        "region_center": [
+          16.5,
+          16.5
+        ],
+        "region_id": "r00",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 43,
+        "depot_id": "depot-r00",
+        "discovered_by": null,
+        "id": "task-r00-3",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          15.5,
+          18.0
+        ],
+        "priority": 4.2,
+        "quantity": 2.0,
+        "region_center": [
+          16.5,
+          16.5
+        ],
+        "region_id": "r00",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 47,
+        "depot_id": "depot-r00",
+        "discovered_by": null,
+        "id": "task-r00-4",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          18.0,
+          18.0
+        ],
+        "priority": 3.8,
+        "quantity": 3.0,
+        "region_center": [
+          16.5,
+          16.5
+        ],
+        "region_id": "r00",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "deadline": 35,
+        "discovered_by": null,
+        "id": "task-r01-1",
+        "kind": "inspection",
+        "known_initial": true,
+        "local": true,
+        "position": [
+          48.0,
+          15.5
+        ],
+        "priority": 5.0,
+        "region_center": [
+          49.5,
+          16.5
+        ],
+        "region_id": "r01",
+        "report_delay": 0,
+        "service_minutes": 2
+      },
+      {
+        "commodity": "water",
+        "deadline": 39,
+        "depot_id": "depot-r01",
+        "discovered_by": null,
+        "id": "task-r01-2",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          51.0,
+          15.5
+        ],
+        "priority": 4.6,
+        "quantity": 3.0,
+        "region_center": [
+          49.5,
+          16.5
+        ],
+        "region_id": "r01",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 43,
+        "depot_id": "depot-r01",
+        "discovered_by": null,
+        "id": "task-r01-3",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          48.5,
+          18.0
+        ],
+        "priority": 4.2,
+        "quantity": 2.0,
+        "region_center": [
+          49.5,
+          16.5
+        ],
+        "region_id": "r01",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 47,
+        "depot_id": "depot-r01",
+        "discovered_by": null,
+        "id": "task-r01-4",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          51.0,
+          18.0
+        ],
+        "priority": 3.8,
+        "quantity": 3.0,
+        "region_center": [
+          49.5,
+          16.5
+        ],
+        "region_id": "r01",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "deadline": 35,
+        "discovered_by": null,
+        "id": "task-r02-1",
+        "kind": "inspection",
+        "known_initial": true,
+        "local": true,
+        "position": [
+          81.5,
+          15.5
+        ],
+        "priority": 5.0,
+        "region_center": [
+          83.0,
+          16.5
+        ],
+        "region_id": "r02",
+        "report_delay": 0,
+        "service_minutes": 2
+      },
+      {
+        "commodity": "water",
+        "deadline": 39,
+        "depot_id": "depot-r02",
+        "discovered_by": null,
+        "id": "task-r02-2",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          84.5,
+          15.5
+        ],
+        "priority": 4.6,
+        "quantity": 3.0,
+        "region_center": [
+          83.0,
+          16.5
+        ],
+        "region_id": "r02",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 43,
+        "depot_id": "depot-r02",
+        "discovered_by": null,
+        "id": "task-r02-3",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          82.0,
+          18.0
+        ],
+        "priority": 4.2,
+        "quantity": 2.0,
+        "region_center": [
+          83.0,
+          16.5
+        ],
+        "region_id": "r02",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 47,
+        "depot_id": "depot-r02",
+        "discovered_by": null,
+        "id": "task-r02-4",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          84.5,
+          18.0
+        ],
+        "priority": 3.8,
+        "quantity": 3.0,
+        "region_center": [
+          83.0,
+          16.5
+        ],
+        "region_id": "r02",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "deadline": 35,
+        "discovered_by": null,
+        "id": "task-r10-1",
+        "kind": "inspection",
+        "known_initial": true,
+        "local": true,
+        "position": [
+          15.0,
+          48.5
+        ],
+        "priority": 5.0,
+        "region_center": [
+          16.5,
+          49.5
+        ],
+        "region_id": "r10",
+        "report_delay": 0,
+        "service_minutes": 2
+      },
+      {
+        "commodity": "water",
+        "deadline": 39,
+        "depot_id": "depot-r10",
+        "discovered_by": null,
+        "id": "task-r10-2",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          18.0,
+          48.5
+        ],
+        "priority": 4.6,
+        "quantity": 3.0,
+        "region_center": [
+          16.5,
+          49.5
+        ],
+        "region_id": "r10",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 43,
+        "depot_id": "depot-r10",
+        "discovered_by": null,
+        "id": "task-r10-3",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          15.5,
+          51.0
+        ],
+        "priority": 4.2,
+        "quantity": 2.0,
+        "region_center": [
+          16.5,
+          49.5
+        ],
+        "region_id": "r10",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 47,
+        "depot_id": "depot-r10",
+        "discovered_by": null,
+        "id": "task-r10-4",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          18.0,
+          51.0
+        ],
+        "priority": 3.8,
+        "quantity": 3.0,
+        "region_center": [
+          16.5,
+          49.5
+        ],
+        "region_id": "r10",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "deadline": 35,
+        "discovered_by": null,
+        "id": "task-r11-1",
+        "kind": "inspection",
+        "known_initial": true,
+        "local": true,
+        "position": [
+          48.0,
+          48.5
+        ],
+        "priority": 5.0,
+        "region_center": [
+          49.5,
+          49.5
+        ],
+        "region_id": "r11",
+        "report_delay": 0,
+        "service_minutes": 2
+      },
+      {
+        "commodity": "water",
+        "deadline": 39,
+        "depot_id": "depot-r11",
+        "discovered_by": null,
+        "id": "task-r11-2",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          51.0,
+          48.5
+        ],
+        "priority": 4.6,
+        "quantity": 3.0,
+        "region_center": [
+          49.5,
+          49.5
+        ],
+        "region_id": "r11",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 43,
+        "depot_id": "depot-r11",
+        "discovered_by": null,
+        "id": "task-r11-3",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          48.5,
+          51.0
+        ],
+        "priority": 4.2,
+        "quantity": 2.0,
+        "region_center": [
+          49.5,
+          49.5
+        ],
+        "region_id": "r11",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 47,
+        "depot_id": "depot-r11",
+        "discovered_by": null,
+        "id": "task-r11-4",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          51.0,
+          51.0
+        ],
+        "priority": 3.8,
+        "quantity": 3.0,
+        "region_center": [
+          49.5,
+          49.5
+        ],
+        "region_id": "r11",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "deadline": 35,
+        "discovered_by": null,
+        "id": "task-r12-1",
+        "kind": "inspection",
+        "known_initial": true,
+        "local": true,
+        "position": [
+          81.5,
+          48.5
+        ],
+        "priority": 5.0,
+        "region_center": [
+          83.0,
+          49.5
+        ],
+        "region_id": "r12",
+        "report_delay": 0,
+        "service_minutes": 2
+      },
+      {
+        "commodity": "water",
+        "deadline": 39,
+        "depot_id": "depot-r12",
+        "discovered_by": null,
+        "id": "task-r12-2",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          84.5,
+          48.5
+        ],
+        "priority": 4.6,
+        "quantity": 3.0,
+        "region_center": [
+          83.0,
+          49.5
+        ],
+        "region_id": "r12",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 43,
+        "depot_id": "depot-r12",
+        "discovered_by": null,
+        "id": "task-r12-3",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          82.0,
+          51.0
+        ],
+        "priority": 4.2,
+        "quantity": 2.0,
+        "region_center": [
+          83.0,
+          49.5
+        ],
+        "region_id": "r12",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 47,
+        "depot_id": "depot-r12",
+        "discovered_by": null,
+        "id": "task-r12-4",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          84.5,
+          51.0
+        ],
+        "priority": 3.8,
+        "quantity": 3.0,
+        "region_center": [
+          83.0,
+          49.5
+        ],
+        "region_id": "r12",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "deadline": 35,
+        "discovered_by": null,
+        "id": "task-r20-1",
+        "kind": "inspection",
+        "known_initial": true,
+        "local": true,
+        "position": [
+          15.0,
+          82.0
+        ],
+        "priority": 5.0,
+        "region_center": [
+          16.5,
+          83.0
+        ],
+        "region_id": "r20",
+        "report_delay": 0,
+        "service_minutes": 2
+      },
+      {
+        "commodity": "water",
+        "deadline": 39,
+        "depot_id": "depot-r20",
+        "discovered_by": null,
+        "id": "task-r20-2",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          18.0,
+          82.0
+        ],
+        "priority": 4.6,
+        "quantity": 3.0,
+        "region_center": [
+          16.5,
+          83.0
+        ],
+        "region_id": "r20",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 43,
+        "depot_id": "depot-r20",
+        "discovered_by": null,
+        "id": "task-r20-3",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          15.5,
+          84.5
+        ],
+        "priority": 4.2,
+        "quantity": 2.0,
+        "region_center": [
+          16.5,
+          83.0
+        ],
+        "region_id": "r20",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 47,
+        "depot_id": "depot-r20",
+        "discovered_by": null,
+        "id": "task-r20-4",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          18.0,
+          84.5
+        ],
+        "priority": 3.8,
+        "quantity": 3.0,
+        "region_center": [
+          16.5,
+          83.0
+        ],
+        "region_id": "r20",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "deadline": 35,
+        "discovered_by": null,
+        "id": "task-r21-1",
+        "kind": "inspection",
+        "known_initial": true,
+        "local": true,
+        "position": [
+          48.0,
+          82.0
+        ],
+        "priority": 5.0,
+        "region_center": [
+          49.5,
+          83.0
+        ],
+        "region_id": "r21",
+        "report_delay": 0,
+        "service_minutes": 2
+      },
+      {
+        "commodity": "water",
+        "deadline": 39,
+        "depot_id": "depot-r21",
+        "discovered_by": null,
+        "id": "task-r21-2",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          51.0,
+          82.0
+        ],
+        "priority": 4.6,
+        "quantity": 3.0,
+        "region_center": [
+          49.5,
+          83.0
+        ],
+        "region_id": "r21",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 43,
+        "depot_id": "depot-r21",
+        "discovered_by": null,
+        "id": "task-r21-3",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          48.5,
+          84.5
+        ],
+        "priority": 4.2,
+        "quantity": 2.0,
+        "region_center": [
+          49.5,
+          83.0
+        ],
+        "region_id": "r21",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 47,
+        "depot_id": "depot-r21",
+        "discovered_by": null,
+        "id": "task-r21-4",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          51.0,
+          84.5
+        ],
+        "priority": 3.8,
+        "quantity": 3.0,
+        "region_center": [
+          49.5,
+          83.0
+        ],
+        "region_id": "r21",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "deadline": 35,
+        "discovered_by": null,
+        "id": "task-r22-1",
+        "kind": "inspection",
+        "known_initial": true,
+        "local": true,
+        "position": [
+          81.5,
+          82.0
+        ],
+        "priority": 5.0,
+        "region_center": [
+          83.0,
+          83.0
+        ],
+        "region_id": "r22",
+        "report_delay": 0,
+        "service_minutes": 2
+      },
+      {
+        "commodity": "water",
+        "deadline": 39,
+        "depot_id": "depot-r22",
+        "discovered_by": null,
+        "id": "task-r22-2",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          84.5,
+          82.0
+        ],
+        "priority": 4.6,
+        "quantity": 3.0,
+        "region_center": [
+          83.0,
+          83.0
+        ],
+        "region_id": "r22",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 43,
+        "depot_id": "depot-r22",
+        "discovered_by": null,
+        "id": "task-r22-3",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          82.0,
+          84.5
+        ],
+        "priority": 4.2,
+        "quantity": 2.0,
+        "region_center": [
+          83.0,
+          83.0
+        ],
+        "region_id": "r22",
+        "report_delay": 0,
+        "unload_minutes": 1
+      },
+      {
+        "commodity": "water",
+        "deadline": 47,
+        "depot_id": "depot-r22",
+        "discovered_by": null,
+        "id": "task-r22-4",
+        "kind": "delivery",
+        "known_initial": true,
+        "load_minutes": 1,
+        "local": true,
+        "position": [
+          84.5,
+          84.5
+        ],
+        "priority": 3.8,
+        "quantity": 3.0,
+        "region_center": [
+          83.0,
+          83.0
+        ],
+        "region_id": "r22",
+        "report_delay": 0,
+        "unload_minutes": 1
+      }
+    ],
+    "map": {
+      "cell_km": 1.0,
+      "cols": 100,
+      "grid_cells": 10000,
+      "grid_contract": "relief-grid-100x100-v1",
+      "local_block": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "rows": 100
+    },
+    "platforms": [
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-01",
+        "local": true,
+        "position": [
+          14.5,
+          15.5
+        ],
+        "region_center": [
+          16.5,
+          16.5
+        ],
+        "region_id": "r00",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-02",
+        "local": true,
+        "position": [
+          18.0,
+          15.5
+        ],
+        "region_center": [
+          16.5,
+          16.5
+        ],
+        "region_id": "r00",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-03",
+        "local": true,
+        "position": [
+          47.5,
+          15.5
+        ],
+        "region_center": [
+          49.5,
+          16.5
+        ],
+        "region_id": "r01",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-04",
+        "local": true,
+        "position": [
+          51.0,
+          15.5
+        ],
+        "region_center": [
+          49.5,
+          16.5
+        ],
+        "region_id": "r01",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-05",
+        "local": true,
+        "position": [
+          48.0,
+          18.0
+        ],
+        "region_center": [
+          49.5,
+          16.5
+        ],
+        "region_id": "r01",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-06",
+        "local": true,
+        "position": [
+          81.0,
+          15.5
+        ],
+        "region_center": [
+          83.0,
+          16.5
+        ],
+        "region_id": "r02",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-07",
+        "local": true,
+        "position": [
+          84.5,
+          15.5
+        ],
+        "region_center": [
+          83.0,
+          16.5
+        ],
+        "region_id": "r02",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-08",
+        "local": true,
+        "position": [
+          81.5,
+          18.0
+        ],
+        "region_center": [
+          83.0,
+          16.5
+        ],
+        "region_id": "r02",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-09",
+        "local": true,
+        "position": [
+          14.5,
+          48.5
+        ],
+        "region_center": [
+          16.5,
+          49.5
+        ],
+        "region_id": "r10",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-10",
+        "local": true,
+        "position": [
+          18.0,
+          48.5
+        ],
+        "region_center": [
+          16.5,
+          49.5
+        ],
+        "region_id": "r10",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-11",
+        "local": true,
+        "position": [
+          15.0,
+          51.0
+        ],
+        "region_center": [
+          16.5,
+          49.5
+        ],
+        "region_id": "r10",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-12",
+        "local": true,
+        "position": [
+          47.5,
+          48.5
+        ],
+        "region_center": [
+          49.5,
+          49.5
+        ],
+        "region_id": "r11",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-13",
+        "local": true,
+        "position": [
+          51.0,
+          48.5
+        ],
+        "region_center": [
+          49.5,
+          49.5
+        ],
+        "region_id": "r11",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-14",
+        "local": true,
+        "position": [
+          81.0,
+          48.5
+        ],
+        "region_center": [
+          83.0,
+          49.5
+        ],
+        "region_id": "r12",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-15",
+        "local": true,
+        "position": [
+          84.5,
+          48.5
+        ],
+        "region_center": [
+          83.0,
+          49.5
+        ],
+        "region_id": "r12",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-16",
+        "local": true,
+        "position": [
+          81.5,
+          51.0
+        ],
+        "region_center": [
+          83.0,
+          49.5
+        ],
+        "region_id": "r12",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-17",
+        "local": true,
+        "position": [
+          14.5,
+          82.0
+        ],
+        "region_center": [
+          16.5,
+          83.0
+        ],
+        "region_id": "r20",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-18",
+        "local": true,
+        "position": [
+          18.0,
+          82.0
+        ],
+        "region_center": [
+          16.5,
+          83.0
+        ],
+        "region_id": "r20",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-19",
+        "local": true,
+        "position": [
+          15.0,
+          84.5
+        ],
+        "region_center": [
+          16.5,
+          83.0
+        ],
+        "region_id": "r20",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-20",
+        "local": true,
+        "position": [
+          47.5,
+          82.0
+        ],
+        "region_center": [
+          49.5,
+          83.0
+        ],
+        "region_id": "r21",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-21",
+        "local": true,
+        "position": [
+          51.0,
+          82.0
+        ],
+        "region_center": [
+          49.5,
+          83.0
+        ],
+        "region_id": "r21",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-22",
+        "local": true,
+        "position": [
+          48.0,
+          84.5
+        ],
+        "region_center": [
+          49.5,
+          83.0
+        ],
+        "region_id": "r21",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-23",
+        "local": true,
+        "position": [
+          81.0,
+          82.0
+        ],
+        "region_center": [
+          83.0,
+          83.0
+        ],
+        "region_id": "r22",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 10.0,
+        "energy_initial": 120.0,
+        "energy_per_km": 1.0,
+        "id": "n02-uav-24",
+        "local": true,
+        "position": [
+          84.5,
+          82.0
+        ],
+        "region_center": [
+          83.0,
+          83.0
+        ],
+        "region_id": "r22",
+        "service_energy_per_min": 0.2,
+        "speed_km_min": 1.6,
+        "type": "uav"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 30.0,
+        "energy_initial": 200.0,
+        "energy_per_km": 1.1,
+        "id": "n02-heli-1",
+        "local": false,
+        "position": [
+          49.5,
+          16.5
+        ],
+        "region_center": null,
+        "region_id": null,
+        "service_energy_per_min": 0.3,
+        "speed_km_min": 2.2,
+        "support_scope": "global",
+        "type": "helicopter"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 30.0,
+        "energy_initial": 200.0,
+        "energy_per_km": 1.1,
+        "id": "n02-heli-2",
+        "local": false,
+        "position": [
+          83.0,
+          16.5
+        ],
+        "region_center": null,
+        "region_id": null,
+        "service_energy_per_min": 0.3,
+        "speed_km_min": 2.2,
+        "support_scope": "global",
+        "type": "helicopter"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 30.0,
+        "energy_initial": 200.0,
+        "energy_per_km": 1.1,
+        "id": "n02-heli-3",
+        "local": false,
+        "position": [
+          16.5,
+          49.5
+        ],
+        "region_center": null,
+        "region_id": null,
+        "service_energy_per_min": 0.3,
+        "speed_km_min": 2.2,
+        "support_scope": "global",
+        "type": "helicopter"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 30.0,
+        "energy_initial": 200.0,
+        "energy_per_km": 1.1,
+        "id": "n02-heli-4",
+        "local": false,
+        "position": [
+          83.0,
+          49.5
+        ],
+        "region_center": null,
+        "region_id": null,
+        "service_energy_per_min": 0.3,
+        "speed_km_min": 2.2,
+        "support_scope": "global",
+        "type": "helicopter"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 30.0,
+        "energy_initial": 200.0,
+        "energy_per_km": 1.1,
+        "id": "n02-heli-5",
+        "local": false,
+        "position": [
+          16.5,
+          83.0
+        ],
+        "region_center": null,
+        "region_id": null,
+        "service_energy_per_min": 0.3,
+        "speed_km_min": 2.2,
+        "support_scope": "global",
+        "type": "helicopter"
+      },
+      {
+        "capabilities": [
+          "inspect",
+          "deliver"
+        ],
+        "capacity_kg": 30.0,
+        "energy_initial": 200.0,
+        "energy_per_km": 1.1,
+        "id": "n02-heli-6",
+        "local": false,
+        "position": [
+          49.5,
+          83.0
+        ],
+        "region_center": null,
+        "region_id": null,
+        "service_energy_per_min": 0.3,
+        "speed_km_min": 2.2,
+        "support_scope": "global",
+        "type": "helicopter"
+      }
+    ],
+    "schema": "civilian-public-c1-input/1",
+    "seed": 8201
+  }
+}

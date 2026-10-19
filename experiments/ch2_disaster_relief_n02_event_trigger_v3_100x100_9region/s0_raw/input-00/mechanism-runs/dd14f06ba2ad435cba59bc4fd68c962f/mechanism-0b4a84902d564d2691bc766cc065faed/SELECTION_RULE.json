@@ -1,0 +1,30 @@
+{
+  "catalog_order_keys": [
+    "event-action-e8d2b24cc155ee9ac0690317",
+    "event-action-96db627bb448c071b82454be",
+    "event-action-e7ec1b562b5056f65f3012a0"
+  ],
+  "rule": "first legal non-NOOP LOCAL_REPAIR candidate in deterministic producer catalog order whose public-observation projection changes planned task owners or queue order",
+  "rule_frozen_before_branch_execution": true,
+  "selected_action": {
+    "action_type": "reconstruct",
+    "dispatches": [
+      {
+        "platform_id": "n02-uav-2",
+        "task_id": "n02-task-05"
+      }
+    ],
+    "noop": false,
+    "queue_operations": [
+      {
+        "from_platform": "n02-uav-1",
+        "op": "transfer",
+        "task_id": "n02-task-05",
+        "to_platform": "n02-uav-2"
+      }
+    ],
+    "scope": "LOCAL_REPAIR"
+  },
+  "selected_candidate_key": "event-action-e7ec1b562b5056f65f3012a0",
+  "selection_plan_sha256": "1817378d769829e9a19b98b42f96095bc5a0e769a5f4bd446075a920419b3380"
+}

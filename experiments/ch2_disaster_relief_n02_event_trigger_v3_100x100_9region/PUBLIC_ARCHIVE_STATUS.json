@@ -1,0 +1,16 @@
+{
+  "GPU_training": "NOT_STARTED",
+  "S0_A": "PASS",
+  "S0_B": "PASS",
+  "S0_scope": "A/B only; S0 contract/C1 and 6-platform/12-task isolated priority-change diagnostic",
+  "S1": "IN_PROGRESS_EVIDENCE_NOT_INCLUDED",
+  "S1_acceptance": "NOT_ESTABLISHED",
+  "S1_evidence": "NOT_INCLUDED_IN_THIS_S0_ARCHIVE",
+  "S2": "NOT_RUN",
+  "S3": "NOT_RUN",
+  "candidate_state": "PENDING_SOL_REVIEW",
+  "publication_approval": "PENDING_SOL_REVIEW",
+  "schema": "n02-v3-public-archive-status/1",
+  "scientific_acceptance": "NOT_ESTABLISHED",
+  "spatial_2x2_causality": "NOT_RUN"
+}

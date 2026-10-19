@@ -1,0 +1,56 @@
+{
+  "affected_scope": {
+    "affected_platform_ids": [],
+    "affected_region_ids": [],
+    "affected_task_ids": [
+      "n02-task-05"
+    ],
+    "candidate_platform_ids": [],
+    "closure_affected_platform_ids": [],
+    "closure_affected_task_ids": [],
+    "communication_components": [],
+    "connectivity": {
+      "components": [],
+      "connected": true
+    },
+    "direct_affected_platform_ids": [],
+    "direct_affected_task_ids": [
+      "n02-task-05"
+    ],
+    "direct_region_ids": [],
+    "global_eligible": false,
+    "local_eligible": true,
+    "neighbor_region_ids": [],
+    "reasons": [
+      "threshold_event"
+    ],
+    "regional_eligible": false,
+    "scope": "LOCAL_REPAIR"
+  },
+  "cooldown_active": false,
+  "cooldown_suppressed": false,
+  "event_active": true,
+  "gamma_value": 0.011541984330340382,
+  "high_level_action": "LOCAL_REPAIR",
+  "high_level_mask": {
+    "GLOBAL_REPLAN": false,
+    "LOCAL_REPAIR": false,
+    "NOOP": true
+  },
+  "minutes_since_reconstruction": null,
+  "minutes_since_trigger": null,
+  "mode": "event",
+  "persistence_count": 0,
+  "persistence_ready": false,
+  "persistence_required": false,
+  "residual_only": false,
+  "schema": "event-trigger-decision/1",
+  "strong_event": false,
+  "threshold": 0.0,
+  "threshold_high": 0.0,
+  "threshold_low": 0.0,
+  "time": 4,
+  "trigger_edge": "rising",
+  "trigger_suppression_reason": "",
+  "triggered": true
+}

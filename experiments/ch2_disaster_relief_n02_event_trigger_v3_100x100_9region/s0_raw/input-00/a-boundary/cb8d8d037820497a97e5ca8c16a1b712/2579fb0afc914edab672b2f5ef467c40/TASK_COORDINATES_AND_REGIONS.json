@@ -1,0 +1,502 @@
+{
+  "coordinate_source": "SCENARIO_WRAPPER.json:base_scenario.tasks",
+  "membership_rule": "x,y in [0,100); column cut points 33 and 66; row cut points 33 and 66",
+  "schema": "v3-boundary-task-coordinate-evidence/1",
+  "tasks": [
+    {
+      "declared_region_id": "r00",
+      "id": "task-r00-1",
+      "index": 0,
+      "known_initial": true,
+      "position": [
+        15.0,
+        15.5
+      ],
+      "region_id_recomputed_from_position": "r00"
+    },
+    {
+      "declared_region_id": "r00",
+      "id": "task-r00-2",
+      "index": 1,
+      "known_initial": true,
+      "position": [
+        18.0,
+        15.5
+      ],
+      "region_id_recomputed_from_position": "r00"
+    },
+    {
+      "declared_region_id": "r00",
+      "id": "task-r00-3",
+      "index": 2,
+      "known_initial": true,
+      "position": [
+        15.5,
+        18.0
+      ],
+      "region_id_recomputed_from_position": "r00"
+    },
+    {
+      "declared_region_id": "r00",
+      "id": "task-r00-4",
+      "index": 3,
+      "known_initial": true,
+      "position": [
+        18.0,
+        18.0
+      ],
+      "region_id_recomputed_from_position": "r00"
+    },
+    {
+      "declared_region_id": "r00",
+      "id": "task-r00-hidden",
+      "index": 4,
+      "known_initial": false,
+      "position": [
+        16.5,
+        19.0
+      ],
+      "region_id_recomputed_from_position": "r00"
+    },
+    {
+      "declared_region_id": "r01",
+      "id": "task-r01-1",
+      "index": 5,
+      "known_initial": true,
+      "position": [
+        48.0,
+        15.5
+      ],
+      "region_id_recomputed_from_position": "r01"
+    },
+    {
+      "declared_region_id": "r01",
+      "id": "task-r01-2",
+      "index": 6,
+      "known_initial": true,
+      "position": [
+        51.0,
+        15.5
+      ],
+      "region_id_recomputed_from_position": "r01"
+    },
+    {
+      "declared_region_id": "r01",
+      "id": "task-r01-3",
+      "index": 7,
+      "known_initial": true,
+      "position": [
+        48.5,
+        18.0
+      ],
+      "region_id_recomputed_from_position": "r01"
+    },
+    {
+      "declared_region_id": "r01",
+      "id": "task-r01-4",
+      "index": 8,
+      "known_initial": true,
+      "position": [
+        51.0,
+        18.0
+      ],
+      "region_id_recomputed_from_position": "r01"
+    },
+    {
+      "declared_region_id": "r01",
+      "id": "task-r01-hidden",
+      "index": 9,
+      "known_initial": false,
+      "position": [
+        49.5,
+        19.0
+      ],
+      "region_id_recomputed_from_position": "r01"
+    },
+    {
+      "declared_region_id": "r02",
+      "id": "task-r02-1",
+      "index": 10,
+      "known_initial": true,
+      "position": [
+        81.5,
+        15.5
+      ],
+      "region_id_recomputed_from_position": "r02"
+    },
+    {
+      "declared_region_id": "r02",
+      "id": "task-r02-2",
+      "index": 11,
+      "known_initial": true,
+      "position": [
+        84.5,
+        15.5
+      ],
+      "region_id_recomputed_from_position": "r02"
+    },
+    {
+      "declared_region_id": "r02",
+      "id": "task-r02-3",
+      "index": 12,
+      "known_initial": true,
+      "position": [
+        82.0,
+        18.0
+      ],
+      "region_id_recomputed_from_position": "r02"
+    },
+    {
+      "declared_region_id": "r02",
+      "id": "task-r02-4",
+      "index": 13,
+      "known_initial": true,
+      "position": [
+        84.5,
+        18.0
+      ],
+      "region_id_recomputed_from_position": "r02"
+    },
+    {
+      "declared_region_id": "r02",
+      "id": "task-r02-hidden",
+      "index": 14,
+      "known_initial": false,
+      "position": [
+        83.0,
+        19.0
+      ],
+      "region_id_recomputed_from_position": "r02"
+    },
+    {
+      "declared_region_id": "r10",
+      "id": "task-r10-1",
+      "index": 15,
+      "known_initial": true,
+      "position": [
+        15.0,
+        48.5
+      ],
+      "region_id_recomputed_from_position": "r10"
+    },
+    {
+      "declared_region_id": "r10",
+      "id": "task-r10-2",
+      "index": 16,
+      "known_initial": true,
+      "position": [
+        18.0,
+        48.5
+      ],
+      "region_id_recomputed_from_position": "r10"
+    },
+    {
+      "declared_region_id": "r10",
+      "id": "task-r10-3",
+      "index": 17,
+      "known_initial": true,
+      "position": [
+        15.5,
+        51.0
+      ],
+      "region_id_recomputed_from_position": "r10"
+    },
+    {
+      "declared_region_id": "r10",
+      "id": "task-r10-4",
+      "index": 18,
+      "known_initial": true,
+      "position": [
+        18.0,
+        51.0
+      ],
+      "region_id_recomputed_from_position": "r10"
+    },
+    {
+      "declared_region_id": "r10",
+      "id": "task-r10-hidden",
+      "index": 19,
+      "known_initial": false,
+      "position": [
+        16.5,
+        52.0
+      ],
+      "region_id_recomputed_from_position": "r10"
+    },
+    {
+      "declared_region_id": "r11",
+      "id": "task-r11-1",
+      "index": 20,
+      "known_initial": true,
+      "position": [
+        48.0,
+        48.5
+      ],
+      "region_id_recomputed_from_position": "r11"
+    },
+    {
+      "declared_region_id": "r11",
+      "id": "task-r11-2",
+      "index": 21,
+      "known_initial": true,
+      "position": [
+        51.0,
+        48.5
+      ],
+      "region_id_recomputed_from_position": "r11"
+    },
+    {
+      "declared_region_id": "r11",
+      "id": "task-r11-3",
+      "index": 22,
+      "known_initial": true,
+      "position": [
+        48.5,
+        51.0
+      ],
+      "region_id_recomputed_from_position": "r11"
+    },
+    {
+      "declared_region_id": "r11",
+      "id": "task-r11-4",
+      "index": 23,
+      "known_initial": true,
+      "position": [
+        51.0,
+        51.0
+      ],
+      "region_id_recomputed_from_position": "r11"
+    },
+    {
+      "declared_region_id": "r11",
+      "id": "task-r11-hidden",
+      "index": 24,
+      "known_initial": false,
+      "position": [
+        49.5,
+        52.0
+      ],
+      "region_id_recomputed_from_position": "r11"
+    },
+    {
+      "declared_region_id": "r12",
+      "id": "task-r12-1",
+      "index": 25,
+      "known_initial": true,
+      "position": [
+        81.5,
+        48.5
+      ],
+      "region_id_recomputed_from_position": "r12"
+    },
+    {
+      "declared_region_id": "r12",
+      "id": "task-r12-2",
+      "index": 26,
+      "known_initial": true,
+      "position": [
+        84.5,
+        48.5
+      ],
+      "region_id_recomputed_from_position": "r12"
+    },
+    {
+      "declared_region_id": "r12",
+      "id": "task-r12-3",
+      "index": 27,
+      "known_initial": true,
+      "position": [
+        82.0,
+        51.0
+      ],
+      "region_id_recomputed_from_position": "r12"
+    },
+    {
+      "declared_region_id": "r12",
+      "id": "task-r12-4",
+      "index": 28,
+      "known_initial": true,
+      "position": [
+        84.5,
+        51.0
+      ],
+      "region_id_recomputed_from_position": "r12"
+    },
+    {
+      "declared_region_id": "r12",
+      "id": "task-r12-hidden",
+      "index": 29,
+      "known_initial": false,
+      "position": [
+        83.0,
+        52.0
+      ],
+      "region_id_recomputed_from_position": "r12"
+    },
+    {
+      "declared_region_id": "r20",
+      "id": "task-r20-1",
+      "index": 30,
+      "known_initial": true,
+      "position": [
+        15.0,
+        82.0
+      ],
+      "region_id_recomputed_from_position": "r20"
+    },
+    {
+      "declared_region_id": "r20",
+      "id": "task-r20-2",
+      "index": 31,
+      "known_initial": true,
+      "position": [
+        18.0,
+        82.0
+      ],
+      "region_id_recomputed_from_position": "r20"
+    },
+    {
+      "declared_region_id": "r20",
+      "id": "task-r20-3",
+      "index": 32,
+      "known_initial": true,
+      "position": [
+        15.5,
+        84.5
+      ],
+      "region_id_recomputed_from_position": "r20"
+    },
+    {
+      "declared_region_id": "r20",
+      "id": "task-r20-4",
+      "index": 33,
+      "known_initial": true,
+      "position": [
+        18.0,
+        84.5
+      ],
+      "region_id_recomputed_from_position": "r20"
+    },
+    {
+      "declared_region_id": "r20",
+      "id": "task-r20-hidden",
+      "index": 34,
+      "known_initial": false,
+      "position": [
+        16.5,
+        85.5
+      ],
+      "region_id_recomputed_from_position": "r20"
+    },
+    {
+      "declared_region_id": "r21",
+      "id": "task-r21-1",
+      "index": 35,
+      "known_initial": true,
+      "position": [
+        48.0,
+        82.0
+      ],
+      "region_id_recomputed_from_position": "r21"
+    },
+    {
+      "declared_region_id": "r21",
+      "id": "task-r21-2",
+      "index": 36,
+      "known_initial": true,
+      "position": [
+        51.0,
+        82.0
+      ],
+      "region_id_recomputed_from_position": "r21"
+    },
+    {
+      "declared_region_id": "r21",
+      "id": "task-r21-3",
+      "index": 37,
+      "known_initial": true,
+      "position": [
+        48.5,
+        84.5
+      ],
+      "region_id_recomputed_from_position": "r21"
+    },
+    {
+      "declared_region_id": "r21",
+      "id": "task-r21-4",
+      "index": 38,
+      "known_initial": true,
+      "position": [
+        51.0,
+        84.5
+      ],
+      "region_id_recomputed_from_position": "r21"
+    },
+    {
+      "declared_region_id": "r21",
+      "id": "task-r21-hidden",
+      "index": 39,
+      "known_initial": false,
+      "position": [
+        49.5,
+        85.5
+      ],
+      "region_id_recomputed_from_position": "r21"
+    },
+    {
+      "declared_region_id": "r22",
+      "id": "task-r22-1",
+      "index": 40,
+      "known_initial": true,
+      "position": [
+        81.5,
+        82.0
+      ],
+      "region_id_recomputed_from_position": "r22"
+    },
+    {
+      "declared_region_id": "r22",
+      "id": "task-r22-2",
+      "index": 41,
+      "known_initial": true,
+      "position": [
+        84.5,
+        82.0
+      ],
+      "region_id_recomputed_from_position": "r22"
+    },
+    {
+      "declared_region_id": "r22",
+      "id": "task-r22-3",
+      "index": 42,
+      "known_initial": true,
+      "position": [
+        82.0,
+        84.5
+      ],
+      "region_id_recomputed_from_position": "r22"
+    },
+    {
+      "declared_region_id": "r22",
+      "id": "task-r22-4",
+      "index": 43,
+      "known_initial": true,
+      "position": [
+        84.5,
+        84.5
+      ],
+      "region_id_recomputed_from_position": "r22"
+    },
+    {
+      "declared_region_id": "r22",
+      "id": "task-r22-hidden",
+      "index": 44,
+      "known_initial": false,
+      "position": [
+        83.0,
+        85.5
+      ],
+      "region_id_recomputed_from_position": "r22"
+    }
+  ]
+}

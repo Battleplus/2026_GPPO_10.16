@@ -1,0 +1,91 @@
+{
+  "c1_call": "civilian.chapter1_adapter.generate_public_c1_initial_assignment(base_scenario, seed=8201, schedule_backlog=True)",
+  "cases": [
+    {
+      "public_input": "baseline/C1_PUBLIC_INPUT.json",
+      "queues": "baseline/C1_QUEUES.json",
+      "recomputed_hashes": {
+        "public_input_sha256": "d743d01e0732c67a45e4c2bfdc682efd7a7e55e0bb36d38902f2f5703393329b",
+        "queues_sha256": "eb3ea4c1658fd55c6795f573a06684bc462bcf667dedb9941547656779bb5fd2"
+      },
+      "scenario_wrapper": "baseline/SCENARIO_WRAPPER.json",
+      "variant": "baseline"
+    },
+    {
+      "public_input": "hidden_task_change/C1_PUBLIC_INPUT.json",
+      "queues": "hidden_task_change/C1_QUEUES.json",
+      "recomputed_hashes": {
+        "public_input_sha256": "d743d01e0732c67a45e4c2bfdc682efd7a7e55e0bb36d38902f2f5703393329b",
+        "queues_sha256": "eb3ea4c1658fd55c6795f573a06684bc462bcf667dedb9941547656779bb5fd2"
+      },
+      "scenario_wrapper": "hidden_task_change/SCENARIO_WRAPPER.json",
+      "variant": "hidden_task_change"
+    },
+    {
+      "public_input": "future_event_tape_change/C1_PUBLIC_INPUT.json",
+      "queues": "future_event_tape_change/C1_QUEUES.json",
+      "recomputed_hashes": {
+        "public_input_sha256": "d743d01e0732c67a45e4c2bfdc682efd7a7e55e0bb36d38902f2f5703393329b",
+        "queues_sha256": "eb3ea4c1658fd55c6795f573a06684bc462bcf667dedb9941547656779bb5fd2"
+      },
+      "scenario_wrapper": "future_event_tape_change/SCENARIO_WRAPPER.json",
+      "variant": "future_event_tape_change"
+    },
+    {
+      "public_input": "preset_snapshot_queue_change/C1_PUBLIC_INPUT.json",
+      "queues": "preset_snapshot_queue_change/C1_QUEUES.json",
+      "recomputed_hashes": {
+        "public_input_sha256": "d743d01e0732c67a45e4c2bfdc682efd7a7e55e0bb36d38902f2f5703393329b",
+        "queues_sha256": "eb3ea4c1658fd55c6795f573a06684bc462bcf667dedb9941547656779bb5fd2"
+      },
+      "scenario_wrapper": "preset_snapshot_queue_change/SCENARIO_WRAPPER.json",
+      "variant": "preset_snapshot_queue_change"
+    },
+    {
+      "public_input": "public_priority_control/C1_PUBLIC_INPUT.json",
+      "queues": "public_priority_control/C1_QUEUES.json",
+      "recomputed_hashes": {
+        "public_input_sha256": "70eb338b5f069572c489ccd50e4b89bb80ad58f964069ef7f34aaceb00f66085",
+        "queues_sha256": "eb3ea4c1658fd55c6795f573a06684bc462bcf667dedb9941547656779bb5fd2"
+      },
+      "scenario_wrapper": "public_priority_control/SCENARIO_WRAPPER.json",
+      "variant": "public_priority_control"
+    }
+  ],
+  "evidence_id": "2579fb0afc914edab672b2f5ef467c40",
+  "expected_relations_for_reviewer": {
+    "control_pair": [
+      "baseline",
+      "public_priority_control"
+    ],
+    "noninterference_pairs": [
+      [
+        "baseline",
+        "hidden_task_change"
+      ],
+      [
+        "baseline",
+        "future_event_tape_change"
+      ],
+      [
+        "baseline",
+        "preset_snapshot_queue_change"
+      ]
+    ]
+  },
+  "generated_at_utc": "2026-10-19T04:19:28.825527+00:00",
+  "interpretation": "Raw producer inputs and outputs for independent inspection; this file does not assert audit approval.",
+  "producer": "tools/audit_v3_boundary.py",
+  "replay_command": "python -B tools/audit_v3_boundary.py --output-root evidence/a-boundary",
+  "schema": "v3-boundary-replay-evidence/1",
+  "source_hashes_after": {
+    "package/civilian/baselines.py": "13b2a84662022b7ed6a56a19629ad3abe2ad954c46926eb1a72caa326039115a",
+    "package/civilian/chapter1_adapter.py": "4218a7c7225c3e5980a88be55be9d4db5ec1e359c8d98d5d920568346b6a0e4a",
+    "package/civilian/region_scenarios.py": "10210f97490eb001c778f629586cb9696507a2158654ce7443f7e4a9ea5898e0"
+  },
+  "source_hashes_before": {
+    "package/civilian/baselines.py": "13b2a84662022b7ed6a56a19629ad3abe2ad954c46926eb1a72caa326039115a",
+    "package/civilian/chapter1_adapter.py": "4218a7c7225c3e5980a88be55be9d4db5ec1e359c8d98d5d920568346b6a0e4a",
+    "package/civilian/region_scenarios.py": "10210f97490eb001c778f629586cb9696507a2158654ce7443f7e4a9ea5898e0"
+  }
+}

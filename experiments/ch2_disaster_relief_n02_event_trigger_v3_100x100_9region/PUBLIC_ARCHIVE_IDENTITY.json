@@ -1,0 +1,14 @@
+{
+  "S1": "IN_PROGRESS_EVIDENCE_NOT_INCLUDED",
+  "S2": "NOT_RUN",
+  "S3": "NOT_RUN",
+  "builder_sha256": "0b8e8064ddebc21fbe36ecbc94784b8ced8bcb6f811b0ebf936fee523004fe93",
+  "evidence_manifest_sha256": "f76241bc27c995aa308c383ed70298c780c375e4f0f9e84cdd7c50d74b6130fd",
+  "preregistration_sha256": "b9020a2b25d9a3f144f363b63d93a3bd89c45b2fe54e107a513dce05b51549d1",
+  "publication": "NOT_APPROVED_PENDING_SOL_ARCHIVE_REVIEW",
+  "release": "n02-v3-s0-cc048803057b43c49b94449117476de8",
+  "schema": "n02-v3-public-archive-identity/1",
+  "sol_r5_review_sha256": "c3cd4faf1eb735e2d008e654213d52429f499b51e66fc3987f1468890eff8961",
+  "source_gate": "S0_A_B_PASS_ONLY",
+  "source_manifest_sha256": "c21be3cf1889b41584eb1eaf3697407840dd986996d1214436b58501909a5f3b"
+}

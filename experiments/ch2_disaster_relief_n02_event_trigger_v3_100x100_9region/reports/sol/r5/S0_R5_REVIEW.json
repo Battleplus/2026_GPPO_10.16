@@ -1,0 +1,3000 @@
+{
+  "S0_chain_status": "ALL_SEVEN_EXECUTION_LINKS_AND_PUBLIC_SELECTION_PLAN_FIDELITY_PASS",
+  "S1": "NOT_RUN",
+  "S1_entry": "ALLOWED_CPU_MECHANISM_ONLY",
+  "S2": "BLOCKED_NOT_RUN",
+  "S3": "BLOCKED_NOT_RUN",
+  "assurance": "Provisional S0-only review. Selection source ordering and frozen hashes verified; no external trusted execution timestamp or external certification.",
+  "authorization": "A/B independently PASS permits S1 CPU mechanism evidence generation only. C/S1 acceptance, 2x2 causal verification, S2 GPU and S3 world-model/PPO remain unapproved and require their own raw evidence and independent gates.",
+  "branch_metrics": [
+    {
+      "action_type": "NOOP",
+      "candidate_key": "event-action-e8d2b24cc155ee9ac0690317",
+      "energy": 8.907168495594478,
+      "global_outcomes": {
+        "communication_risk": {
+          "valid": true,
+          "value": 0.05526315789473687
+        },
+        "constraint_violation_count": {
+          "valid": true,
+          "value": 0.0
+        },
+        "energy_used": {
+          "valid": true,
+          "value": 8.907168495594478
+        },
+        "failure_rate": {
+          "valid": true,
+          "value": 0.0
+        },
+        "mean_delay_minutes": {
+          "valid": false,
+          "value": 0.0
+        },
+        "on_time_rate": {
+          "valid": false,
+          "value": 1.0
+        },
+        "progress_rate": {
+          "valid": true,
+          "value": 0.4166666666666667
+        },
+        "utility": {
+          "valid": true,
+          "value": 3.8112568635730693
+        }
+      },
+      "physical_path_digest": "3e380a247bb19cda7246769c4451d2e34e0704c75eb58590a594f7268278eab8",
+      "reassignment_events": 0,
+      "switch_events": 0,
+      "task_outcomes": [
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 33,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-01",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 36,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-02",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 39,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-03",
+          "kind": "inspection",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 1.0,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 42,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-04",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 45,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-05",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 48,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-06",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 51,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-07",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 54,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-08",
+          "kind": "inspection",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 1.0,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": false,
+          "complete_valid": true,
+          "deadline": 53,
+          "delay_minutes": null,
+          "delay_valid": false,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-09",
+          "kind": "delivery",
+          "on_time": null,
+          "on_time_valid": false,
+          "progress": 0.0,
+          "progress_valid": true,
+          "status": "undiscovered"
+        },
+        {
+          "complete": false,
+          "complete_valid": true,
+          "deadline": 54,
+          "delay_minutes": null,
+          "delay_valid": false,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-10",
+          "kind": "inspection",
+          "on_time": null,
+          "on_time_valid": false,
+          "progress": 0.0,
+          "progress_valid": true,
+          "status": "undiscovered"
+        },
+        {
+          "complete": false,
+          "complete_valid": true,
+          "deadline": 55,
+          "delay_minutes": null,
+          "delay_valid": false,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-11",
+          "kind": "delivery",
+          "on_time": null,
+          "on_time_valid": false,
+          "progress": 0.0,
+          "progress_valid": true,
+          "status": "undiscovered"
+        },
+        {
+          "complete": false,
+          "complete_valid": true,
+          "deadline": 56,
+          "delay_minutes": null,
+          "delay_valid": false,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-12",
+          "kind": "delivery",
+          "on_time": null,
+          "on_time_valid": false,
+          "progress": 0.0,
+          "progress_valid": true,
+          "status": "undiscovered"
+        }
+      ],
+      "unknown_task_ids": [
+        "n02-task-09",
+        "n02-task-10",
+        "n02-task-11",
+        "n02-task-12"
+      ],
+      "utility": 3.8112568635730693
+    },
+    {
+      "action_type": "LOCAL_TRANSFER",
+      "candidate_key": "event-action-96db627bb448c071b82454be",
+      "energy": 8.907168495594478,
+      "global_outcomes": {
+        "communication_risk": {
+          "valid": true,
+          "value": 0.05526315789473687
+        },
+        "constraint_violation_count": {
+          "valid": true,
+          "value": 0.0
+        },
+        "energy_used": {
+          "valid": true,
+          "value": 8.907168495594478
+        },
+        "failure_rate": {
+          "valid": true,
+          "value": 0.0
+        },
+        "mean_delay_minutes": {
+          "valid": false,
+          "value": 0.0
+        },
+        "on_time_rate": {
+          "valid": false,
+          "value": 1.0
+        },
+        "progress_rate": {
+          "valid": true,
+          "value": 0.4166666666666667
+        },
+        "utility": {
+          "valid": true,
+          "value": 3.8112568635730693
+        }
+      },
+      "physical_path_digest": "3e380a247bb19cda7246769c4451d2e34e0704c75eb58590a594f7268278eab8",
+      "reassignment_events": 0,
+      "switch_events": 0,
+      "task_outcomes": [
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 33,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-01",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 36,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-02",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 39,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-03",
+          "kind": "inspection",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 1.0,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 42,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-04",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 45,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-05",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 48,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-06",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 51,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-07",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 54,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-08",
+          "kind": "inspection",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 1.0,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": false,
+          "complete_valid": true,
+          "deadline": 53,
+          "delay_minutes": null,
+          "delay_valid": false,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-09",
+          "kind": "delivery",
+          "on_time": null,
+          "on_time_valid": false,
+          "progress": 0.0,
+          "progress_valid": true,
+          "status": "undiscovered"
+        },
+        {
+          "complete": false,
+          "complete_valid": true,
+          "deadline": 54,
+          "delay_minutes": null,
+          "delay_valid": false,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-10",
+          "kind": "inspection",
+          "on_time": null,
+          "on_time_valid": false,
+          "progress": 0.0,
+          "progress_valid": true,
+          "status": "undiscovered"
+        },
+        {
+          "complete": false,
+          "complete_valid": true,
+          "deadline": 55,
+          "delay_minutes": null,
+          "delay_valid": false,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-11",
+          "kind": "delivery",
+          "on_time": null,
+          "on_time_valid": false,
+          "progress": 0.0,
+          "progress_valid": true,
+          "status": "undiscovered"
+        },
+        {
+          "complete": false,
+          "complete_valid": true,
+          "deadline": 56,
+          "delay_minutes": null,
+          "delay_valid": false,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-12",
+          "kind": "delivery",
+          "on_time": null,
+          "on_time_valid": false,
+          "progress": 0.0,
+          "progress_valid": true,
+          "status": "undiscovered"
+        }
+      ],
+      "unknown_task_ids": [
+        "n02-task-09",
+        "n02-task-10",
+        "n02-task-11",
+        "n02-task-12"
+      ],
+      "utility": 3.8112568635730693
+    },
+    {
+      "action_type": "LOCAL_TRANSFER",
+      "candidate_key": "event-action-e7ec1b562b5056f65f3012a0",
+      "energy": 8.940553549136691,
+      "global_outcomes": {
+        "communication_risk": {
+          "valid": true,
+          "value": 0.055344262295082
+        },
+        "constraint_violation_count": {
+          "valid": true,
+          "value": 0.0
+        },
+        "energy_used": {
+          "valid": true,
+          "value": 8.940553549136691
+        },
+        "failure_rate": {
+          "valid": true,
+          "value": 0.0
+        },
+        "mean_delay_minutes": {
+          "valid": false,
+          "value": 0.0
+        },
+        "on_time_rate": {
+          "valid": false,
+          "value": 1.0
+        },
+        "progress_rate": {
+          "valid": true,
+          "value": 0.4166666666666667
+        },
+        "utility": {
+          "valid": true,
+          "value": 3.6905056998683694
+        }
+      },
+      "physical_path_digest": "f8ee0c3f01d20cae6447b5e7a7ec6a88c747083eda7d71e91cee02e688aec4a5",
+      "reassignment_events": 1,
+      "switch_events": 1,
+      "task_outcomes": [
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 33,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-01",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 36,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-02",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 39,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-03",
+          "kind": "inspection",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 1.0,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 42,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-04",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 45,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-05",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 48,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-06",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 51,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-07",
+          "kind": "delivery",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 0.5,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": true,
+          "complete_valid": true,
+          "deadline": 54,
+          "delay_minutes": 0.0,
+          "delay_valid": true,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-08",
+          "kind": "inspection",
+          "on_time": true,
+          "on_time_valid": true,
+          "progress": 1.0,
+          "progress_valid": true,
+          "status": "completed"
+        },
+        {
+          "complete": false,
+          "complete_valid": true,
+          "deadline": 53,
+          "delay_minutes": null,
+          "delay_valid": false,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-09",
+          "kind": "delivery",
+          "on_time": null,
+          "on_time_valid": false,
+          "progress": 0.0,
+          "progress_valid": true,
+          "status": "undiscovered"
+        },
+        {
+          "complete": false,
+          "complete_valid": true,
+          "deadline": 54,
+          "delay_minutes": null,
+          "delay_valid": false,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-10",
+          "kind": "inspection",
+          "on_time": null,
+          "on_time_valid": false,
+          "progress": 0.0,
+          "progress_valid": true,
+          "status": "undiscovered"
+        },
+        {
+          "complete": false,
+          "complete_valid": true,
+          "deadline": 55,
+          "delay_minutes": null,
+          "delay_valid": false,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-11",
+          "kind": "delivery",
+          "on_time": null,
+          "on_time_valid": false,
+          "progress": 0.0,
+          "progress_valid": true,
+          "status": "undiscovered"
+        },
+        {
+          "complete": false,
+          "complete_valid": true,
+          "deadline": 56,
+          "delay_minutes": null,
+          "delay_valid": false,
+          "failed": false,
+          "failure_valid": true,
+          "id": "n02-task-12",
+          "kind": "delivery",
+          "on_time": null,
+          "on_time_valid": false,
+          "progress": 0.0,
+          "progress_valid": true,
+          "status": "undiscovered"
+        }
+      ],
+      "unknown_task_ids": [
+        "n02-task-09",
+        "n02-task-10",
+        "n02-task-11",
+        "n02-task-12"
+      ],
+      "utility": 3.6905056998683694
+    }
+  ],
+  "checks": [
+    {
+      "check": "source_manifest_sha256",
+      "detail": "c21be3cf1889b41584eb1eaf3697407840dd986996d1214436b58501909a5f3b",
+      "pass": true
+    },
+    {
+      "check": "evidence_manifest_sha256",
+      "detail": "f76241bc27c995aa308c383ed70298c780c375e4f0f9e84cdd7c50d74b6130fd",
+      "pass": true
+    },
+    {
+      "check": "source_all_manifest_entries",
+      "detail": {
+        "count": 93,
+        "mismatches": []
+      },
+      "pass": true
+    },
+    {
+      "check": "evidence_all_manifest_entries",
+      "detail": {
+        "count": 43,
+        "mismatches": []
+      },
+      "pass": true
+    },
+    {
+      "check": "A_contract_baseline",
+      "detail": {
+        "hidden_coordinates_checked": 9,
+        "platforms": 30,
+        "tasks": 45,
+        "uav_matrix": [
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            3,
+            2
+          ]
+        ]
+      },
+      "pass": true
+    },
+    {
+      "check": "A_actual_backlog_replay_baseline",
+      "detail": {
+        "algorithm": "public-C1-iterative-mission-projection-v1",
+        "assigned": 36,
+        "public_input_digest": "d743d01e0732c67a45e4c2bfdc682efd7a7e55e0bb36d38902f2f5703393329b",
+        "queue_digest": "eb3ea4c1658fd55c6795f573a06684bc462bcf667dedb9941547656779bb5fd2"
+      },
+      "pass": true
+    },
+    {
+      "check": "A_no_hidden_tasks_in_input_baseline",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "A_contract_hidden_task_change",
+      "detail": {
+        "hidden_coordinates_checked": 9,
+        "platforms": 30,
+        "tasks": 45,
+        "uav_matrix": [
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            3,
+            2
+          ]
+        ]
+      },
+      "pass": true
+    },
+    {
+      "check": "A_actual_backlog_replay_hidden_task_change",
+      "detail": {
+        "algorithm": "public-C1-iterative-mission-projection-v1",
+        "assigned": 36,
+        "public_input_digest": "d743d01e0732c67a45e4c2bfdc682efd7a7e55e0bb36d38902f2f5703393329b",
+        "queue_digest": "eb3ea4c1658fd55c6795f573a06684bc462bcf667dedb9941547656779bb5fd2"
+      },
+      "pass": true
+    },
+    {
+      "check": "A_no_hidden_tasks_in_input_hidden_task_change",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "A_contract_future_event_tape_change",
+      "detail": {
+        "hidden_coordinates_checked": 9,
+        "platforms": 30,
+        "tasks": 45,
+        "uav_matrix": [
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            3,
+            2
+          ]
+        ]
+      },
+      "pass": true
+    },
+    {
+      "check": "A_actual_backlog_replay_future_event_tape_change",
+      "detail": {
+        "algorithm": "public-C1-iterative-mission-projection-v1",
+        "assigned": 36,
+        "public_input_digest": "d743d01e0732c67a45e4c2bfdc682efd7a7e55e0bb36d38902f2f5703393329b",
+        "queue_digest": "eb3ea4c1658fd55c6795f573a06684bc462bcf667dedb9941547656779bb5fd2"
+      },
+      "pass": true
+    },
+    {
+      "check": "A_no_hidden_tasks_in_input_future_event_tape_change",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "A_contract_preset_snapshot_queue_change",
+      "detail": {
+        "hidden_coordinates_checked": 9,
+        "platforms": 30,
+        "tasks": 45,
+        "uav_matrix": [
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            3,
+            2
+          ]
+        ]
+      },
+      "pass": true
+    },
+    {
+      "check": "A_actual_backlog_replay_preset_snapshot_queue_change",
+      "detail": {
+        "algorithm": "public-C1-iterative-mission-projection-v1",
+        "assigned": 36,
+        "public_input_digest": "d743d01e0732c67a45e4c2bfdc682efd7a7e55e0bb36d38902f2f5703393329b",
+        "queue_digest": "eb3ea4c1658fd55c6795f573a06684bc462bcf667dedb9941547656779bb5fd2"
+      },
+      "pass": true
+    },
+    {
+      "check": "A_no_hidden_tasks_in_input_preset_snapshot_queue_change",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "A_contract_public_priority_control",
+      "detail": {
+        "hidden_coordinates_checked": 9,
+        "platforms": 30,
+        "tasks": 45,
+        "uav_matrix": [
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            2,
+            3
+          ],
+          [
+            3,
+            3,
+            2
+          ]
+        ]
+      },
+      "pass": true
+    },
+    {
+      "check": "A_actual_backlog_replay_public_priority_control",
+      "detail": {
+        "algorithm": "public-C1-iterative-mission-projection-v1",
+        "assigned": 36,
+        "public_input_digest": "70eb338b5f069572c489ccd50e4b89bb80ad58f964069ef7f34aaceb00f66085",
+        "queue_digest": "eb3ea4c1658fd55c6795f573a06684bc462bcf667dedb9941547656779bb5fd2"
+      },
+      "pass": true
+    },
+    {
+      "check": "A_no_hidden_tasks_in_input_public_priority_control",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "A_noninterference_hidden_task_change",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "A_noninterference_future_event_tape_change",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "A_noninterference_preset_snapshot_queue_change",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "A_public_priority_positive_control",
+      "detail": {
+        "interpretation": "input sensitivity demonstrated; queue reordering is not required",
+        "queues_changed": false
+      },
+      "pass": true
+    },
+    {
+      "check": "B_fixture_regeneration",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_producer_source_hashes_unchanged_and_frozen",
+      "detail": {
+        "count": 44
+      },
+      "pass": true
+    },
+    {
+      "check": "B_disclosed_diagnostic_only",
+      "detail": {
+        "fixture_id": "n02-s0-repair-seed-8201-priority-n02-task-05-t4",
+        "platform_count": 6,
+        "production_9_region_evidence": false,
+        "purpose": "repair-diagnostic-only",
+        "queue_provenance": "public-C1-backlog-generated-from-base-scenario",
+        "schema": "s0-diagnostic-fixture-receipt/1",
+        "study_scale": "S0-original-6-platform-12-task",
+        "task_count": 12,
+        "timeline_disclosure": {
+          "change": "replaced-production-event-tape-with-one-isolated-repair-diagnostic-event",
+          "event_kind": "priority_change",
+          "event_time": 4,
+          "initial_owner_id": "n02-uav-1",
+          "local_region_id": "r11",
+          "target_task_id": "n02-task-05"
+        }
+      },
+      "pass": true
+    },
+    {
+      "check": "B_C1_public_generated_not_preset",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_initial_public_observation",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_private_snapshot_hash_from_replayed_state",
+      "detail": "bfa8fd71d1ca709bdbe5e5bda8ff3bb6795bb81299051ca45a915fcc28990d2a",
+      "pass": true
+    },
+    {
+      "check": "B_public_snapshot_hash_from_raw_observation",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_public_prefix_hash_from_full_replayed_history",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_snapshot_and_prefix_replay",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_link1_local_eligible",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_link2_triggered",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_catalog_exact_replay",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_link3_two_legal_local_candidates",
+      "detail": {
+        "count": 2
+      },
+      "pass": true
+    },
+    {
+      "check": "R5_only_intended_manifest_sources_changed",
+      "detail": [
+        "package/tests/test_v3_mechanism_evidence.py",
+        "tools/run_v3_mechanism.py"
+      ],
+      "pass": true
+    },
+    {
+      "check": "R5_new_release_identity",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "R5_projection_helpers_no_private_or_outcome_access",
+      "detail": {
+        "attributes": [
+          "append",
+          "deepcopy",
+          "get",
+          "index",
+          "insert",
+          "items",
+          "remove",
+          "setdefault",
+          "values"
+        ],
+        "calls": [
+          "copy.deepcopy",
+          "row.get",
+          "observation.get",
+          "observation.get",
+          "_owner_queues",
+          "action.get",
+          "action.get",
+          "operation.get",
+          "operation.get",
+          "dispatch.get",
+          "dispatch.get",
+          "queues.items",
+          "queues.setdefault",
+          "operation.get",
+          "queues.values",
+          "queues.setdefault",
+          "target_queue.append",
+          "operation.get",
+          "destination.insert",
+          "destination.append",
+          "operation.get",
+          "queues.values",
+          "queue.remove",
+          "queue.remove",
+          "destination.index",
+          "enumerate",
+          "owners.get",
+          "owners.get",
+          "_owner_queues",
+          "_project_owner_queues",
+          "bool",
+          "projections.append",
+          "action.get",
+          "candidate.get",
+          "action.get",
+          "action.get"
+        ],
+        "loaded_names": [
+          "Any",
+          "_owner_queues",
+          "_project_owner_queues",
+          "action",
+          "anchor",
+          "baseline",
+          "bool",
+          "candidate",
+          "candidates",
+          "copy",
+          "destination",
+          "dict",
+          "dispatch",
+          "dispatches",
+          "effective",
+          "enumerate",
+          "index",
+          "list",
+          "observation",
+          "op",
+          "operation",
+          "operations",
+          "other_id",
+          "owners",
+          "planned_state",
+          "platform_id",
+          "projection",
+          "projections",
+          "queue",
+          "queued_id",
+          "queued_platform",
+          "queues",
+          "row",
+          "selected",
+          "state",
+          "str",
+          "target",
+          "target_queue",
+          "task_id",
+          "tuple"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "check": "R5_projection_helper_signatures",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "R5_independent_public_projection_reproduces_plan",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "R5_isolated_helper_replay_without_private_inputs",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_link4_rule_policy_requests_local",
+      "detail": {
+        "policy": "public projection + first effective catalog local; deterministic diagnostic selector, not trained actor",
+        "selected_key": "event-action-e7ec1b562b5056f65f3012a0"
+      },
+      "pass": true
+    },
+    {
+      "check": "R5_plan_request_hash_binding",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "R5_plan_and_hash_request_written_before_all_branches",
+      "detail": {
+        "assurance": "Static execution ordering and frozen bindings; not an external trusted timestamp",
+        "bound_request_write_line": 261,
+        "first_branch_loop_line": 275,
+        "plan_write_line": 253,
+        "rule_write_line": 262
+      },
+      "pass": true
+    },
+    {
+      "check": "R5_original_three_candidates_and_raw_branches_preserved",
+      "detail": {
+        "catalog_keys": [
+          "event-action-e8d2b24cc155ee9ac0690317",
+          "event-action-96db627bb448c071b82454be",
+          "event-action-e7ec1b562b5056f65f3012a0"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "check": "R5_duplicate_dispatch_retained_and_marked_false",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "R5_selected_projected_owners_match_actual",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "R5_selected_complete_queue_projection_matches_execution",
+      "detail": {},
+      "pass": true
+    },
+    {
+      "check": "B_link5_selected_repair_preserves_action_scope",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_link6_selected_real_queue_or_owner_change",
+      "detail": {
+        "owner_changes": {
+          "n02-task-05": {
+            "after": "n02-uav-2",
+            "before": "n02-uav-1"
+          }
+        },
+        "queue_changes": {
+          "n02-uav-1": {
+            "after": [],
+            "before": [
+              "n02-task-05"
+            ]
+          },
+          "n02-uav-2": {
+            "after": [
+              "n02-task-06",
+              "n02-task-05"
+            ],
+            "before": [
+              "n02-task-06"
+            ]
+          }
+        }
+      },
+      "pass": true
+    },
+    {
+      "check": "B_selected_chain_exact_branch_evidence",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_original_candidate_binding_event-action-e8d2b24cc155ee9ac0690317",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_branch_catalog_binding_event-action-e8d2b24cc155ee9ac0690317",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e8d2b24cc155ee9ac0690317_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_endpoint_replay_event-action-e8d2b24cc155ee9ac0690317",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_all_task_labels_including_nontarget_event-action-e8d2b24cc155ee9ac0690317",
+      "detail": {
+        "non_target_count": 12,
+        "task_count": 12
+      },
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e8d2b24cc155ee9ac0690317_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_global_labels_energy_utility_unknown_event-action-e8d2b24cc155ee9ac0690317",
+      "detail": {
+        "communication_risk": {
+          "valid": true,
+          "value": 0.05526315789473687
+        },
+        "constraint_violation_count": {
+          "valid": true,
+          "value": 0.0
+        },
+        "energy_used": {
+          "valid": true,
+          "value": 8.907168495594478
+        },
+        "failure_rate": {
+          "valid": true,
+          "value": 0.0
+        },
+        "mean_delay_minutes": {
+          "valid": false,
+          "value": 0.0
+        },
+        "on_time_rate": {
+          "valid": false,
+          "value": 1.0
+        },
+        "progress_rate": {
+          "valid": true,
+          "value": 0.4166666666666667
+        },
+        "utility": {
+          "valid": true,
+          "value": 3.8112568635730693
+        }
+      },
+      "pass": true
+    },
+    {
+      "check": "B_unknown_ids_event-action-e8d2b24cc155ee9ac0690317",
+      "detail": [
+        "n02-task-09",
+        "n02-task-10",
+        "n02-task-11",
+        "n02-task-12"
+      ],
+      "pass": true
+    },
+    {
+      "check": "B_communication_constraint_labels_event-action-e8d2b24cc155ee9ac0690317",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_all_model_heads_event-action-e8d2b24cc155ee9ac0690317",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_original_candidate_binding_event-action-96db627bb448c071b82454be",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_branch_catalog_binding_event-action-96db627bb448c071b82454be",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-96db627bb448c071b82454be_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_endpoint_replay_event-action-96db627bb448c071b82454be",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_all_task_labels_including_nontarget_event-action-96db627bb448c071b82454be",
+      "detail": {
+        "non_target_count": 11,
+        "task_count": 12
+      },
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-96db627bb448c071b82454be_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_global_labels_energy_utility_unknown_event-action-96db627bb448c071b82454be",
+      "detail": {
+        "communication_risk": {
+          "valid": true,
+          "value": 0.05526315789473687
+        },
+        "constraint_violation_count": {
+          "valid": true,
+          "value": 0.0
+        },
+        "energy_used": {
+          "valid": true,
+          "value": 8.907168495594478
+        },
+        "failure_rate": {
+          "valid": true,
+          "value": 0.0
+        },
+        "mean_delay_minutes": {
+          "valid": false,
+          "value": 0.0
+        },
+        "on_time_rate": {
+          "valid": false,
+          "value": 1.0
+        },
+        "progress_rate": {
+          "valid": true,
+          "value": 0.4166666666666667
+        },
+        "utility": {
+          "valid": true,
+          "value": 3.8112568635730693
+        }
+      },
+      "pass": true
+    },
+    {
+      "check": "B_unknown_ids_event-action-96db627bb448c071b82454be",
+      "detail": [
+        "n02-task-09",
+        "n02-task-10",
+        "n02-task-11",
+        "n02-task-12"
+      ],
+      "pass": true
+    },
+    {
+      "check": "B_communication_constraint_labels_event-action-96db627bb448c071b82454be",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_all_model_heads_event-action-96db627bb448c071b82454be",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_original_candidate_binding_event-action-e7ec1b562b5056f65f3012a0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_branch_catalog_binding_event-action-e7ec1b562b5056f65f3012a0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_3",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_step_replay_event-action-e7ec1b562b5056f65f3012a0_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_endpoint_replay_event-action-e7ec1b562b5056f65f3012a0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_all_task_labels_including_nontarget_event-action-e7ec1b562b5056f65f3012a0",
+      "detail": {
+        "non_target_count": 11,
+        "task_count": 12
+      },
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_4",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_6",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_7",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_8",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_10",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_11",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_12",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_13",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_14",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_15",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_16",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_17",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_18",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_19",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_20",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_21",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_22",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_23",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_24",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_26",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_27",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_28",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_29",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_30",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_31",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_32",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_reward_from_raw_event-action-e7ec1b562b5056f65f3012a0_33",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_global_labels_energy_utility_unknown_event-action-e7ec1b562b5056f65f3012a0",
+      "detail": {
+        "communication_risk": {
+          "valid": true,
+          "value": 0.055344262295082
+        },
+        "constraint_violation_count": {
+          "valid": true,
+          "value": 0.0
+        },
+        "energy_used": {
+          "valid": true,
+          "value": 8.940553549136691
+        },
+        "failure_rate": {
+          "valid": true,
+          "value": 0.0
+        },
+        "mean_delay_minutes": {
+          "valid": false,
+          "value": 0.0
+        },
+        "on_time_rate": {
+          "valid": false,
+          "value": 1.0
+        },
+        "progress_rate": {
+          "valid": true,
+          "value": 0.4166666666666667
+        },
+        "utility": {
+          "valid": true,
+          "value": 3.6905056998683694
+        }
+      },
+      "pass": true
+    },
+    {
+      "check": "B_unknown_ids_event-action-e7ec1b562b5056f65f3012a0",
+      "detail": [
+        "n02-task-09",
+        "n02-task-10",
+        "n02-task-11",
+        "n02-task-12"
+      ],
+      "pass": true
+    },
+    {
+      "check": "B_communication_constraint_labels_event-action-e7ec1b562b5056f65f3012a0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_all_model_heads_event-action-e7ec1b562b5056f65f3012a0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e8d2b24cc155ee9ac0690317_next_state",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e8d2b24cc155ee9ac0690317_progress",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e8d2b24cc155ee9ac0690317_delay",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e8d2b24cc155ee9ac0690317_energy",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e8d2b24cc155ee9ac0690317_failure",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e8d2b24cc155ee9ac0690317_communication_risk",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e8d2b24cc155ee9ac0690317_constraint_risk",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e8d2b24cc155ee9ac0690317_utility",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-96db627bb448c071b82454be_next_state",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-96db627bb448c071b82454be_progress",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-96db627bb448c071b82454be_delay",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-96db627bb448c071b82454be_energy",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-96db627bb448c071b82454be_failure",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-96db627bb448c071b82454be_communication_risk",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-96db627bb448c071b82454be_constraint_risk",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-96db627bb448c071b82454be_utility",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e7ec1b562b5056f65f3012a0_next_state",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e7ec1b562b5056f65f3012a0_progress",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e7ec1b562b5056f65f3012a0_delay",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e7ec1b562b5056f65f3012a0_energy",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e7ec1b562b5056f65f3012a0_failure",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e7ec1b562b5056f65f3012a0_communication_risk",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e7ec1b562b5056f65f3012a0_constraint_risk",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_delta_vs_NOOP_event-action-e7ec1b562b5056f65f3012a0_utility",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "B_real_global_physical_difference_not_task_permutation",
+      "detail": [
+        {
+          "energy_diff": false,
+          "left": "event-action-e8d2b24cc155ee9ac0690317",
+          "physical_path_diff_excluding_task_ids": false,
+          "right": "event-action-96db627bb448c071b82454be",
+          "utility_diff": false
+        },
+        {
+          "energy_diff": true,
+          "left": "event-action-e8d2b24cc155ee9ac0690317",
+          "physical_path_diff_excluding_task_ids": true,
+          "right": "event-action-e7ec1b562b5056f65f3012a0",
+          "utility_diff": true
+        },
+        {
+          "energy_diff": true,
+          "left": "event-action-96db627bb448c071b82454be",
+          "physical_path_diff_excluding_task_ids": true,
+          "right": "event-action-e7ec1b562b5056f65f3012a0",
+          "utility_diff": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "B_link7_independent_raw_recomputation",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "R5_independent_same_owner_head_dispatch_not_mutation",
+      "detail": [
+        {
+          "candidate_key": "probe-same-owner-A",
+          "effective_planned_mutation": false,
+          "legal": true,
+          "projected_owner_queue_state": {
+            "owners": {
+              "A": "p1",
+              "B": "p1",
+              "C": "p2",
+              "D": "p2"
+            },
+            "queues": {
+              "p1": [
+                "A",
+                "B"
+              ],
+              "p2": [
+                "C",
+                "D"
+              ]
+            }
+          },
+          "projection_reason": null,
+          "projection_supported": true,
+          "scope": "LOCAL_REPAIR"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "R5_independent_same_owner_nonhead_dispatch_not_mutation",
+      "detail": [
+        {
+          "candidate_key": "probe-same-owner-B",
+          "effective_planned_mutation": false,
+          "legal": true,
+          "projected_owner_queue_state": {
+            "owners": {
+              "A": "p1",
+              "B": "p1",
+              "C": "p2",
+              "D": "p2"
+            },
+            "queues": {
+              "p1": [
+                "A",
+                "B"
+              ],
+              "p2": [
+                "C",
+                "D"
+              ]
+            }
+          },
+          "projection_reason": null,
+          "projection_supported": true,
+          "scope": "LOCAL_REPAIR"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "R5_independent_transfer_then_dispatch_appends_no_head_reorder",
+      "detail": [
+        {
+          "candidate_key": "probe-transfer-B",
+          "effective_planned_mutation": true,
+          "legal": true,
+          "projected_owner_queue_state": {
+            "owners": {
+              "A": "p1",
+              "B": "p2",
+              "C": "p2",
+              "D": "p2"
+            },
+            "queues": {
+              "p1": [
+                "A"
+              ],
+              "p2": [
+                "C",
+                "D",
+                "B"
+              ]
+            }
+          },
+          "projection_reason": null,
+          "projection_supported": true,
+          "scope": "LOCAL_REPAIR"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "R5_all_candidate_full_projection_equals_raw_first_step_event-action-e8d2b24cc155ee9ac0690317",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "R5_all_candidate_full_projection_equals_raw_first_step_event-action-96db627bb448c071b82454be",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "R5_all_candidate_full_projection_equals_raw_first_step_event-action-e7ec1b562b5056f65f3012a0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "R5_selected_real_global_physical_effect",
+      "detail": {
+        "energy_delta": 0.03338505354221333,
+        "owner_changes": 1,
+        "switches": 1,
+        "utility_delta": -0.12075116370469985
+      },
+      "pass": true
+    },
+    {
+      "check": "R5_raw_transfer_receipt_agrees_with_replayed_actual_queue",
+      "detail": {
+        "recorded_at_time": 4,
+        "uav2_queue": [
+          "n02-task-06",
+          "n02-task-05"
+        ]
+      },
+      "pass": true
+    },
+    {
+      "check": "R5_extra_frozen_scenario_copy_matches_execution",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "R5_final_success_log_retained",
+      "detail": {
+        "result": "112 passed, 3 skipped, 2 warnings in 23.77s",
+        "sha256": "cf7a75d561ef76a100f2ca63b52a35a3735005b2328f9854e48223b115b618fc",
+        "warning_summary": "Two cache write permission warnings; no test failures"
+      },
+      "pass": true
+    },
+    {
+      "check": "R3_REPAIR_review_unchanged",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "R4_REPAIR_review_unchanged",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "frozen_bytes_unchanged_after_review",
+      "detail": null,
+      "pass": true
+    }
+  ],
+  "evidence_hashes": {
+    "input-00/a-boundary/cb8d8d037820497a97e5ca8c16a1b712/2579fb0afc914edab672b2f5ef467c40/REPLAY_INDEX.json": "1979ed558fb736839390736a0a217045c1a5a769c87a5978b59660974eab8528",
+    "input-00/local-tests/890249a11035417197363c4849a5a2cc/pytest.log": "cf7a75d561ef76a100f2ca63b52a35a3735005b2328f9854e48223b115b618fc",
+    "input-00/mechanism-runs/dd14f06ba2ad435cba59bc4fd68c962f/mechanism-0b4a84902d564d2691bc766cc065faed/BRANCH_EVIDENCE.json": "309b0529535694370e922284af68e3086fca7f15a980a9ef87edeff62229b570",
+    "input-00/mechanism-runs/dd14f06ba2ad435cba59bc4fd68c962f/mechanism-0b4a84902d564d2691bc766cc065faed/PRODUCER_LABELS_FOR_REVIEW.json": "730c68af6328046ddefc08dd3b0c09ea1273a63a7cfeff181b10d13cabdeacc3",
+    "input-00/mechanism-runs/dd14f06ba2ad435cba59bc4fd68c962f/mechanism-0b4a84902d564d2691bc766cc065faed/REQUEST.json": "bcddd774a7791d65314026548d4f55451da0f25d714f6bb1e61ff8a7dfff1fc9",
+    "input-00/mechanism-runs/dd14f06ba2ad435cba59bc4fd68c962f/mechanism-0b4a84902d564d2691bc766cc065faed/SELECTED_ACTION_CHAIN.json": "28558ed0957dbd6cd37d9a54907515961787ed3aa89a966f8ebc316b4393e579",
+    "input-00/mechanism-runs/dd14f06ba2ad435cba59bc4fd68c962f/mechanism-0b4a84902d564d2691bc766cc065faed/SELECTION_PLAN.json": "1817378d769829e9a19b98b42f96095bc5a0e769a5f4bd446075a920419b3380",
+    "input-00/mechanism-runs/dd14f06ba2ad435cba59bc4fd68c962f/mechanism-0b4a84902d564d2691bc766cc065faed/SELECTION_RULE.json": "d6fedd0d1a51db871149884f04cade5bd938bdffa090a09900298c8493133256",
+    "input-00/mechanism-runs/dd14f06ba2ad435cba59bc4fd68c962f/mechanism-0b4a84902d564d2691bc766cc065faed/WINDOW.json": "820f02f4d4f419a06f012343008dd80e7cba0c0924f426f72e15dbf25b2133a1"
+  },
+  "evidence_manifest_sha256": "f76241bc27c995aa308c383ed70298c780c375e4f0f9e84cdd7c50d74b6130fd",
+  "findings": [],
+  "limitations": [
+    {
+      "kind": "scope",
+      "text": "PASS is limited to A contract/public C1 and B S0 6-platform/12-task isolated priority-change diagnostic. It does not pass C/S1, spatial 2x2 causality, 30-platform event execution, learned actor ranking, GPU, world-model or PPO training."
+    },
+    {
+      "kind": "candidate_coverage",
+      "text": "Frozen catalog retains 2 nominal legal non-NOOP locals, one of which is a repeated same-owner dispatch correctly marked no mutation; one alternative executes a real owner/queue change. S1 must provide its own repairable event witnesses and candidate evidence."
+    },
+    {
+      "kind": "unknowns",
+      "text": "Tasks09-12 unresolved at t34: on-time/delay unknown masks preserved. Aggregate partial on-time value 1.0 is invalid for all-task claims."
+    },
+    {
+      "kind": "test_log",
+      "text": "R5 frozen final log verifies 112 passed, 3 skipped, 2 cache permission warnings. Historical R3 initial collection failure stdout remains unavailable and was not reconstructed; R3/R4 REPAIR reports unchanged."
+    },
+    {
+      "kind": "assurance",
+      "text": "Static frozen runner writes plan, hash-bound REQUEST and selection rule before all branch executions. Persisted artifacts provide no external trusted historical timestamp."
+    },
+    {
+      "kind": "utility",
+      "text": "Selected action changes global physical energy and utility but has lower utility than NOOP in this diagnostic; no performance superiority claim."
+    }
+  ],
+  "node_A": "PASS",
+  "node_B": "PASS",
+  "original_seven_execution_links": "PASS",
+  "physical_pairs": [
+    {
+      "energy_diff": false,
+      "left": "event-action-e8d2b24cc155ee9ac0690317",
+      "physical_path_diff_excluding_task_ids": false,
+      "right": "event-action-96db627bb448c071b82454be",
+      "utility_diff": false
+    },
+    {
+      "energy_diff": true,
+      "left": "event-action-e8d2b24cc155ee9ac0690317",
+      "physical_path_diff_excluding_task_ids": true,
+      "right": "event-action-e7ec1b562b5056f65f3012a0",
+      "utility_diff": true
+    },
+    {
+      "energy_diff": true,
+      "left": "event-action-96db627bb448c071b82454be",
+      "physical_path_diff_excluding_task_ids": true,
+      "right": "event-action-e7ec1b562b5056f65f3012a0",
+      "utility_diff": true
+    }
+  ],
+  "release": "n02-v3-s0-cc048803057b43c49b94449117476de8",
+  "review_script_sha256": "c49f0fdc8a001d99eb9544fdaf85b82beb0e08fdb3447b8c1997e94d7146a3e8",
+  "reviewer": "GPT-6.1 Sol High read-only audit; same model family independent review context, not external certification",
+  "schema": "n02-independent-s0-r5-review/1",
+  "scope": "A contract/C1 + B S0 repaired diagnostic including R5 public selection-plan fidelity; no training",
+  "selection_plan": {
+    "independent_projections": [
+      {
+        "candidate_key": "event-action-e8d2b24cc155ee9ac0690317",
+        "effective_planned_mutation": false,
+        "legal": true,
+        "projected_owner_queue_state": {
+          "owners": {
+            "n02-task-01": "n02-uav-1",
+            "n02-task-02": "n02-uav-2",
+            "n02-task-03": "n02-uav-3",
+            "n02-task-04": "n02-uav-4",
+            "n02-task-05": "n02-uav-1",
+            "n02-task-06": "n02-uav-2",
+            "n02-task-07": "n02-heli-1",
+            "n02-task-08": "n02-heli-2"
+          },
+          "queues": {
+            "n02-heli-1": [],
+            "n02-heli-2": [
+              "n02-task-08"
+            ],
+            "n02-uav-1": [
+              "n02-task-05"
+            ],
+            "n02-uav-2": [
+              "n02-task-06"
+            ],
+            "n02-uav-3": [],
+            "n02-uav-4": [
+              "n02-task-04"
+            ]
+          }
+        },
+        "projection_reason": null,
+        "projection_supported": true,
+        "scope": "NOOP"
+      },
+      {
+        "candidate_key": "event-action-96db627bb448c071b82454be",
+        "effective_planned_mutation": false,
+        "legal": true,
+        "projected_owner_queue_state": {
+          "owners": {
+            "n02-task-01": "n02-uav-1",
+            "n02-task-02": "n02-uav-2",
+            "n02-task-03": "n02-uav-3",
+            "n02-task-04": "n02-uav-4",
+            "n02-task-05": "n02-uav-1",
+            "n02-task-06": "n02-uav-2",
+            "n02-task-07": "n02-heli-1",
+            "n02-task-08": "n02-heli-2"
+          },
+          "queues": {
+            "n02-heli-1": [],
+            "n02-heli-2": [
+              "n02-task-08"
+            ],
+            "n02-uav-1": [
+              "n02-task-05"
+            ],
+            "n02-uav-2": [
+              "n02-task-06"
+            ],
+            "n02-uav-3": [],
+            "n02-uav-4": [
+              "n02-task-04"
+            ]
+          }
+        },
+        "projection_reason": null,
+        "projection_supported": true,
+        "scope": "LOCAL_REPAIR"
+      },
+      {
+        "candidate_key": "event-action-e7ec1b562b5056f65f3012a0",
+        "effective_planned_mutation": true,
+        "legal": true,
+        "projected_owner_queue_state": {
+          "owners": {
+            "n02-task-01": "n02-uav-1",
+            "n02-task-02": "n02-uav-2",
+            "n02-task-03": "n02-uav-3",
+            "n02-task-04": "n02-uav-4",
+            "n02-task-05": "n02-uav-2",
+            "n02-task-06": "n02-uav-2",
+            "n02-task-07": "n02-heli-1",
+            "n02-task-08": "n02-heli-2"
+          },
+          "queues": {
+            "n02-heli-1": [],
+            "n02-heli-2": [
+              "n02-task-08"
+            ],
+            "n02-uav-1": [],
+            "n02-uav-2": [
+              "n02-task-06",
+              "n02-task-05"
+            ],
+            "n02-uav-3": [],
+            "n02-uav-4": [
+              "n02-task-04"
+            ]
+          }
+        },
+        "projection_reason": null,
+        "projection_supported": true,
+        "scope": "LOCAL_REPAIR"
+      }
+    ],
+    "path": "[REDACTED_LOCAL_PATH]",
+    "queue_projection_mismatches": {},
+    "request_bound_sha256": "1817378d769829e9a19b98b42f96095bc5a0e769a5f4bd446075a920419b3380",
+    "selected_candidate_key": "event-action-e7ec1b562b5056f65f3012a0",
+    "selected_complete_executed_state": {
+      "owners": {
+        "n02-task-01": "n02-uav-1",
+        "n02-task-02": "n02-uav-2",
+        "n02-task-03": "n02-uav-3",
+        "n02-task-04": "n02-uav-4",
+        "n02-task-05": "n02-uav-2",
+        "n02-task-06": "n02-uav-2",
+        "n02-task-07": "n02-heli-1",
+        "n02-task-08": "n02-heli-2"
+      },
+      "queues": {
+        "n02-heli-1": [],
+        "n02-heli-2": [
+          "n02-task-08"
+        ],
+        "n02-uav-1": [],
+        "n02-uav-2": [
+          "n02-task-06",
+          "n02-task-05"
+        ],
+        "n02-uav-3": [],
+        "n02-uav-4": [
+          "n02-task-04"
+        ]
+      }
+    },
+    "selected_complete_projected_state": {
+      "owners": {
+        "n02-task-01": "n02-uav-1",
+        "n02-task-02": "n02-uav-2",
+        "n02-task-03": "n02-uav-3",
+        "n02-task-04": "n02-uav-4",
+        "n02-task-05": "n02-uav-2",
+        "n02-task-06": "n02-uav-2",
+        "n02-task-07": "n02-heli-1",
+        "n02-task-08": "n02-heli-2"
+      },
+      "queues": {
+        "n02-heli-1": [],
+        "n02-heli-2": [
+          "n02-task-08"
+        ],
+        "n02-uav-1": [],
+        "n02-uav-2": [
+          "n02-task-06",
+          "n02-task-05"
+        ],
+        "n02-uav-3": [],
+        "n02-uav-4": [
+          "n02-task-04"
+        ]
+      }
+    },
+    "sha256": "1817378d769829e9a19b98b42f96095bc5a0e769a5f4bd446075a920419b3380"
+  },
+  "source_diff_from_R4": [
+    "package/tests/test_v3_mechanism_evidence.py",
+    "tools/run_v3_mechanism.py"
+  ],
+  "source_diff_sha256": "0ac44d219cab9982d4f96bf7e866e6e767abf9cb964eabae1884068f464a981d",
+  "source_manifest_sha256": "c21be3cf1889b41584eb1eaf3697407840dd986996d1214436b58501909a5f3b",
+  "spatial_2x2_causal": "NOT_RUN: priority-change diagnostic only; no patch-on/off pair",
+  "verdict": "PASS"
+}

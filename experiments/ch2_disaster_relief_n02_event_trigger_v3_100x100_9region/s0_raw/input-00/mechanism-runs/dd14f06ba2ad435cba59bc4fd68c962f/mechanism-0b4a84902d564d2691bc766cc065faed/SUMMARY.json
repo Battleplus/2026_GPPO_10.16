@@ -1,0 +1,23 @@
+{
+  "branch_count": 3,
+  "condition": "s0_local_repair_diagnostic",
+  "decision_scope": "LOCAL_REPAIR",
+  "event_time": 4,
+  "evidence_id": "mechanism-0b4a84902d564d2691bc766cc065faed",
+  "evidence_root": "evidence\\s0-r5\\mechanism-runs\\dd14f06ba2ad435cba59bc4fd68c962f\\mechanism-0b4a84902d564d2691bc766cc065faed",
+  "identified_scope": "LOCAL_REPAIR",
+  "label_recompute": {
+    "self_certified_pass": false,
+    "status": "recomputed_for_independent_review"
+  },
+  "legal_candidate_count": 3,
+  "legal_nonnoop_local_candidate_count": 2,
+  "legal_noop_count": 1,
+  "parent_id": "n02-s0-repair-seed-8201-priority-n02-task-05-t4",
+  "planned_window_end": 34,
+  "schema": "n02-v3-mechanism-evidence/1",
+  "selection_rule": "first legal non-NOOP LOCAL_REPAIR candidate in deterministic producer catalog order whose public-observation projection changes planned task owners or queue order",
+  "source_hashes_unchanged": true,
+  "triggered": true,
+  "window_start": 4
+}

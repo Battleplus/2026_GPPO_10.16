@@ -1,0 +1,125 @@
+{
+  "candidate_projections": [
+    {
+      "candidate_key": "event-action-e8d2b24cc155ee9ac0690317",
+      "effective_planned_mutation": false,
+      "legal": true,
+      "projected_owner_queue_state": {
+        "owners": {
+          "n02-task-01": "n02-uav-1",
+          "n02-task-02": "n02-uav-2",
+          "n02-task-03": "n02-uav-3",
+          "n02-task-04": "n02-uav-4",
+          "n02-task-05": "n02-uav-1",
+          "n02-task-06": "n02-uav-2",
+          "n02-task-07": "n02-heli-1",
+          "n02-task-08": "n02-heli-2"
+        },
+        "queues": {
+          "n02-heli-1": [],
+          "n02-heli-2": [
+            "n02-task-08"
+          ],
+          "n02-uav-1": [
+            "n02-task-05"
+          ],
+          "n02-uav-2": [
+            "n02-task-06"
+          ],
+          "n02-uav-3": [],
+          "n02-uav-4": [
+            "n02-task-04"
+          ]
+        }
+      },
+      "projection_reason": null,
+      "projection_supported": true,
+      "scope": "NOOP"
+    },
+    {
+      "candidate_key": "event-action-96db627bb448c071b82454be",
+      "effective_planned_mutation": false,
+      "legal": true,
+      "projected_owner_queue_state": {
+        "owners": {
+          "n02-task-01": "n02-uav-1",
+          "n02-task-02": "n02-uav-2",
+          "n02-task-03": "n02-uav-3",
+          "n02-task-04": "n02-uav-4",
+          "n02-task-05": "n02-uav-1",
+          "n02-task-06": "n02-uav-2",
+          "n02-task-07": "n02-heli-1",
+          "n02-task-08": "n02-heli-2"
+        },
+        "queues": {
+          "n02-heli-1": [],
+          "n02-heli-2": [
+            "n02-task-08"
+          ],
+          "n02-uav-1": [
+            "n02-task-05"
+          ],
+          "n02-uav-2": [
+            "n02-task-06"
+          ],
+          "n02-uav-3": [],
+          "n02-uav-4": [
+            "n02-task-04"
+          ]
+        }
+      },
+      "projection_reason": null,
+      "projection_supported": true,
+      "scope": "LOCAL_REPAIR"
+    },
+    {
+      "candidate_key": "event-action-e7ec1b562b5056f65f3012a0",
+      "effective_planned_mutation": true,
+      "legal": true,
+      "projected_owner_queue_state": {
+        "owners": {
+          "n02-task-01": "n02-uav-1",
+          "n02-task-02": "n02-uav-2",
+          "n02-task-03": "n02-uav-3",
+          "n02-task-04": "n02-uav-4",
+          "n02-task-05": "n02-uav-2",
+          "n02-task-06": "n02-uav-2",
+          "n02-task-07": "n02-heli-1",
+          "n02-task-08": "n02-heli-2"
+        },
+        "queues": {
+          "n02-heli-1": [],
+          "n02-heli-2": [
+            "n02-task-08"
+          ],
+          "n02-uav-1": [],
+          "n02-uav-2": [
+            "n02-task-06",
+            "n02-task-05"
+          ],
+          "n02-uav-3": [],
+          "n02-uav-4": [
+            "n02-task-04"
+          ]
+        }
+      },
+      "projection_reason": null,
+      "projection_supported": true,
+      "scope": "LOCAL_REPAIR"
+    }
+  ],
+  "catalog_order_keys": [
+    "event-action-e8d2b24cc155ee9ac0690317",
+    "event-action-96db627bb448c071b82454be",
+    "event-action-e7ec1b562b5056f65f3012a0"
+  ],
+  "private_simulator_truth_read": false,
+  "projection_inputs": [
+    "PUBLIC_OBSERVATION.json",
+    "CANDIDATE_CATALOG_PRODUCER.json"
+  ],
+  "projection_scope": "owners and queue order from public observation; apply complete candidate queue operations then dispatches",
+  "rule": "first legal non-NOOP LOCAL_REPAIR candidate in deterministic producer catalog order whose public-observation projection changes planned task owners or queue order",
+  "schema": "n02-v3-mechanism-selection-plan/1",
+  "selected_candidate_key": "event-action-e7ec1b562b5056f65f3012a0"
+}

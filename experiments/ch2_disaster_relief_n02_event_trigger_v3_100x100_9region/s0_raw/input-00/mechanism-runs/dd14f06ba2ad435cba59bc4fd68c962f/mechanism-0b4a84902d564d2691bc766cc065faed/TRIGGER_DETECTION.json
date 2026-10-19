@@ -1,0 +1,116 @@
+{
+  "affected_platform_ids": [],
+  "affected_task_ids": [
+    "n02-task-05"
+  ],
+  "assignment_edge_changes": [],
+  "communication_edge_changes": [],
+  "constraint_margin_losses": {
+    "capability": 0.0,
+    "communication": 0.10608432000000007,
+    "energy": 0.014998556298839137,
+    "time": 0.06358887298660684
+  },
+  "cooldown_suppressed": false,
+  "d_communication": 0.0,
+  "d_degradation": 0.0,
+  "d_environment": 0.0,
+  "d_margin": 0.04616793732136151,
+  "d_margin_capability": 0.0,
+  "d_margin_communication": 0.10608432000000007,
+  "d_margin_energy": 0.014998556298839137,
+  "d_margin_time": 0.06358887298660684,
+  "d_platform": 0.0,
+  "d_state": 1.0648565455557921e-17,
+  "d_task": 0.275,
+  "d_uncertainty": 0.0,
+  "edge_changes": {
+    "assignment": [],
+    "communication": []
+  },
+  "event_active": true,
+  "event_details": {
+    "assignment_edge_changes": [],
+    "cancelled_task_ids": [],
+    "capability_change_ids": [],
+    "category_count": 1,
+    "changed_platform_ids": [],
+    "changed_task_ids": [
+      "n02-task-05"
+    ],
+    "communication_changes": [],
+    "communication_edge_changes": [],
+    "deadline_change_ids": [],
+    "edge_changes": {
+      "assignment": [],
+      "communication": []
+    },
+    "energy_drop_ids": [],
+    "environment_node_ids": [],
+    "environment_target_task_ids": [],
+    "environment_targets": [],
+    "event_severities": {
+      "communication": 0.0,
+      "environment": 0.0,
+      "platform": 0.0,
+      "task": 0.275
+    },
+    "execution_residual_platform_ids": [],
+    "execution_residual_task_ids": [],
+    "execution_residuals": {
+      "energy": 2.5006802462766534e-17,
+      "position": 0.0,
+      "progress": 6.938893903907228e-18
+    },
+    "failed_platform_ids": [],
+    "load_change_ids": [],
+    "network_split": false,
+    "new_task_ids": [],
+    "priority_change_ids": [
+      "n02-task-05"
+    ],
+    "task_changes": [
+      {
+        "current_deadline": 45,
+        "current_priority": 4.9,
+        "current_status": "pending",
+        "kind": "priority_change",
+        "previous_deadline": 45,
+        "previous_priority": 4.25,
+        "previous_status": "pending",
+        "task_id": "n02-task-05"
+      }
+    ]
+  },
+  "event_severity": "moderate",
+  "event_type": "task_disturbance",
+  "gamma_value": 0.011541984330340382,
+  "hysteresis_active": false,
+  "hysteresis_latched": false,
+  "hysteresis_margin": 0.0,
+  "persistence_count": 0,
+  "persistence_steps": 1,
+  "raw_d_degradation": 0.0,
+  "raw_d_margin": 0.04616793732136151,
+  "raw_d_uncertainty": 0.0,
+  "residual_only": false,
+  "residual_signal": true,
+  "schema": "event-detection/1",
+  "strong_event": false,
+  "threshold": 0.0,
+  "threshold_high": 0.0,
+  "threshold_low": 0.0,
+  "time": 4,
+  "trigger_edge": "rising",
+  "trigger_suppression_reason": "",
+  "triggered": true,
+  "warmup_complete": true,
+  "warmup_remaining": 0,
+  "warmup_steps": 0,
+  "weights": {
+    "d_degradation": 0.3,
+    "d_margin": 0.25,
+    "d_state": 0.35,
+    "d_uncertainty": 0.1
+  }
+}

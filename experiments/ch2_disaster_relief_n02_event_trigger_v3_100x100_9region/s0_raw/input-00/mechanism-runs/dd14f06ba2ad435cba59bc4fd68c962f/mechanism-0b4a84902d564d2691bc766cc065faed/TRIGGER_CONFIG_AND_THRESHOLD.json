@@ -1,0 +1,20 @@
+{
+  "purpose": "S0 disclosed diagnostic only",
+  "threshold_manifest": {
+    "delta_min": 0,
+    "hysteresis_margin": 0.0,
+    "persistence_steps": 1,
+    "threshold": 0.0,
+    "warmup_steps": 0
+  },
+  "threshold_used": 0.0,
+  "trigger_config": {
+    "trigger": {
+      "delta_min": 0,
+      "hysteresis_margin": 0.0,
+      "persistence_steps": 1,
+      "threshold": 0.0,
+      "warmup_steps": 0
+    }
+  }
+}

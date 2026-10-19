@@ -1,0 +1,637 @@
+{
+  "chapter1_snapshot": {
+    "queues": {
+      "n02-heli-1": [
+        "n02-task-07"
+      ],
+      "n02-heli-2": [
+        "n02-task-08"
+      ],
+      "n02-uav-1": [
+        "n02-task-01",
+        "n02-task-05"
+      ],
+      "n02-uav-2": [
+        "n02-task-02",
+        "n02-task-06"
+      ],
+      "n02-uav-3": [
+        "n02-task-03"
+      ],
+      "n02-uav-4": [
+        "n02-task-04"
+      ]
+    },
+    "source": "civilian-public-C1/1",
+    "time": 0
+  },
+  "communication": [
+    {
+      "connected": true,
+      "latency_minutes": 0.08,
+      "loss_rate": 0.04,
+      "quality": 0.94,
+      "source": "n02-heli-1",
+      "target": "n02-heli-2"
+    },
+    {
+      "connected": true,
+      "latency_minutes": 0.08,
+      "loss_rate": 0.04,
+      "quality": 0.92,
+      "source": "n02-uav-4",
+      "target": "n02-heli-1"
+    },
+    {
+      "connected": true,
+      "latency_minutes": 0.05,
+      "loss_rate": 0.02,
+      "quality": 0.96,
+      "source": "n02-uav-1",
+      "target": "n02-uav-2"
+    },
+    {
+      "connected": true,
+      "latency_minutes": 0.06,
+      "loss_rate": 0.03,
+      "quality": 0.95,
+      "source": "n02-uav-2",
+      "target": "n02-uav-3"
+    },
+    {
+      "connected": true,
+      "latency_minutes": 0.06,
+      "loss_rate": 0.03,
+      "quality": 0.95,
+      "source": "n02-uav-3",
+      "target": "n02-uav-4"
+    }
+  ],
+  "cooperation": {
+    "n02-task-01": [
+      "n02-task-02"
+    ],
+    "n02-task-02": [
+      "n02-task-01"
+    ]
+  },
+  "depots": [
+    {
+      "id": "n02-local-depot",
+      "position": [
+        40.5,
+        40.5
+      ],
+      "stock": {
+        "water": 45.0
+      }
+    },
+    {
+      "id": "n02-remote-depot",
+      "position": [
+        96.0,
+        96.0
+      ],
+      "stock": {
+        "medical": 20.0
+      }
+    }
+  ],
+  "environment": [
+    {
+      "blocked": false,
+      "grid_cell": [
+        40,
+        40
+      ],
+      "id": "env-cell-40-40",
+      "kind": "cell",
+      "risk": 0.05,
+      "risk_level": 0.05,
+      "wind_vector": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "blocked": false,
+      "grid_cell": [
+        41,
+        40
+      ],
+      "id": "env-cell-41-40",
+      "kind": "cell",
+      "risk": 0.05,
+      "risk_level": 0.05,
+      "wind_vector": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "blocked": false,
+      "grid_cell": [
+        40,
+        41
+      ],
+      "id": "env-cell-40-41",
+      "kind": "cell",
+      "risk": 0.05,
+      "risk_level": 0.05,
+      "wind_vector": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "blocked": false,
+      "grid_cell": [
+        41,
+        41
+      ],
+      "id": "env-cell-41-41",
+      "kind": "cell",
+      "risk": 0.05,
+      "risk_level": 0.05,
+      "wind_vector": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "environment_event_targets": [],
+  "horizon": 60,
+  "map": {
+    "cell_km": 1.0,
+    "cols": 100,
+    "grid_cells": 10000,
+    "grid_contract": "relief-grid-100x100-v1",
+    "local_block": [
+      40,
+      40,
+      2,
+      2
+    ],
+    "rows": 100
+  },
+  "platforms": [
+    {
+      "active_task_id": null,
+      "busy": false,
+      "capabilities": [
+        "inspect",
+        "deliver"
+      ],
+      "capacity_kg": 30.0,
+      "energy": 180.0,
+      "energy_per_km": 1.1,
+      "energy_used": 0.0,
+      "failed": false,
+      "health": "healthy",
+      "id": "n02-heli-1",
+      "load": {
+        "active_tasks": 0,
+        "queued_tasks": 1
+      },
+      "local": false,
+      "position": [
+        95.0,
+        96.0
+      ],
+      "service_energy_per_min": 0.3,
+      "speed_km_min": 2.2,
+      "type": "helicopter"
+    },
+    {
+      "active_task_id": null,
+      "busy": false,
+      "capabilities": [
+        "inspect",
+        "deliver"
+      ],
+      "capacity_kg": 30.0,
+      "energy": 180.0,
+      "energy_per_km": 1.1,
+      "energy_used": 0.0,
+      "failed": false,
+      "health": "healthy",
+      "id": "n02-heli-2",
+      "load": {
+        "active_tasks": 0,
+        "queued_tasks": 1
+      },
+      "local": false,
+      "position": [
+        97.0,
+        95.0
+      ],
+      "service_energy_per_min": 0.3,
+      "speed_km_min": 2.2,
+      "type": "helicopter"
+    },
+    {
+      "active_task_id": null,
+      "busy": false,
+      "capabilities": [
+        "inspect",
+        "deliver"
+      ],
+      "capacity_kg": 9.0,
+      "energy": 100.0,
+      "energy_per_km": 1.0,
+      "energy_used": 0.0,
+      "failed": false,
+      "health": "healthy",
+      "id": "n02-uav-1",
+      "load": {
+        "active_tasks": 0,
+        "queued_tasks": 2
+      },
+      "local": true,
+      "position": [
+        40.2,
+        40.2
+      ],
+      "service_energy_per_min": 0.2,
+      "speed_km_min": 1.6,
+      "type": "uav"
+    },
+    {
+      "active_task_id": null,
+      "busy": false,
+      "capabilities": [
+        "inspect",
+        "deliver"
+      ],
+      "capacity_kg": 9.0,
+      "energy": 100.0,
+      "energy_per_km": 1.0,
+      "energy_used": 0.0,
+      "failed": false,
+      "health": "healthy",
+      "id": "n02-uav-2",
+      "load": {
+        "active_tasks": 0,
+        "queued_tasks": 2
+      },
+      "local": true,
+      "position": [
+        41.2,
+        40.2
+      ],
+      "service_energy_per_min": 0.2,
+      "speed_km_min": 1.6,
+      "type": "uav"
+    },
+    {
+      "active_task_id": null,
+      "busy": false,
+      "capabilities": [
+        "inspect",
+        "deliver"
+      ],
+      "capacity_kg": 9.0,
+      "energy": 100.0,
+      "energy_per_km": 1.0,
+      "energy_used": 0.0,
+      "failed": false,
+      "health": "healthy",
+      "id": "n02-uav-3",
+      "load": {
+        "active_tasks": 0,
+        "queued_tasks": 1
+      },
+      "local": true,
+      "position": [
+        40.2,
+        41.2
+      ],
+      "service_energy_per_min": 0.2,
+      "speed_km_min": 1.6,
+      "type": "uav"
+    },
+    {
+      "active_task_id": null,
+      "busy": false,
+      "capabilities": [
+        "inspect",
+        "deliver"
+      ],
+      "capacity_kg": 9.0,
+      "energy": 100.0,
+      "energy_per_km": 1.0,
+      "energy_used": 0.0,
+      "failed": false,
+      "health": "healthy",
+      "id": "n02-uav-4",
+      "load": {
+        "active_tasks": 0,
+        "queued_tasks": 1
+      },
+      "local": true,
+      "position": [
+        41.2,
+        41.2
+      ],
+      "service_energy_per_min": 0.2,
+      "speed_km_min": 1.6,
+      "type": "uav"
+    }
+  ],
+  "predecessors": {
+    "n02-task-04": [
+      "n02-task-03"
+    ],
+    "n02-task-06": [
+      "n02-task-04"
+    ],
+    "n02-task-08": [
+      "n02-task-07"
+    ]
+  },
+  "provenance": {
+    "event_tape_id": "233f10305700ac97377554bb3566eba0247ea2bc66d6cf051287a4d9898ead1d",
+    "parent_id": "n02-s0-repair-seed-8201-priority-n02-task-05-t4",
+    "public_prefix_hash": "7e7781dae8d2cd2a4ff3b37ba230a89dedaeb1f78b77d2440b08443a43e7ca4e",
+    "snapshot_hash": "e58386aad2490fa6a7de78fa40b2769c428cadc4ae913ef18440d0507dfc7afd",
+    "split": "development"
+  },
+  "queues": {
+    "n02-heli-1": [
+      "n02-task-07"
+    ],
+    "n02-heli-2": [
+      "n02-task-08"
+    ],
+    "n02-uav-1": [
+      "n02-task-01",
+      "n02-task-05"
+    ],
+    "n02-uav-2": [
+      "n02-task-02",
+      "n02-task-06"
+    ],
+    "n02-uav-3": [
+      "n02-task-03"
+    ],
+    "n02-uav-4": [
+      "n02-task-04"
+    ]
+  },
+  "schema": "event-relief-public-observation/1",
+  "task_progress": {
+    "n02-task-01": 0.0,
+    "n02-task-02": 0.0,
+    "n02-task-03": 0.0,
+    "n02-task-04": 0.0,
+    "n02-task-05": 0.0,
+    "n02-task-06": 0.0,
+    "n02-task-07": 0.0,
+    "n02-task-08": 0.0
+  },
+  "tasks": [
+    {
+      "assignee": "n02-uav-1",
+      "commodity": "water",
+      "completed_at": null,
+      "cooperative_with": [
+        "n02-task-02"
+      ],
+      "deadline": 33,
+      "deadline_missed": false,
+      "depot_id": "n02-local-depot",
+      "discovered": true,
+      "id": "n02-task-01",
+      "kind": "delivery",
+      "load_minutes": 1,
+      "local": true,
+      "original_assignee": "n02-uav-1",
+      "phase": "pending",
+      "position": [
+        40.3,
+        40.3
+      ],
+      "predecessors": [],
+      "priority": 5.65,
+      "progress": 0.0,
+      "quantity": 3.0,
+      "report_generated_at": null,
+      "report_received_at": null,
+      "service_progress": 0.0,
+      "started_at": null,
+      "status": "pending",
+      "unload_minutes": 1
+    },
+    {
+      "assignee": "n02-uav-2",
+      "commodity": "water",
+      "completed_at": null,
+      "cooperative_with": [
+        "n02-task-01"
+      ],
+      "deadline": 36,
+      "deadline_missed": false,
+      "depot_id": "n02-local-depot",
+      "discovered": true,
+      "id": "n02-task-02",
+      "kind": "delivery",
+      "load_minutes": 1,
+      "local": true,
+      "original_assignee": "n02-uav-2",
+      "phase": "pending",
+      "position": [
+        41.4,
+        40.3
+      ],
+      "predecessors": [],
+      "priority": 5.3,
+      "progress": 0.0,
+      "quantity": 4.0,
+      "report_generated_at": null,
+      "report_received_at": null,
+      "service_progress": 0.0,
+      "started_at": null,
+      "status": "pending",
+      "unload_minutes": 1
+    },
+    {
+      "assignee": "n02-uav-3",
+      "completed_at": null,
+      "cooperative_with": [],
+      "deadline": 39,
+      "deadline_missed": false,
+      "discovered": true,
+      "id": "n02-task-03",
+      "kind": "inspection",
+      "local": true,
+      "original_assignee": "n02-uav-3",
+      "phase": "pending",
+      "position": [
+        40.4,
+        41.4
+      ],
+      "predecessors": [],
+      "priority": 4.95,
+      "progress": 0.0,
+      "report_generated_at": null,
+      "report_received_at": null,
+      "service_minutes": 3,
+      "service_progress": 0.0,
+      "started_at": null,
+      "status": "pending"
+    },
+    {
+      "assignee": "n02-uav-4",
+      "commodity": "water",
+      "completed_at": null,
+      "cooperative_with": [],
+      "deadline": 42,
+      "deadline_missed": false,
+      "depot_id": "n02-local-depot",
+      "discovered": true,
+      "id": "n02-task-04",
+      "kind": "delivery",
+      "load_minutes": 1,
+      "local": true,
+      "original_assignee": "n02-uav-4",
+      "phase": "pending",
+      "position": [
+        41.5,
+        41.5
+      ],
+      "predecessors": [
+        "n02-task-03"
+      ],
+      "priority": 4.6,
+      "progress": 0.0,
+      "quantity": 3.0,
+      "report_generated_at": null,
+      "report_received_at": null,
+      "service_progress": 0.0,
+      "started_at": null,
+      "status": "pending",
+      "unload_minutes": 1
+    },
+    {
+      "assignee": "n02-uav-1",
+      "commodity": "water",
+      "completed_at": null,
+      "cooperative_with": [],
+      "deadline": 45,
+      "deadline_missed": false,
+      "depot_id": "n02-local-depot",
+      "discovered": true,
+      "id": "n02-task-05",
+      "kind": "delivery",
+      "load_minutes": 1,
+      "local": true,
+      "original_assignee": "n02-uav-1",
+      "phase": "pending",
+      "position": [
+        40.8,
+        40.6
+      ],
+      "predecessors": [],
+      "priority": 4.25,
+      "progress": 0.0,
+      "quantity": 4.0,
+      "report_generated_at": null,
+      "report_received_at": null,
+      "service_progress": 0.0,
+      "started_at": null,
+      "status": "pending",
+      "unload_minutes": 1
+    },
+    {
+      "assignee": "n02-uav-2",
+      "commodity": "water",
+      "completed_at": null,
+      "cooperative_with": [],
+      "deadline": 48,
+      "deadline_missed": false,
+      "depot_id": "n02-local-depot",
+      "discovered": true,
+      "id": "n02-task-06",
+      "kind": "delivery",
+      "load_minutes": 1,
+      "local": true,
+      "original_assignee": "n02-uav-2",
+      "phase": "pending",
+      "position": [
+        41.1,
+        41.1
+      ],
+      "predecessors": [
+        "n02-task-04"
+      ],
+      "priority": 3.9000000000000004,
+      "progress": 0.0,
+      "quantity": 2.0,
+      "report_generated_at": null,
+      "report_received_at": null,
+      "service_progress": 0.0,
+      "started_at": null,
+      "status": "pending",
+      "unload_minutes": 1
+    },
+    {
+      "assignee": "n02-heli-1",
+      "commodity": "medical",
+      "completed_at": null,
+      "cooperative_with": [],
+      "deadline": 51,
+      "deadline_missed": false,
+      "depot_id": "n02-remote-depot",
+      "discovered": true,
+      "id": "n02-task-07",
+      "kind": "delivery",
+      "load_minutes": 1,
+      "local": false,
+      "original_assignee": "n02-heli-1",
+      "phase": "pending",
+      "position": [
+        96.0,
+        95.0
+      ],
+      "predecessors": [],
+      "priority": 3.5500000000000003,
+      "progress": 0.0,
+      "quantity": 3.0,
+      "report_generated_at": null,
+      "report_received_at": null,
+      "service_progress": 0.0,
+      "started_at": null,
+      "status": "pending",
+      "unload_minutes": 1
+    },
+    {
+      "assignee": "n02-heli-2",
+      "completed_at": null,
+      "cooperative_with": [],
+      "deadline": 54,
+      "deadline_missed": false,
+      "discovered": true,
+      "id": "n02-task-08",
+      "kind": "inspection",
+      "local": false,
+      "original_assignee": "n02-heli-2",
+      "phase": "pending",
+      "position": [
+        95.5,
+        96.5
+      ],
+      "predecessors": [
+        "n02-task-07"
+      ],
+      "priority": 3.2,
+      "progress": 0.0,
+      "report_generated_at": null,
+      "report_received_at": null,
+      "service_minutes": 2,
+      "service_progress": 0.0,
+      "started_at": null,
+      "status": "pending"
+    }
+  ],
+  "time": 0
+}

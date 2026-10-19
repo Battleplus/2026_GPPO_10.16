@@ -1,0 +1,62 @@
+{
+  "affected_platform_ids": [
+    "n02-uav-1",
+    "n02-uav-2"
+  ],
+  "affected_region_ids": [],
+  "affected_task_ids": [
+    "n02-task-05"
+  ],
+  "candidate_platform_ids": [
+    "n02-uav-1",
+    "n02-uav-2"
+  ],
+  "closure_affected_platform_ids": [
+    "n02-uav-1"
+  ],
+  "closure_affected_task_ids": [],
+  "communication_components": [
+    [
+      "n02-heli-1",
+      "n02-heli-2",
+      "n02-uav-1",
+      "n02-uav-2",
+      "n02-uav-3",
+      "n02-uav-4"
+    ]
+  ],
+  "connectivity": {
+    "affected_component_ids": [
+      0
+    ],
+    "components": [
+      [
+        "n02-heli-1",
+        "n02-heli-2",
+        "n02-uav-1",
+        "n02-uav-2",
+        "n02-uav-3",
+        "n02-uav-4"
+      ]
+    ],
+    "connected": true,
+    "unrelated_components_ignored": 0
+  },
+  "direct_affected_platform_ids": [],
+  "direct_affected_task_ids": [
+    "n02-task-05"
+  ],
+  "direct_region_ids": [],
+  "global_eligible": false,
+  "local_eligible": true,
+  "local_resources_feasible": true,
+  "neighbor_region_ids": [],
+  "reasons": [
+    "connected_local_impact"
+  ],
+  "region_contract": null,
+  "regional_eligible": false,
+  "regional_resources_feasible": true,
+  "scope": "LOCAL_REPAIR",
+  "unrelated_components_ignored": 0
+}
